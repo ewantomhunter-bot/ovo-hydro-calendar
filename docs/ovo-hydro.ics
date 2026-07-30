@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ewan Hunter//OVO Hydro Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:OVO Hydro Events
+X-WR-TIMEZONE:Europe/London
+BEGIN:VEVENT
+UID:setup-check@ovo-hydro-calendar
+DTSTAMP:20260730T083700Z
+DTSTART;TZID=Europe/London:20260730T100000
+DTEND;TZID=Europe/London:20260730T101500
+SUMMARY:OVO Hydro calendar setup
+DESCRIPTION:Temporary setup entry. It disappears after the first successful update.
+LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
+END:VEVENT
+END:VCALENDAR

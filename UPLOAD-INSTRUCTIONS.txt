@@ -1,0 +1,9 @@
+1. Unzip this package on your PC.
+2. In the empty GitHub repository, click “uploading an existing file”.
+3. Open the unzipped folder.
+4. Select EVERYTHING inside it, including the .github and docs folders.
+5. Drag the selected items onto GitHub.
+6. Wait for all files to finish uploading.
+7. Click “Commit changes”.
+
+Upload the folder CONTENTS, not the ZIP itself.
