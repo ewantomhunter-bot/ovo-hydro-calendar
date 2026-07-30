@@ -3,15 +3,265 @@ VERSION:2.0
 PRODID:-//Ewan Hunter//OVO Hydro Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
 X-WR-CALNAME:OVO Hydro Events
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
-UID:setup-check@ovo-hydro-calendar
-DTSTAMP:20260730T083700Z
-DTSTART;TZID=Europe/London:20260730T100000
-DTEND;TZID=Europe/London:20260730T101500
-SUMMARY:OVO Hydro calendar setup
-DESCRIPTION:Temporary setup entry. It disappears after the first successful update.
+SUMMARY:Skip to content
+DTSTART;TZID=Europe/London:20260730T193000
+DTEND;TZID=Europe/London:20260730T223000
+DTSTAMP:20260730T090507Z
+UID:b6c121db4e2a0b41786f13b8aa50@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Comedy
+DESCRIPTION:The calendar time is a placeholder because a precise performan
+ ce time was not available in the venue listing. Check the official event p
+ age before travelling.\n\nOfficial event page: https://www.ovohydro.com#co
+ ntent
+LAST-MODIFIED:20260730T090507Z
 LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com#content
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Newsletter Sign-Up
+DTSTART;TZID=Europe/London:20260730T193000
+DTEND;TZID=Europe/London:20260730T223000
+DTSTAMP:20260730T090507Z
+UID:9bd8cf8d7e7ef8654f429efbb17f@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Comedy
+DESCRIPTION:The calendar time is a placeholder because a precise performan
+ ce time was not available in the venue listing. Check the official event p
+ age before travelling.\n\nOfficial event page: https://www.ovohydro.com/ne
+ wsletter
+LAST-MODIFIED:20260730T090507Z
+LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/newsletter
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Home
+DTSTART;TZID=Europe/London:20260730T193000
+DTEND;TZID=Europe/London:20260730T223000
+DTSTAMP:20260730T090507Z
+UID:160778e1a67cf59850fff2a6fbc3@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Comedy
+DESCRIPTION:The calendar time is a placeholder because a precise performan
+ ce time was not available in the venue listing. Check the official event p
+ age before travelling.\n\nOfficial event page: https://www.ovohydro.com/
+LAST-MODIFIED:20260730T090507Z
+LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Glasgow 2026 Commonwealth Games: Netball
+DTSTART;TZID=Europe/London:20260730T193000
+DTEND;TZID=Europe/London:20260730T223000
+DTSTAMP:20260730T090507Z
+UID:a726e5e9eb4709a92d5f77f223d5@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Sport
+DESCRIPTION:The calendar time is a placeholder because a precise performan
+ ce time was not available in the venue listing. Check the official event p
+ age before travelling.\n\nOfficial event page: https://www.ovohydro.com/ev
+ ents/detail/glasgow-2026-commonwealth-games-netball
+LAST-MODIFIED:20260730T090507Z
+LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/glasgow-2026-commonwealth-games
+ -netball
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Venue Premium Seating Discover Our New Venue Premium Seating Optio
+ ns - The Terrace and The Nest More Info
+DTSTART;TZID=Europe/London:20260730T193000
+DTEND;TZID=Europe/London:20260730T223000
+DTSTAMP:20260730T090507Z
+UID:f26e9d140fa820877b08eec0e5a9@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Comedy
+DESCRIPTION:The calendar time is a placeholder because a precise performan
+ ce time was not available in the venue listing. Check the official event p
+ age before travelling.\n\nOfficial event page: https://www.ovohydro.com/ho
+ spitality/venue-premium-seating
+LAST-MODIFIED:20260730T090507Z
+LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/hospitality/venue-premium-seating
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Naming Rights Partner
+DTSTART;TZID=Europe/London:20260730T193000
+DTEND;TZID=Europe/London:20260730T223000
+DTSTAMP:20260730T090507Z
+UID:6f2935694edbab2d2fa6bedd8067@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Comedy
+DESCRIPTION:The calendar time is a placeholder because a precise performan
+ ce time was not available in the venue listing. Check the official event p
+ age before travelling.\n\nOfficial event page: https://www.ovohydro.com#co
+ ntent
+LAST-MODIFIED:20260730T090507Z
+LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com#content
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:info@sec.co.uk
+DTSTART;TZID=Europe/London:20260730T193000
+DTEND;TZID=Europe/London:20260730T223000
+DTSTAMP:20260730T090507Z
+UID:0fa13f692530b9c0140925a92be7@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Comedy
+DESCRIPTION:The calendar time is a placeholder because a precise performan
+ ce time was not available in the venue listing. Check the official event p
+ age before travelling.\n\nOfficial event page: mailto:info@sec.co.uk
+LAST-MODIFIED:20260730T090507Z
+LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
+URL:mailto:info@sec.co.uk
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hollywood Vampires
+DTSTART;TZID=Europe/London:20260817T193000
+DTEND;TZID=Europe/London:20260817T223000
+DTSTAMP:20260730T090507Z
+UID:f854f5a43b2506d3ef07080fbd06@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Entertainment
+DESCRIPTION:The calendar time is a placeholder because a precise performan
+ ce time was not available in the venue listing. Check the official event p
+ age before travelling.\n\nOfficial event page: https://www.ovohydro.com/ev
+ ents/detail/hollywood-vampires-2026
+LAST-MODIFIED:20260730T090507Z
+LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/hollywood-vampires-2026
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AEW: Dynamite & Collision
+DTSTART;TZID=Europe/London:20260826T193000
+DTEND;TZID=Europe/London:20260826T223000
+DTSTAMP:20260730T090507Z
+UID:b1f4d80dff9910c1d86c06353aec@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Entertainment
+DESCRIPTION:The calendar time is a placeholder because a precise performan
+ ce time was not available in the venue listing. Check the official event p
+ age before travelling.\n\nOfficial event page: https://www.ovohydro.com/ev
+ ents/detail/aew-dynamite-collision-2026
+LAST-MODIFIED:20260730T090507Z
+LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/aew-dynamite-collision-2026
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Waterboys: Fisherman's Blues Revue
+DTSTART;TZID=Europe/London:20260829T193000
+DTEND;TZID=Europe/London:20260829T223000
+DTSTAMP:20260730T090507Z
+UID:55c0e2eb2f8cc95018d7458a7a2c@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Entertainment
+DESCRIPTION:The calendar time is a placeholder because a precise performan
+ ce time was not available in the venue listing. Check the official event p
+ age before travelling.\n\nOfficial event page: https://www.ovohydro.com/ev
+ ents/detail/the-waterboys-fishermans-blues-revue
+LAST-MODIFIED:20260730T090507Z
+LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/the-waterboys-fishermans-blues-
+ revue
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Neighbourhood
+DTSTART;TZID=Europe/London:20260902T193000
+DTEND;TZID=Europe/London:20260902T223000
+DTSTAMP:20260730T090507Z
+UID:71a836ee5beadafe9c038ed802f6@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Entertainment
+DESCRIPTION:The calendar time is a placeholder because a precise performan
+ ce time was not available in the venue listing. Check the official event p
+ age before travelling.\n\nOfficial event page: https://www.ovohydro.com/ev
+ ents/detail/the-neighbourhood
+LAST-MODIFIED:20260730T090507Z
+LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/the-neighbourhood
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A$AP Rocky
+DTSTART;TZID=Europe/London:20260904T193000
+DTEND;TZID=Europe/London:20260904T223000
+DTSTAMP:20260730T090507Z
+UID:d8e81dabdbf8e03f2d49a8ac93f1@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music
+DESCRIPTION:The calendar time is a placeholder because a precise performan
+ ce time was not available in the venue listing. Check the official event p
+ age before travelling.\n\nOfficial event page: https://www.ovohydro.com/ev
+ ents/detail/asap-rocky
+LAST-MODIFIED:20260730T090507Z
+LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/asap-rocky
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:André Rieu
+DTSTART;TZID=Europe/London:20260910T193000
+DTEND;TZID=Europe/London:20260910T223000
+DTSTAMP:20260730T090507Z
+UID:477c3de74b5f468dda78822c7c9c@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Entertainment
+DESCRIPTION:The calendar time is a placeholder because a precise performan
+ ce time was not available in the venue listing. Check the official event p
+ age before travelling.\n\nOfficial event page: https://www.ovohydro.com/ev
+ ents/detail/andre-rieu-2026
+LAST-MODIFIED:20260730T090507Z
+LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/andre-rieu-2026
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kevin Bridges: Here If You Need Me
+DTSTART;TZID=Europe/London:20260911T193000
+DTEND;TZID=Europe/London:20260911T223000
+DTSTAMP:20260730T090507Z
+UID:05105ec71f633646d3904538f568@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Entertainment
+DESCRIPTION:The calendar time is a placeholder because a precise performan
+ ce time was not available in the venue listing. Check the official event p
+ age before travelling.\n\nOfficial event page: https://www.ovohydro.com/ev
+ ents/detail/kevin-bridges-here-if-you-need-me
+LAST-MODIFIED:20260730T090507Z
+LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/kevin-bridges-here-if-you-need-
+ me
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hilary Duff
+DTSTART;TZID=Europe/London:20260913T193000
+DTEND;TZID=Europe/London:20260913T223000
+DTSTAMP:20260730T090507Z
+UID:9d7ee2ab5bd14ea4a97fc6e86586@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music
+DESCRIPTION:The calendar time is a placeholder because a precise performan
+ ce time was not available in the venue listing. Check the official event p
+ age before travelling.\n\nOfficial event page: https://www.ovohydro.com/ev
+ ents/detail/hilary-duff
+LAST-MODIFIED:20260730T090507Z
+LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/hilary-duff
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tide Lines
+DTSTART;TZID=Europe/London:20260919T193000
+DTEND;TZID=Europe/London:20260919T223000
+DTSTAMP:20260730T090507Z
+UID:02806fae6fbddfb3b0dc91ff8a8a@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Entertainment
+DESCRIPTION:The calendar time is a placeholder because a precise performan
+ ce time was not available in the venue listing. Check the official event p
+ age before travelling.\n\nOfficial event page: https://www.ovohydro.com/ev
+ ents/detail/tide-lines
+LAST-MODIFIED:20260730T090507Z
+LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/tide-lines
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Two Doors Down
+DTSTART;TZID=Europe/London:20260927T193000
+DTEND;TZID=Europe/London:20260927T223000
+DTSTAMP:20260730T090507Z
+UID:b2a46d36889ba3efff7e3e4f5c07@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Entertainment
+DESCRIPTION:The calendar time is a placeholder because a precise performan
+ ce time was not available in the venue listing. Check the official event p
+ age before travelling.\n\nOfficial event page: https://www.ovohydro.com/ev
+ ents/detail/two-doors-down
+LAST-MODIFIED:20260730T090507Z
+LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/two-doors-down
 END:VEVENT
 END:VCALENDAR
