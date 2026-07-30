@@ -8,260 +8,1209 @@ X-PUBLISHED-TTL:PT12H
 X-WR-CALNAME:OVO Hydro Events
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
-SUMMARY:Skip to content
-DTSTART;TZID=Europe/London:20260730T193000
-DTEND;TZID=Europe/London:20260730T223000
-DTSTAMP:20260730T090507Z
-UID:b6c121db4e2a0b41786f13b8aa50@ovo-hydro-calendar
-CATEGORIES:OVO Hydro,Comedy
-DESCRIPTION:The calendar time is a placeholder because a precise performan
- ce time was not available in the venue listing. Check the official event p
- age before travelling.\n\nOfficial event page: https://www.ovohydro.com#co
- ntent
-LAST-MODIFIED:20260730T090507Z
-LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
-URL:https://www.ovohydro.com#content
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Newsletter Sign-Up
-DTSTART;TZID=Europe/London:20260730T193000
-DTEND;TZID=Europe/London:20260730T223000
-DTSTAMP:20260730T090507Z
-UID:9bd8cf8d7e7ef8654f429efbb17f@ovo-hydro-calendar
-CATEGORIES:OVO Hydro,Comedy
-DESCRIPTION:The calendar time is a placeholder because a precise performan
- ce time was not available in the venue listing. Check the official event p
- age before travelling.\n\nOfficial event page: https://www.ovohydro.com/ne
- wsletter
-LAST-MODIFIED:20260730T090507Z
-LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
-URL:https://www.ovohydro.com/newsletter
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Home
-DTSTART;TZID=Europe/London:20260730T193000
-DTEND;TZID=Europe/London:20260730T223000
-DTSTAMP:20260730T090507Z
-UID:160778e1a67cf59850fff2a6fbc3@ovo-hydro-calendar
-CATEGORIES:OVO Hydro,Comedy
-DESCRIPTION:The calendar time is a placeholder because a precise performan
- ce time was not available in the venue listing. Check the official event p
- age before travelling.\n\nOfficial event page: https://www.ovohydro.com/
-LAST-MODIFIED:20260730T090507Z
-LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
-URL:https://www.ovohydro.com/
+SUMMARY:[](https://www.ovohydro.com/events/all)
+DTSTART;TZID=Europe/London:20220404T193000
+DTEND;TZID=Europe/London:20220404T223000
+DTSTAMP:20260730T143655Z
+UID:6bd34eacb4ea746f64254e4b5ced@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Published Time: Mon\, 04 Apr 2022 07:23:49 GMT\n\
+ nThe main OVO Hydro listing does not normally provide a confirmed show tim
+ e\, so 7:30pm has been used as a placeholder. Check the official event pag
+ e before travelling.\n\nOfficial listing: https://www.ovohydro.com/events/
+ all
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/all
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Glasgow 2026 Commonwealth Games: Netball
 DTSTART;TZID=Europe/London:20260730T193000
-DTEND;TZID=Europe/London:20260730T223000
-DTSTAMP:20260730T090507Z
-UID:a726e5e9eb4709a92d5f77f223d5@ovo-hydro-calendar
+DTEND;TZID=Europe/London:20260802T223000
+DTSTAMP:20260730T143655Z
+UID:7ff7b59225d08627f61c6529aa08@ovo-hydro-calendar
 CATEGORIES:OVO Hydro,Sport
-DESCRIPTION:The calendar time is a placeholder because a precise performan
- ce time was not available in the venue listing. Check the official event p
- age before travelling.\n\nOfficial event page: https://www.ovohydro.com/ev
- ents/detail/glasgow-2026-commonwealth-games-netball
-LAST-MODIFIED:20260730T090507Z
-LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
+DESCRIPTION:Listed date: 30 July - 02 Aug / 26\n\nThe main OVO Hydro listi
+ ng does not normally provide a confirmed show time\, so 7:30pm has been us
+ ed as a placeholder. Check the official event page before travelling.\n\nO
+ fficial listing: https://www.ovohydro.com/events/detail/glasgow-2026-commo
+ nwealth-games-netball "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 URL:https://www.ovohydro.com/events/detail/glasgow-2026-commonwealth-games
- -netball
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Venue Premium Seating Discover Our New Venue Premium Seating Optio
- ns - The Terrace and The Nest More Info
-DTSTART;TZID=Europe/London:20260730T193000
-DTEND;TZID=Europe/London:20260730T223000
-DTSTAMP:20260730T090507Z
-UID:f26e9d140fa820877b08eec0e5a9@ovo-hydro-calendar
-CATEGORIES:OVO Hydro,Comedy
-DESCRIPTION:The calendar time is a placeholder because a precise performan
- ce time was not available in the venue listing. Check the official event p
- age before travelling.\n\nOfficial event page: https://www.ovohydro.com/ho
- spitality/venue-premium-seating
-LAST-MODIFIED:20260730T090507Z
-LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
-URL:https://www.ovohydro.com/hospitality/venue-premium-seating
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Naming Rights Partner
-DTSTART;TZID=Europe/London:20260730T193000
-DTEND;TZID=Europe/London:20260730T223000
-DTSTAMP:20260730T090507Z
-UID:6f2935694edbab2d2fa6bedd8067@ovo-hydro-calendar
-CATEGORIES:OVO Hydro,Comedy
-DESCRIPTION:The calendar time is a placeholder because a precise performan
- ce time was not available in the venue listing. Check the official event p
- age before travelling.\n\nOfficial event page: https://www.ovohydro.com#co
- ntent
-LAST-MODIFIED:20260730T090507Z
-LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
-URL:https://www.ovohydro.com#content
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:info@sec.co.uk
-DTSTART;TZID=Europe/London:20260730T193000
-DTEND;TZID=Europe/London:20260730T223000
-DTSTAMP:20260730T090507Z
-UID:0fa13f692530b9c0140925a92be7@ovo-hydro-calendar
-CATEGORIES:OVO Hydro,Comedy
-DESCRIPTION:The calendar time is a placeholder because a precise performan
- ce time was not available in the venue listing. Check the official event p
- age before travelling.\n\nOfficial event page: mailto:info@sec.co.uk
-LAST-MODIFIED:20260730T090507Z
-LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
-URL:mailto:info@sec.co.uk
+ -netball "More Info"
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hollywood Vampires
 DTSTART;TZID=Europe/London:20260817T193000
 DTEND;TZID=Europe/London:20260817T223000
-DTSTAMP:20260730T090507Z
-UID:f854f5a43b2506d3ef07080fbd06@ovo-hydro-calendar
-CATEGORIES:OVO Hydro,Entertainment
-DESCRIPTION:The calendar time is a placeholder because a precise performan
- ce time was not available in the venue listing. Check the official event p
- age before travelling.\n\nOfficial event page: https://www.ovohydro.com/ev
- ents/detail/hollywood-vampires-2026
-LAST-MODIFIED:20260730T090507Z
-LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
-URL:https://www.ovohydro.com/events/detail/hollywood-vampires-2026
+DTSTAMP:20260730T143655Z
+UID:2e6d3084f420fd7d8ab14fac1e85@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Mon 17 Aug / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/hollywood-vampires-2026 
+ "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/hollywood-vampires-2026 "More I
+ nfo"
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AEW: Dynamite & Collision
 DTSTART;TZID=Europe/London:20260826T193000
 DTEND;TZID=Europe/London:20260826T223000
-DTSTAMP:20260730T090507Z
-UID:b1f4d80dff9910c1d86c06353aec@ovo-hydro-calendar
-CATEGORIES:OVO Hydro,Entertainment
-DESCRIPTION:The calendar time is a placeholder because a precise performan
- ce time was not available in the venue listing. Check the official event p
- age before travelling.\n\nOfficial event page: https://www.ovohydro.com/ev
- ents/detail/aew-dynamite-collision-2026
-LAST-MODIFIED:20260730T090507Z
-LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
-URL:https://www.ovohydro.com/events/detail/aew-dynamite-collision-2026
+DTSTAMP:20260730T143655Z
+UID:676cf798e6737ea71df14da89eab@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Sport
+DESCRIPTION:Listed date: Wed 26 Aug / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/aew-dynamite-collision-2
+ 026 "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/aew-dynamite-collision-2026 "Mo
+ re Info"
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The Waterboys: Fisherman's Blues Revue
 DTSTART;TZID=Europe/London:20260829T193000
 DTEND;TZID=Europe/London:20260829T223000
-DTSTAMP:20260730T090507Z
-UID:55c0e2eb2f8cc95018d7458a7a2c@ovo-hydro-calendar
-CATEGORIES:OVO Hydro,Entertainment
-DESCRIPTION:The calendar time is a placeholder because a precise performan
- ce time was not available in the venue listing. Check the official event p
- age before travelling.\n\nOfficial event page: https://www.ovohydro.com/ev
- ents/detail/the-waterboys-fishermans-blues-revue
-LAST-MODIFIED:20260730T090507Z
-LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
+DTSTAMP:20260730T143655Z
+UID:bab1d15039ad7afe4f8933765be4@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Sat 29 Aug / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/the-waterboys-fishermans
+ -blues-revue "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 URL:https://www.ovohydro.com/events/detail/the-waterboys-fishermans-blues-
- revue
+ revue "More Info"
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The Neighbourhood
 DTSTART;TZID=Europe/London:20260902T193000
 DTEND;TZID=Europe/London:20260902T223000
-DTSTAMP:20260730T090507Z
-UID:71a836ee5beadafe9c038ed802f6@ovo-hydro-calendar
-CATEGORIES:OVO Hydro,Entertainment
-DESCRIPTION:The calendar time is a placeholder because a precise performan
- ce time was not available in the venue listing. Check the official event p
- age before travelling.\n\nOfficial event page: https://www.ovohydro.com/ev
- ents/detail/the-neighbourhood
-LAST-MODIFIED:20260730T090507Z
-LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
-URL:https://www.ovohydro.com/events/detail/the-neighbourhood
+DTSTAMP:20260730T143655Z
+UID:1e93ebb9875170ca59efeb0fcc36@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Wed 02 Sep / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/the-neighbourhood "More 
+ Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/the-neighbourhood "More Info"
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A$AP Rocky
 DTSTART;TZID=Europe/London:20260904T193000
 DTEND;TZID=Europe/London:20260904T223000
-DTSTAMP:20260730T090507Z
-UID:d8e81dabdbf8e03f2d49a8ac93f1@ovo-hydro-calendar
-CATEGORIES:OVO Hydro,Music
-DESCRIPTION:The calendar time is a placeholder because a precise performan
- ce time was not available in the venue listing. Check the official event p
- age before travelling.\n\nOfficial event page: https://www.ovohydro.com/ev
- ents/detail/asap-rocky
-LAST-MODIFIED:20260730T090507Z
-LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
-URL:https://www.ovohydro.com/events/detail/asap-rocky
+DTSTAMP:20260730T143655Z
+UID:e3da801ac6f480e423794e73cd73@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Fri 04 Sep / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/asap-rocky "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/asap-rocky "More Info"
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:André Rieu
 DTSTART;TZID=Europe/London:20260910T193000
 DTEND;TZID=Europe/London:20260910T223000
-DTSTAMP:20260730T090507Z
-UID:477c3de74b5f468dda78822c7c9c@ovo-hydro-calendar
-CATEGORIES:OVO Hydro,Entertainment
-DESCRIPTION:The calendar time is a placeholder because a precise performan
- ce time was not available in the venue listing. Check the official event p
- age before travelling.\n\nOfficial event page: https://www.ovohydro.com/ev
- ents/detail/andre-rieu-2026
-LAST-MODIFIED:20260730T090507Z
-LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
-URL:https://www.ovohydro.com/events/detail/andre-rieu-2026
+DTSTAMP:20260730T143655Z
+UID:12e601935a5eb725ddaf4d1e246d@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Classical
+DESCRIPTION:Listed date: Thu 10 Sep / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/andre-rieu-2026 "More In
+ fo"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/andre-rieu-2026 "More Info"
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kevin Bridges: Here If You Need Me
 DTSTART;TZID=Europe/London:20260911T193000
-DTEND;TZID=Europe/London:20260911T223000
-DTSTAMP:20260730T090507Z
-UID:05105ec71f633646d3904538f568@ovo-hydro-calendar
-CATEGORIES:OVO Hydro,Entertainment
-DESCRIPTION:The calendar time is a placeholder because a precise performan
- ce time was not available in the venue listing. Check the official event p
- age before travelling.\n\nOfficial event page: https://www.ovohydro.com/ev
- ents/detail/kevin-bridges-here-if-you-need-me
-LAST-MODIFIED:20260730T090507Z
-LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
+DTEND;TZID=Europe/London:20261126T223000
+DTSTAMP:20260730T143655Z
+UID:e6b027093c13aa4ebd1efe204f9c@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Comedy
+DESCRIPTION:Listed date: 11 Sep - 26 Nov / 26\n\nThe main OVO Hydro listin
+ g does not normally provide a confirmed show time\, so 7:30pm has been use
+ d as a placeholder. Check the official event page before travelling.\n\nOf
+ ficial listing: https://www.ovohydro.com/events/detail/kevin-bridges-here-
+ if-you-need-me "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 URL:https://www.ovohydro.com/events/detail/kevin-bridges-here-if-you-need-
- me
+ me "More Info"
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hilary Duff
 DTSTART;TZID=Europe/London:20260913T193000
 DTEND;TZID=Europe/London:20260913T223000
-DTSTAMP:20260730T090507Z
-UID:9d7ee2ab5bd14ea4a97fc6e86586@ovo-hydro-calendar
-CATEGORIES:OVO Hydro,Music
-DESCRIPTION:The calendar time is a placeholder because a precise performan
- ce time was not available in the venue listing. Check the official event p
- age before travelling.\n\nOfficial event page: https://www.ovohydro.com/ev
- ents/detail/hilary-duff
-LAST-MODIFIED:20260730T090507Z
-LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
-URL:https://www.ovohydro.com/events/detail/hilary-duff
+DTSTAMP:20260730T143655Z
+UID:a0629cd695b2999023c504834f77@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Sun 13 Sep / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/hilary-duff "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/hilary-duff "More Info"
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tide Lines
 DTSTART;TZID=Europe/London:20260919T193000
 DTEND;TZID=Europe/London:20260919T223000
-DTSTAMP:20260730T090507Z
-UID:02806fae6fbddfb3b0dc91ff8a8a@ovo-hydro-calendar
-CATEGORIES:OVO Hydro,Entertainment
-DESCRIPTION:The calendar time is a placeholder because a precise performan
- ce time was not available in the venue listing. Check the official event p
- age before travelling.\n\nOfficial event page: https://www.ovohydro.com/ev
- ents/detail/tide-lines
-LAST-MODIFIED:20260730T090507Z
-LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
-URL:https://www.ovohydro.com/events/detail/tide-lines
+DTSTAMP:20260730T143655Z
+UID:3e17b66b5de901f23679d4eeba7e@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Sat 19 Sep / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/tide-lines "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/tide-lines "More Info"
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Two Doors Down
-DTSTART;TZID=Europe/London:20260927T193000
+SUMMARY:Two Doors Down — Date 1
+DTSTART;TZID=Europe/London:20260925T193000
 DTEND;TZID=Europe/London:20260927T223000
-DTSTAMP:20260730T090507Z
-UID:b2a46d36889ba3efff7e3e4f5c07@ovo-hydro-calendar
-CATEGORIES:OVO Hydro,Entertainment
-DESCRIPTION:The calendar time is a placeholder because a precise performan
- ce time was not available in the venue listing. Check the official event p
- age before travelling.\n\nOfficial event page: https://www.ovohydro.com/ev
- ents/detail/two-doors-down
-LAST-MODIFIED:20260730T090507Z
-LOCATION:OVO Hydro\, Exhibition Way\, Glasgow\, G3 8YW
-URL:https://www.ovohydro.com/events/detail/two-doors-down
+DTSTAMP:20260730T143655Z
+UID:acf818ad43c787eba4d04456c9ea@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Theatre & Musicals
+DESCRIPTION:Listed date: 25 - 27 Sep 2026\n\nThe main OVO Hydro listing do
+ es not normally provide a confirmed show time\, so 7:30pm has been used as
+  a placeholder. Check the official event page before travelling.\n\nOffici
+ al listing: https://www.ovohydro.com/events/detail/two-doors-down "More In
+ fo"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/two-doors-down "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Niall Horan
+DTSTART;TZID=Europe/London:20260928T193000
+DTEND;TZID=Europe/London:20260928T223000
+DTSTAMP:20260730T143655Z
+UID:e7a4835191ee35b505bab7eae788@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Mon 28 Sep / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/niall-horan-2026 "More I
+ nfo"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/niall-horan-2026 "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Westlife
+DTSTART;TZID=Europe/London:20260930T193000
+DTEND;TZID=Europe/London:20261001T223000
+DTSTAMP:20260730T143655Z
+UID:f88b820f41b45c3b53b5dc974dbd@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: 30 Sep - 01 Oct / 26\n\nThe main OVO Hydro listin
+ g does not normally provide a confirmed show time\, so 7:30pm has been use
+ d as a placeholder. Check the official event page before travelling.\n\nOf
+ ficial listing: https://www.ovohydro.com/events/detail/westlife-2026 "More
+  Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/westlife-2026 "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The World of Hans Zimmer
+DTSTART;TZID=Europe/London:20261006T193000
+DTEND;TZID=Europe/London:20261006T223000
+DTSTAMP:20260730T143655Z
+UID:cdfc46fb340a4d66231e852693ef@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Classical
+DESCRIPTION:Listed date: Tue 06 Oct / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/the-world-of-hans-zimmer
+ -2026 "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/the-world-of-hans-zimmer-2026 "
+ More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Pussycat Dolls: PCD FOREVER TOUR
+DTSTART;TZID=Europe/London:20261007T193000
+DTEND;TZID=Europe/London:20261007T223000
+DTSTAMP:20260730T143655Z
+UID:7f478c32df03f04d65bb25dd71eb@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Wed 07 Oct / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/the-pussycat-dolls "More
+  Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/the-pussycat-dolls "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Two Doors Down — Date 2
+DTSTART;TZID=Europe/London:20261009T193000
+DTEND;TZID=Europe/London:20261011T223000
+DTSTAMP:20260730T143655Z
+UID:23e6ed34c4d42e09b60371af7922@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Theatre & Musicals
+DESCRIPTION:Listed date: 09 - 11 Oct 2026\n\nThe main OVO Hydro listing do
+ es not normally provide a confirmed show time\, so 7:30pm has been used as
+  a placeholder. Check the official event page before travelling.\n\nOffici
+ al listing: https://www.ovohydro.com/events/detail/two-doors-down "More In
+ fo"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/two-doors-down "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:An Evening with President Barack Obama
+DTSTART;TZID=Europe/London:20261014T193000
+DTEND;TZID=Europe/London:20261014T223000
+DTSTAMP:20260730T143655Z
+UID:415b9747c85d0e3ce32809d8d01f@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Wed 14 Oct / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/seat-unique-presents-an-
+ evening-with-president-barack-obama "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/seat-unique-presents-an-evening
+ -with-president-barack-obama "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Duran Duran
+DTSTART;TZID=Europe/London:20261015T193000
+DTEND;TZID=Europe/London:20261015T223000
+DTSTAMP:20260730T143655Z
+UID:a03880c57109184df3030f9540fd@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Thu 15 Oct / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/duran-duran-2026 "More I
+ nfo"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/duran-duran-2026 "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Holy Priest presents The Holy Sh*t Show
+DTSTART;TZID=Europe/London:20261016T193000
+DTEND;TZID=Europe/London:20261016T223000
+DTSTAMP:20260730T143655Z
+UID:4bc1e879e9a94b7f83279039ba06@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Fri 16 Oct / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/holy-priest "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/holy-priest "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Giants Live
+DTSTART;TZID=Europe/London:20261017T193000
+DTEND;TZID=Europe/London:20261017T223000
+DTSTAMP:20260730T143655Z
+UID:ee482c5752b02d6976d6c83353c3@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Sport
+DESCRIPTION:Listed date: Sat 17 Oct / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/giants-live-world-tour-f
+ inals-2026 "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/giants-live-world-tour-finals-2
+ 026 "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Professor Brian Cox
+DTSTART;TZID=Europe/London:20261018T193000
+DTEND;TZID=Europe/London:20261018T223000
+DTSTAMP:20260730T143655Z
+UID:9d2f8753ca3546dde176cc55d1ba@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Sun 18 Oct / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/professor-brian-cox-2026
+  "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/professor-brian-cox-2026 "More 
+ Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Brandi Carlile
+DTSTART;TZID=Europe/London:20261019T193000
+DTEND;TZID=Europe/London:20261019T223000
+DTSTAMP:20260730T143655Z
+UID:ac9beecaed39d1a68b71c45d3d00@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Mon 19 Oct / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/brandi-carlile "More Inf
+ o"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/brandi-carlile "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gladiators Live Tour 2026
+DTSTART;TZID=Europe/London:20261024T193000
+DTEND;TZID=Europe/London:20261025T223000
+DTSTAMP:20260730T143655Z
+UID:46faaa0a568c42ae0fb6cd4009f2@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Sport
+DESCRIPTION:Listed date: 24 - 25 Oct / 26\n\nThe main OVO Hydro listing do
+ es not normally provide a confirmed show time\, so 7:30pm has been used as
+  a placeholder. Check the official event page before travelling.\n\nOffici
+ al listing: https://www.ovohydro.com/events/detail/gladiators-live-tour-20
+ 26 "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/gladiators-live-tour-2026 "More
+  Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:J. Cole: The Fall-Off Tour
+DTSTART;TZID=Europe/London:20261026T193000
+DTEND;TZID=Europe/London:20261026T223000
+DTSTAMP:20260730T143655Z
+UID:71e3c21cdd8abb6b06eec2d47aba@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Mon 26 Oct / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/j-cole-the-fall-off-tour
+  "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/j-cole-the-fall-off-tour "More 
+ Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Manic Street Preachers + Suede
+DTSTART;TZID=Europe/London:20261028T193000
+DTEND;TZID=Europe/London:20261028T223000
+DTSTAMP:20260730T143655Z
+UID:12f1ebf4ba37cbd6cab61b4022b0@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Wed 28 Oct / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/manic-street-preachers-s
+ uede "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/manic-street-preachers-suede "M
+ ore Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Paul Heaton
+DTSTART;TZID=Europe/London:20261030T193000
+DTEND;TZID=Europe/London:20261030T223000
+DTSTAMP:20260730T143655Z
+UID:1ac8aca023388e5a9f068cfa9053@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Fri 30 Oct / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/paul-heaton-2026 "More I
+ nfo"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/paul-heaton-2026 "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Australian Pink Floyd
+DTSTART;TZID=Europe/London:20261031T193000
+DTEND;TZID=Europe/London:20261031T223000
+DTSTAMP:20260730T143655Z
+UID:ab3257e069832825e3f2c44478f2@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Sat 31 Oct / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/the-australian-pink-floy
+ d-2026 "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/the-australian-pink-floyd-2026 
+ "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Papa Roach
+DTSTART;TZID=Europe/London:20261101T193000
+DTEND;TZID=Europe/London:20261101T223000
+DTSTAMP:20260730T143655Z
+UID:26de69b21db86b44cd8d7bb35d56@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Sun 01 Nov / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/papa-roach "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/papa-roach "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cody Johnson
+DTSTART;TZID=Europe/London:20261102T193000
+DTEND;TZID=Europe/London:20261102T223000
+DTSTAMP:20260730T143655Z
+UID:d69fdc2636b6a610937b3a1227f1@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Mon 02 Nov / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/cody-johnson "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/cody-johnson "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Noah Kahan
+DTSTART;TZID=Europe/London:20261105T193000
+DTEND;TZID=Europe/London:20261106T223000
+DTSTAMP:20260730T143655Z
+UID:4f91cfe9ede4d3e199851bbb93cb@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: 05 - 06 Nov / 26\n\nThe main OVO Hydro listing do
+ es not normally provide a confirmed show time\, so 7:30pm has been used as
+  a placeholder. Check the official event page before travelling.\n\nOffici
+ al listing: https://www.ovohydro.com/events/detail/noah-kahan-2026 "More I
+ nfo"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/noah-kahan-2026 "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Myles Smith
+DTSTART;TZID=Europe/London:20261110T193000
+DTEND;TZID=Europe/London:20261110T223000
+DTSTAMP:20260730T143655Z
+UID:0d3ea1dcfa01835eb583c2c71300@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Tue 10 Nov / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/myles-smith "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/myles-smith "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Squeeze Plus Very Special Guest Billy Bragg
+DTSTART;TZID=Europe/London:20261112T193000
+DTEND;TZID=Europe/London:20261112T223000
+DTSTAMP:20260730T143655Z
+UID:b193c791ddbe346a57111b676edd@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Thu 12 Nov / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/squeeze "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/squeeze "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Script
+DTSTART;TZID=Europe/London:20261113T193000
+DTEND;TZID=Europe/London:20261113T223000
+DTSTAMP:20260730T143655Z
+UID:a9d41aa53071d8e416e9a4281b56@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Fri 13 Nov / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/the-script-2026 "More In
+ fo"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/the-script-2026 "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Beabadoobee
+DTSTART;TZID=Europe/London:20261114T193000
+DTEND;TZID=Europe/London:20261114T223000
+DTSTAMP:20260730T143655Z
+UID:6246a0354392805aec799ba42f74@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Sat 14 Nov / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/beabadoobee "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/beabadoobee "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Shinedown
+DTSTART;TZID=Europe/London:20261116T193000
+DTEND;TZID=Europe/London:20261116T223000
+DTSTAMP:20260730T143655Z
+UID:4c388a929b5964d51881e1b8f61d@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Mon 16 Nov / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/shinedown "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/shinedown "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Enter Shikari
+DTSTART;TZID=Europe/London:20261118T193000
+DTEND;TZID=Europe/London:20261118T223000
+DTSTAMP:20260730T143655Z
+UID:62435a22abe2fbc6fc9473a6b533@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Wed 18 Nov / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/enter-shikari "More Info
+ "
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/enter-shikari "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Deep Purple
+DTSTART;TZID=Europe/London:20261119T193000
+DTEND;TZID=Europe/London:20261119T223000
+DTSTAMP:20260730T143655Z
+UID:fe30a1c0bb9431ffcd723e84f6b8@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Thu 19 Nov / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/deep-purple-2026 "More I
+ nfo"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/deep-purple-2026 "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Courteeners
+DTSTART;TZID=Europe/London:20261120T193000
+DTEND;TZID=Europe/London:20261120T223000
+DTSTAMP:20260730T143655Z
+UID:8e3b1e3290dde84a95dec188454a@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Fri 20 Nov / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/courteeners-2026 "More I
+ nfo"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/courteeners-2026 "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ocean Colour Scene
+DTSTART;TZID=Europe/London:20261121T193000
+DTEND;TZID=Europe/London:20261121T223000
+DTSTAMP:20260730T143655Z
+UID:562cc357981fcec37c779474781b@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Sat 21 Nov / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/ocean-colour-scene-2026 
+ "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/ocean-colour-scene-2026 "More I
+ nfo"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Anna Lapwood
+DTSTART;TZID=Europe/London:20261124T193000
+DTEND;TZID=Europe/London:20261124T223000
+DTSTAMP:20260730T143655Z
+UID:c1deb35c7db490cec4562fbf4014@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Classical
+DESCRIPTION:Listed date: Tue 24 Nov / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/anna-lapwood "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/anna-lapwood "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Phoebe Bridgers
+DTSTART;TZID=Europe/London:20261127T193000
+DTEND;TZID=Europe/London:20261127T223000
+DTSTAMP:20260730T143655Z
+UID:af2b3d13ad4949d7d9eee47c5f0f@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Fri 27 Nov / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/phoebe-bridgers "More In
+ fo"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/phoebe-bridgers "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jungle
+DTSTART;TZID=Europe/London:20261128T193000
+DTEND;TZID=Europe/London:20261128T223000
+DTSTAMP:20260730T143655Z
+UID:08dc28c3c88f9f708d3d2ee649ea@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Sat 28 Nov / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/jungle "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/jungle "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Placebo
+DTSTART;TZID=Europe/London:20261130T193000
+DTEND;TZID=Europe/London:20261130T223000
+DTSTAMP:20260730T143655Z
+UID:76280c9efd9403e21c22e2645a2f@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Mon 30 Nov / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/placebo "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/placebo "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:UB40 ft. Ali Campbell
+DTSTART;TZID=Europe/London:20261201T193000
+DTEND;TZID=Europe/London:20261201T223000
+DTSTAMP:20260730T143655Z
+UID:38b0e67a4d2be0ce20d6de81d72f@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Tue 01 Dec / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/ub40-ft-ali-campbell "Mo
+ re Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/ub40-ft-ali-campbell "More Info
+ "
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bloc Party & Interpol
+DTSTART;TZID=Europe/London:20261202T193000
+DTEND;TZID=Europe/London:20261202T223000
+DTSTAMP:20260730T143655Z
+UID:e22e4e4163a3b609d2a8c8ec5e74@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Wed 02 Dec / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/bloc-party-and-interpol 
+ "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/bloc-party-and-interpol "More I
+ nfo"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pete Tong Presents Ibiza Classics
+DTSTART;TZID=Europe/London:20261203T193000
+DTEND;TZID=Europe/London:20261203T223000
+DTSTAMP:20260730T143655Z
+UID:fd67ba0ba620a760d52468efebe4@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Thu 03 Dec / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/pete-tong-presents-ibiza
+ -classics-2026 "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/pete-tong-presents-ibiza-classi
+ cs-2026 "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jessie Ware
+DTSTART;TZID=Europe/London:20261204T193000
+DTEND;TZID=Europe/London:20261204T223000
+DTSTAMP:20260730T143655Z
+UID:174a4f756c079affa405005e0233@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Fri 04 Dec / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/jessie-ware "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/jessie-ware "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Blossoms
+DTSTART;TZID=Europe/London:20261205T193000
+DTEND;TZID=Europe/London:20261205T223000
+DTSTAMP:20260730T143655Z
+UID:03b49dc345c078279cb12b2800f6@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Sat 05 Dec / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/blossoms "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/blossoms "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Lord of the Rings
+DTSTART;TZID=Europe/London:20261206T193000
+DTEND;TZID=Europe/London:20261206T223000
+DTSTAMP:20260730T143655Z
+UID:f0a1b6d0dfc6f1a601dc5addda01@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Classical
+DESCRIPTION:Listed date: Sun 06 Dec / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/the-lord-of-the-rings "M
+ ore Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/the-lord-of-the-rings "More Inf
+ o"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EsDeeKid
+DTSTART;TZID=Europe/London:20261207T193000
+DTEND;TZID=Europe/London:20261207T223000
+DTSTAMP:20260730T143655Z
+UID:adc62eb05215786e97edcefc50c2@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Mon 07 Dec / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/esdeekid "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/esdeekid "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Darkness
+DTSTART;TZID=Europe/London:20261208T193000
+DTEND;TZID=Europe/London:20261208T223000
+DTSTAMP:20260730T143655Z
+UID:8efa4dc018798abf6f7b72dd0aef@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Tue 08 Dec / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/the-darkness "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/the-darkness "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kneecap
+DTSTART;TZID=Europe/London:20261209T193000
+DTEND;TZID=Europe/London:20261209T223000
+DTSTAMP:20260730T143655Z
+UID:abef76774cf6c06455ce815e1052@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Wed 09 Dec / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/kneecap-2026 "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/kneecap-2026 "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dylan John Thomas
+DTSTART;TZID=Europe/London:20261211T193000
+DTEND;TZID=Europe/London:20261211T223000
+DTSTAMP:20260730T143655Z
+UID:40df031457c0e70a9f83680da1c4@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Fri 11 Dec / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/dylan-john-thomas-2026 "
+ More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/dylan-john-thomas-2026 "More In
+ fo"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hoolie in the Hydro
+DTSTART;TZID=Europe/London:20261212T193000
+DTEND;TZID=Europe/London:20261212T223000
+DTSTAMP:20260730T143655Z
+UID:7fa14be23ff1821bf38c4e16a8bf@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Sat 12 Dec / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/hoolie-in-the-hydro-2026
+  "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/hoolie-in-the-hydro-2026 "More 
+ Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kasabian
+DTSTART;TZID=Europe/London:20261213T193000
+DTEND;TZID=Europe/London:20261213T223000
+DTSTAMP:20260730T143655Z
+UID:475930991f8fc4d8fa8669c3bd2f@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Sun 13 Dec / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/kasabian-2026 "More Info
+ "
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/kasabian-2026 "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Culture Club
+DTSTART;TZID=Europe/London:20261215T193000
+DTEND;TZID=Europe/London:20261215T223000
+DTSTAMP:20260730T143655Z
+UID:8ce4b5245636da0a35c21c197564@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Tue 15 Dec / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/culture-club-2026 "More 
+ Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/culture-club-2026 "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Morrissey
+DTSTART;TZID=Europe/London:20261216T193000
+DTEND;TZID=Europe/London:20261216T223000
+DTSTAMP:20260730T143655Z
+UID:f7306b076d6af2e32461b82cb283@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Wed 16 Dec / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/morrissey-2026 "More Inf
+ o"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/morrissey-2026 "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Mary Wallopers
+DTSTART;TZID=Europe/London:20261219T193000
+DTEND;TZID=Europe/London:20261219T223000
+DTSTAMP:20260730T143655Z
+UID:f2a443883450c957cb3e48956940@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Sat 19 Dec / 26\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/the-mary-wallopers "More
+  Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/the-mary-wallopers "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jack Whitehall
+DTSTART;TZID=Europe/London:20270114T193000
+DTEND;TZID=Europe/London:20270114T223000
+DTSTAMP:20260730T143655Z
+UID:8d17ed75d951026fea421e793062@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Comedy
+DESCRIPTION:Listed date: Thu 14 Jan / 27\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/jack-whitehall-2027 "Mor
+ e Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/jack-whitehall-2027 "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Five Finger Death Punch
+DTSTART;TZID=Europe/London:20270117T193000
+DTEND;TZID=Europe/London:20270117T223000
+DTSTAMP:20260730T143655Z
+UID:a67fbc7a8c176f4f4a89a5a64cce@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Sun 17 Jan / 27\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/five-finger-death-punch-
+ 2027 "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/five-finger-death-punch-2027 "M
+ ore Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Donny Osmond
+DTSTART;TZID=Europe/London:20270120T193000
+DTEND;TZID=Europe/London:20270120T223000
+DTSTAMP:20260730T143655Z
+UID:99a2400ba0e6d5ff00cbfb8584a8@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Wed 20 Jan / 27\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/donny-osmond-2027 "More 
+ Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/donny-osmond-2027 "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Two Door Cinema Club
+DTSTART;TZID=Europe/London:20270126T193000
+DTEND;TZID=Europe/London:20270126T223000
+DTSTAMP:20260730T143655Z
+UID:3b50de2d59bc23cafc5968fa8be6@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Tue 26 Jan / 27\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/two-door-cinema-club "Mo
+ re Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/two-door-cinema-club "More Info
+ "
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gallant Pioneers
+DTSTART;TZID=Europe/London:20270206T193000
+DTEND;TZID=Europe/London:20270206T223000
+DTSTAMP:20260730T143655Z
+UID:40775d74dbeb3b7e8e8684852eb4@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Sat 06 Feb / 27\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/gallant-pioneers-aug-202
+ 6 "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/gallant-pioneers-aug-2026 "More
+  Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Disney Descendants\, ZOMBIES & Camp Rock: Worlds Collide Concert T
+ our
+DTSTART;TZID=Europe/London:20270209T193000
+DTEND;TZID=Europe/London:20270209T223000
+DTSTAMP:20260730T143655Z
+UID:4b4508437a9d00ad27b93eae05d4@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Family
+DESCRIPTION:Listed date: Tue 09 Feb / 27\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/disney-worlds-collide-co
+ ncert-tour-2027 "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/disney-worlds-collide-concert-t
+ our-2027 "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nothing But Thieves
+DTSTART;TZID=Europe/London:20270210T193000
+DTEND;TZID=Europe/London:20270210T223000
+DTSTAMP:20260730T143655Z
+UID:9da235762365a602ecd0bd127d4a@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Wed 10 Feb / 27\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/nothing-but-thieves "Mor
+ e Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/nothing-but-thieves "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kacey Musgraves
+DTSTART;TZID=Europe/London:20270222T193000
+DTEND;TZID=Europe/London:20270222T223000
+DTSTAMP:20260730T143655Z
+UID:b0a66b87f3a84692c879d4cc2eda@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Mon 22 Feb / 27\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/kacey-musgraves-2027 "Mo
+ re Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/kacey-musgraves-2027 "More Info
+ "
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Paul Smith: Happy
+DTSTART;TZID=Europe/London:20270305T193000
+DTEND;TZID=Europe/London:20270306T223000
+DTSTAMP:20260730T143655Z
+UID:fd5659aead8edf467dcc145dc995@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Comedy
+DESCRIPTION:Listed date: 05 - 06 Mar / 27\n\nThe main OVO Hydro listing do
+ es not normally provide a confirmed show time\, so 7:30pm has been used as
+  a placeholder. Check the official event page before travelling.\n\nOffici
+ al listing: https://www.ovohydro.com/events/detail/paul-smith-happy "More 
+ Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/paul-smith-happy "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rush — Date 1
+DTSTART;TZID=Europe/London:20270308T193000
+DTEND;TZID=Europe/London:20270308T223000
+DTSTAMP:20260730T143655Z
+UID:8b4d2a7c5c1e8765f2dd341c4589@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: 08 & 10 Mar 2027\n\nThe main OVO Hydro listing do
+ es not normally provide a confirmed show time\, so 7:30pm has been used as
+  a placeholder. Check the official event page before travelling.\n\nOffici
+ al listing: https://www.ovohydro.com/events/detail/rush "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/rush "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rush — Date 2
+DTSTART;TZID=Europe/London:20270310T193000
+DTEND;TZID=Europe/London:20270310T223000
+DTSTAMP:20260730T143655Z
+UID:ca1807cfd5a20a6872d6e77aa985@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: 08 & 10 Mar 2027\n\nThe main OVO Hydro listing do
+ es not normally provide a confirmed show time\, so 7:30pm has been used as
+  a placeholder. Check the official event page before travelling.\n\nOffici
+ al listing: https://www.ovohydro.com/events/detail/rush "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/rush "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Country to Country
+DTSTART;TZID=Europe/London:20270312T193000
+DTEND;TZID=Europe/London:20270314T223000
+DTSTAMP:20260730T143655Z
+UID:e4724eaf9df0abf18f9d18425a42@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: 12 - 14 Mar / 27\n\nThe main OVO Hydro listing do
+ es not normally provide a confirmed show time\, so 7:30pm has been used as
+  a placeholder. Check the official event page before travelling.\n\nOffici
+ al listing: https://www.ovohydro.com/events/detail/country-to-country-2027
+  "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/country-to-country-2027 "More I
+ nfo"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sabaton: The Legendary Tour
+DTSTART;TZID=Europe/London:20270409T193000
+DTEND;TZID=Europe/London:20270409T223000
+DTSTAMP:20260730T143655Z
+UID:89b702ba96424f96801841a9efdf@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Fri 09 Apr / 27\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/sabaton-2027 "More Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/sabaton-2027 "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Teddy Swims
+DTSTART;TZID=Europe/London:20270413T193000
+DTEND;TZID=Europe/London:20270413T223000
+DTSTAMP:20260730T143655Z
+UID:e8bb2b34e6b46cbd20bb7b58f7a1@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: Tue 13 Apr / 27\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/teddy-swims-2027 "More I
+ nfo"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/teddy-swims-2027 "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gracie Abrams
+DTSTART;TZID=Europe/London:20270427T193000
+DTEND;TZID=Europe/London:20270428T223000
+DTSTAMP:20260730T143655Z
+UID:9f8cbd262449534bf82ec3136864@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Music & Entertainment
+DESCRIPTION:Listed date: 27 - 28 Apr / 27\n\nThe main OVO Hydro listing do
+ es not normally provide a confirmed show time\, so 7:30pm has been used as
+  a placeholder. Check the official event page before travelling.\n\nOffici
+ al listing: https://www.ovohydro.com/events/detail/gracie-abrams-2027 "Mor
+ e Info"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/gracie-abrams-2027 "More Info"
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:John Bishop
+DTSTART;TZID=Europe/London:20270430T193000
+DTEND;TZID=Europe/London:20270430T223000
+DTSTAMP:20260730T143655Z
+UID:081bd6849976836e28418d7ff30c@ovo-hydro-calendar
+CATEGORIES:OVO Hydro,Comedy
+DESCRIPTION:Listed date: Fri 30 Apr / 27\n\nThe main OVO Hydro listing doe
+ s not normally provide a confirmed show time\, so 7:30pm has been used as 
+ a placeholder. Check the official event page before travelling.\n\nOfficia
+ l listing: https://www.ovohydro.com/events/detail/john-bishop-2027 "More I
+ nfo"
+LAST-MODIFIED:20260730T143655Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+URL:https://www.ovohydro.com/events/detail/john-bishop-2027 "More Info"
 END:VEVENT
 END:VCALENDAR
