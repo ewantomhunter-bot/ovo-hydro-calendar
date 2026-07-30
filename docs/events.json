@@ -1,16 +1,58 @@
 [
   {
     "title": "[](https://www.ovohydro.com/events/all)",
+    "date": "2022-04-04",
     "start": "2022-04-04T19:30:00+01:00",
     "end": "2022-04-04T22:30:00+01:00",
     "category": "Music & Entertainment",
     "date_text": "Published Time: Mon, 04 Apr 2022 07:23:49 GMT",
-    "url": "https://www.ovohydro.com/events/all",
+    "url": "https://www.ovohydro.com/events/detail/https-www-ovohydro-com-events-all",
+    "time_is_estimated": true
+  },
+  {
+    "title": "Kevin Bridges: Here If You Need Me",
+    "date": "2022-04-04",
+    "start": "2022-04-04T19:30:00+01:00",
+    "end": "2022-04-04T22:30:00+01:00",
+    "category": "Comedy",
+    "date_text": "Published Time: Mon, 04 Apr 2022 07:23:49 GMT",
+    "url": "https://www.ovohydro.com/events/detail/kevin-bridges-here-if-you-need-me \"More Info\"",
     "time_is_estimated": true
   },
   {
     "title": "Glasgow 2026 Commonwealth Games: Netball",
+    "date": "2026-07-30",
     "start": "2026-07-30T19:30:00+01:00",
+    "end": "2026-07-30T22:30:00+01:00",
+    "category": "Sport",
+    "date_text": "30 July - 02 Aug / 26",
+    "url": "https://www.ovohydro.com/events/detail/glasgow-2026-commonwealth-games-netball \"More Info\"",
+    "time_is_estimated": true
+  },
+  {
+    "title": "Glasgow 2026 Commonwealth Games: Netball",
+    "date": "2026-07-31",
+    "start": "2026-07-31T19:30:00+01:00",
+    "end": "2026-07-31T22:30:00+01:00",
+    "category": "Sport",
+    "date_text": "30 July - 02 Aug / 26",
+    "url": "https://www.ovohydro.com/events/detail/glasgow-2026-commonwealth-games-netball \"More Info\"",
+    "time_is_estimated": true
+  },
+  {
+    "title": "Glasgow 2026 Commonwealth Games: Netball",
+    "date": "2026-08-01",
+    "start": "2026-08-01T19:30:00+01:00",
+    "end": "2026-08-01T22:30:00+01:00",
+    "category": "Sport",
+    "date_text": "30 July - 02 Aug / 26",
+    "url": "https://www.ovohydro.com/events/detail/glasgow-2026-commonwealth-games-netball \"More Info\"",
+    "time_is_estimated": true
+  },
+  {
+    "title": "Glasgow 2026 Commonwealth Games: Netball",
+    "date": "2026-08-02",
+    "start": "2026-08-02T19:30:00+01:00",
     "end": "2026-08-02T22:30:00+01:00",
     "category": "Sport",
     "date_text": "30 July - 02 Aug / 26",
@@ -19,6 +61,7 @@
   },
   {
     "title": "Hollywood Vampires",
+    "date": "2026-08-17",
     "start": "2026-08-17T19:30:00+01:00",
     "end": "2026-08-17T22:30:00+01:00",
     "category": "Music & Entertainment",
@@ -28,6 +71,7 @@
   },
   {
     "title": "AEW: Dynamite & Collision",
+    "date": "2026-08-26",
     "start": "2026-08-26T19:30:00+01:00",
     "end": "2026-08-26T22:30:00+01:00",
     "category": "Sport",
@@ -37,6 +81,7 @@
   },
   {
     "title": "The Waterboys: Fisherman's Blues Revue",
+    "date": "2026-08-29",
     "start": "2026-08-29T19:30:00+01:00",
     "end": "2026-08-29T22:30:00+01:00",
     "category": "Music & Entertainment",
@@ -46,6 +91,7 @@
   },
   {
     "title": "The Neighbourhood",
+    "date": "2026-09-02",
     "start": "2026-09-02T19:30:00+01:00",
     "end": "2026-09-02T22:30:00+01:00",
     "category": "Music & Entertainment",
@@ -55,6 +101,7 @@
   },
   {
     "title": "A$AP Rocky",
+    "date": "2026-09-04",
     "start": "2026-09-04T19:30:00+01:00",
     "end": "2026-09-04T22:30:00+01:00",
     "category": "Music & Entertainment",
@@ -64,6 +111,7 @@
   },
   {
     "title": "André Rieu",
+    "date": "2026-09-10",
     "start": "2026-09-10T19:30:00+01:00",
     "end": "2026-09-10T22:30:00+01:00",
     "category": "Classical",
@@ -72,16 +120,8 @@
     "time_is_estimated": true
   },
   {
-    "title": "Kevin Bridges: Here If You Need Me",
-    "start": "2026-09-11T19:30:00+01:00",
-    "end": "2026-11-26T22:30:00+00:00",
-    "category": "Comedy",
-    "date_text": "11 Sep - 26 Nov / 26",
-    "url": "https://www.ovohydro.com/events/detail/kevin-bridges-here-if-you-need-me \"More Info\"",
-    "time_is_estimated": true
-  },
-  {
     "title": "Hilary Duff",
+    "date": "2026-09-13",
     "start": "2026-09-13T19:30:00+01:00",
     "end": "2026-09-13T22:30:00+01:00",
     "category": "Music & Entertainment",
@@ -91,6 +131,7 @@
   },
   {
     "title": "Tide Lines",
+    "date": "2026-09-19",
     "start": "2026-09-19T19:30:00+01:00",
     "end": "2026-09-19T22:30:00+01:00",
     "category": "Music & Entertainment",
@@ -99,8 +140,29 @@
     "time_is_estimated": true
   },
   {
-    "title": "Two Doors Down — Date 1",
+    "title": "Two Doors Down",
+    "date": "2026-09-25",
     "start": "2026-09-25T19:30:00+01:00",
+    "end": "2026-09-25T22:30:00+01:00",
+    "category": "Theatre & Musicals",
+    "date_text": "25 - 27 Sep 2026",
+    "url": "https://www.ovohydro.com/events/detail/two-doors-down \"More Info\"",
+    "time_is_estimated": true
+  },
+  {
+    "title": "Two Doors Down",
+    "date": "2026-09-26",
+    "start": "2026-09-26T19:30:00+01:00",
+    "end": "2026-09-26T22:30:00+01:00",
+    "category": "Theatre & Musicals",
+    "date_text": "25 - 27 Sep 2026",
+    "url": "https://www.ovohydro.com/events/detail/two-doors-down \"More Info\"",
+    "time_is_estimated": true
+  },
+  {
+    "title": "Two Doors Down",
+    "date": "2026-09-27",
+    "start": "2026-09-27T19:30:00+01:00",
     "end": "2026-09-27T22:30:00+01:00",
     "category": "Theatre & Musicals",
     "date_text": "25 - 27 Sep 2026",
@@ -109,6 +171,7 @@
   },
   {
     "title": "Niall Horan",
+    "date": "2026-09-28",
     "start": "2026-09-28T19:30:00+01:00",
     "end": "2026-09-28T22:30:00+01:00",
     "category": "Music & Entertainment",
@@ -118,7 +181,18 @@
   },
   {
     "title": "Westlife",
+    "date": "2026-09-30",
     "start": "2026-09-30T19:30:00+01:00",
+    "end": "2026-09-30T22:30:00+01:00",
+    "category": "Music & Entertainment",
+    "date_text": "30 Sep - 01 Oct / 26",
+    "url": "https://www.ovohydro.com/events/detail/westlife-2026 \"More Info\"",
+    "time_is_estimated": true
+  },
+  {
+    "title": "Westlife",
+    "date": "2026-10-01",
+    "start": "2026-10-01T19:30:00+01:00",
     "end": "2026-10-01T22:30:00+01:00",
     "category": "Music & Entertainment",
     "date_text": "30 Sep - 01 Oct / 26",
@@ -127,6 +201,7 @@
   },
   {
     "title": "The World of Hans Zimmer",
+    "date": "2026-10-06",
     "start": "2026-10-06T19:30:00+01:00",
     "end": "2026-10-06T22:30:00+01:00",
     "category": "Classical",
@@ -136,6 +211,7 @@
   },
   {
     "title": "The Pussycat Dolls: PCD FOREVER TOUR",
+    "date": "2026-10-07",
     "start": "2026-10-07T19:30:00+01:00",
     "end": "2026-10-07T22:30:00+01:00",
     "category": "Music & Entertainment",
@@ -144,8 +220,29 @@
     "time_is_estimated": true
   },
   {
-    "title": "Two Doors Down — Date 2",
+    "title": "Two Doors Down",
+    "date": "2026-10-09",
     "start": "2026-10-09T19:30:00+01:00",
+    "end": "2026-10-09T22:30:00+01:00",
+    "category": "Theatre & Musicals",
+    "date_text": "09 - 11 Oct 2026",
+    "url": "https://www.ovohydro.com/events/detail/two-doors-down \"More Info\"",
+    "time_is_estimated": true
+  },
+  {
+    "title": "Two Doors Down",
+    "date": "2026-10-10",
+    "start": "2026-10-10T19:30:00+01:00",
+    "end": "2026-10-10T22:30:00+01:00",
+    "category": "Theatre & Musicals",
+    "date_text": "09 - 11 Oct 2026",
+    "url": "https://www.ovohydro.com/events/detail/two-doors-down \"More Info\"",
+    "time_is_estimated": true
+  },
+  {
+    "title": "Two Doors Down",
+    "date": "2026-10-11",
+    "start": "2026-10-11T19:30:00+01:00",
     "end": "2026-10-11T22:30:00+01:00",
     "category": "Theatre & Musicals",
     "date_text": "09 - 11 Oct 2026",
@@ -154,6 +251,7 @@
   },
   {
     "title": "An Evening with President Barack Obama",
+    "date": "2026-10-14",
     "start": "2026-10-14T19:30:00+01:00",
     "end": "2026-10-14T22:30:00+01:00",
     "category": "Music & Entertainment",
@@ -163,6 +261,7 @@
   },
   {
     "title": "Duran Duran",
+    "date": "2026-10-15",
     "start": "2026-10-15T19:30:00+01:00",
     "end": "2026-10-15T22:30:00+01:00",
     "category": "Music & Entertainment",
@@ -172,6 +271,7 @@
   },
   {
     "title": "Holy Priest presents The Holy Sh*t Show",
+    "date": "2026-10-16",
     "start": "2026-10-16T19:30:00+01:00",
     "end": "2026-10-16T22:30:00+01:00",
     "category": "Music & Entertainment",
@@ -181,6 +281,7 @@
   },
   {
     "title": "Giants Live",
+    "date": "2026-10-17",
     "start": "2026-10-17T19:30:00+01:00",
     "end": "2026-10-17T22:30:00+01:00",
     "category": "Sport",
@@ -190,6 +291,7 @@
   },
   {
     "title": "Professor Brian Cox",
+    "date": "2026-10-18",
     "start": "2026-10-18T19:30:00+01:00",
     "end": "2026-10-18T22:30:00+01:00",
     "category": "Music & Entertainment",
@@ -199,6 +301,7 @@
   },
   {
     "title": "Brandi Carlile",
+    "date": "2026-10-19",
     "start": "2026-10-19T19:30:00+01:00",
     "end": "2026-10-19T22:30:00+01:00",
     "category": "Music & Entertainment",
@@ -208,7 +311,18 @@
   },
   {
     "title": "Gladiators Live Tour 2026",
+    "date": "2026-10-24",
     "start": "2026-10-24T19:30:00+01:00",
+    "end": "2026-10-24T22:30:00+01:00",
+    "category": "Sport",
+    "date_text": "24 - 25 Oct / 26",
+    "url": "https://www.ovohydro.com/events/detail/gladiators-live-tour-2026 \"More Info\"",
+    "time_is_estimated": true
+  },
+  {
+    "title": "Gladiators Live Tour 2026",
+    "date": "2026-10-25",
+    "start": "2026-10-25T19:30:00+00:00",
     "end": "2026-10-25T22:30:00+00:00",
     "category": "Sport",
     "date_text": "24 - 25 Oct / 26",
@@ -217,6 +331,7 @@
   },
   {
     "title": "J. Cole: The Fall-Off Tour",
+    "date": "2026-10-26",
     "start": "2026-10-26T19:30:00+00:00",
     "end": "2026-10-26T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -226,6 +341,7 @@
   },
   {
     "title": "Manic Street Preachers + Suede",
+    "date": "2026-10-28",
     "start": "2026-10-28T19:30:00+00:00",
     "end": "2026-10-28T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -235,6 +351,7 @@
   },
   {
     "title": "Paul Heaton",
+    "date": "2026-10-30",
     "start": "2026-10-30T19:30:00+00:00",
     "end": "2026-10-30T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -244,6 +361,7 @@
   },
   {
     "title": "The Australian Pink Floyd",
+    "date": "2026-10-31",
     "start": "2026-10-31T19:30:00+00:00",
     "end": "2026-10-31T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -253,6 +371,7 @@
   },
   {
     "title": "Papa Roach",
+    "date": "2026-11-01",
     "start": "2026-11-01T19:30:00+00:00",
     "end": "2026-11-01T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -262,6 +381,7 @@
   },
   {
     "title": "Cody Johnson",
+    "date": "2026-11-02",
     "start": "2026-11-02T19:30:00+00:00",
     "end": "2026-11-02T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -271,7 +391,18 @@
   },
   {
     "title": "Noah Kahan",
+    "date": "2026-11-05",
     "start": "2026-11-05T19:30:00+00:00",
+    "end": "2026-11-05T22:30:00+00:00",
+    "category": "Music & Entertainment",
+    "date_text": "05 - 06 Nov / 26",
+    "url": "https://www.ovohydro.com/events/detail/noah-kahan-2026 \"More Info\"",
+    "time_is_estimated": true
+  },
+  {
+    "title": "Noah Kahan",
+    "date": "2026-11-06",
+    "start": "2026-11-06T19:30:00+00:00",
     "end": "2026-11-06T22:30:00+00:00",
     "category": "Music & Entertainment",
     "date_text": "05 - 06 Nov / 26",
@@ -280,6 +411,7 @@
   },
   {
     "title": "Myles Smith",
+    "date": "2026-11-10",
     "start": "2026-11-10T19:30:00+00:00",
     "end": "2026-11-10T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -289,6 +421,7 @@
   },
   {
     "title": "Squeeze Plus Very Special Guest Billy Bragg",
+    "date": "2026-11-12",
     "start": "2026-11-12T19:30:00+00:00",
     "end": "2026-11-12T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -298,6 +431,7 @@
   },
   {
     "title": "The Script",
+    "date": "2026-11-13",
     "start": "2026-11-13T19:30:00+00:00",
     "end": "2026-11-13T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -307,6 +441,7 @@
   },
   {
     "title": "Beabadoobee",
+    "date": "2026-11-14",
     "start": "2026-11-14T19:30:00+00:00",
     "end": "2026-11-14T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -316,6 +451,7 @@
   },
   {
     "title": "Shinedown",
+    "date": "2026-11-16",
     "start": "2026-11-16T19:30:00+00:00",
     "end": "2026-11-16T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -325,6 +461,7 @@
   },
   {
     "title": "Enter Shikari",
+    "date": "2026-11-18",
     "start": "2026-11-18T19:30:00+00:00",
     "end": "2026-11-18T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -334,6 +471,7 @@
   },
   {
     "title": "Deep Purple",
+    "date": "2026-11-19",
     "start": "2026-11-19T19:30:00+00:00",
     "end": "2026-11-19T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -343,6 +481,7 @@
   },
   {
     "title": "Courteeners",
+    "date": "2026-11-20",
     "start": "2026-11-20T19:30:00+00:00",
     "end": "2026-11-20T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -352,6 +491,7 @@
   },
   {
     "title": "Ocean Colour Scene",
+    "date": "2026-11-21",
     "start": "2026-11-21T19:30:00+00:00",
     "end": "2026-11-21T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -361,6 +501,7 @@
   },
   {
     "title": "Anna Lapwood",
+    "date": "2026-11-24",
     "start": "2026-11-24T19:30:00+00:00",
     "end": "2026-11-24T22:30:00+00:00",
     "category": "Classical",
@@ -370,6 +511,7 @@
   },
   {
     "title": "Phoebe Bridgers",
+    "date": "2026-11-27",
     "start": "2026-11-27T19:30:00+00:00",
     "end": "2026-11-27T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -379,6 +521,7 @@
   },
   {
     "title": "Jungle",
+    "date": "2026-11-28",
     "start": "2026-11-28T19:30:00+00:00",
     "end": "2026-11-28T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -388,6 +531,7 @@
   },
   {
     "title": "Placebo",
+    "date": "2026-11-30",
     "start": "2026-11-30T19:30:00+00:00",
     "end": "2026-11-30T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -397,6 +541,7 @@
   },
   {
     "title": "UB40 ft. Ali Campbell",
+    "date": "2026-12-01",
     "start": "2026-12-01T19:30:00+00:00",
     "end": "2026-12-01T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -406,6 +551,7 @@
   },
   {
     "title": "Bloc Party & Interpol",
+    "date": "2026-12-02",
     "start": "2026-12-02T19:30:00+00:00",
     "end": "2026-12-02T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -415,6 +561,7 @@
   },
   {
     "title": "Pete Tong Presents Ibiza Classics",
+    "date": "2026-12-03",
     "start": "2026-12-03T19:30:00+00:00",
     "end": "2026-12-03T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -424,6 +571,7 @@
   },
   {
     "title": "Jessie Ware",
+    "date": "2026-12-04",
     "start": "2026-12-04T19:30:00+00:00",
     "end": "2026-12-04T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -433,6 +581,7 @@
   },
   {
     "title": "Blossoms",
+    "date": "2026-12-05",
     "start": "2026-12-05T19:30:00+00:00",
     "end": "2026-12-05T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -442,6 +591,7 @@
   },
   {
     "title": "The Lord of the Rings",
+    "date": "2026-12-06",
     "start": "2026-12-06T19:30:00+00:00",
     "end": "2026-12-06T22:30:00+00:00",
     "category": "Classical",
@@ -451,6 +601,7 @@
   },
   {
     "title": "EsDeeKid",
+    "date": "2026-12-07",
     "start": "2026-12-07T19:30:00+00:00",
     "end": "2026-12-07T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -460,6 +611,7 @@
   },
   {
     "title": "The Darkness",
+    "date": "2026-12-08",
     "start": "2026-12-08T19:30:00+00:00",
     "end": "2026-12-08T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -469,6 +621,7 @@
   },
   {
     "title": "Kneecap",
+    "date": "2026-12-09",
     "start": "2026-12-09T19:30:00+00:00",
     "end": "2026-12-09T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -478,6 +631,7 @@
   },
   {
     "title": "Dylan John Thomas",
+    "date": "2026-12-11",
     "start": "2026-12-11T19:30:00+00:00",
     "end": "2026-12-11T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -487,6 +641,7 @@
   },
   {
     "title": "Hoolie in the Hydro",
+    "date": "2026-12-12",
     "start": "2026-12-12T19:30:00+00:00",
     "end": "2026-12-12T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -496,6 +651,7 @@
   },
   {
     "title": "Kasabian",
+    "date": "2026-12-13",
     "start": "2026-12-13T19:30:00+00:00",
     "end": "2026-12-13T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -505,6 +661,7 @@
   },
   {
     "title": "Culture Club",
+    "date": "2026-12-15",
     "start": "2026-12-15T19:30:00+00:00",
     "end": "2026-12-15T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -514,6 +671,7 @@
   },
   {
     "title": "Morrissey",
+    "date": "2026-12-16",
     "start": "2026-12-16T19:30:00+00:00",
     "end": "2026-12-16T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -523,6 +681,7 @@
   },
   {
     "title": "The Mary Wallopers",
+    "date": "2026-12-19",
     "start": "2026-12-19T19:30:00+00:00",
     "end": "2026-12-19T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -532,6 +691,7 @@
   },
   {
     "title": "Jack Whitehall",
+    "date": "2027-01-14",
     "start": "2027-01-14T19:30:00+00:00",
     "end": "2027-01-14T22:30:00+00:00",
     "category": "Comedy",
@@ -541,6 +701,7 @@
   },
   {
     "title": "Five Finger Death Punch",
+    "date": "2027-01-17",
     "start": "2027-01-17T19:30:00+00:00",
     "end": "2027-01-17T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -550,6 +711,7 @@
   },
   {
     "title": "Donny Osmond",
+    "date": "2027-01-20",
     "start": "2027-01-20T19:30:00+00:00",
     "end": "2027-01-20T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -559,6 +721,7 @@
   },
   {
     "title": "Two Door Cinema Club",
+    "date": "2027-01-26",
     "start": "2027-01-26T19:30:00+00:00",
     "end": "2027-01-26T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -568,6 +731,7 @@
   },
   {
     "title": "Gallant Pioneers",
+    "date": "2027-02-06",
     "start": "2027-02-06T19:30:00+00:00",
     "end": "2027-02-06T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -577,6 +741,7 @@
   },
   {
     "title": "Disney Descendants, ZOMBIES & Camp Rock: Worlds Collide Concert Tour",
+    "date": "2027-02-09",
     "start": "2027-02-09T19:30:00+00:00",
     "end": "2027-02-09T22:30:00+00:00",
     "category": "Family",
@@ -586,6 +751,7 @@
   },
   {
     "title": "Nothing But Thieves",
+    "date": "2027-02-10",
     "start": "2027-02-10T19:30:00+00:00",
     "end": "2027-02-10T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -595,6 +761,7 @@
   },
   {
     "title": "Kacey Musgraves",
+    "date": "2027-02-22",
     "start": "2027-02-22T19:30:00+00:00",
     "end": "2027-02-22T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -604,7 +771,18 @@
   },
   {
     "title": "Paul Smith: Happy",
+    "date": "2027-03-05",
     "start": "2027-03-05T19:30:00+00:00",
+    "end": "2027-03-05T22:30:00+00:00",
+    "category": "Comedy",
+    "date_text": "05 - 06 Mar / 27",
+    "url": "https://www.ovohydro.com/events/detail/paul-smith-happy \"More Info\"",
+    "time_is_estimated": true
+  },
+  {
+    "title": "Paul Smith: Happy",
+    "date": "2027-03-06",
+    "start": "2027-03-06T19:30:00+00:00",
     "end": "2027-03-06T22:30:00+00:00",
     "category": "Comedy",
     "date_text": "05 - 06 Mar / 27",
@@ -612,7 +790,8 @@
     "time_is_estimated": true
   },
   {
-    "title": "Rush — Date 1",
+    "title": "Rush",
+    "date": "2027-03-08",
     "start": "2027-03-08T19:30:00+00:00",
     "end": "2027-03-08T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -621,7 +800,8 @@
     "time_is_estimated": true
   },
   {
-    "title": "Rush — Date 2",
+    "title": "Rush",
+    "date": "2027-03-10",
     "start": "2027-03-10T19:30:00+00:00",
     "end": "2027-03-10T22:30:00+00:00",
     "category": "Music & Entertainment",
@@ -631,7 +811,28 @@
   },
   {
     "title": "Country to Country",
+    "date": "2027-03-12",
     "start": "2027-03-12T19:30:00+00:00",
+    "end": "2027-03-12T22:30:00+00:00",
+    "category": "Music & Entertainment",
+    "date_text": "12 - 14 Mar / 27",
+    "url": "https://www.ovohydro.com/events/detail/country-to-country-2027 \"More Info\"",
+    "time_is_estimated": true
+  },
+  {
+    "title": "Country to Country",
+    "date": "2027-03-13",
+    "start": "2027-03-13T19:30:00+00:00",
+    "end": "2027-03-13T22:30:00+00:00",
+    "category": "Music & Entertainment",
+    "date_text": "12 - 14 Mar / 27",
+    "url": "https://www.ovohydro.com/events/detail/country-to-country-2027 \"More Info\"",
+    "time_is_estimated": true
+  },
+  {
+    "title": "Country to Country",
+    "date": "2027-03-14",
+    "start": "2027-03-14T19:30:00+00:00",
     "end": "2027-03-14T22:30:00+00:00",
     "category": "Music & Entertainment",
     "date_text": "12 - 14 Mar / 27",
@@ -640,6 +841,7 @@
   },
   {
     "title": "Sabaton: The Legendary Tour",
+    "date": "2027-04-09",
     "start": "2027-04-09T19:30:00+01:00",
     "end": "2027-04-09T22:30:00+01:00",
     "category": "Music & Entertainment",
@@ -649,6 +851,7 @@
   },
   {
     "title": "Teddy Swims",
+    "date": "2027-04-13",
     "start": "2027-04-13T19:30:00+01:00",
     "end": "2027-04-13T22:30:00+01:00",
     "category": "Music & Entertainment",
@@ -658,7 +861,18 @@
   },
   {
     "title": "Gracie Abrams",
+    "date": "2027-04-27",
     "start": "2027-04-27T19:30:00+01:00",
+    "end": "2027-04-27T22:30:00+01:00",
+    "category": "Music & Entertainment",
+    "date_text": "27 - 28 Apr / 27",
+    "url": "https://www.ovohydro.com/events/detail/gracie-abrams-2027 \"More Info\"",
+    "time_is_estimated": true
+  },
+  {
+    "title": "Gracie Abrams",
+    "date": "2027-04-28",
+    "start": "2027-04-28T19:30:00+01:00",
     "end": "2027-04-28T22:30:00+01:00",
     "category": "Music & Entertainment",
     "date_text": "27 - 28 Apr / 27",
@@ -667,6 +881,7 @@
   },
   {
     "title": "John Bishop",
+    "date": "2027-04-30",
     "start": "2027-04-30T19:30:00+01:00",
     "end": "2027-04-30T22:30:00+01:00",
     "category": "Comedy",
