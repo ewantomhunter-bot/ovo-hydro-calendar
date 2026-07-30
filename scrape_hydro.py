@@ -10,8 +10,6 @@ from pathlib import Path
 from urllib.parse import urljoin
 
 import requests
-from bs4 import BeautifulSoup, Tag
-from dateutil import parser as date_parser
 from icalendar import Calendar, Event, vText
 from zoneinfo import ZoneInfo
 
@@ -20,34 +18,33 @@ from zoneinfo import ZoneInfo
 # SETTINGS
 # ---------------------------------------------------------------------------
 
-EVENTS_URL = "https://www.ovohydro.com/events/all"
-BASE_URL = "https://www.ovohydro.com"
+HYDRO_EVENTS_URL = "https://www.ovohydro.com/events/all"
+READER_URL = f"https://r.jina.ai/{HYDRO_EVENTS_URL}"
+HYDRO_BASE_URL = "https://www.ovohydro.com"
 
 OUTPUT_FILE = Path("docs/ovo-hydro.ics")
 DEBUG_FILE = Path("docs/events.json")
 
-TIMEZONE = ZoneInfo("Europe/London")
+UK_TIMEZONE = ZoneInfo("Europe/London")
 UTC = timezone.utc
 
-VENUE_NAME = "OVO Hydro"
 VENUE_ADDRESS = "OVO Hydro, Exhibition Way, Glasgow, G3 8YW"
 
-# The event-listing page usually shows dates but not performance times.
-# When no precise time is published, the calendar uses 7:30pm.
+# Used only when the full events listing does not show a precise show time.
 DEFAULT_START_TIME = time(19, 30)
-DEFAULT_EVENT_DURATION = timedelta(hours=3)
+DEFAULT_DURATION = timedelta(hours=3)
 
-HEADERS = {
+REQUEST_HEADERS = {
+    "Accept": "application/json",
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/150.0 Safari/537.36"
     ),
-    "Accept": (
-        "text/html,application/xhtml+xml,application/xml;"
-        "q=0.9,image/avif,image/webp,*/*;q=0.8"
-    ),
-    "Accept-Language": "en-GB,en;q=0.9",
+    # Ask Jina Reader to render JavaScript and avoid using an old cached page.
+    "X-Engine": "browser",
+    "X-No-Cache": "true",
+    "X-Timeout": "30",
 }
 
 
@@ -61,53 +58,60 @@ class HydroEvent:
     start: datetime
     end: datetime
     url: str
-    subtitle: str = ""
-    category: str = "Entertainment"
-    time_is_estimated: bool = True
+    category: str
+    time_is_estimated: bool
 
 
 # ---------------------------------------------------------------------------
-# TEXT HELPERS
+# TEXT AND URL HELPERS
 # ---------------------------------------------------------------------------
 
 def clean_text(value: object) -> str:
-    """Collapse repeated whitespace and remove leading/trailing spaces."""
+    """Collapse repeated spaces and remove surrounding whitespace."""
     return re.sub(r"\s+", " ", str(value or "")).strip()
 
 
-def make_absolute_url(value: str | None) -> str:
-    """Convert an event link into a complete URL."""
-    return urljoin(BASE_URL, value or EVENTS_URL)
+def absolute_url(value: str) -> str:
+    """Convert relative Hydro links into complete URLs."""
+    return urljoin(HYDRO_BASE_URL, value)
 
 
-def make_uid(title: str, start: datetime) -> str:
+def stable_uid(title: str, start: datetime) -> str:
     """
-    Create a stable calendar UID.
+    Produce a stable calendar identifier.
 
-    Stable UIDs mean calendar events update instead of being duplicated.
+    This allows an existing calendar event to update rather than duplicate.
     """
-    source = f"{title.lower()}|{start.date().isoformat()}|ovo-hydro"
-    digest = hashlib.sha256(source.encode("utf-8")).hexdigest()[:28]
+    source = (
+        f"{clean_text(title).lower()}|"
+        f"{start.date().isoformat()}|ovo-hydro"
+    )
+
+    digest = hashlib.sha256(
+        source.encode("utf-8")
+    ).hexdigest()[:28]
+
     return f"{digest}@ovo-hydro-calendar"
 
 
-def classify_event(title: str, subtitle: str = "") -> str:
-    """Assign a broad category based on the event title and subtitle."""
-    text = f"{title} {subtitle}".lower()
+def classify_event(title: str) -> str:
+    """Give each listing a broad calendar category."""
+    text = title.lower()
 
-    categories = [
+    category_rules = [
         (
             "Comedy",
             (
                 "comedy",
-                "comedian",
                 "stand-up",
                 "stand up",
                 "kevin bridges",
-                "jack whitehall",
-                "paul smith",
-                "john bishop",
                 "peter kay",
+                "jack whitehall",
+                "john bishop",
+                "paul smith",
+                "jimmy carr",
+                "micky flanagan",
             ),
         ),
         (
@@ -122,10 +126,9 @@ def classify_event(title: str, subtitle: str = "") -> str:
                 "netball",
                 "hockey",
                 "darts",
-                "sport",
-                "commonwealth games",
-                "giants live",
                 "gladiators",
+                "giants live",
+                "monster jam",
             ),
         ),
         (
@@ -137,24 +140,21 @@ def classify_event(title: str, subtitle: str = "") -> str:
                 "disney",
                 "paw patrol",
                 "bluey",
-                "circus",
-                "monster jam",
                 "hot wheels",
+                "circus",
                 "descendants",
                 "zombies",
-                "camp rock",
             ),
         ),
         (
             "Theatre & Dance",
             (
+                "musical",
                 "theatre",
                 "theater",
-                "musical",
                 "ballet",
                 "dance",
                 "opera",
-                "two doors down",
             ),
         ),
         (
@@ -169,33 +169,20 @@ def classify_event(title: str, subtitle: str = "") -> str:
                 "lord of the rings",
             ),
         ),
-        (
-            "Music",
-            (
-                "tour",
-                "concert",
-                "live",
-                "band",
-                "singer",
-                "special guest",
-                "album",
-                "world tour",
-            ),
-        ),
     ]
 
-    for category, keywords in categories:
-        if any(keyword in text for keyword in keywords):
+    for category, phrases in category_rules:
+        if any(phrase in text for phrase in phrases):
             return category
 
-    return "Entertainment"
+    return "Music & Entertainment"
 
 
 # ---------------------------------------------------------------------------
 # DATE PARSING
 # ---------------------------------------------------------------------------
 
-MONTHS = {
+MONTH_NUMBERS = {
     "jan": 1,
     "january": 1,
     "feb": 2,
@@ -222,85 +209,104 @@ MONTHS = {
     "december": 12,
 }
 
-WEEKDAY_PATTERN = (
-    r"(?:Mon(?:day)?|Tue(?:sday)?|Wed(?:nesday)?|Thu(?:rsday)?|"
-    r"Fri(?:day)?|Sat(?:urday)?|Sun(?:day)?)"
-)
-
 MONTH_PATTERN = (
-    r"(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|"
+    r"Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|"
     r"Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:t(?:ember)?)?|"
-    r"Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)"
+    r"Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?"
 )
 
-DATE_FRAGMENT_PATTERN = re.compile(
-    rf"(?:{WEEKDAY_PATTERN}\s+)?"
-    rf"\d{{1,2}}(?:st|nd|rd|th)?"
-    rf"(?:\s*[-–&]\s*\d{{1,2}}(?:st|nd|rd|th)?)?"
-    rf"\s+{MONTH_PATTERN}"
-    rf"(?:\s*(?:/|\s)\s*\d{{2,4}})?",
-    re.IGNORECASE,
-)
-
-FULL_RANGE_PATTERN = re.compile(
-    rf"(?:(?:{WEEKDAY_PATTERN})\s+)?"
-    rf"(?P<start_day>\d{{1,2}})(?:st|nd|rd|th)?"
-    rf"\s*[-–]\s*"
-    rf"(?P<end_day>\d{{1,2}})(?:st|nd|rd|th)?"
-    rf"\s+"
-    rf"(?P<month>{MONTH_PATTERN})"
-    rf"\s*(?:/|\s)\s*(?P<year>\d{{2,4}})",
-    re.IGNORECASE,
-)
-
-SINGLE_DATE_PATTERN = re.compile(
-    rf"(?:(?:{WEEKDAY_PATTERN})\s+)?"
-    rf"(?P<day>\d{{1,2}})(?:st|nd|rd|th)?"
-    rf"\s+"
-    rf"(?P<month>{MONTH_PATTERN})"
-    rf"\s*(?:/|\s)\s*(?P<year>\d{{2,4}})",
-    re.IGNORECASE,
-)
-
-AMPERSAND_DATES_PATTERN = re.compile(
-    rf"(?P<day1>\d{{1,2}})(?:st|nd|rd|th)?"
-    rf"\s*&\s*"
-    rf"(?P<day2>\d{{1,2}})(?:st|nd|rd|th)?"
-    rf"\s+"
-    rf"(?P<month>{MONTH_PATTERN})"
-    rf"\s*(?:/|\s)\s*(?P<year>\d{{2,4}})",
-    re.IGNORECASE,
+WEEKDAY_PATTERN = (
+    r"Mon(?:day)?|Tue(?:sday)?|Wed(?:nesday)?|Thu(?:rsday)?|"
+    r"Fri(?:day)?|Sat(?:urday)?|Sun(?:day)?"
 )
 
 TIME_PATTERN = re.compile(
-    r"\b(?P<hour>\d{1,2})(?::(?P<minute>\d{2}))?\s*(?P<ampm>am|pm)\b",
+    r"\b(?P<hour>\d{1,2})"
+    r"(?::(?P<minute>\d{2}))?"
+    r"\s*(?P<ampm>am|pm)\b",
+    re.IGNORECASE,
+)
+
+# Examples:
+# 17 Aug 2026
+# Mon 17 Aug / 26
+# 17th August 2026
+SINGLE_DATE_PATTERN = re.compile(
+    rf"(?:{WEEKDAY_PATTERN}\s+)?"
+    rf"(?P<day>\d{{1,2}})(?:st|nd|rd|th)?\s+"
+    rf"(?P<month>{MONTH_PATTERN})"
+    rf"\s*(?:/|\s)\s*"
+    rf"(?P<year>\d{{2,4}})",
+    re.IGNORECASE,
+)
+
+# Examples:
+# 25 - 27 Sep 2026
+# 25–27 September / 26
+SAME_MONTH_RANGE_PATTERN = re.compile(
+    rf"(?:{WEEKDAY_PATTERN}\s+)?"
+    rf"(?P<start_day>\d{{1,2}})(?:st|nd|rd|th)?"
+    rf"\s*[-–]\s*"
+    rf"(?P<end_day>\d{{1,2}})(?:st|nd|rd|th)?\s+"
+    rf"(?P<month>{MONTH_PATTERN})"
+    rf"\s*(?:/|\s)\s*"
+    rf"(?P<year>\d{{2,4}})",
+    re.IGNORECASE,
+)
+
+# Examples:
+# 29 Sep - 1 Oct 2026
+CROSS_MONTH_RANGE_PATTERN = re.compile(
+    rf"(?P<start_day>\d{{1,2}})(?:st|nd|rd|th)?\s+"
+    rf"(?P<start_month>{MONTH_PATTERN})"
+    rf"\s*[-–]\s*"
+    rf"(?P<end_day>\d{{1,2}})(?:st|nd|rd|th)?\s+"
+    rf"(?P<end_month>{MONTH_PATTERN})"
+    rf"\s*(?:/|\s)\s*"
+    rf"(?P<year>\d{{2,4}})",
+    re.IGNORECASE,
+)
+
+# Examples:
+# 19 & 24 Jun 2026
+TWO_DATES_PATTERN = re.compile(
+    rf"(?P<first_day>\d{{1,2}})(?:st|nd|rd|th)?"
+    rf"\s*(?:&|and)\s*"
+    rf"(?P<second_day>\d{{1,2}})(?:st|nd|rd|th)?\s+"
+    rf"(?P<month>{MONTH_PATTERN})"
+    rf"\s*(?:/|\s)\s*"
+    rf"(?P<year>\d{{2,4}})",
     re.IGNORECASE,
 )
 
 
 def normalise_year(raw_year: str) -> int:
     year = int(raw_year)
+
     if year < 100:
         return 2000 + year
+
     return year
 
 
 def month_number(raw_month: str) -> int:
-    key = raw_month.lower().strip(".")
-    if key not in MONTHS:
-        raise ValueError(f"Unrecognised month: {raw_month}")
-    return MONTHS[key]
+    key = raw_month.lower().rstrip(".")
+
+    if key not in MONTH_NUMBERS:
+        raise ValueError(f"Unknown month: {raw_month}")
+
+    return MONTH_NUMBERS[key]
 
 
-def extract_event_time(text: str) -> tuple[time, bool]:
+def extract_time(text: str) -> tuple[time, bool]:
     """
-    Return the published performance time where present.
+    Return a published time where one is present.
 
-    Otherwise return the configured 7:30pm placeholder.
+    Otherwise use 7:30pm and mark it as estimated.
     """
     match = TIME_PATTERN.search(text)
 
-    if not match:
+    if match is None:
         return DEFAULT_START_TIME, True
 
     hour = int(match.group("hour"))
@@ -316,341 +322,298 @@ def extract_event_time(text: str) -> tuple[time, bool]:
     return time(hour, minute), False
 
 
-def parse_date_text(
-    date_text: str,
-    surrounding_text: str,
+def make_datetime(
+    event_date: date,
+    event_time: time,
+) -> datetime:
+    return datetime.combine(
+        event_date,
+        event_time,
+        tzinfo=UK_TIMEZONE,
+    )
+
+
+def parse_dates_from_block(
+    block: str,
 ) -> list[tuple[datetime, datetime, bool]]:
     """
-    Parse the date text from one event card.
-
-    Returns one or more start/end pairs because some listings contain two
-    separate performance runs.
+    Extract one or more date ranges from the text surrounding an event link.
     """
-    cleaned = clean_text(date_text)
-    event_time, estimated = extract_event_time(surrounding_text)
-
+    event_time, estimated = extract_time(block)
     results: list[tuple[datetime, datetime, bool]] = []
 
-    # Example: "19 & 24 Jun 2026"
-    ampersand_match = AMPERSAND_DATES_PATTERN.search(cleaned)
-    if ampersand_match:
-        year = normalise_year(ampersand_match.group("year"))
-        month = month_number(ampersand_match.group("month"))
+    # Two separate dates such as "19 & 24 June 2026".
+    match = TWO_DATES_PATTERN.search(block)
 
-        for day_name in ("day1", "day2"):
-            day = int(ampersand_match.group(day_name))
-            start = datetime.combine(
-                date(year, month, day),
-                event_time,
-                tzinfo=TIMEZONE,
+    if match:
+        year = normalise_year(match.group("year"))
+        month = month_number(match.group("month"))
+
+        for day_group in ("first_day", "second_day"):
+            event_date = date(
+                year,
+                month,
+                int(match.group(day_group)),
             )
+
+            start = make_datetime(event_date, event_time)
+
             results.append(
-                (start, start + DEFAULT_EVENT_DURATION, estimated)
+                (
+                    start,
+                    start + DEFAULT_DURATION,
+                    estimated,
+                )
             )
 
         return results
 
-    # Example: "11 Sep - 26 Nov / 26"
-    cross_month = re.search(
-        rf"(?P<start_day>\d{{1,2}})(?:st|nd|rd|th)?\s+"
-        rf"(?P<start_month>{MONTH_PATTERN})\s*[-–]\s*"
-        rf"(?P<end_day>\d{{1,2}})(?:st|nd|rd|th)?\s+"
-        rf"(?P<end_month>{MONTH_PATTERN})\s*"
-        rf"(?:/|\s)\s*(?P<year>\d{{2,4}})",
-        cleaned,
-        re.IGNORECASE,
-    )
+    # Date ranges crossing from one month into another.
+    match = CROSS_MONTH_RANGE_PATTERN.search(block)
 
-    if cross_month:
-        year = normalise_year(cross_month.group("year"))
+    if match:
+        year = normalise_year(match.group("year"))
 
         start_date = date(
             year,
-            month_number(cross_month.group("start_month")),
-            int(cross_month.group("start_day")),
+            month_number(match.group("start_month")),
+            int(match.group("start_day")),
         )
 
         end_date = date(
             year,
-            month_number(cross_month.group("end_month")),
-            int(cross_month.group("end_day")),
+            month_number(match.group("end_month")),
+            int(match.group("end_day")),
         )
 
-        start = datetime.combine(start_date, event_time, tzinfo=TIMEZONE)
-        end = datetime.combine(
-            end_date,
-            event_time,
-            tzinfo=TIMEZONE,
-        ) + DEFAULT_EVENT_DURATION
+        start = make_datetime(start_date, event_time)
+        end = (
+            make_datetime(end_date, event_time)
+            + DEFAULT_DURATION
+        )
 
         return [(start, end, estimated)]
 
-    # Example: "25 - 27 Sep 2026"
-    range_match = FULL_RANGE_PATTERN.search(cleaned)
-    if range_match:
-        year = normalise_year(range_match.group("year"))
-        month = month_number(range_match.group("month"))
+    # Several consecutive days in the same month.
+    match = SAME_MONTH_RANGE_PATTERN.search(block)
+
+    if match:
+        year = normalise_year(match.group("year"))
+        month = month_number(match.group("month"))
 
         start_date = date(
             year,
             month,
-            int(range_match.group("start_day")),
+            int(match.group("start_day")),
         )
 
         end_date = date(
             year,
             month,
-            int(range_match.group("end_day")),
+            int(match.group("end_day")),
         )
 
-        start = datetime.combine(start_date, event_time, tzinfo=TIMEZONE)
-        end = datetime.combine(
-            end_date,
-            event_time,
-            tzinfo=TIMEZONE,
-        ) + DEFAULT_EVENT_DURATION
-
-        results.append((start, end, estimated))
-
-        # Some listings contain a second separate run, for example:
-        # "25 - 27 Sep 2026 09 - 11 Oct 2026"
-        remaining_text = cleaned[range_match.end():]
-        second_range = FULL_RANGE_PATTERN.search(remaining_text)
-
-        if second_range:
-            second_year = normalise_year(second_range.group("year"))
-            second_month = month_number(second_range.group("month"))
-
-            second_start_date = date(
-                second_year,
-                second_month,
-                int(second_range.group("start_day")),
-            )
-
-            second_end_date = date(
-                second_year,
-                second_month,
-                int(second_range.group("end_day")),
-            )
-
-            second_start = datetime.combine(
-                second_start_date,
-                event_time,
-                tzinfo=TIMEZONE,
-            )
-
-            second_end = datetime.combine(
-                second_end_date,
-                event_time,
-                tzinfo=TIMEZONE,
-            ) + DEFAULT_EVENT_DURATION
-
-            results.append((second_start, second_end, estimated))
-
-        return results
-
-    # Example: "Mon 17 Aug / 26"
-    single_match = SINGLE_DATE_PATTERN.search(cleaned)
-    if single_match:
-        year = normalise_year(single_match.group("year"))
-        month = month_number(single_match.group("month"))
-        day = int(single_match.group("day"))
-
-        start = datetime.combine(
-            date(year, month, day),
-            event_time,
-            tzinfo=TIMEZONE,
+        start = make_datetime(start_date, event_time)
+        end = (
+            make_datetime(end_date, event_time)
+            + DEFAULT_DURATION
         )
 
-        return [(start, start + DEFAULT_EVENT_DURATION, estimated)]
+        return [(start, end, estimated)]
 
-    # Final fallback through dateutil.
-    try:
-        parsed = date_parser.parse(cleaned, dayfirst=True, fuzzy=True)
+    # Find every standalone date in the event block.
+    for match in SINGLE_DATE_PATTERN.finditer(block):
+        year = normalise_year(match.group("year"))
+        month = month_number(match.group("month"))
+        day = int(match.group("day"))
 
-        start = datetime.combine(
-            parsed.date(),
-            event_time,
-            tzinfo=TIMEZONE,
+        try:
+            event_date = date(year, month, day)
+        except ValueError:
+            continue
+
+        start = make_datetime(event_date, event_time)
+
+        results.append(
+            (
+                start,
+                start + DEFAULT_DURATION,
+                estimated,
+            )
         )
 
-        return [(start, start + DEFAULT_EVENT_DURATION, estimated)]
+    # Remove repeated dates detected in the same block.
+    unique: dict[str, tuple[datetime, datetime, bool]] = {}
 
-    except (ValueError, TypeError, OverflowError):
-        return []
+    for item in results:
+        unique[item[0].isoformat()] = item
+
+    return list(unique.values())
 
 
 # ---------------------------------------------------------------------------
-# HTML PARSING
+# JINA READER
 # ---------------------------------------------------------------------------
 
-def find_event_container(heading: Tag) -> Tag | None:
+def download_reader_text() -> str:
     """
-    Walk upwards from an H3 heading until a reasonably sized event card
-    containing both a date and the heading is found.
+    Ask Jina Reader to render the complete Hydro events listing.
+
+    JSON mode is preferred, but plain-text output is supported as a fallback.
     """
-    current: Tag | None = heading
-
-    for _ in range(8):
-        if current is None:
-            return None
-
-        text = clean_text(current.get_text(" ", strip=True))
-
-        if (
-            DATE_FRAGMENT_PATTERN.search(text)
-            and heading.get_text(" ", strip=True) in text
-            and len(text) <= 2500
-        ):
-            return current
-
-        parent = current.parent
-        current = parent if isinstance(parent, Tag) else None
-
-    return None
-
-
-def extract_date_text(container: Tag, title: str) -> str:
-    """
-    Find date-like text inside an event card.
-
-    Date text normally appears before the event H3 heading.
-    """
-    strings = [
-        clean_text(value)
-        for value in container.stripped_strings
-        if clean_text(value)
-    ]
-
-    title_index = None
-
-    for index, value in enumerate(strings):
-        if value == title:
-            title_index = index
-            break
-
-    search_values = (
-        strings[:title_index]
-        if title_index is not None
-        else strings
+    response = requests.get(
+        READER_URL,
+        headers=REQUEST_HEADERS,
+        timeout=60,
     )
 
-    # Work backwards because the date usually sits immediately above the title.
-    candidates: list[str] = []
+    response.raise_for_status()
 
-    for value in reversed(search_values):
-        if DATE_FRAGMENT_PATTERN.search(value):
-            candidates.insert(0, value)
+    content_type = response.headers.get(
+        "content-type",
+        "",
+    ).lower()
 
-            # Capture at most two date lines for multi-run listings.
-            if len(candidates) == 2:
-                break
+    if "application/json" in content_type:
+        payload = response.json()
 
-    if candidates:
-        return " ".join(candidates)
+        # Jina Reader responses may wrap the converted page in data.content.
+        if isinstance(payload, dict):
+            data = payload.get("data", payload)
 
-    container_text = clean_text(container.get_text(" ", strip=True))
-    match = DATE_FRAGMENT_PATTERN.search(container_text)
+            if isinstance(data, dict):
+                for key in (
+                    "content",
+                    "text",
+                    "markdown",
+                ):
+                    value = data.get(key)
 
-    return match.group(0) if match else ""
+                    if isinstance(value, str) and value.strip():
+                        return value
+
+            for key in (
+                "content",
+                "text",
+                "markdown",
+            ):
+                value = payload.get(key)
+
+                if isinstance(value, str) and value.strip():
+                    return value
+
+    text = response.text.strip()
+
+    if not text:
+        raise RuntimeError(
+            "Jina Reader returned an empty events page."
+        )
+
+    return text
 
 
-def extract_subtitle(heading: Tag, container: Tag) -> str:
+# ---------------------------------------------------------------------------
+# MARKDOWN EVENT EXTRACTION
+# ---------------------------------------------------------------------------
+
+# Matches links such as:
+# [Artist Name](https://www.ovohydro.com/events/detail/artist-name)
+EVENT_LINK_PATTERN = re.compile(
+    r"\[(?P<title>[^\]\n]{2,200})\]"
+    r"\("
+    r"(?P<url>"
+    r"(?:https?://(?:www\.)?ovohydro\.com)?"
+    r"/events/(?:detail/)?[^)\s]+"
+    r")"
+    r"\)",
+    re.IGNORECASE,
+)
+
+IGNORED_TITLES = {
+    "find tickets",
+    "buy tickets",
+    "more info",
+    "read more",
+    "view event",
+    "events",
+    "all events",
+    "what's on",
+    "ovo hydro",
+}
+
+
+def find_event_block(
+    page_text: str,
+    link_start: int,
+    link_end: int,
+) -> str:
     """
-    Find an H4 subtitle associated with the event card.
+    Get the text surrounding an event link.
+
+    Dates on venue listings commonly appear immediately before or after the
+    event title, so the parser checks a generous local window.
     """
-    subtitle_heading = container.find("h4")
+    before = page_text[
+        max(0, link_start - 700):link_start
+    ]
 
-    if subtitle_heading:
-        subtitle = clean_text(subtitle_heading.get_text(" ", strip=True))
+    after = page_text[
+        link_end:min(len(page_text), link_end + 500)
+    ]
 
-        if subtitle and subtitle.lower() != heading.get_text(
-            " ",
-            strip=True,
-        ).lower():
-            return subtitle
-
-    return ""
+    return clean_text(f"{before} {after}")
 
 
-def extract_event_url(heading: Tag, container: Tag) -> str:
-    """Find the event-detail URL attached to a card."""
-    heading_link = heading.find_parent("a", href=True)
-
-    if heading_link:
-        return make_absolute_url(heading_link.get("href"))
-
-    links = container.find_all("a", href=True)
-
-    for link in links:
-        href = clean_text(link.get("href"))
-
-        if "/events/detail/" in href:
-            return make_absolute_url(href)
-
-    return EVENTS_URL
-
-
-def extract_events(soup: BeautifulSoup) -> list[HydroEvent]:
+def extract_events(
+    page_text: str,
+) -> list[HydroEvent]:
     events: list[HydroEvent] = []
 
-    # Event names on the Hydro listing are displayed as H3 headings.
-    for heading in soup.find_all("h3"):
-        title = clean_text(heading.get_text(" ", strip=True))
+    for link_match in EVENT_LINK_PATTERN.finditer(page_text):
+        title = clean_text(link_match.group("title"))
 
-        if not title:
+        if title.lower() in IGNORED_TITLES:
             continue
 
-        if title.lower() in {
-            "what's on",
-            "upcoming events",
-            "venue premium seating",
-            "don't miss out",
-        }:
+        if title.startswith("Image "):
             continue
 
-        container = find_event_container(heading)
+        url = absolute_url(link_match.group("url"))
+        block = find_event_block(
+            page_text,
+            link_match.start(),
+            link_match.end(),
+        )
 
-        if container is None:
-            continue
-
-        date_text = extract_date_text(container, title)
-
-        if not date_text:
-            continue
-
-        card_text = clean_text(container.get_text(" ", strip=True))
-        parsed_dates = parse_date_text(date_text, card_text)
+        parsed_dates = parse_dates_from_block(block)
 
         if not parsed_dates:
             print(
-                f"Warning: could not parse date for {title!r}: "
-                f"{date_text!r}",
+                f"Warning: no date found for {title!r}",
                 file=sys.stderr,
             )
             continue
 
-        subtitle = extract_subtitle(heading, container)
-        event_url = extract_event_url(heading, container)
-        category = classify_event(title, subtitle)
+        for index, (
+            start,
+            end,
+            estimated,
+        ) in enumerate(parsed_dates, start=1):
 
-        for number, (start, end, estimated) in enumerate(
-            parsed_dates,
-            start=1,
-        ):
             display_title = title
 
             if len(parsed_dates) > 1:
-                display_title = f"{title} — Run {number}"
+                display_title = (
+                    f"{title} — Date {index}"
+                )
 
             events.append(
                 HydroEvent(
                     title=display_title,
                     start=start,
                     end=end,
-                    url=event_url,
-                    subtitle=subtitle,
-                    category=category,
+                    url=url,
+                    category=classify_event(title),
                     time_is_estimated=estimated,
                 )
             )
@@ -661,12 +624,21 @@ def extract_events(soup: BeautifulSoup) -> list[HydroEvent]:
 def deduplicate_events(
     events: list[HydroEvent],
 ) -> list[HydroEvent]:
-    """Remove repeated cards while keeping separate event dates."""
-    unique: dict[tuple[str, str], HydroEvent] = {}
+    """Remove repeated links and repeated event cards."""
+    unique: dict[
+        tuple[str, str],
+        HydroEvent,
+    ] = {}
 
     for event in events:
+        title_key = re.sub(
+            r"[^a-z0-9]+",
+            "",
+            event.title.lower(),
+        )
+
         key = (
-            re.sub(r"[^a-z0-9]+", "", event.title.lower()),
+            title_key,
             event.start.isoformat(),
         )
 
@@ -676,61 +648,29 @@ def deduplicate_events(
             unique[key] = event
             continue
 
-        # Prefer whichever duplicate contains more information.
-        existing_score = (
-            len(existing.subtitle),
-            len(existing.url),
-            not existing.time_is_estimated,
-        )
-
-        new_score = (
-            len(event.subtitle),
-            len(event.url),
-            not event.time_is_estimated,
-        )
-
-        if new_score > existing_score:
+        # Prefer a confirmed time over a placeholder.
+        if (
+            existing.time_is_estimated
+            and not event.time_is_estimated
+        ):
             unique[key] = event
 
     return sorted(
         unique.values(),
-        key=lambda item: (item.start, item.title.lower()),
+        key=lambda item: (
+            item.start,
+            item.title.lower(),
+        ),
     )
-
-
-# ---------------------------------------------------------------------------
-# FETCHING
-# ---------------------------------------------------------------------------
-
-def fetch_events() -> list[HydroEvent]:
-    response = requests.get(
-        EVENTS_URL,
-        headers=HEADERS,
-        timeout=45,
-    )
-
-    response.raise_for_status()
-
-    soup = BeautifulSoup(response.text, "html.parser")
-    events = extract_events(soup)
-
-    # Prevent a temporary website problem from replacing a healthy calendar
-    # with an incomplete or empty feed.
-    if len(events) < 20:
-        raise RuntimeError(
-            f"Only {len(events)} events were detected. "
-            "The OVO Hydro website layout may have changed, so the existing "
-            "calendar has not been overwritten."
-        )
-
-    return events
 
 
 # ---------------------------------------------------------------------------
 # CALENDAR CREATION
 # ---------------------------------------------------------------------------
 
-def build_calendar(events: list[HydroEvent]) -> Calendar:
+def build_calendar(
+    events: list[HydroEvent],
+) -> Calendar:
     calendar = Calendar()
 
     calendar.add(
@@ -740,10 +680,22 @@ def build_calendar(events: list[HydroEvent]) -> Calendar:
     calendar.add("version", "2.0")
     calendar.add("calscale", "GREGORIAN")
     calendar.add("method", "PUBLISH")
-    calendar.add("x-wr-calname", "OVO Hydro Events")
-    calendar.add("x-wr-timezone", "Europe/London")
-    calendar.add("refresh-interval;value=duration", "PT12H")
-    calendar.add("x-published-ttl", "PT12H")
+    calendar.add(
+        "x-wr-calname",
+        "OVO Hydro Events",
+    )
+    calendar.add(
+        "x-wr-timezone",
+        "Europe/London",
+    )
+    calendar.add(
+        "refresh-interval;value=duration",
+        "PT12H",
+    )
+    calendar.add(
+        "x-published-ttl",
+        "PT12H",
+    )
 
     generated_at = datetime.now(UTC)
 
@@ -752,41 +704,64 @@ def build_calendar(events: list[HydroEvent]) -> Calendar:
 
         calendar_event.add(
             "uid",
-            make_uid(item.title, item.start),
+            stable_uid(
+                item.title,
+                item.start,
+            ),
         )
-        calendar_event.add("dtstamp", generated_at)
-        calendar_event.add("last-modified", generated_at)
-        calendar_event.add("summary", item.title)
-        calendar_event.add("dtstart", item.start)
-        calendar_event.add("dtend", item.end)
-        calendar_event.add("url", item.url)
-
-        calendar_event["location"] = vText(VENUE_ADDRESS)
-
+        calendar_event.add(
+            "dtstamp",
+            generated_at,
+        )
+        calendar_event.add(
+            "last-modified",
+            generated_at,
+        )
+        calendar_event.add(
+            "summary",
+            item.title,
+        )
+        calendar_event.add(
+            "dtstart",
+            item.start,
+        )
+        calendar_event.add(
+            "dtend",
+            item.end,
+        )
+        calendar_event.add(
+            "url",
+            item.url,
+        )
         calendar_event.add(
             "categories",
-            [VENUE_NAME, item.category],
+            [
+                "OVO Hydro",
+                item.category,
+            ],
         )
 
-        description_parts: list[str] = []
+        calendar_event["location"] = vText(
+            VENUE_ADDRESS
+        )
 
-        if item.subtitle:
-            description_parts.append(item.subtitle)
+        description_lines: list[str] = []
 
         if item.time_is_estimated:
-            description_parts.append(
-                "The OVO Hydro event-list page did not provide a precise "
-                "performance time. A temporary start time of 7:30pm has been "
-                "used. Check the official event page before travelling."
+            description_lines.append(
+                "The full venue listing did not provide a precise "
+                "performance time. A temporary start time of 7:30pm "
+                "has been used. Check the official event page before "
+                "travelling."
             )
 
-        description_parts.append(
+        description_lines.append(
             f"Official event page: {item.url}"
         )
 
         calendar_event.add(
             "description",
-            "\n\n".join(description_parts),
+            "\n\n".join(description_lines),
         )
 
         calendar.add_component(calendar_event)
@@ -794,23 +769,24 @@ def build_calendar(events: list[HydroEvent]) -> Calendar:
     return calendar
 
 
-def write_debug_file(events: list[HydroEvent]) -> None:
-    data = [
+def write_debug_file(
+    events: list[HydroEvent],
+) -> None:
+    debug_data = [
         {
-            "title": event.title,
-            "subtitle": event.subtitle,
-            "start": event.start.isoformat(),
-            "end": event.end.isoformat(),
-            "category": event.category,
-            "url": event.url,
-            "time_is_estimated": event.time_is_estimated,
+            "title": item.title,
+            "start": item.start.isoformat(),
+            "end": item.end.isoformat(),
+            "category": item.category,
+            "url": item.url,
+            "time_is_estimated": item.time_is_estimated,
         }
-        for event in events
+        for item in events
     ]
 
     DEBUG_FILE.write_text(
         json.dumps(
-            data,
+            debug_data,
             ensure_ascii=False,
             indent=2,
         ),
@@ -824,7 +800,16 @@ def write_debug_file(events: list[HydroEvent]) -> None:
 
 def main() -> int:
     try:
-        events = fetch_events()
+        page_text = download_reader_text()
+        events = extract_events(page_text)
+
+        # Protect the existing calendar from being overwritten if the source
+        # or page format temporarily breaks.
+        if len(events) < 10:
+            raise RuntimeError(
+                f"Only {len(events)} event entries were detected. "
+                "The existing calendar has not been replaced."
+            )
 
         OUTPUT_FILE.parent.mkdir(
             parents=True,
@@ -848,7 +833,7 @@ def main() -> int:
 
     except requests.RequestException as error:
         print(
-            f"Could not download the OVO Hydro events page: {error}",
+            f"Could not download the rendered Hydro page: {error}",
             file=sys.stderr,
         )
         return 1
