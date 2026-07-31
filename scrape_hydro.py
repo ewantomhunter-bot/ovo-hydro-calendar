@@ -14,7 +14,7 @@ from bs4 import BeautifulSoup
 from icalendar import Calendar, Event, vText
 from zoneinfo import ZoneInfo
 
-SCRIPT_VERSION = "7.1.0"
+SCRIPT_VERSION = "7.2.0"
 EVENTS_URL = "https://www.ovohydro.com/events/all"
 BASE_URL = "https://www.ovohydro.com"
 OUTPUT_FILE = Path("docs/ovo-hydro.ics")
@@ -303,10 +303,59 @@ def parse_detail(page: Page, url: str, expected_title: str) -> list[Entry]:
 
 
 def deduplicate(entries: list[Entry]) -> list[Entry]:
-    unique: dict[tuple[str, str], Entry] = {}
+    """
+    Remove duplicate representations of the same performance.
+
+    Some Hydro pages repeat a date in more than one rendered block. One copy
+    may contain a doors time while another has no time and therefore receives
+    the provisional 7:30pm fallback. Those are not two separate performances.
+
+    For each event and calendar date:
+      1. Keep all distinct official SHOW times, where present.
+      2. Otherwise keep all distinct official DOORS times.
+      3. Otherwise keep one provisional entry.
+
+    This preserves genuine same-day matinee/evening performances because their
+    official show times are different.
+    """
+    exact: dict[tuple[str, str], Entry] = {}
     for entry in entries:
-        unique[(key(entry.title), entry.start.isoformat())] = entry
-    return sorted(unique.values(), key=lambda e: (e.start, e.title.lower()))
+        exact[(key(entry.title), entry.start.isoformat())] = entry
+
+    grouped: dict[tuple[str, date], list[Entry]] = {}
+    for entry in exact.values():
+        grouped.setdefault((key(entry.title), entry.start.date()), []).append(entry)
+
+    result: list[Entry] = []
+
+    for group in grouped.values():
+        official_show = [
+            entry for entry in group
+            if entry.timing_source == "published_show_time"
+        ]
+        official_doors = [
+            entry for entry in group
+            if entry.timing_source == "published_doors_time"
+        ]
+        provisional = [
+            entry for entry in group
+            if entry.timing_source == "estimated_19_30"
+        ]
+
+        if official_show:
+            chosen = official_show
+        elif official_doors:
+            chosen = official_doors
+        else:
+            chosen = provisional[:1]
+
+        # A final exact-time pass protects against repeated rendered blocks.
+        by_start: dict[str, Entry] = {}
+        for entry in chosen:
+            by_start[entry.start.isoformat()] = entry
+        result.extend(by_start.values())
+
+    return sorted(result, key=lambda e: (e.start, e.title.lower()))
 
 
 def uid(entry: Entry) -> str:
