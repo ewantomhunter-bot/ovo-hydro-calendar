@@ -4,18 +4,17 @@ import hashlib
 import json
 import re
 import sys
-import time as time_module
 from dataclasses import asdict, dataclass
 from datetime import date, datetime, time, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urljoin
 
-from curl_cffi import requests
+from playwright.sync_api import BrowserContext, Page, TimeoutError as PlaywrightTimeoutError, sync_playwright
 from bs4 import BeautifulSoup
 from icalendar import Calendar, Event, vText
 from zoneinfo import ZoneInfo
 
-SCRIPT_VERSION = "6.1.0"
+SCRIPT_VERSION = "7.0.0"
 EVENTS_URL = "https://www.ovohydro.com/events/all"
 BASE_URL = "https://www.ovohydro.com"
 OUTPUT_FILE = Path("docs/ovo-hydro.ics")
@@ -108,77 +107,107 @@ def parse_clock(text: str) -> time | None:
     return time(hour, minute)
 
 
-def fetch(session: requests.Session, url: str) -> str:
+def open_page(page: Page, url: str) -> None:
+    """Load a Hydro page in a real Chromium browser and wait for rendered content."""
     last_error: Exception | None = None
 
-    # The Hydro rejects ordinary GitHub Actions HTTP clients with 406.
-    # curl_cffi reproduces a real browser TLS/client fingerprint.
-    candidates = [
-        (url, True),
-        (f"https://r.jina.ai/http://{url.removeprefix('https://').removeprefix('http://')}", False),
-    ]
+    for attempt in range(1, 4):
+        try:
+            response = page.goto(
+                url,
+                wait_until="domcontentloaded",
+                timeout=90_000,
+            )
 
-    for candidate, browser_mode in candidates:
-        for attempt in range(1, 4):
-            try:
-                kwargs = {"timeout": 60}
-                if browser_mode:
-                    kwargs["impersonate"] = "chrome"
-                response = session.get(candidate, **kwargs)
-                response.raise_for_status()
-                if len(response.text) < 1000:
-                    raise RuntimeError(
-                        f"Suspiciously short response ({len(response.text)} bytes)"
-                    )
-                return response.text
-            except Exception as exc:
-                last_error = exc
-                if attempt < 3:
-                    time_module.sleep(attempt * 2)
+            if response is not None and response.status >= 400:
+                raise RuntimeError(
+                    f"HTTP {response.status} while loading {url}"
+                )
 
-    raise RuntimeError(f"Could not download {url}: {last_error}")
+            page.wait_for_selector("body", timeout=30_000)
+            page.wait_for_timeout(1_500)
+
+            body_text = page.locator("body").inner_text(timeout=30_000)
+            if len(body_text.strip()) < 500:
+                raise RuntimeError(
+                    f"Rendered page was suspiciously short "
+                    f"({len(body_text)} characters)"
+                )
+
+            return
+
+        except Exception as exc:
+            last_error = exc
+            if attempt < 3:
+                page.wait_for_timeout(attempt * 2_000)
+
+    raise RuntimeError(f"Could not render {url}: {last_error}")
 
 
-def listing_links(html: str) -> list[tuple[str, str]]:
-    soup = BeautifulSoup(html, "html.parser")
+def listing_links(page: Page) -> list[tuple[str, str]]:
+    open_page(page, EVENTS_URL)
+
     items: dict[str, tuple[str, str]] = {}
-    for anchor in soup.select('a[href*="/events/detail/"]'):
-        href = clean(anchor.get("href"))
-        title = clean(anchor.get_text(" ", strip=True))
-        if not href or not title or title.lower() in {"find tickets", "more info"}:
+
+    anchors = page.locator('a[href*="/events/detail/"]')
+    for index in range(anchors.count()):
+        anchor = anchors.nth(index)
+        href = clean(anchor.get_attribute("href"))
+        title = clean(anchor.inner_text())
+
+        if not href or not title:
             continue
+
+        if title.lower() in {
+            "find tickets",
+            "more info",
+            "view event",
+            "book now",
+        }:
+            continue
+
         url = urljoin(BASE_URL, href.split("?")[0])
         items[url] = (title, url)
+
     return list(items.values())
 
 
-def detail_lines(html: str) -> tuple[str, list[str]]:
-    soup = BeautifulSoup(html, "html.parser")
-    h1 = soup.find("h1")
-    if not h1:
+def detail_lines(page: Page, expected_title: str) -> tuple[str, list[str]]:
+    h1 = page.locator("h1").first
+    if h1.count() == 0:
         raise RuntimeError("Detail page has no H1 event title")
-    title = clean(h1.get_text(" ", strip=True))
 
-    # Convert the page into meaningful text lines. The official site presents
-    # each showing before the literal 'View All Showings' marker.
-    lines = [clean(line) for line in soup.get_text("\n", strip=True).splitlines()]
+    title = clean(h1.inner_text())
+    body_text = page.locator("body").inner_text(timeout=30_000)
+    lines = [clean(line) for line in body_text.splitlines()]
     lines = [line for line in lines if line]
 
+    possible_titles = {key(title), key(expected_title)}
+
     try:
-        title_index = next(i for i, line in enumerate(lines) if key(line) == key(title))
+        title_index = next(
+            i for i, line in enumerate(lines)
+            if key(line) in possible_titles
+        )
     except StopIteration as exc:
-        raise RuntimeError(f"Could not locate {title!r} in detail-page text") from exc
+        raise RuntimeError(
+            f"Could not locate {title!r} in rendered detail-page text"
+        ) from exc
 
     section: list[str] = []
-    for line in lines[title_index + 1:title_index + 250]:
-        if line.lower() == "view all showings":
+    for line in lines[title_index + 1:title_index + 400]:
+        lowered = line.lower()
+
+        if lowered == "view all showings" and section:
             break
+
         section.append(line)
+
     return title, section
 
 
-def parse_detail(html: str, url: str) -> list[Entry]:
-    title, lines = detail_lines(html)
+def parse_detail(page: Page, url: str, expected_title: str) -> list[Entry]:
+    title, lines = detail_lines(page, expected_title)
     today = datetime.now(TZ).date()
     entries: list[Entry] = []
     current_date: date | None = None
@@ -302,48 +331,111 @@ def validate(entries: list[Entry], title_count: int) -> None:
 def main() -> int:
     try:
         print(f"Starting OVO Hydro calendar scraper V{SCRIPT_VERSION}")
-        session = requests.Session(headers=HEADERS)
 
-        links = listing_links(fetch(session, EVENTS_URL))
-        print(f"Found {len(links)} official event detail pages")
-        if len(links) < 20:
-            raise RuntimeError("Main listing did not expose enough event links")
+        with sync_playwright() as playwright:
+            browser = playwright.chromium.launch(headless=True)
 
-        all_entries: list[Entry] = []
-        failures: list[str] = []
-        for index, (listing_title, url) in enumerate(links, 1):
-            try:
-                parsed = parse_detail(fetch(session, url), url)
-                if not parsed:
-                    raise RuntimeError("no future showing rows found")
-                all_entries.extend(parsed)
-                print(f"[{index}/{len(links)}] {listing_title}: {len(parsed)} showing(s)")
-            except Exception as exc:
-                failures.append(f"{listing_title}: {exc}")
-                print(f"WARNING: {listing_title}: {exc}", file=sys.stderr)
+            context: BrowserContext = browser.new_context(
+                locale="en-GB",
+                timezone_id="Europe/London",
+                viewport={"width": 1440, "height": 1200},
+                user_agent=(
+                    "Mozilla/5.0 (X11; Linux x86_64) "
+                    "AppleWebKit/537.36 (KHTML, like Gecko) "
+                    "Chrome/128.0.0.0 Safari/537.36"
+                ),
+            )
 
-        if failures:
-            raise RuntimeError("One or more event pages failed:\n" + "\n".join(failures))
+            page = context.new_page()
+            page.set_default_timeout(30_000)
 
-        entries = deduplicate(all_entries)
-        validate(entries, len(links))
+            links = listing_links(page)
+            print(f"Found {len(links)} official event detail pages")
+
+            if len(links) < 20:
+                raise RuntimeError(
+                    f"Only {len(links)} event detail pages were found"
+                )
+
+            entries: list[Entry] = []
+
+            for position, (listing_title, url) in enumerate(links, start=1):
+                try:
+                    open_page(page, url)
+                    event_entries = parse_detail(
+                        page,
+                        url,
+                        listing_title,
+                    )
+
+                    if event_entries:
+                        entries.extend(event_entries)
+                        print(
+                            f"[{position}/{len(links)}] "
+                            f"{listing_title}: "
+                            f"{len(event_entries)} showing(s)"
+                        )
+                    else:
+                        print(
+                            f"[{position}/{len(links)}] "
+                            f"{listing_title}: "
+                            "no future showing rows found"
+                        )
+
+                except Exception as exc:
+                    print(
+                        f"[{position}/{len(links)}] "
+                        f"{listing_title}: skipped: {exc}"
+                    )
+
+            browser.close()
+
+        entries = deduplicate(entries)
+
+        if len(entries) < 20:
+            raise RuntimeError(
+                f"Only {len(entries)} future calendar entries were parsed; "
+                "refusing to overwrite the existing feed."
+            )
+
+        # Known multi-show events are logged prominently for checking.
+        for expected in ("Kevin Bridges", "Two Doors Down"):
+            matches = [
+                entry for entry in entries
+                if expected.lower() in entry.title.lower()
+            ]
+            if matches:
+                print(
+                    f"CHECK {expected}: "
+                    f"{len(matches)} calendar entries"
+                )
 
         OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
         OUTPUT_FILE.write_bytes(build_calendar(entries))
+
         DEBUG_FILE.write_text(
-            json.dumps([
-                {
-                    **asdict(e),
-                    "start": e.start.isoformat(),
-                    "end": e.end.isoformat(),
-                    "script_version": SCRIPT_VERSION,
-                }
-                for e in entries
-            ], ensure_ascii=False, indent=2),
+            json.dumps(
+                [
+                    {
+                        **asdict(entry),
+                        "start": entry.start.isoformat(),
+                        "end": entry.end.isoformat(),
+                        "script_version": SCRIPT_VERSION,
+                    }
+                    for entry in entries
+                ],
+                indent=2,
+                ensure_ascii=False,
+            ),
             encoding="utf-8",
         )
-        print(f"Published {len(entries)} calendar entries across {len(links)} events")
+
+        print(
+            f"Successfully published {len(entries)} "
+            "future calendar entries."
+        )
         return 0
+
     except Exception as exc:
         print(f"Calendar update blocked: {exc}", file=sys.stderr)
         return 1
