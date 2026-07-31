@@ -14,7 +14,7 @@ from bs4 import BeautifulSoup
 from icalendar import Calendar, Event, vText
 from zoneinfo import ZoneInfo
 
-SCRIPT_VERSION = "7.2.0"
+SCRIPT_VERSION = "8.0.0"
 EVENTS_URL = "https://www.ovohydro.com/events/all"
 BASE_URL = "https://www.ovohydro.com"
 OUTPUT_FILE = Path("docs/ovo-hydro.ics")
@@ -144,29 +144,117 @@ def open_page(page: Page, url: str) -> None:
     raise RuntimeError(f"Could not render {url}: {last_error}")
 
 
+def expand_current_event_listing(page: Page) -> None:
+    """
+    Expand the official What's On page until no further current event cards
+    can be revealed. Hidden or archived detail links are ignored.
+    """
+    button_pattern = re.compile(
+        r"(load|show|view)\s+more(\s+events)?",
+        re.IGNORECASE,
+    )
+
+    for _ in range(30):
+        clicked = False
+
+        candidates = [
+            page.get_by_role("button", name=button_pattern),
+            page.get_by_role("link", name=button_pattern),
+            page.get_by_text(button_pattern),
+        ]
+
+        for locator in candidates:
+            try:
+                for index in range(locator.count()):
+                    candidate = locator.nth(index)
+                    if not candidate.is_visible():
+                        continue
+
+                    before = page.locator(
+                        'main a[href*="/events/detail/"]'
+                    ).count()
+
+                    candidate.scroll_into_view_if_needed()
+                    candidate.click(timeout=10_000)
+                    page.wait_for_timeout(1_000)
+
+                    after = page.locator(
+                        'main a[href*="/events/detail/"]'
+                    ).count()
+
+                    clicked = after > before
+                    if clicked:
+                        break
+            except Exception:
+                continue
+
+            if clicked:
+                break
+
+        if not clicked:
+            return
+
+
 def listing_links(page: Page) -> list[tuple[str, str]]:
+    """
+    Return only event pages represented by visible cards on the current
+    official OVO Hydro What's On listing.
+
+    This prevents stale or archived event pages from entering the feed.
+    """
     open_page(page, EVENTS_URL)
+    expand_current_event_listing(page)
 
     items: dict[str, tuple[str, str]] = {}
 
-    anchors = page.locator('a[href*="/events/detail/"]')
+    anchors = page.locator('main a[href*="/events/detail/"]')
+    if anchors.count() == 0:
+        anchors = page.locator('body a[href*="/events/detail/"]')
+
+    ignored_text = {
+        "find tickets",
+        "more info",
+        "view event",
+        "book now",
+        "buy tickets",
+    }
+
     for index in range(anchors.count()):
         anchor = anchors.nth(index)
-        href = clean(anchor.get_attribute("href"))
-        title = clean(anchor.inner_text())
 
-        if not href or not title:
+        try:
+            if not anchor.is_visible():
+                continue
+        except Exception:
             continue
 
-        if title.lower() in {
-            "find tickets",
-            "more info",
-            "view event",
-            "book now",
-        }:
+        href = clean(anchor.get_attribute("href"))
+        if not href:
             continue
 
         url = urljoin(BASE_URL, href.split("?")[0])
+
+        title = clean(
+            anchor.evaluate(
+                """
+                (node) => {
+                    const card = node.closest(
+                        'article, li, [class*="event"], [class*="card"]'
+                    ) || node.parentElement;
+                    const heading = card
+                        ? card.querySelector('h1, h2, h3, h4')
+                        : null;
+                    return heading
+                        ? heading.textContent
+                        : node.textContent;
+                }
+                """
+            )
+        )
+
+        if not title or title.lower() in ignored_text:
+            continue
+
         items[url] = (title, url)
 
     return list(items.values())
@@ -358,9 +446,28 @@ def deduplicate(entries: list[Entry]) -> list[Entry]:
     return sorted(result, key=lambda e: (e.start, e.title.lower()))
 
 
-def uid(entry: Entry) -> str:
-    raw = f"{key(entry.title)}|{entry.start.isoformat()}|ovo-hydro"
-    return hashlib.sha256(raw.encode()).hexdigest()[:28] + "@ovo-hydro-calendar"
+def uid(entry: Entry, performances_for_url: int) -> str:
+    """
+    Use the event page URL as the stable identity for a one-performance event.
+
+    If a one-off event is rescheduled, Apple Calendar receives the same UID
+    with a revised DTSTART instead of retaining the old date as a separate
+    event. Multi-performance events still use date/time-specific UIDs.
+    """
+    canonical_url = entry.url.split("?")[0].rstrip("/").lower()
+
+    if performances_for_url == 1:
+        raw = f"{canonical_url}|ovo-hydro"
+    else:
+        raw = (
+            f"{canonical_url}|{entry.start.isoformat()}|"
+            "ovo-hydro"
+        )
+
+    return (
+        hashlib.sha256(raw.encode("utf-8")).hexdigest()[:28]
+        + "@ovo-hydro-calendar"
+    )
 
 
 def build_calendar(entries: list[Entry]) -> bytes:
@@ -375,9 +482,20 @@ def build_calendar(entries: list[Entry]) -> bytes:
     cal.add("x-published-ttl", "PT12H")
     generated = datetime.now(UTC)
 
+    performance_counts: dict[str, int] = {}
+    for entry in entries:
+        canonical_url = entry.url.split("?")[0].rstrip("/").lower()
+        performance_counts[canonical_url] = (
+            performance_counts.get(canonical_url, 0) + 1
+        )
+
     for entry in entries:
         event = Event()
-        event.add("uid", uid(entry))
+        canonical_url = entry.url.split("?")[0].rstrip("/").lower()
+        event.add(
+            "uid",
+            uid(entry, performance_counts[canonical_url]),
+        )
         event.add("dtstamp", generated)
         event.add("last-modified", generated)
         event.add("summary", entry.title)
@@ -514,6 +632,7 @@ def main() -> int:
                         "start": entry.start.isoformat(),
                         "end": entry.end.isoformat(),
                         "script_version": SCRIPT_VERSION,
+                        "source": "visible_current_ovo_listing",
                     }
                     for entry in entries
                 ],
