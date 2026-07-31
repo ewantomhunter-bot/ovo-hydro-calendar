@@ -10,12 +10,12 @@ from datetime import date, datetime, time, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urljoin
 
-import requests
+from curl_cffi import requests
 from bs4 import BeautifulSoup
 from icalendar import Calendar, Event, vText
 from zoneinfo import ZoneInfo
 
-SCRIPT_VERSION = "6.0.0"
+SCRIPT_VERSION = "6.1.0"
 EVENTS_URL = "https://www.ovohydro.com/events/all"
 BASE_URL = "https://www.ovohydro.com"
 OUTPUT_FILE = Path("docs/ovo-hydro.ics")
@@ -110,17 +110,32 @@ def parse_clock(text: str) -> time | None:
 
 def fetch(session: requests.Session, url: str) -> str:
     last_error: Exception | None = None
-    for attempt in range(1, 4):
-        try:
-            response = session.get(url, timeout=45)
-            response.raise_for_status()
-            if len(response.text) < 1000:
-                raise RuntimeError(f"Suspiciously short response ({len(response.text)} bytes)")
-            return response.text
-        except Exception as exc:
-            last_error = exc
-            if attempt < 3:
-                time_module.sleep(attempt * 2)
+
+    # The Hydro rejects ordinary GitHub Actions HTTP clients with 406.
+    # curl_cffi reproduces a real browser TLS/client fingerprint.
+    candidates = [
+        (url, True),
+        (f"https://r.jina.ai/http://{url.removeprefix('https://').removeprefix('http://')}", False),
+    ]
+
+    for candidate, browser_mode in candidates:
+        for attempt in range(1, 4):
+            try:
+                kwargs = {"timeout": 60}
+                if browser_mode:
+                    kwargs["impersonate"] = "chrome"
+                response = session.get(candidate, **kwargs)
+                response.raise_for_status()
+                if len(response.text) < 1000:
+                    raise RuntimeError(
+                        f"Suspiciously short response ({len(response.text)} bytes)"
+                    )
+                return response.text
+            except Exception as exc:
+                last_error = exc
+                if attempt < 3:
+                    time_module.sleep(attempt * 2)
+
     raise RuntimeError(f"Could not download {url}: {last_error}")
 
 
@@ -287,8 +302,7 @@ def validate(entries: list[Entry], title_count: int) -> None:
 def main() -> int:
     try:
         print(f"Starting OVO Hydro calendar scraper V{SCRIPT_VERSION}")
-        session = requests.Session()
-        session.headers.update(HEADERS)
+        session = requests.Session(headers=HEADERS)
 
         links = listing_links(fetch(session, EVENTS_URL))
         print(f"Found {len(links)} official event detail pages")
