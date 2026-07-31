@@ -21,26 +21,30 @@ concurrency:
 jobs:
   update-calendar:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: pip
+
       - name: Install dependencies
-        run: pip install --requirement requirements.txt
+        run: pip install -r requirements.txt
+
       - name: Generate calendar
         run: python scrape_hydro.py
-      - name: Commit changed feed
+
+      - name: Commit updated calendar
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/ovo-hydro.ics docs/events.json
           if git diff --cached --quiet; then
-            echo "The published calendar is already current."
+            echo "No calendar changes detected."
           else
             git commit -m "Update OVO Hydro events"
             git push
