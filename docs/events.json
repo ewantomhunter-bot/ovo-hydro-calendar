@@ -1,892 +1,1442 @@
 [
   {
-    "title": "[](https://www.ovohydro.com/events/all)",
-    "date": "2022-04-04",
-    "start": "2022-04-04T19:30:00+01:00",
-    "end": "2022-04-04T22:30:00+01:00",
-    "category": "Music & Entertainment",
-    "date_text": "Published Time: Mon, 04 Apr 2022 07:23:49 GMT",
-    "url": "https://www.ovohydro.com/events/detail/https-www-ovohydro-com-events-all",
-    "time_is_estimated": true
-  },
-  {
-    "title": "Kevin Bridges: Here If You Need Me",
-    "date": "2022-04-04",
-    "start": "2022-04-04T19:30:00+01:00",
-    "end": "2022-04-04T22:30:00+01:00",
-    "category": "Comedy",
-    "date_text": "Published Time: Mon, 04 Apr 2022 07:23:49 GMT",
-    "url": "https://www.ovohydro.com/events/detail/kevin-bridges-here-if-you-need-me \"More Info\"",
-    "time_is_estimated": true
-  },
-  {
-    "title": "Glasgow 2026 Commonwealth Games: Netball",
-    "date": "2026-07-30",
-    "start": "2026-07-30T19:30:00+01:00",
-    "end": "2026-07-30T22:30:00+01:00",
-    "category": "Sport",
-    "date_text": "30 July - 02 Aug / 26",
-    "url": "https://www.ovohydro.com/events/detail/glasgow-2026-commonwealth-games-netball \"More Info\"",
-    "time_is_estimated": true
-  },
-  {
-    "title": "Glasgow 2026 Commonwealth Games: Netball",
-    "date": "2026-07-31",
+    "title": "GLASGOW 2026 COMMONWEALTH GAMES: NETBALL",
     "start": "2026-07-31T19:30:00+01:00",
     "end": "2026-07-31T22:30:00+01:00",
-    "category": "Sport",
-    "date_text": "30 July - 02 Aug / 26",
-    "url": "https://www.ovohydro.com/events/detail/glasgow-2026-commonwealth-games-netball \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/glasgow-2026-commonwealth-games-netball",
+    "timing_source": "estimated_19_30",
+    "source_text": "FRI 31 JUL / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Glasgow 2026 Commonwealth Games: Netball",
-    "date": "2026-08-01",
+    "title": "GLASGOW 2026 COMMONWEALTH GAMES: NETBALL",
     "start": "2026-08-01T19:30:00+01:00",
     "end": "2026-08-01T22:30:00+01:00",
-    "category": "Sport",
-    "date_text": "30 July - 02 Aug / 26",
-    "url": "https://www.ovohydro.com/events/detail/glasgow-2026-commonwealth-games-netball \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/glasgow-2026-commonwealth-games-netball",
+    "timing_source": "estimated_19_30",
+    "source_text": "SAT 1 AUG / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Glasgow 2026 Commonwealth Games: Netball",
-    "date": "2026-08-02",
+    "title": "GLASGOW 2026 COMMONWEALTH GAMES: NETBALL",
     "start": "2026-08-02T19:30:00+01:00",
     "end": "2026-08-02T22:30:00+01:00",
-    "category": "Sport",
-    "date_text": "30 July - 02 Aug / 26",
-    "url": "https://www.ovohydro.com/events/detail/glasgow-2026-commonwealth-games-netball \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/glasgow-2026-commonwealth-games-netball",
+    "timing_source": "estimated_19_30",
+    "source_text": "SUN 2 AUG / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Hollywood Vampires",
-    "date": "2026-08-17",
+    "title": "THOMAS RHETT",
+    "start": "2026-08-05T19:30:00+01:00",
+    "end": "2026-08-05T22:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/thomas-rhett",
+    "timing_source": "estimated_19_30",
+    "source_text": "Pre-Sale 05 Aug / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "THOMAS RHETT",
+    "start": "2026-08-07T19:30:00+01:00",
+    "end": "2026-08-07T22:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/thomas-rhett",
+    "timing_source": "estimated_19_30",
+    "source_text": "On Sale 07 Aug /26 10:00",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "HOLLYWOOD VAMPIRES",
+    "start": "2026-08-17T18:30:00+01:00",
+    "end": "2026-08-17T21:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/hollywood-vampires-2026",
+    "timing_source": "published_doors_time",
+    "source_text": "MON 17 AUG / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "HOLLYWOOD VAMPIRES",
     "start": "2026-08-17T19:30:00+01:00",
     "end": "2026-08-17T22:30:00+01:00",
-    "category": "Music & Entertainment",
-    "date_text": "Mon 17 Aug / 26",
-    "url": "https://www.ovohydro.com/events/detail/hollywood-vampires-2026 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/hollywood-vampires-2026",
+    "timing_source": "estimated_19_30",
+    "source_text": "MON 17 AUG / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "AEW: Dynamite & Collision",
-    "date": "2026-08-26",
+    "title": "AEW: DYNAMITE & COLLISION",
+    "start": "2026-08-26T17:30:00+01:00",
+    "end": "2026-08-26T20:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/aew-dynamite-collision-2026",
+    "timing_source": "published_doors_time",
+    "source_text": "WED 26 AUG / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "AEW: DYNAMITE & COLLISION",
     "start": "2026-08-26T19:30:00+01:00",
     "end": "2026-08-26T22:30:00+01:00",
-    "category": "Sport",
-    "date_text": "Wed 26 Aug / 26",
-    "url": "https://www.ovohydro.com/events/detail/aew-dynamite-collision-2026 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/aew-dynamite-collision-2026",
+    "timing_source": "estimated_19_30",
+    "source_text": "WED 26 AUG / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "The Waterboys: Fisherman's Blues Revue",
-    "date": "2026-08-29",
+    "title": "GALLANT PIONEERS",
+    "start": "2026-08-28T19:30:00+01:00",
+    "end": "2026-08-28T22:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/gallant-pioneers-aug-2026",
+    "timing_source": "estimated_19_30",
+    "source_text": "Gallant Pioneers, originally scheduled to take place at the OVO Hydro on 28 August 2026 will now take place on 06 February 2027.",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "THE WATERBOYS: FISHERMAN'S BLUES REVUE",
+    "start": "2026-08-29T18:30:00+01:00",
+    "end": "2026-08-29T21:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/the-waterboys-fishermans-blues-revue",
+    "timing_source": "published_doors_time",
+    "source_text": "SAT 29 AUG / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "THE WATERBOYS: FISHERMAN'S BLUES REVUE",
     "start": "2026-08-29T19:30:00+01:00",
     "end": "2026-08-29T22:30:00+01:00",
-    "category": "Music & Entertainment",
-    "date_text": "Sat 29 Aug / 26",
-    "url": "https://www.ovohydro.com/events/detail/the-waterboys-fishermans-blues-revue \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/the-waterboys-fishermans-blues-revue",
+    "timing_source": "estimated_19_30",
+    "source_text": "SAT 29 AUG / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "The Neighbourhood",
-    "date": "2026-09-02",
+    "title": "THE NEIGHBOURHOOD",
+    "start": "2026-09-02T18:30:00+01:00",
+    "end": "2026-09-02T21:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/the-neighbourhood",
+    "timing_source": "published_doors_time",
+    "source_text": "WED 2 SEP / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "THE NEIGHBOURHOOD",
     "start": "2026-09-02T19:30:00+01:00",
     "end": "2026-09-02T22:30:00+01:00",
-    "category": "Music & Entertainment",
-    "date_text": "Wed 02 Sep / 26",
-    "url": "https://www.ovohydro.com/events/detail/the-neighbourhood \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/the-neighbourhood",
+    "timing_source": "estimated_19_30",
+    "source_text": "WED 02 SEP / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "A$AP Rocky",
-    "date": "2026-09-04",
+    "title": "A$AP ROCKY",
+    "start": "2026-09-04T18:30:00+01:00",
+    "end": "2026-09-04T21:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/asap-rocky",
+    "timing_source": "published_doors_time",
+    "source_text": "FRI 4 SEP / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "A$AP ROCKY",
     "start": "2026-09-04T19:30:00+01:00",
     "end": "2026-09-04T22:30:00+01:00",
-    "category": "Music & Entertainment",
-    "date_text": "Fri 04 Sep / 26",
-    "url": "https://www.ovohydro.com/events/detail/asap-rocky \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/asap-rocky",
+    "timing_source": "estimated_19_30",
+    "source_text": "FRI 04 SEP / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "André Rieu",
-    "date": "2026-09-10",
+    "title": "ANDRÉ RIEU",
+    "start": "2026-09-10T18:00:00+01:00",
+    "end": "2026-09-10T21:00:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/andre-rieu-2026",
+    "timing_source": "published_doors_time",
+    "source_text": "THU 10 SEP / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "ANDRÉ RIEU",
     "start": "2026-09-10T19:30:00+01:00",
     "end": "2026-09-10T22:30:00+01:00",
-    "category": "Classical",
-    "date_text": "Thu 10 Sep / 26",
-    "url": "https://www.ovohydro.com/events/detail/andre-rieu-2026 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/andre-rieu-2026",
+    "timing_source": "estimated_19_30",
+    "source_text": "THU 10 SEP / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Hilary Duff",
-    "date": "2026-09-13",
+    "title": "KEVIN BRIDGES: HERE IF YOU NEED ME",
+    "start": "2026-09-11T20:00:00+01:00",
+    "end": "2026-09-11T23:00:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/kevin-bridges-here-if-you-need-me",
+    "timing_source": "published_show_time",
+    "source_text": "FRI 11 SEP / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "KEVIN BRIDGES: HERE IF YOU NEED ME",
+    "start": "2026-09-12T20:00:00+01:00",
+    "end": "2026-09-12T23:00:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/kevin-bridges-here-if-you-need-me",
+    "timing_source": "published_show_time",
+    "source_text": "SAT 12 SEP / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "HILARY DUFF",
+    "start": "2026-09-13T18:30:00+01:00",
+    "end": "2026-09-13T21:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/hilary-duff",
+    "timing_source": "published_doors_time",
+    "source_text": "SUN 13 SEP / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "HILARY DUFF",
     "start": "2026-09-13T19:30:00+01:00",
     "end": "2026-09-13T22:30:00+01:00",
-    "category": "Music & Entertainment",
-    "date_text": "Sun 13 Sep / 26",
-    "url": "https://www.ovohydro.com/events/detail/hilary-duff \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/hilary-duff",
+    "timing_source": "estimated_19_30",
+    "source_text": "SUN 13 SEP / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Tide Lines",
-    "date": "2026-09-19",
+    "title": "TIDE LINES",
     "start": "2026-09-19T19:30:00+01:00",
     "end": "2026-09-19T22:30:00+01:00",
-    "category": "Music & Entertainment",
-    "date_text": "Sat 19 Sep / 26",
-    "url": "https://www.ovohydro.com/events/detail/tide-lines \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/tide-lines",
+    "timing_source": "estimated_19_30",
+    "source_text": "SAT 19 SEP / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Two Doors Down",
-    "date": "2026-09-25",
-    "start": "2026-09-25T19:30:00+01:00",
-    "end": "2026-09-25T22:30:00+01:00",
-    "category": "Theatre & Musicals",
-    "date_text": "25 - 27 Sep 2026",
-    "url": "https://www.ovohydro.com/events/detail/two-doors-down \"More Info\"",
-    "time_is_estimated": true
+    "title": "TWO DOORS DOWN",
+    "start": "2026-09-25T18:30:00+01:00",
+    "end": "2026-09-25T21:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/two-doors-down",
+    "timing_source": "published_doors_time",
+    "source_text": "FRI 25 SEP / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Two Doors Down",
-    "date": "2026-09-26",
-    "start": "2026-09-26T19:30:00+01:00",
-    "end": "2026-09-26T22:30:00+01:00",
-    "category": "Theatre & Musicals",
-    "date_text": "25 - 27 Sep 2026",
-    "url": "https://www.ovohydro.com/events/detail/two-doors-down \"More Info\"",
-    "time_is_estimated": true
+    "title": "TWO DOORS DOWN",
+    "start": "2026-09-26T14:00:00+01:00",
+    "end": "2026-09-26T17:00:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/two-doors-down",
+    "timing_source": "published_doors_time",
+    "source_text": "SAT 26 SEP / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Two Doors Down",
-    "date": "2026-09-27",
-    "start": "2026-09-27T19:30:00+01:00",
-    "end": "2026-09-27T22:30:00+01:00",
-    "category": "Theatre & Musicals",
-    "date_text": "25 - 27 Sep 2026",
-    "url": "https://www.ovohydro.com/events/detail/two-doors-down \"More Info\"",
-    "time_is_estimated": true
+    "title": "TWO DOORS DOWN",
+    "start": "2026-09-26T18:30:00+01:00",
+    "end": "2026-09-26T21:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/two-doors-down",
+    "timing_source": "published_doors_time",
+    "source_text": "SAT 26 SEP / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Niall Horan",
-    "date": "2026-09-28",
+    "title": "TWO DOORS DOWN",
+    "start": "2026-09-27T14:00:00+01:00",
+    "end": "2026-09-27T17:00:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/two-doors-down",
+    "timing_source": "published_doors_time",
+    "source_text": "SUN 27 SEP / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "NIALL HORAN",
+    "start": "2026-09-28T18:30:00+01:00",
+    "end": "2026-09-28T21:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/niall-horan-2026",
+    "timing_source": "published_doors_time",
+    "source_text": "MON 28 SEP / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "NIALL HORAN",
     "start": "2026-09-28T19:30:00+01:00",
     "end": "2026-09-28T22:30:00+01:00",
-    "category": "Music & Entertainment",
-    "date_text": "Mon 28 Sep / 26",
-    "url": "https://www.ovohydro.com/events/detail/niall-horan-2026 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/niall-horan-2026",
+    "timing_source": "estimated_19_30",
+    "source_text": "MON 28 SEP / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Westlife",
-    "date": "2026-09-30",
-    "start": "2026-09-30T19:30:00+01:00",
-    "end": "2026-09-30T22:30:00+01:00",
-    "category": "Music & Entertainment",
-    "date_text": "30 Sep - 01 Oct / 26",
-    "url": "https://www.ovohydro.com/events/detail/westlife-2026 \"More Info\"",
-    "time_is_estimated": true
+    "title": "WESTLIFE",
+    "start": "2026-09-30T18:30:00+01:00",
+    "end": "2026-09-30T21:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/westlife-2026",
+    "timing_source": "published_doors_time",
+    "source_text": "WED 30 SEP / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Westlife",
-    "date": "2026-10-01",
+    "title": "WESTLIFE",
+    "start": "2026-10-01T18:30:00+01:00",
+    "end": "2026-10-01T21:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/westlife-2026",
+    "timing_source": "published_doors_time",
+    "source_text": "THU 1 OCT / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "WESTLIFE",
     "start": "2026-10-01T19:30:00+01:00",
     "end": "2026-10-01T22:30:00+01:00",
-    "category": "Music & Entertainment",
-    "date_text": "30 Sep - 01 Oct / 26",
-    "url": "https://www.ovohydro.com/events/detail/westlife-2026 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/westlife-2026",
+    "timing_source": "estimated_19_30",
+    "source_text": "30 SEP - 01 OCT / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "The World of Hans Zimmer",
-    "date": "2026-10-06",
+    "title": "KEVIN BRIDGES: HERE IF YOU NEED ME",
+    "start": "2026-10-03T20:00:00+01:00",
+    "end": "2026-10-03T23:00:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/kevin-bridges-here-if-you-need-me",
+    "timing_source": "published_show_time",
+    "source_text": "SAT 3 OCT / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "KEVIN BRIDGES: HERE IF YOU NEED ME",
+    "start": "2026-10-04T20:00:00+01:00",
+    "end": "2026-10-04T23:00:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/kevin-bridges-here-if-you-need-me",
+    "timing_source": "published_show_time",
+    "source_text": "SUN 4 OCT / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "THE WORLD OF HANS ZIMMER",
+    "start": "2026-10-06T18:30:00+01:00",
+    "end": "2026-10-06T21:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/the-world-of-hans-zimmer-2026",
+    "timing_source": "published_doors_time",
+    "source_text": "TUE 6 OCT / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "THE WORLD OF HANS ZIMMER",
     "start": "2026-10-06T19:30:00+01:00",
     "end": "2026-10-06T22:30:00+01:00",
-    "category": "Classical",
-    "date_text": "Tue 06 Oct / 26",
-    "url": "https://www.ovohydro.com/events/detail/the-world-of-hans-zimmer-2026 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/the-world-of-hans-zimmer-2026",
+    "timing_source": "estimated_19_30",
+    "source_text": "TUE 06 OCT / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "The Pussycat Dolls: PCD FOREVER TOUR",
-    "date": "2026-10-07",
+    "title": "THE PUSSYCAT DOLLS: PCD FOREVER TOUR",
+    "start": "2026-10-07T18:30:00+01:00",
+    "end": "2026-10-07T21:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/the-pussycat-dolls",
+    "timing_source": "published_doors_time",
+    "source_text": "WED 7 OCT / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "THE PUSSYCAT DOLLS: PCD FOREVER TOUR",
     "start": "2026-10-07T19:30:00+01:00",
     "end": "2026-10-07T22:30:00+01:00",
-    "category": "Music & Entertainment",
-    "date_text": "Wed 07 Oct / 26",
-    "url": "https://www.ovohydro.com/events/detail/the-pussycat-dolls \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/the-pussycat-dolls",
+    "timing_source": "estimated_19_30",
+    "source_text": "WED 07 OCT / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Two Doors Down",
-    "date": "2026-10-09",
-    "start": "2026-10-09T19:30:00+01:00",
-    "end": "2026-10-09T22:30:00+01:00",
-    "category": "Theatre & Musicals",
-    "date_text": "09 - 11 Oct 2026",
-    "url": "https://www.ovohydro.com/events/detail/two-doors-down \"More Info\"",
-    "time_is_estimated": true
+    "title": "AN EVENING WITH PRESIDENT BARACK OBAMA",
+    "start": "2026-10-14T18:30:00+01:00",
+    "end": "2026-10-14T21:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/seat-unique-presents-an-evening-with-president-barack-obama",
+    "timing_source": "published_doors_time",
+    "source_text": "WED 14 OCT / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Two Doors Down",
-    "date": "2026-10-10",
-    "start": "2026-10-10T19:30:00+01:00",
-    "end": "2026-10-10T22:30:00+01:00",
-    "category": "Theatre & Musicals",
-    "date_text": "09 - 11 Oct 2026",
-    "url": "https://www.ovohydro.com/events/detail/two-doors-down \"More Info\"",
-    "time_is_estimated": true
-  },
-  {
-    "title": "Two Doors Down",
-    "date": "2026-10-11",
-    "start": "2026-10-11T19:30:00+01:00",
-    "end": "2026-10-11T22:30:00+01:00",
-    "category": "Theatre & Musicals",
-    "date_text": "09 - 11 Oct 2026",
-    "url": "https://www.ovohydro.com/events/detail/two-doors-down \"More Info\"",
-    "time_is_estimated": true
-  },
-  {
-    "title": "An Evening with President Barack Obama",
-    "date": "2026-10-14",
+    "title": "AN EVENING WITH PRESIDENT BARACK OBAMA",
     "start": "2026-10-14T19:30:00+01:00",
     "end": "2026-10-14T22:30:00+01:00",
-    "category": "Music & Entertainment",
-    "date_text": "Wed 14 Oct / 26",
-    "url": "https://www.ovohydro.com/events/detail/seat-unique-presents-an-evening-with-president-barack-obama \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/seat-unique-presents-an-evening-with-president-barack-obama",
+    "timing_source": "estimated_19_30",
+    "source_text": "WED 14 OCT / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Duran Duran",
-    "date": "2026-10-15",
+    "title": "DURAN DURAN",
+    "start": "2026-10-15T18:30:00+01:00",
+    "end": "2026-10-15T21:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/duran-duran-2026",
+    "timing_source": "published_doors_time",
+    "source_text": "THU 15 OCT / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "DURAN DURAN",
     "start": "2026-10-15T19:30:00+01:00",
     "end": "2026-10-15T22:30:00+01:00",
-    "category": "Music & Entertainment",
-    "date_text": "Thu 15 Oct / 26",
-    "url": "https://www.ovohydro.com/events/detail/duran-duran-2026 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/duran-duran-2026",
+    "timing_source": "estimated_19_30",
+    "source_text": "THU 15 OCT / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Holy Priest presents The Holy Sh*t Show",
-    "date": "2026-10-16",
+    "title": "HOLY PRIEST PRESENTS THE HOLY SH*T SHOW",
+    "start": "2026-10-16T18:00:00+01:00",
+    "end": "2026-10-16T21:00:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/holy-priest",
+    "timing_source": "published_doors_time",
+    "source_text": "FRI 16 OCT / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "HOLY PRIEST PRESENTS THE HOLY SH*T SHOW",
     "start": "2026-10-16T19:30:00+01:00",
     "end": "2026-10-16T22:30:00+01:00",
-    "category": "Music & Entertainment",
-    "date_text": "Fri 16 Oct / 26",
-    "url": "https://www.ovohydro.com/events/detail/holy-priest \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/holy-priest",
+    "timing_source": "estimated_19_30",
+    "source_text": "FRI 16 OCT / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Giants Live",
-    "date": "2026-10-17",
+    "title": "GIANTS LIVE",
+    "start": "2026-10-17T15:30:00+01:00",
+    "end": "2026-10-17T18:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/giants-live-world-tour-finals-2026",
+    "timing_source": "published_doors_time",
+    "source_text": "SAT 17 OCT / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "GIANTS LIVE",
     "start": "2026-10-17T19:30:00+01:00",
     "end": "2026-10-17T22:30:00+01:00",
-    "category": "Sport",
-    "date_text": "Sat 17 Oct / 26",
-    "url": "https://www.ovohydro.com/events/detail/giants-live-world-tour-finals-2026 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/giants-live-world-tour-finals-2026",
+    "timing_source": "estimated_19_30",
+    "source_text": "SAT 17 OCT / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Professor Brian Cox",
-    "date": "2026-10-18",
+    "title": "PROFESSOR BRIAN COX",
     "start": "2026-10-18T19:30:00+01:00",
     "end": "2026-10-18T22:30:00+01:00",
-    "category": "Music & Entertainment",
-    "date_text": "Sun 18 Oct / 26",
-    "url": "https://www.ovohydro.com/events/detail/professor-brian-cox-2026 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/professor-brian-cox-2026",
+    "timing_source": "estimated_19_30",
+    "source_text": "SUN 18 OCT / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Brandi Carlile",
-    "date": "2026-10-19",
+    "title": "BRANDI CARLILE",
+    "start": "2026-10-19T18:30:00+01:00",
+    "end": "2026-10-19T21:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/brandi-carlile",
+    "timing_source": "published_doors_time",
+    "source_text": "MON 19 OCT / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "BRANDI CARLILE",
     "start": "2026-10-19T19:30:00+01:00",
     "end": "2026-10-19T22:30:00+01:00",
-    "category": "Music & Entertainment",
-    "date_text": "Mon 19 Oct / 26",
-    "url": "https://www.ovohydro.com/events/detail/brandi-carlile \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/brandi-carlile",
+    "timing_source": "estimated_19_30",
+    "source_text": "MON 19 OCT / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Gladiators Live Tour 2026",
-    "date": "2026-10-24",
-    "start": "2026-10-24T19:30:00+01:00",
-    "end": "2026-10-24T22:30:00+01:00",
-    "category": "Sport",
-    "date_text": "24 - 25 Oct / 26",
-    "url": "https://www.ovohydro.com/events/detail/gladiators-live-tour-2026 \"More Info\"",
-    "time_is_estimated": true
+    "title": "GLADIATORS LIVE TOUR 2026",
+    "start": "2026-10-24T10:00:00+01:00",
+    "end": "2026-10-24T13:00:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/gladiators-live-tour-2026",
+    "timing_source": "published_doors_time",
+    "source_text": "SAT 24 OCT / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Gladiators Live Tour 2026",
-    "date": "2026-10-25",
+    "title": "GLADIATORS LIVE TOUR 2026",
+    "start": "2026-10-24T16:00:00+01:00",
+    "end": "2026-10-24T19:00:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/gladiators-live-tour-2026",
+    "timing_source": "published_doors_time",
+    "source_text": "SAT 24 OCT / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "GLADIATORS LIVE TOUR 2026",
+    "start": "2026-10-25T10:00:00+00:00",
+    "end": "2026-10-25T13:00:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/gladiators-live-tour-2026",
+    "timing_source": "published_doors_time",
+    "source_text": "SUN 25 OCT / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "GLADIATORS LIVE TOUR 2026",
+    "start": "2026-10-25T16:00:00+00:00",
+    "end": "2026-10-25T19:00:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/gladiators-live-tour-2026",
+    "timing_source": "published_doors_time",
+    "source_text": "SUN 25 OCT / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "GLADIATORS LIVE TOUR 2026",
     "start": "2026-10-25T19:30:00+00:00",
     "end": "2026-10-25T22:30:00+00:00",
-    "category": "Sport",
-    "date_text": "24 - 25 Oct / 26",
-    "url": "https://www.ovohydro.com/events/detail/gladiators-live-tour-2026 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/gladiators-live-tour-2026",
+    "timing_source": "estimated_19_30",
+    "source_text": "24 - 25 OCT / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "J. Cole: The Fall-Off Tour",
-    "date": "2026-10-26",
+    "title": "J. COLE: THE FALL-OFF TOUR",
+    "start": "2026-10-26T18:30:00+00:00",
+    "end": "2026-10-26T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/j-cole-the-fall-off-tour",
+    "timing_source": "published_doors_time",
+    "source_text": "MON 26 OCT / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "J. COLE: THE FALL-OFF TOUR",
     "start": "2026-10-26T19:30:00+00:00",
     "end": "2026-10-26T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Mon 26 Oct / 26",
-    "url": "https://www.ovohydro.com/events/detail/j-cole-the-fall-off-tour \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/j-cole-the-fall-off-tour",
+    "timing_source": "estimated_19_30",
+    "source_text": "MON 26 OCT / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Manic Street Preachers + Suede",
-    "date": "2026-10-28",
+    "title": "MANIC STREET PREACHERS + SUEDE",
+    "start": "2026-10-28T18:30:00+00:00",
+    "end": "2026-10-28T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/manic-street-preachers-suede",
+    "timing_source": "published_doors_time",
+    "source_text": "WED 28 OCT / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "MANIC STREET PREACHERS + SUEDE",
     "start": "2026-10-28T19:30:00+00:00",
     "end": "2026-10-28T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Wed 28 Oct / 26",
-    "url": "https://www.ovohydro.com/events/detail/manic-street-preachers-suede \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/manic-street-preachers-suede",
+    "timing_source": "estimated_19_30",
+    "source_text": "WED 28 OCT / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Paul Heaton",
-    "date": "2026-10-30",
+    "title": "PAUL HEATON",
     "start": "2026-10-30T19:30:00+00:00",
     "end": "2026-10-30T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Fri 30 Oct / 26",
-    "url": "https://www.ovohydro.com/events/detail/paul-heaton-2026 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/paul-heaton-2026",
+    "timing_source": "estimated_19_30",
+    "source_text": "FRI 30 OCT / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "The Australian Pink Floyd",
-    "date": "2026-10-31",
+    "title": "THE AUSTRALIAN PINK FLOYD",
+    "start": "2026-10-31T18:30:00+00:00",
+    "end": "2026-10-31T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/the-australian-pink-floyd-2026",
+    "timing_source": "published_doors_time",
+    "source_text": "SAT 31 OCT / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "THE AUSTRALIAN PINK FLOYD",
     "start": "2026-10-31T19:30:00+00:00",
     "end": "2026-10-31T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Sat 31 Oct / 26",
-    "url": "https://www.ovohydro.com/events/detail/the-australian-pink-floyd-2026 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/the-australian-pink-floyd-2026",
+    "timing_source": "estimated_19_30",
+    "source_text": "SAT 31 OCT / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Papa Roach",
-    "date": "2026-11-01",
+    "title": "PAPA ROACH",
+    "start": "2026-11-01T18:30:00+00:00",
+    "end": "2026-11-01T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/papa-roach",
+    "timing_source": "published_doors_time",
+    "source_text": "SUN 1 NOV / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "PAPA ROACH",
     "start": "2026-11-01T19:30:00+00:00",
     "end": "2026-11-01T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Sun 01 Nov / 26",
-    "url": "https://www.ovohydro.com/events/detail/papa-roach \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/papa-roach",
+    "timing_source": "estimated_19_30",
+    "source_text": "SUN 01 NOV / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Cody Johnson",
-    "date": "2026-11-02",
+    "title": "CODY JOHNSON",
+    "start": "2026-11-02T18:30:00+00:00",
+    "end": "2026-11-02T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/cody-johnson",
+    "timing_source": "published_doors_time",
+    "source_text": "MON 2 NOV / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "CODY JOHNSON",
     "start": "2026-11-02T19:30:00+00:00",
     "end": "2026-11-02T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Mon 02 Nov / 26",
-    "url": "https://www.ovohydro.com/events/detail/cody-johnson \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/cody-johnson",
+    "timing_source": "estimated_19_30",
+    "source_text": "MON 02 NOV / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Noah Kahan",
-    "date": "2026-11-05",
-    "start": "2026-11-05T19:30:00+00:00",
-    "end": "2026-11-05T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "05 - 06 Nov / 26",
-    "url": "https://www.ovohydro.com/events/detail/noah-kahan-2026 \"More Info\"",
-    "time_is_estimated": true
+    "title": "NOAH KAHAN",
+    "start": "2026-11-05T18:30:00+00:00",
+    "end": "2026-11-05T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/noah-kahan-2026",
+    "timing_source": "published_doors_time",
+    "source_text": "THU 5 NOV / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Noah Kahan",
-    "date": "2026-11-06",
+    "title": "NOAH KAHAN",
+    "start": "2026-11-06T18:30:00+00:00",
+    "end": "2026-11-06T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/noah-kahan-2026",
+    "timing_source": "published_doors_time",
+    "source_text": "FRI 6 NOV / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "NOAH KAHAN",
     "start": "2026-11-06T19:30:00+00:00",
     "end": "2026-11-06T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "05 - 06 Nov / 26",
-    "url": "https://www.ovohydro.com/events/detail/noah-kahan-2026 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/noah-kahan-2026",
+    "timing_source": "estimated_19_30",
+    "source_text": "05 - 06 NOV / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Myles Smith",
-    "date": "2026-11-10",
+    "title": "MYLES SMITH",
+    "start": "2026-11-10T18:30:00+00:00",
+    "end": "2026-11-10T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/myles-smith",
+    "timing_source": "published_doors_time",
+    "source_text": "TUE 10 NOV / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "MYLES SMITH",
     "start": "2026-11-10T19:30:00+00:00",
     "end": "2026-11-10T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Tue 10 Nov / 26",
-    "url": "https://www.ovohydro.com/events/detail/myles-smith \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/myles-smith",
+    "timing_source": "estimated_19_30",
+    "source_text": "TUE 10 NOV / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Squeeze Plus Very Special Guest Billy Bragg",
-    "date": "2026-11-12",
+    "title": "SQUEEZE PLUS VERY SPECIAL GUEST BILLY BRAGG",
+    "start": "2026-11-12T18:30:00+00:00",
+    "end": "2026-11-12T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/squeeze",
+    "timing_source": "published_doors_time",
+    "source_text": "THU 12 NOV / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "SQUEEZE PLUS VERY SPECIAL GUEST BILLY BRAGG",
     "start": "2026-11-12T19:30:00+00:00",
     "end": "2026-11-12T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Thu 12 Nov / 26",
-    "url": "https://www.ovohydro.com/events/detail/squeeze \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/squeeze",
+    "timing_source": "estimated_19_30",
+    "source_text": "THU 12 NOV / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "The Script",
-    "date": "2026-11-13",
+    "title": "THE SCRIPT",
+    "start": "2026-11-13T18:30:00+00:00",
+    "end": "2026-11-13T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/the-script-2026",
+    "timing_source": "published_doors_time",
+    "source_text": "FRI 13 NOV / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "THE SCRIPT",
     "start": "2026-11-13T19:30:00+00:00",
     "end": "2026-11-13T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Fri 13 Nov / 26",
-    "url": "https://www.ovohydro.com/events/detail/the-script-2026 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/the-script-2026",
+    "timing_source": "estimated_19_30",
+    "source_text": "FRI 13 NOV / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Beabadoobee",
-    "date": "2026-11-14",
+    "title": "BEABADOOBEE",
+    "start": "2026-11-14T18:30:00+00:00",
+    "end": "2026-11-14T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/beabadoobee",
+    "timing_source": "published_doors_time",
+    "source_text": "SAT 14 NOV / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "BEABADOOBEE",
     "start": "2026-11-14T19:30:00+00:00",
     "end": "2026-11-14T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Sat 14 Nov / 26",
-    "url": "https://www.ovohydro.com/events/detail/beabadoobee \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/beabadoobee",
+    "timing_source": "estimated_19_30",
+    "source_text": "SAT 14 NOV / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Shinedown",
-    "date": "2026-11-16",
+    "title": "SHINEDOWN",
+    "start": "2026-11-16T18:30:00+00:00",
+    "end": "2026-11-16T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/shinedown",
+    "timing_source": "published_doors_time",
+    "source_text": "MON 16 NOV / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "SHINEDOWN",
     "start": "2026-11-16T19:30:00+00:00",
     "end": "2026-11-16T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Mon 16 Nov / 26",
-    "url": "https://www.ovohydro.com/events/detail/shinedown \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/shinedown",
+    "timing_source": "estimated_19_30",
+    "source_text": "MON 16 NOV / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Enter Shikari",
-    "date": "2026-11-18",
+    "title": "ENTER SHIKARI",
+    "start": "2026-11-18T18:30:00+00:00",
+    "end": "2026-11-18T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/enter-shikari",
+    "timing_source": "published_doors_time",
+    "source_text": "WED 18 NOV / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "ENTER SHIKARI",
     "start": "2026-11-18T19:30:00+00:00",
     "end": "2026-11-18T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Wed 18 Nov / 26",
-    "url": "https://www.ovohydro.com/events/detail/enter-shikari \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/enter-shikari",
+    "timing_source": "estimated_19_30",
+    "source_text": "WED 18 NOV / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Deep Purple",
-    "date": "2026-11-19",
+    "title": "DEEP PURPLE",
+    "start": "2026-11-19T19:00:00+00:00",
+    "end": "2026-11-19T22:00:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/deep-purple-2026",
+    "timing_source": "published_show_time",
+    "source_text": "THU 19 NOV / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "DEEP PURPLE",
     "start": "2026-11-19T19:30:00+00:00",
     "end": "2026-11-19T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Thu 19 Nov / 26",
-    "url": "https://www.ovohydro.com/events/detail/deep-purple-2026 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/deep-purple-2026",
+    "timing_source": "estimated_19_30",
+    "source_text": "THU 19 NOV / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Courteeners",
-    "date": "2026-11-20",
+    "title": "COURTEENERS",
+    "start": "2026-11-20T18:30:00+00:00",
+    "end": "2026-11-20T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/courteeners-2026",
+    "timing_source": "published_doors_time",
+    "source_text": "FRI 20 NOV / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "COURTEENERS",
     "start": "2026-11-20T19:30:00+00:00",
     "end": "2026-11-20T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Fri 20 Nov / 26",
-    "url": "https://www.ovohydro.com/events/detail/courteeners-2026 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/courteeners-2026",
+    "timing_source": "estimated_19_30",
+    "source_text": "FRI 20 NOV / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Ocean Colour Scene",
-    "date": "2026-11-21",
+    "title": "OCEAN COLOUR SCENE",
+    "start": "2026-11-21T18:30:00+00:00",
+    "end": "2026-11-21T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/ocean-colour-scene-2026",
+    "timing_source": "published_doors_time",
+    "source_text": "SAT 21 NOV / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "OCEAN COLOUR SCENE",
     "start": "2026-11-21T19:30:00+00:00",
     "end": "2026-11-21T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Sat 21 Nov / 26",
-    "url": "https://www.ovohydro.com/events/detail/ocean-colour-scene-2026 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/ocean-colour-scene-2026",
+    "timing_source": "estimated_19_30",
+    "source_text": "SAT 21 NOV / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Anna Lapwood",
-    "date": "2026-11-24",
+    "title": "ANNA LAPWOOD",
+    "start": "2026-11-24T18:00:00+00:00",
+    "end": "2026-11-24T21:00:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/anna-lapwood",
+    "timing_source": "published_doors_time",
+    "source_text": "TUE 24 NOV / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "ANNA LAPWOOD",
     "start": "2026-11-24T19:30:00+00:00",
     "end": "2026-11-24T22:30:00+00:00",
-    "category": "Classical",
-    "date_text": "Tue 24 Nov / 26",
-    "url": "https://www.ovohydro.com/events/detail/anna-lapwood \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/anna-lapwood",
+    "timing_source": "estimated_19_30",
+    "source_text": "TUE 24 NOV / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Phoebe Bridgers",
-    "date": "2026-11-27",
+    "title": "PHOEBE BRIDGERS",
+    "start": "2026-11-27T18:30:00+00:00",
+    "end": "2026-11-27T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/phoebe-bridgers",
+    "timing_source": "published_doors_time",
+    "source_text": "FRI 27 NOV / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "PHOEBE BRIDGERS",
     "start": "2026-11-27T19:30:00+00:00",
     "end": "2026-11-27T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Fri 27 Nov / 26",
-    "url": "https://www.ovohydro.com/events/detail/phoebe-bridgers \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/phoebe-bridgers",
+    "timing_source": "estimated_19_30",
+    "source_text": "FRI 27 NOV / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Jungle",
-    "date": "2026-11-28",
+    "title": "JUNGLE",
+    "start": "2026-11-28T18:30:00+00:00",
+    "end": "2026-11-28T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/jungle",
+    "timing_source": "published_doors_time",
+    "source_text": "SAT 28 NOV / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "JUNGLE",
     "start": "2026-11-28T19:30:00+00:00",
     "end": "2026-11-28T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Sat 28 Nov / 26",
-    "url": "https://www.ovohydro.com/events/detail/jungle \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/jungle",
+    "timing_source": "estimated_19_30",
+    "source_text": "SAT 28 NOV / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Placebo",
-    "date": "2026-11-30",
+    "title": "PLACEBO",
+    "start": "2026-11-30T18:30:00+00:00",
+    "end": "2026-11-30T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/placebo",
+    "timing_source": "published_doors_time",
+    "source_text": "MON 30 NOV / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "PLACEBO",
     "start": "2026-11-30T19:30:00+00:00",
     "end": "2026-11-30T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Mon 30 Nov / 26",
-    "url": "https://www.ovohydro.com/events/detail/placebo \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/placebo",
+    "timing_source": "estimated_19_30",
+    "source_text": "MON 30 NOV / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "UB40 ft. Ali Campbell",
-    "date": "2026-12-01",
+    "title": "UB40 FT. ALI CAMPBELL",
+    "start": "2026-12-01T18:30:00+00:00",
+    "end": "2026-12-01T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/ub40-ft-ali-campbell",
+    "timing_source": "published_doors_time",
+    "source_text": "TUE 1 DEC / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "UB40 FT. ALI CAMPBELL",
     "start": "2026-12-01T19:30:00+00:00",
     "end": "2026-12-01T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Tue 01 Dec / 26",
-    "url": "https://www.ovohydro.com/events/detail/ub40-ft-ali-campbell \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/ub40-ft-ali-campbell",
+    "timing_source": "estimated_19_30",
+    "source_text": "TUE 01 DEC / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Bloc Party & Interpol",
-    "date": "2026-12-02",
+    "title": "BLOC PARTY & INTERPOL",
+    "start": "2026-12-02T18:00:00+00:00",
+    "end": "2026-12-02T21:00:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/bloc-party-and-interpol",
+    "timing_source": "published_doors_time",
+    "source_text": "WED 2 DEC / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "BLOC PARTY & INTERPOL",
     "start": "2026-12-02T19:30:00+00:00",
     "end": "2026-12-02T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Wed 02 Dec / 26",
-    "url": "https://www.ovohydro.com/events/detail/bloc-party-and-interpol \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/bloc-party-and-interpol",
+    "timing_source": "estimated_19_30",
+    "source_text": "WED 02 DEC / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Pete Tong Presents Ibiza Classics",
-    "date": "2026-12-03",
+    "title": "PETE TONG PRESENTS IBIZA CLASSICS",
+    "start": "2026-12-03T18:30:00+00:00",
+    "end": "2026-12-03T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/pete-tong-presents-ibiza-classics-2026",
+    "timing_source": "published_doors_time",
+    "source_text": "THU 3 DEC / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "PETE TONG PRESENTS IBIZA CLASSICS",
     "start": "2026-12-03T19:30:00+00:00",
     "end": "2026-12-03T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Thu 03 Dec / 26",
-    "url": "https://www.ovohydro.com/events/detail/pete-tong-presents-ibiza-classics-2026 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/pete-tong-presents-ibiza-classics-2026",
+    "timing_source": "estimated_19_30",
+    "source_text": "THU 03 DEC / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Jessie Ware",
-    "date": "2026-12-04",
+    "title": "JESSIE WARE",
+    "start": "2026-12-04T18:30:00+00:00",
+    "end": "2026-12-04T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/jessie-ware",
+    "timing_source": "published_doors_time",
+    "source_text": "FRI 4 DEC / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "JESSIE WARE",
     "start": "2026-12-04T19:30:00+00:00",
     "end": "2026-12-04T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Fri 04 Dec / 26",
-    "url": "https://www.ovohydro.com/events/detail/jessie-ware \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/jessie-ware",
+    "timing_source": "estimated_19_30",
+    "source_text": "FRI 04 DEC / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Blossoms",
-    "date": "2026-12-05",
+    "title": "BLOSSOMS",
+    "start": "2026-12-05T18:30:00+00:00",
+    "end": "2026-12-05T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/blossoms",
+    "timing_source": "published_doors_time",
+    "source_text": "SAT 5 DEC / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "BLOSSOMS",
     "start": "2026-12-05T19:30:00+00:00",
     "end": "2026-12-05T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Sat 05 Dec / 26",
-    "url": "https://www.ovohydro.com/events/detail/blossoms \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/blossoms",
+    "timing_source": "estimated_19_30",
+    "source_text": "SAT 05 DEC / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "The Lord of the Rings",
-    "date": "2026-12-06",
+    "title": "THE LORD OF THE RINGS",
+    "start": "2026-12-06T11:30:00+00:00",
+    "end": "2026-12-06T14:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/the-lord-of-the-rings",
+    "timing_source": "published_doors_time",
+    "source_text": "SUN 6 DEC / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "THE LORD OF THE RINGS",
+    "start": "2026-12-06T17:30:00+00:00",
+    "end": "2026-12-06T20:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/the-lord-of-the-rings",
+    "timing_source": "published_doors_time",
+    "source_text": "SUN 6 DEC / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "THE LORD OF THE RINGS",
     "start": "2026-12-06T19:30:00+00:00",
     "end": "2026-12-06T22:30:00+00:00",
-    "category": "Classical",
-    "date_text": "Sun 06 Dec / 26",
-    "url": "https://www.ovohydro.com/events/detail/the-lord-of-the-rings \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/the-lord-of-the-rings",
+    "timing_source": "estimated_19_30",
+    "source_text": "SUN 06 DEC / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "EsDeeKid",
-    "date": "2026-12-07",
+    "title": "ESDEEKID",
+    "start": "2026-12-07T18:30:00+00:00",
+    "end": "2026-12-07T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/esdeekid",
+    "timing_source": "published_doors_time",
+    "source_text": "MON 7 DEC / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "ESDEEKID",
     "start": "2026-12-07T19:30:00+00:00",
     "end": "2026-12-07T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Mon 07 Dec / 26",
-    "url": "https://www.ovohydro.com/events/detail/esdeekid \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/esdeekid",
+    "timing_source": "estimated_19_30",
+    "source_text": "MON 07 DEC / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "The Darkness",
-    "date": "2026-12-08",
+    "title": "THE DARKNESS",
+    "start": "2026-12-08T18:30:00+00:00",
+    "end": "2026-12-08T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/the-darkness",
+    "timing_source": "published_doors_time",
+    "source_text": "TUE 8 DEC / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "THE DARKNESS",
     "start": "2026-12-08T19:30:00+00:00",
     "end": "2026-12-08T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Tue 08 Dec / 26",
-    "url": "https://www.ovohydro.com/events/detail/the-darkness \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/the-darkness",
+    "timing_source": "estimated_19_30",
+    "source_text": "TUE 08 DEC / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Kneecap",
-    "date": "2026-12-09",
+    "title": "KNEECAP",
+    "start": "2026-12-09T18:30:00+00:00",
+    "end": "2026-12-09T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/kneecap-2026",
+    "timing_source": "published_doors_time",
+    "source_text": "WED 9 DEC / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "KNEECAP",
     "start": "2026-12-09T19:30:00+00:00",
     "end": "2026-12-09T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Wed 09 Dec / 26",
-    "url": "https://www.ovohydro.com/events/detail/kneecap-2026 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/kneecap-2026",
+    "timing_source": "estimated_19_30",
+    "source_text": "WED 09 DEC / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Dylan John Thomas",
-    "date": "2026-12-11",
+    "title": "DYLAN JOHN THOMAS",
+    "start": "2026-12-11T18:30:00+00:00",
+    "end": "2026-12-11T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/dylan-john-thomas-2026",
+    "timing_source": "published_doors_time",
+    "source_text": "FRI 11 DEC / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "DYLAN JOHN THOMAS",
     "start": "2026-12-11T19:30:00+00:00",
     "end": "2026-12-11T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Fri 11 Dec / 26",
-    "url": "https://www.ovohydro.com/events/detail/dylan-john-thomas-2026 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/dylan-john-thomas-2026",
+    "timing_source": "estimated_19_30",
+    "source_text": "FRI 11 DEC / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Hoolie in the Hydro",
-    "date": "2026-12-12",
+    "title": "HOOLIE IN THE HYDRO",
+    "start": "2026-12-12T17:30:00+00:00",
+    "end": "2026-12-12T20:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/hoolie-in-the-hydro-2026",
+    "timing_source": "published_doors_time",
+    "source_text": "SAT 12 DEC / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "HOOLIE IN THE HYDRO",
     "start": "2026-12-12T19:30:00+00:00",
     "end": "2026-12-12T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Sat 12 Dec / 26",
-    "url": "https://www.ovohydro.com/events/detail/hoolie-in-the-hydro-2026 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/hoolie-in-the-hydro-2026",
+    "timing_source": "estimated_19_30",
+    "source_text": "SAT 12 DEC / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Kasabian",
-    "date": "2026-12-13",
+    "title": "KASABIAN",
+    "start": "2026-12-13T18:30:00+00:00",
+    "end": "2026-12-13T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/kasabian-2026",
+    "timing_source": "published_doors_time",
+    "source_text": "SUN 13 DEC / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "KASABIAN",
     "start": "2026-12-13T19:30:00+00:00",
     "end": "2026-12-13T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Sun 13 Dec / 26",
-    "url": "https://www.ovohydro.com/events/detail/kasabian-2026 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/kasabian-2026",
+    "timing_source": "estimated_19_30",
+    "source_text": "SUN 13 DEC / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Culture Club",
-    "date": "2026-12-15",
+    "title": "CULTURE CLUB",
+    "start": "2026-12-15T18:30:00+00:00",
+    "end": "2026-12-15T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/culture-club-2026",
+    "timing_source": "published_doors_time",
+    "source_text": "TUE 15 DEC / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "CULTURE CLUB",
     "start": "2026-12-15T19:30:00+00:00",
     "end": "2026-12-15T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Tue 15 Dec / 26",
-    "url": "https://www.ovohydro.com/events/detail/culture-club-2026 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/culture-club-2026",
+    "timing_source": "estimated_19_30",
+    "source_text": "TUE 15 DEC / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Morrissey",
-    "date": "2026-12-16",
+    "title": "MORRISSEY",
+    "start": "2026-12-16T18:30:00+00:00",
+    "end": "2026-12-16T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/morrissey-2026",
+    "timing_source": "published_doors_time",
+    "source_text": "WED 16 DEC / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "MORRISSEY",
     "start": "2026-12-16T19:30:00+00:00",
     "end": "2026-12-16T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Wed 16 Dec / 26",
-    "url": "https://www.ovohydro.com/events/detail/morrissey-2026 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/morrissey-2026",
+    "timing_source": "estimated_19_30",
+    "source_text": "WED 16 DEC / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "The Mary Wallopers",
-    "date": "2026-12-19",
+    "title": "THE MARY WALLOPERS",
+    "start": "2026-12-19T18:30:00+00:00",
+    "end": "2026-12-19T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/the-mary-wallopers",
+    "timing_source": "published_doors_time",
+    "source_text": "SAT 19 DEC / 26",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "THE MARY WALLOPERS",
     "start": "2026-12-19T19:30:00+00:00",
     "end": "2026-12-19T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Sat 19 Dec / 26",
-    "url": "https://www.ovohydro.com/events/detail/the-mary-wallopers \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/the-mary-wallopers",
+    "timing_source": "estimated_19_30",
+    "source_text": "SAT 19 DEC / 26",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Jack Whitehall",
-    "date": "2027-01-14",
+    "title": "JACK WHITEHALL",
+    "start": "2027-01-14T18:30:00+00:00",
+    "end": "2027-01-14T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/jack-whitehall-2027",
+    "timing_source": "published_doors_time",
+    "source_text": "THU 14 JAN / 27",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "JACK WHITEHALL",
     "start": "2027-01-14T19:30:00+00:00",
     "end": "2027-01-14T22:30:00+00:00",
-    "category": "Comedy",
-    "date_text": "Thu 14 Jan / 27",
-    "url": "https://www.ovohydro.com/events/detail/jack-whitehall-2027 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/jack-whitehall-2027",
+    "timing_source": "estimated_19_30",
+    "source_text": "THU 14 JAN / 27",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Five Finger Death Punch",
-    "date": "2027-01-17",
+    "title": "FIVE FINGER DEATH PUNCH",
+    "start": "2027-01-17T18:30:00+00:00",
+    "end": "2027-01-17T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/five-finger-death-punch-2027",
+    "timing_source": "published_doors_time",
+    "source_text": "SUN 17 JAN / 27",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "FIVE FINGER DEATH PUNCH",
     "start": "2027-01-17T19:30:00+00:00",
     "end": "2027-01-17T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Sun 17 Jan / 27",
-    "url": "https://www.ovohydro.com/events/detail/five-finger-death-punch-2027 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/five-finger-death-punch-2027",
+    "timing_source": "estimated_19_30",
+    "source_text": "SUN 17 JAN / 27",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Donny Osmond",
-    "date": "2027-01-20",
+    "title": "DONNY OSMOND",
+    "start": "2027-01-20T18:00:00+00:00",
+    "end": "2027-01-20T21:00:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/donny-osmond-2027",
+    "timing_source": "published_doors_time",
+    "source_text": "WED 20 JAN / 27",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "DONNY OSMOND",
     "start": "2027-01-20T19:30:00+00:00",
     "end": "2027-01-20T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Wed 20 Jan / 27",
-    "url": "https://www.ovohydro.com/events/detail/donny-osmond-2027 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/donny-osmond-2027",
+    "timing_source": "estimated_19_30",
+    "source_text": "WED 20 JAN / 27",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Two Door Cinema Club",
-    "date": "2027-01-26",
+    "title": "TWO DOOR CINEMA CLUB",
+    "start": "2027-01-26T18:30:00+00:00",
+    "end": "2027-01-26T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/two-door-cinema-club",
+    "timing_source": "published_doors_time",
+    "source_text": "TUE 26 JAN / 27",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "TWO DOOR CINEMA CLUB",
     "start": "2027-01-26T19:30:00+00:00",
     "end": "2027-01-26T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Tue 26 Jan / 27",
-    "url": "https://www.ovohydro.com/events/detail/two-door-cinema-club \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/two-door-cinema-club",
+    "timing_source": "estimated_19_30",
+    "source_text": "TUE 26 JAN / 27",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Gallant Pioneers",
-    "date": "2027-02-06",
+    "title": "GALLANT PIONEERS",
     "start": "2027-02-06T19:30:00+00:00",
     "end": "2027-02-06T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Sat 06 Feb / 27",
-    "url": "https://www.ovohydro.com/events/detail/gallant-pioneers-aug-2026 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/gallant-pioneers-aug-2026",
+    "timing_source": "estimated_19_30",
+    "source_text": "SAT 06 FEB / 27",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Disney Descendants, ZOMBIES & Camp Rock: Worlds Collide Concert Tour",
-    "date": "2027-02-09",
+    "title": "DISNEY DESCENDANTS, ZOMBIES & CAMP ROCK: WORLDS COLLIDE CONCERT TOUR",
+    "start": "2027-02-09T17:30:00+00:00",
+    "end": "2027-02-09T20:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/disney-worlds-collide-concert-tour-2027",
+    "timing_source": "published_doors_time",
+    "source_text": "TUE 9 FEB / 27",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "DISNEY DESCENDANTS, ZOMBIES & CAMP ROCK: WORLDS COLLIDE CONCERT TOUR",
     "start": "2027-02-09T19:30:00+00:00",
     "end": "2027-02-09T22:30:00+00:00",
-    "category": "Family",
-    "date_text": "Tue 09 Feb / 27",
-    "url": "https://www.ovohydro.com/events/detail/disney-worlds-collide-concert-tour-2027 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/disney-worlds-collide-concert-tour-2027",
+    "timing_source": "estimated_19_30",
+    "source_text": "TUE 09 FEB / 27",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Nothing But Thieves",
-    "date": "2027-02-10",
+    "title": "NOTHING BUT THIEVES",
+    "start": "2027-02-10T18:30:00+00:00",
+    "end": "2027-02-10T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/nothing-but-thieves",
+    "timing_source": "published_doors_time",
+    "source_text": "WED 10 FEB / 27",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "NOTHING BUT THIEVES",
     "start": "2027-02-10T19:30:00+00:00",
     "end": "2027-02-10T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Wed 10 Feb / 27",
-    "url": "https://www.ovohydro.com/events/detail/nothing-but-thieves \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/nothing-but-thieves",
+    "timing_source": "estimated_19_30",
+    "source_text": "WED 10 FEB / 27",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Kacey Musgraves",
-    "date": "2027-02-22",
+    "title": "KACEY MUSGRAVES",
+    "start": "2027-02-22T18:30:00+00:00",
+    "end": "2027-02-22T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/kacey-musgraves-2027",
+    "timing_source": "published_doors_time",
+    "source_text": "MON 22 FEB / 27",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "KACEY MUSGRAVES",
     "start": "2027-02-22T19:30:00+00:00",
     "end": "2027-02-22T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "Mon 22 Feb / 27",
-    "url": "https://www.ovohydro.com/events/detail/kacey-musgraves-2027 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/kacey-musgraves-2027",
+    "timing_source": "estimated_19_30",
+    "source_text": "MON 22 FEB / 27",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Paul Smith: Happy",
-    "date": "2027-03-05",
-    "start": "2027-03-05T19:30:00+00:00",
-    "end": "2027-03-05T22:30:00+00:00",
-    "category": "Comedy",
-    "date_text": "05 - 06 Mar / 27",
-    "url": "https://www.ovohydro.com/events/detail/paul-smith-happy \"More Info\"",
-    "time_is_estimated": true
+    "title": "PAUL SMITH: HAPPY",
+    "start": "2027-03-05T18:30:00+00:00",
+    "end": "2027-03-05T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/paul-smith-happy",
+    "timing_source": "published_doors_time",
+    "source_text": "FRI 5 MAR / 27",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Paul Smith: Happy",
-    "date": "2027-03-06",
+    "title": "PAUL SMITH: HAPPY",
+    "start": "2027-03-06T18:30:00+00:00",
+    "end": "2027-03-06T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/paul-smith-happy",
+    "timing_source": "published_doors_time",
+    "source_text": "SAT 6 MAR / 27",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "PAUL SMITH: HAPPY",
     "start": "2027-03-06T19:30:00+00:00",
     "end": "2027-03-06T22:30:00+00:00",
-    "category": "Comedy",
-    "date_text": "05 - 06 Mar / 27",
-    "url": "https://www.ovohydro.com/events/detail/paul-smith-happy \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/paul-smith-happy",
+    "timing_source": "estimated_19_30",
+    "source_text": "05 - 06 MAR / 27",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Rush",
-    "date": "2027-03-08",
-    "start": "2027-03-08T19:30:00+00:00",
-    "end": "2027-03-08T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "08 & 10 Mar 2027",
-    "url": "https://www.ovohydro.com/events/detail/rush \"More Info\"",
-    "time_is_estimated": true
+    "title": "RUSH",
+    "start": "2027-03-08T18:30:00+00:00",
+    "end": "2027-03-08T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/rush",
+    "timing_source": "published_doors_time",
+    "source_text": "MON 8 MAR / 27",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Rush",
-    "date": "2027-03-10",
+    "title": "RUSH",
+    "start": "2027-03-10T18:30:00+00:00",
+    "end": "2027-03-10T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/rush",
+    "timing_source": "published_doors_time",
+    "source_text": "WED 10 MAR / 27",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "RUSH",
     "start": "2027-03-10T19:30:00+00:00",
     "end": "2027-03-10T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "08 & 10 Mar 2027",
-    "url": "https://www.ovohydro.com/events/detail/rush \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/rush",
+    "timing_source": "estimated_19_30",
+    "source_text": "08 & 10 MAR 2027",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Country to Country",
-    "date": "2027-03-12",
-    "start": "2027-03-12T19:30:00+00:00",
-    "end": "2027-03-12T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "12 - 14 Mar / 27",
-    "url": "https://www.ovohydro.com/events/detail/country-to-country-2027 \"More Info\"",
-    "time_is_estimated": true
+    "title": "COUNTRY TO COUNTRY",
+    "start": "2027-03-12T16:15:00+00:00",
+    "end": "2027-03-12T19:15:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/country-to-country-2027",
+    "timing_source": "published_doors_time",
+    "source_text": "FRI 12 MAR / 27",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Country to Country",
-    "date": "2027-03-13",
-    "start": "2027-03-13T19:30:00+00:00",
-    "end": "2027-03-13T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "12 - 14 Mar / 27",
-    "url": "https://www.ovohydro.com/events/detail/country-to-country-2027 \"More Info\"",
-    "time_is_estimated": true
+    "title": "COUNTRY TO COUNTRY",
+    "start": "2027-03-13T16:15:00+00:00",
+    "end": "2027-03-13T19:15:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/country-to-country-2027",
+    "timing_source": "published_doors_time",
+    "source_text": "SAT 13 MAR / 27",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Country to Country",
-    "date": "2027-03-14",
+    "title": "COUNTRY TO COUNTRY",
+    "start": "2027-03-14T16:15:00+00:00",
+    "end": "2027-03-14T19:15:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/country-to-country-2027",
+    "timing_source": "published_doors_time",
+    "source_text": "SUN 14 MAR / 27",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "COUNTRY TO COUNTRY",
     "start": "2027-03-14T19:30:00+00:00",
     "end": "2027-03-14T22:30:00+00:00",
-    "category": "Music & Entertainment",
-    "date_text": "12 - 14 Mar / 27",
-    "url": "https://www.ovohydro.com/events/detail/country-to-country-2027 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/country-to-country-2027",
+    "timing_source": "estimated_19_30",
+    "source_text": "12 - 14 MAR / 27",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Sabaton: The Legendary Tour",
-    "date": "2027-04-09",
+    "title": "SABATON: THE LEGENDARY TOUR",
+    "start": "2027-04-09T18:00:00+01:00",
+    "end": "2027-04-09T21:00:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/sabaton-2027",
+    "timing_source": "published_doors_time",
+    "source_text": "FRI 9 APR / 27",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "SABATON: THE LEGENDARY TOUR",
     "start": "2027-04-09T19:30:00+01:00",
     "end": "2027-04-09T22:30:00+01:00",
-    "category": "Music & Entertainment",
-    "date_text": "Fri 09 Apr / 27",
-    "url": "https://www.ovohydro.com/events/detail/sabaton-2027 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/sabaton-2027",
+    "timing_source": "estimated_19_30",
+    "source_text": "FRI 09 APR / 27",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Teddy Swims",
-    "date": "2027-04-13",
+    "title": "TEDDY SWIMS",
+    "start": "2027-04-13T18:30:00+01:00",
+    "end": "2027-04-13T21:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/teddy-swims-2027",
+    "timing_source": "published_doors_time",
+    "source_text": "TUE 13 APR / 27",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "TEDDY SWIMS",
     "start": "2027-04-13T19:30:00+01:00",
     "end": "2027-04-13T22:30:00+01:00",
-    "category": "Music & Entertainment",
-    "date_text": "Tue 13 Apr / 27",
-    "url": "https://www.ovohydro.com/events/detail/teddy-swims-2027 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/teddy-swims-2027",
+    "timing_source": "estimated_19_30",
+    "source_text": "TUE 13 APR / 27",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Gracie Abrams",
-    "date": "2027-04-27",
-    "start": "2027-04-27T19:30:00+01:00",
-    "end": "2027-04-27T22:30:00+01:00",
-    "category": "Music & Entertainment",
-    "date_text": "27 - 28 Apr / 27",
-    "url": "https://www.ovohydro.com/events/detail/gracie-abrams-2027 \"More Info\"",
-    "time_is_estimated": true
+    "title": "THOMAS RHETT",
+    "start": "2027-04-25T18:00:00+01:00",
+    "end": "2027-04-25T21:00:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/thomas-rhett",
+    "timing_source": "published_doors_time",
+    "source_text": "SUN 25 APR / 27",
+    "script_version": "7.0.0"
   },
   {
-    "title": "Gracie Abrams",
-    "date": "2027-04-28",
+    "title": "THOMAS RHETT",
+    "start": "2027-04-25T19:30:00+01:00",
+    "end": "2027-04-25T22:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/thomas-rhett",
+    "timing_source": "estimated_19_30",
+    "source_text": "SUN 25 APR / 27",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "GRACIE ABRAMS",
+    "start": "2027-04-27T18:30:00+01:00",
+    "end": "2027-04-27T21:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/gracie-abrams-2027",
+    "timing_source": "published_doors_time",
+    "source_text": "TUE 27 APR / 27",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "GRACIE ABRAMS",
+    "start": "2027-04-28T18:30:00+01:00",
+    "end": "2027-04-28T21:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/gracie-abrams-2027",
+    "timing_source": "published_doors_time",
+    "source_text": "WED 28 APR / 27",
+    "script_version": "7.0.0"
+  },
+  {
+    "title": "GRACIE ABRAMS",
     "start": "2027-04-28T19:30:00+01:00",
     "end": "2027-04-28T22:30:00+01:00",
-    "category": "Music & Entertainment",
-    "date_text": "27 - 28 Apr / 27",
-    "url": "https://www.ovohydro.com/events/detail/gracie-abrams-2027 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/gracie-abrams-2027",
+    "timing_source": "estimated_19_30",
+    "source_text": "27 - 28 APR / 27",
+    "script_version": "7.0.0"
   },
   {
-    "title": "John Bishop",
-    "date": "2027-04-30",
+    "title": "JOHN BISHOP",
     "start": "2027-04-30T19:30:00+01:00",
     "end": "2027-04-30T22:30:00+01:00",
-    "category": "Comedy",
-    "date_text": "Fri 30 Apr / 27",
-    "url": "https://www.ovohydro.com/events/detail/john-bishop-2027 \"More Info\"",
-    "time_is_estimated": true
+    "url": "https://www.ovohydro.com/events/detail/john-bishop-2027",
+    "timing_source": "estimated_19_30",
+    "source_text": "FRI 30 APR / 27",
+    "script_version": "7.0.0"
   }
 ]
