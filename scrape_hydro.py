@@ -14,7 +14,7 @@ from bs4 import BeautifulSoup
 from icalendar import Calendar, Event, vText
 from zoneinfo import ZoneInfo
 
-SCRIPT_VERSION = "7.0.0"
+SCRIPT_VERSION = "7.1.0"
 EVENTS_URL = "https://www.ovohydro.com/events/all"
 BASE_URL = "https://www.ovohydro.com"
 OUTPUT_FILE = Path("docs/ovo-hydro.ics")
@@ -172,7 +172,44 @@ def listing_links(page: Page) -> list[tuple[str, str]]:
     return list(items.values())
 
 
+def expand_all_showings(page: Page) -> None:
+    """Expand collapsed performance rows before reading the event page."""
+    selectors = [
+        page.get_by_text("View All Showings", exact=True),
+        page.get_by_role("button", name=re.compile(r"view all showings", re.I)),
+        page.get_by_role("link", name=re.compile(r"view all showings", re.I)),
+    ]
+
+    for locator in selectors:
+        try:
+            if locator.count() == 0:
+                continue
+
+            candidate = locator.first
+            if not candidate.is_visible():
+                continue
+
+            before = page.locator("body").inner_text(timeout=30_000)
+            candidate.scroll_into_view_if_needed()
+            candidate.click(timeout=15_000)
+            page.wait_for_timeout(1_000)
+
+            # Some versions animate or populate the remaining rows after click.
+            for _ in range(10):
+                after = page.locator("body").inner_text(timeout=30_000)
+                if len(after) > len(before) + 100:
+                    return
+                page.wait_for_timeout(300)
+
+            return
+
+        except Exception:
+            continue
+
+
 def detail_lines(page: Page, expected_title: str) -> tuple[str, list[str]]:
+    expand_all_showings(page)
+
     h1 = page.locator("h1").first
     if h1.count() == 0:
         raise RuntimeError("Detail page has no H1 event title")
@@ -198,8 +235,12 @@ def detail_lines(page: Page, expected_title: str) -> tuple[str, list[str]]:
     for line in lines[title_index + 1:title_index + 400]:
         lowered = line.lower()
 
-        if lowered == "view all showings" and section:
-            break
+        # After expansion this control normally sits after the complete
+        # performance list. If it appears before any dates, ignore it.
+        if lowered == "view all showings":
+            if any(parse_date(existing) is not None for existing in section):
+                break
+            continue
 
         section.append(line)
 
@@ -208,6 +249,9 @@ def detail_lines(page: Page, expected_title: str) -> tuple[str, list[str]]:
 
 def parse_detail(page: Page, url: str, expected_title: str) -> list[Entry]:
     title, lines = detail_lines(page, expected_title)
+    visible_date_rows = sum(parse_date(line) is not None for line in lines)
+    print(f"  rendered showing rows for {title}: {visible_date_rows}")
+
     today = datetime.now(TZ).date()
     entries: list[Entry] = []
     current_date: date | None = None
