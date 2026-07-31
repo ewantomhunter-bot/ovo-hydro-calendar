@@ -15,7 +15,7 @@ from bs4 import BeautifulSoup
 from icalendar import Calendar, Event, vText
 from zoneinfo import ZoneInfo
 
-SCRIPT_VERSION = "9.0.0"
+SCRIPT_VERSION = "9.0.1"
 EVENTS_URL = "https://www.ovohydro.com/events/all"
 BASE_URL = "https://www.ovohydro.com"
 OUTPUT_FILE = Path("docs/ovo-hydro.ics")
@@ -25,10 +25,7 @@ CALENDAR_DESCRIPTION = (
     "Events diary for Hydro Club, Super Suite and Executive Suite guests "
     "at the OVO Hydro."
 )
-VENUE = (
-    "OVO Hydro — Executive Entrance / Hydro Club Reception, "
-    "Exhibition Way, Glasgow, G3 8YW"
-)
+VENUE = "OVO Hydro, SEC, Glasgow, G3 8YW"
 TZ = ZoneInfo("Europe/London")
 UTC = timezone.utc
 DEFAULT_START = time(19, 30)
