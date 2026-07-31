@@ -14,7 +14,7 @@ from bs4 import BeautifulSoup
 from icalendar import Calendar, Event, vText
 from zoneinfo import ZoneInfo
 
-SCRIPT_VERSION = "8.0.0"
+SCRIPT_VERSION = "8.1.0"
 EVENTS_URL = "https://www.ovohydro.com/events/all"
 BASE_URL = "https://www.ovohydro.com"
 OUTPUT_FILE = Path("docs/ovo-hydro.ics")
@@ -336,57 +336,87 @@ def detail_lines(page: Page, expected_title: str) -> tuple[str, list[str]]:
 
 
 def parse_detail(page: Page, url: str, expected_title: str) -> list[Entry]:
-    title, lines = detail_lines(page, expected_title)
-    visible_date_rows = sum(parse_date(line) is not None for line in lines)
-    print(f"  rendered showing rows for {title}: {visible_date_rows}")
+    """
+    Parse only the site's actual performance rows.
+
+    Reading the whole page body is unsafe: presale dates, reschedule notices,
+    FAQ copy and related content can all contain valid-looking dates. The
+    `.showing_item` elements are the authoritative list of performances.
+    """
+    expand_all_showings(page)
+
+    h1 = page.locator("h1").first
+    if h1.count() == 0:
+        raise RuntimeError("Detail page has no H1 event title")
+    title = clean(h1.inner_text()) or clean(expected_title)
+
+    rows = page.locator(".showings_list .showing_item")
+    if rows.count() == 0:
+        rows = page.locator(".showings .showing_item")
+
+    print(f"  rendered showing rows for {title}: {rows.count()}")
 
     today = datetime.now(TZ).date()
     entries: list[Entry] = []
-    current_date: date | None = None
-    current_source = ""
-    current_doors: time | None = None
-    current_show: time | None = None
 
-    def flush() -> None:
-        nonlocal current_date, current_source, current_doors, current_show
-        if current_date is None or current_date < today:
-            current_date = None
-            current_doors = None
-            current_show = None
-            return
-        if current_show is not None:
-            chosen, timing_source = current_show, "published_show_time"
-        elif current_doors is not None:
-            chosen, timing_source = current_doors, "published_doors_time"
+    for index in range(rows.count()):
+        row = rows.nth(index)
+        source_text = clean(row.inner_text())
+
+        date_locator = row.locator(".date").first
+        if date_locator.count() == 0:
+            continue
+
+        event_date = parse_date(clean(date_locator.inner_text()))
+        if event_date is None or event_date < today:
+            continue
+
+        doors: time | None = None
+        show: time | None = None
+
+        doors_locator = row.locator(".doors").first
+        if doors_locator.count() > 0:
+            doors_text = clean(doors_locator.inner_text())
+            doors_match = DOORS_RE.search(doors_text)
+            if doors_match:
+                doors = parse_clock(doors_match.group(1))
+
+        description_locator = row.locator(".showing_description").first
+        if description_locator.count() > 0:
+            description_text = clean(description_locator.inner_text())
+            show_match = SHOW_RE.search(description_text)
+            if show_match:
+                show = parse_clock(show_match.group(1))
+
+        # Some site variants put the timing text directly in the row.
+        if doors is None:
+            doors_match = DOORS_RE.search(source_text)
+            if doors_match:
+                doors = parse_clock(doors_match.group(1))
+        if show is None:
+            show_match = SHOW_RE.search(source_text)
+            if show_match:
+                show = parse_clock(show_match.group(1))
+
+        if show is not None:
+            chosen, timing_source = show, "published_show_time"
+        elif doors is not None:
+            chosen, timing_source = doors, "published_doors_time"
         else:
             chosen, timing_source = DEFAULT_START, "estimated_19_30"
-        start = datetime.combine(current_date, chosen, tzinfo=TZ)
-        entries.append(Entry(title, start, start + DEFAULT_DURATION, url, timing_source, current_source))
-        current_date = None
-        current_doors = None
-        current_show = None
 
-    for line in lines:
-        event_date = parse_date(line)
-        if event_date is not None:
-            flush()
-            current_date = event_date
-            current_source = line
-            doors_match = DOORS_RE.search(line)
-            if doors_match:
-                current_doors = parse_clock(doors_match.group(1))
-            continue
+        start = datetime.combine(event_date, chosen, tzinfo=TZ)
+        entries.append(
+            Entry(
+                title,
+                start,
+                start + DEFAULT_DURATION,
+                url,
+                timing_source,
+                source_text,
+            )
+        )
 
-        if current_date is None:
-            continue
-        doors_match = DOORS_RE.search(line)
-        if doors_match:
-            current_doors = parse_clock(doors_match.group(1))
-        show_match = SHOW_RE.search(line)
-        if show_match:
-            current_show = parse_clock(show_match.group(1))
-
-    flush()
     return entries
 
 
