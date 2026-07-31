@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import re
 import sys
 from dataclasses import asdict, dataclass
@@ -14,12 +15,20 @@ from bs4 import BeautifulSoup
 from icalendar import Calendar, Event, vText
 from zoneinfo import ZoneInfo
 
-SCRIPT_VERSION = "8.1.0"
+SCRIPT_VERSION = "9.0.0"
 EVENTS_URL = "https://www.ovohydro.com/events/all"
 BASE_URL = "https://www.ovohydro.com"
 OUTPUT_FILE = Path("docs/ovo-hydro.ics")
 DEBUG_FILE = Path("docs/events.json")
-VENUE = "OVO Hydro, SEC, Glasgow, G3 8YW"
+CALENDAR_NAME = "OVO Hydro Hospitality Events"
+CALENDAR_DESCRIPTION = (
+    "Events diary for Hydro Club, Super Suite and Executive Suite guests "
+    "at the OVO Hydro."
+)
+VENUE = (
+    "OVO Hydro — Executive Entrance / Hydro Club Reception, "
+    "Exhibition Way, Glasgow, G3 8YW"
+)
 TZ = ZoneInfo("Europe/London")
 UTC = timezone.utc
 DEFAULT_START = time(19, 30)
@@ -67,6 +76,8 @@ class Entry:
     url: str
     timing_source: str
     source_text: str
+    artwork_url: str = ""
+    listing_status: str = ""
 
 
 def clean(value: object) -> str:
@@ -195,7 +206,7 @@ def expand_current_event_listing(page: Page) -> None:
             return
 
 
-def listing_links(page: Page) -> list[tuple[str, str]]:
+def listing_links(page: Page) -> list[tuple[str, str, str]]:
     """
     Return only event pages represented by visible cards on the current
     official OVO Hydro What's On listing.
@@ -205,7 +216,7 @@ def listing_links(page: Page) -> list[tuple[str, str]]:
     open_page(page, EVENTS_URL)
     expand_current_event_listing(page)
 
-    items: dict[str, tuple[str, str]] = {}
+    items: dict[str, tuple[str, str, str]] = {}
 
     anchors = page.locator('main a[href*="/events/detail/"]')
     if anchors.count() == 0:
@@ -255,7 +266,23 @@ def listing_links(page: Page) -> list[tuple[str, str]]:
         if not title or title.lower() in ignored_text:
             continue
 
-        items[url] = (title, url)
+        status = clean(
+            anchor.evaluate(
+                """
+                (node) => {
+                    const card = node.closest(
+                        'article, li, [class*="event"], [class*="card"]'
+                    ) || node.parentElement;
+                    const alert = card
+                        ? card.querySelector('.event_alert')
+                        : null;
+                    return alert ? alert.textContent : '';
+                }
+                """
+            )
+        )
+
+        items[url] = (title, url, status)
 
     return list(items.values())
 
@@ -335,7 +362,12 @@ def detail_lines(page: Page, expected_title: str) -> tuple[str, list[str]]:
     return title, section
 
 
-def parse_detail(page: Page, url: str, expected_title: str) -> list[Entry]:
+def parse_detail(
+    page: Page,
+    url: str,
+    expected_title: str,
+    listing_status: str = "",
+) -> list[Entry]:
     """
     Parse only the site's actual performance rows.
 
@@ -349,6 +381,13 @@ def parse_detail(page: Page, url: str, expected_title: str) -> list[Entry]:
     if h1.count() == 0:
         raise RuntimeError("Detail page has no H1 event title")
     title = clean(h1.inner_text()) or clean(expected_title)
+
+    artwork_url = ""
+    artwork = page.locator('meta[property="og:image"]').first
+    if artwork.count() > 0:
+        artwork_url = clean(artwork.get_attribute("content"))
+    if artwork_url:
+        artwork_url = urljoin(BASE_URL, artwork_url)
 
     rows = page.locator(".showings_list .showing_item")
     if rows.count() == 0:
@@ -414,6 +453,8 @@ def parse_detail(page: Page, url: str, expected_title: str) -> list[Entry]:
                 url,
                 timing_source,
                 source_text,
+                artwork_url,
+                listing_status,
             )
         )
 
@@ -502,11 +543,12 @@ def uid(entry: Entry, performances_for_url: int) -> str:
 
 def build_calendar(entries: list[Entry]) -> bytes:
     cal = Calendar()
-    cal.add("prodid", "-//Ewan Hunter//OVO Hydro Calendar//EN")
+    cal.add("prodid", "-//Ewan Hunter//OVO Hydro Hospitality Calendar//EN")
     cal.add("version", "2.0")
     cal.add("calscale", "GREGORIAN")
     cal.add("method", "PUBLISH")
-    cal.add("x-wr-calname", "OVO Hydro Events")
+    cal.add("x-wr-calname", CALENDAR_NAME)
+    cal.add("x-wr-caldesc", CALENDAR_DESCRIPTION)
     cal.add("x-wr-timezone", "Europe/London")
     cal.add("refresh-interval;value=duration", "PT12H")
     cal.add("x-published-ttl", "PT12H")
@@ -522,24 +564,83 @@ def build_calendar(entries: list[Entry]) -> bytes:
     for entry in entries:
         event = Event()
         canonical_url = entry.url.split("?")[0].rstrip("/").lower()
+        status_lower = entry.listing_status.lower()
+        is_cancelled = "cancel" in status_lower
+        is_rescheduled = "reschedul" in status_lower
+
         event.add(
             "uid",
             uid(entry, performance_counts[canonical_url]),
         )
         event.add("dtstamp", generated)
         event.add("last-modified", generated)
-        event.add("summary", entry.title)
+        if is_cancelled:
+            summary = f"❌ CANCELLED — {entry.title}"
+        elif is_rescheduled:
+            summary = f"⚠️ RESCHEDULED — {entry.title}"
+        else:
+            summary = entry.title
+
+        event.add("summary", summary)
         event.add("dtstart", entry.start)
         event.add("dtend", entry.end)
         event.add("url", entry.url)
         event["location"] = vText(VENUE)
-        if entry.timing_source == "published_show_time":
-            note = "Time shown is the official published show time."
-        elif entry.timing_source == "published_doors_time":
-            note = "Time shown is the official doors time; the show time has not yet been confirmed."
+        event.add("categories", ["OVO Hydro Hospitality"])
+
+        if is_cancelled:
+            event.add("status", "CANCELLED")
         else:
-            note = "No official time was published, so 7:30pm is provisional."
-        event.add("description", f"{note}\n\nOfficial event page: {entry.url}")
+            event.add("status", "CONFIRMED")
+
+        if entry.artwork_url:
+            lowered_artwork = entry.artwork_url.lower().split("?")[0]
+            if lowered_artwork.endswith(".png"):
+                artwork_type = "image/png"
+            elif lowered_artwork.endswith(".webp"):
+                artwork_type = "image/webp"
+            else:
+                artwork_type = "image/jpeg"
+            event.add(
+                "attach",
+                entry.artwork_url,
+                parameters={"FMTTYPE": artwork_type, "VALUE": "URI"},
+            )
+
+        if entry.timing_source == "published_show_time":
+            timing_note = "The calendar start is the published show time."
+        elif entry.timing_source == "published_doors_time":
+            timing_note = (
+                "The calendar start is the published public doors time; "
+                "the show time has not yet been confirmed."
+            )
+        else:
+            timing_note = (
+                "No official time has been published, so the calendar start "
+                "of 7:30pm is provisional."
+            )
+
+        if is_cancelled:
+            status_note = "CANCELLED — please refer to the latest hospitality communication."
+        elif is_rescheduled:
+            status_note = "RESCHEDULED — please refer to the latest hospitality communication."
+        else:
+            status_note = "Confirmed on the current OVO Hydro event listing."
+
+        description = (
+            "HOSPITALITY ACCESS\n\n"
+            "Please arrive via the Executive Entrance and check in at "
+            "Hydro Club Reception.\n\n"
+            "Hospitality arrival and dining times vary by event and will be "
+            "confirmed separately by the OVO Hydro hospitality team.\n\n"
+            "EVENT INFORMATION\n\n"
+            f"Status: {status_note}\n"
+            f"{timing_note}\n\n"
+            "Calendar timings are indicative and should not replace your "
+            "event-specific hospitality confirmation.\n\n"
+            f"Official event details: {entry.url}"
+        )
+        event.add("description", description)
         cal.add_component(event)
     return cal.to_ical()
 
@@ -569,9 +670,175 @@ def validate(entries: list[Entry], title_count: int) -> None:
             raise RuntimeError("Two Doors Down evening performances are missing")
 
 
+def load_previous_events() -> list[dict[str, object]]:
+    """Load the last published snapshot for announcement/change detection."""
+    if not DEBUG_FILE.exists():
+        return []
+    try:
+        payload = json.loads(DEBUG_FILE.read_text(encoding="utf-8"))
+        if isinstance(payload, list):
+            return [item for item in payload if isinstance(item, dict)]
+    except (OSError, json.JSONDecodeError):
+        pass
+    return []
+
+
+def cancelled_entries_from_previous(
+    previous: list[dict[str, object]],
+    url: str,
+    listing_status: str,
+) -> list[Entry]:
+    """Retain future dated entries when the official listing marks them cancelled."""
+    restored: list[Entry] = []
+    today = datetime.now(TZ).date()
+
+    for item in previous:
+        if clean(item.get("url")) != url:
+            continue
+        try:
+            start = datetime.fromisoformat(clean(item.get("start")))
+            end = datetime.fromisoformat(clean(item.get("end")))
+        except ValueError:
+            continue
+        if start.date() < today:
+            continue
+        restored.append(
+            Entry(
+                title=clean(item.get("title")),
+                start=start,
+                end=end,
+                url=url,
+                timing_source=clean(item.get("timing_source")) or "estimated_19_30",
+                source_text=clean(item.get("source_text")),
+                artwork_url=clean(item.get("artwork_url")),
+                listing_status=listing_status,
+            )
+        )
+
+    return restored
+
+
+def report_changes(
+    previous: list[dict[str, object]],
+    current: list[Entry],
+) -> None:
+    """
+    Surface newly announced, removed and changed events in the Actions log.
+
+    This deliberately does not email clients. It creates a clear notification
+    summary that can later feed the hospitality team's preferred email system.
+    """
+    if not previous:
+        print("No previous event snapshot available for change detection.")
+        return
+
+    old_by_url: dict[str, dict[str, object]] = {}
+    for item in previous:
+        url = clean(item.get("url"))
+        if not url:
+            continue
+        record = old_by_url.setdefault(
+            url,
+            {"title": clean(item.get("title")), "dates": set()},
+        )
+        start = clean(item.get("start"))
+        if start:
+            record["dates"].add(start[:10])  # type: ignore[union-attr]
+
+    new_by_url: dict[str, dict[str, object]] = {}
+    for entry in current:
+        record = new_by_url.setdefault(
+            entry.url,
+            {
+                "title": entry.title,
+                "dates": set(),
+                "status": entry.listing_status,
+            },
+        )
+        record["dates"].add(entry.start.date().isoformat())  # type: ignore[union-attr]
+
+    old_urls = set(old_by_url)
+    new_urls = set(new_by_url)
+    new_events = sorted(new_urls - old_urls)
+    removed_events = sorted(old_urls - new_urls)
+
+    added_dates: list[tuple[str, str]] = []
+    rescheduled: list[tuple[str, str, str]] = []
+    cancelled: list[str] = []
+
+    for url in sorted(old_urls & new_urls):
+        old_record = old_by_url[url]
+        new_record = new_by_url[url]
+        old_dates = old_record["dates"]
+        new_dates = new_record["dates"]
+        status = clean(new_record.get("status"))
+        title = clean(new_record.get("title"))
+
+        if "cancel" in status.lower():
+            cancelled.append(title)
+        elif "reschedul" in status.lower() and old_dates != new_dates:
+            rescheduled.append(
+                (
+                    title,
+                    ", ".join(sorted(old_dates)),  # type: ignore[arg-type]
+                    ", ".join(sorted(new_dates)),  # type: ignore[arg-type]
+                )
+            )
+        else:
+            for added in sorted(new_dates - old_dates):  # type: ignore[operator]
+                added_dates.append((title, added))
+
+    lines = ["## OVO Hydro hospitality calendar changes", ""]
+
+    if new_events:
+        lines.extend(["### Newly announced", ""])
+        for url in new_events:
+            title = clean(new_by_url[url]["title"])
+            dates = ", ".join(sorted(new_by_url[url]["dates"]))  # type: ignore[arg-type]
+            lines.append(f"- **{title}** — {dates}")
+            print(f"::notice title=New OVO Hydro event::{title} — {dates}")
+
+    if added_dates:
+        lines.extend(["", "### Additional dates", ""])
+        for title, added in added_dates:
+            lines.append(f"- **{title}** — {added}")
+            print(f"::notice title=Additional OVO Hydro date::{title} — {added}")
+
+    if rescheduled:
+        lines.extend(["", "### Rescheduled", ""])
+        for title, old_dates, new_dates in rescheduled:
+            lines.append(f"- **{title}** — {old_dates} → {new_dates}")
+            print(
+                f"::warning title=OVO Hydro event rescheduled::"
+                f"{title} — {old_dates} to {new_dates}"
+            )
+
+    if cancelled:
+        lines.extend(["", "### Cancelled", ""])
+        for title in cancelled:
+            lines.append(f"- **{title}**")
+            print(f"::warning title=OVO Hydro event cancelled::{title}")
+
+    if removed_events:
+        lines.extend(["", "### Removed from the official listing", ""])
+        for url in removed_events:
+            title = clean(old_by_url[url]["title"])
+            lines.append(f"- **{title}**")
+            print(f"::warning title=OVO Hydro event removed::{title}")
+
+    if len(lines) == 2:
+        lines.append("No event additions, removals or schedule changes detected.")
+
+    summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary_path:
+        with Path(summary_path).open("a", encoding="utf-8") as summary:
+            summary.write("\n".join(lines) + "\n")
+
+
 def main() -> int:
     try:
         print(f"Starting OVO Hydro calendar scraper V{SCRIPT_VERSION}")
+        previous_events = load_previous_events()
 
         with sync_playwright() as playwright:
             browser = playwright.chromium.launch(headless=True)
@@ -600,14 +867,28 @@ def main() -> int:
 
             entries: list[Entry] = []
 
-            for position, (listing_title, url) in enumerate(links, start=1):
+            for position, (listing_title, url, listing_status) in enumerate(
+                links,
+                start=1,
+            ):
                 try:
                     open_page(page, url)
                     event_entries = parse_detail(
                         page,
                         url,
                         listing_title,
+                        listing_status,
                     )
+
+                    if (
+                        not event_entries
+                        and "cancel" in listing_status.lower()
+                    ):
+                        event_entries = cancelled_entries_from_previous(
+                            previous_events,
+                            url,
+                            listing_status,
+                        )
 
                     if event_entries:
                         entries.extend(event_entries)
@@ -650,6 +931,8 @@ def main() -> int:
                     f"CHECK {expected}: "
                     f"{len(matches)} calendar entries"
                 )
+
+        report_changes(previous_events, entries)
 
         OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
         OUTPUT_FILE.write_bytes(build_calendar(entries))
