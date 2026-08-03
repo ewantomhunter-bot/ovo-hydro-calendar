@@ -1,17 +1,5 @@
 [
   {
-    "title": "GLASGOW 2026 COMMONWEALTH GAMES: NETBALL",
-    "start": "2026-08-02T19:30:00+01:00",
-    "end": "2026-08-02T22:30:00+01:00",
-    "url": "https://www.ovohydro.com/events/detail/glasgow-2026-commonwealth-games-netball",
-    "timing_source": "estimated_19_30",
-    "source_text": "SUN 2 AUG / 26 Various sessions and times available",
-    "artwork_url": "https://www.sec.co.uk/assets/img/Netball-800x423-18cdc6f628.png",
-    "listing_status": "",
-    "script_version": "9.0.1",
-    "source": "visible_current_ovo_listing"
-  },
-  {
     "title": "HOLLYWOOD VAMPIRES",
     "start": "2026-08-17T18:30:00+01:00",
     "end": "2026-08-17T21:30:00+01:00",
@@ -1171,6 +1159,18 @@
     "timing_source": "published_doors_time",
     "source_text": "SUN 14 MAR / 27 DOORS: 4.15PM Showtimes will be updated when confirmed by the event promoter.",
     "artwork_url": "https://www.sec.co.uk/assets/img/C2C-Generic-800x423-a921ecc001.png",
+    "listing_status": "",
+    "script_version": "9.0.1",
+    "source": "visible_current_ovo_listing"
+  },
+  {
+    "title": "MEGADETH",
+    "start": "2027-03-16T18:30:00+00:00",
+    "end": "2027-03-16T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/megadeth",
+    "timing_source": "published_doors_time",
+    "source_text": "TUE 16 MAR / 27 DOORS: 6:30PM Showtimes will be updated when confirmed by the event promoter.",
+    "artwork_url": "https://www.sec.co.uk/assets/img/800-x-423-megadeth-8a179531cb.png",
     "listing_status": "",
     "script_version": "9.0.1",
     "source": "visible_current_ovo_listing"
