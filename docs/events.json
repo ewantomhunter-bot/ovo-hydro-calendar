@@ -1246,5 +1246,17 @@
     "listing_status": "",
     "script_version": "9.0.1",
     "source": "visible_current_ovo_listing"
+  },
+  {
+    "title": "WEEZER",
+    "start": "2027-05-19T18:30:00+01:00",
+    "end": "2027-05-19T21:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/weezer",
+    "timing_source": "published_doors_time",
+    "source_text": "WED 19 MAY / 27 DOORS: 18.30 Showtimes will be updated when confirmed by the event promoter. FIND TICKETS",
+    "artwork_url": "https://www.sec.co.uk/assets/img/weezer-800x423-738854547b.jpg",
+    "listing_status": "",
+    "script_version": "9.0.1",
+    "source": "visible_current_ovo_listing"
   }
 ]
