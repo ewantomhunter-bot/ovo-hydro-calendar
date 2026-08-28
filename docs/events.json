@@ -1,23 +1,11 @@
 [
   {
-    "title": "AEW: DYNAMITE & COLLISION",
-    "start": "2026-08-26T17:30:00+01:00",
-    "end": "2026-08-26T20:30:00+01:00",
-    "url": "https://www.ovohydro.com/events/detail/aew-dynamite-collision-2026",
-    "timing_source": "published_doors_time",
-    "source_text": "WED 26 AUG / 26 DOORS: 5.30PM 1730 Doors open 1800 Event starts 2300 Event finish FIND TICKETS VENUE PREMIUM",
-    "artwork_url": "https://www.sec.co.uk/assets/img/AEW-Dynamite-Collision-Glasgow-800x423-9f3350d7e6.jpg",
-    "listing_status": "",
-    "script_version": "9.0.1",
-    "source": "visible_current_ovo_listing"
-  },
-  {
     "title": "THE WATERBOYS: FISHERMAN'S BLUES REVUE",
     "start": "2026-08-29T18:30:00+01:00",
     "end": "2026-08-29T21:30:00+01:00",
     "url": "https://www.ovohydro.com/events/detail/the-waterboys-fishermans-blues-revue",
     "timing_source": "published_doors_time",
-    "source_text": "SAT 29 AUG / 26 DOORS: 18.30 Showtimes will be updated when confirmed by the event promoter. FIND TICKETS VENUE PREMIUM",
+    "source_text": "SAT 29 AUG / 26 DOORS: 18.30 1830 Doors open 1945 Event starts 2235 Event finishes FIND TICKETS VENUE PREMIUM",
     "artwork_url": "https://www.sec.co.uk/assets/img/The-Waterboys-Hydro-Assets-NEW_800-x-423-1d79966abc.png",
     "listing_status": "",
     "script_version": "9.0.1",
@@ -708,6 +696,18 @@
     "source": "visible_current_ovo_listing"
   },
   {
+    "title": "FONTAINES DC",
+    "start": "2026-11-22T18:30:00+00:00",
+    "end": "2026-11-22T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/fontaines-dc-2026",
+    "timing_source": "published_doors_time",
+    "source_text": "SUN 22 NOV / 26 DOORS: 6:30PM Showtimes will be updated when confirmed by the event promoter. FIND TICKETS VENUE PREMIUM",
+    "artwork_url": "https://www.sec.co.uk/assets/img/800-x-423-fontaines-dc-a71f37601d.png",
+    "listing_status": "",
+    "script_version": "9.0.1",
+    "source": "visible_current_ovo_listing"
+  },
+  {
     "title": "ANNA LAPWOOD",
     "start": "2026-11-24T18:00:00+00:00",
     "end": "2026-11-24T21:00:00+00:00",
@@ -1207,6 +1207,18 @@
     "timing_source": "published_doors_time",
     "source_text": "TUE 16 MAR / 27 DOORS: 6:30PM Showtimes will be updated when confirmed by the event promoter. FIND TICKETS VENUE PREMIUM",
     "artwork_url": "https://www.sec.co.uk/assets/img/800-x-423-megadeth-8a179531cb.png",
+    "listing_status": "",
+    "script_version": "9.0.1",
+    "source": "visible_current_ovo_listing"
+  },
+  {
+    "title": "SONNY FODERA",
+    "start": "2027-03-20T18:30:00+00:00",
+    "end": "2027-03-20T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/sonny-fodera-2027",
+    "timing_source": "published_doors_time",
+    "source_text": "SAT 20 MAR / 27 DOORS: 6.30PM Showtimes will be updated when confirmed by the event promoter. FIND TICKETS VENUE PREMIUM",
+    "artwork_url": "https://www.sec.co.uk/assets/img/Sonny-Fodera-800x423-67dc3701d3.png",
     "listing_status": "",
     "script_version": "9.0.1",
     "source": "visible_current_ovo_listing"
