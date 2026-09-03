@@ -1,17 +1,5 @@
 [
   {
-    "title": "THE NEIGHBOURHOOD",
-    "start": "2026-09-02T18:30:00+01:00",
-    "end": "2026-09-02T21:30:00+01:00",
-    "url": "https://www.ovohydro.com/events/detail/the-neighbourhood",
-    "timing_source": "published_doors_time",
-    "source_text": "WED 2 SEP / 26 DOORS: 6.30PM 1830 Doors open 1900 Event starts 2300 Event curfew FIND TICKETS VENUE PREMIUM",
-    "artwork_url": "https://www.sec.co.uk/assets/img/The-Neighbourhood-800-x-423-cb96eb9fb4.png",
-    "listing_status": "",
-    "script_version": "9.0.1",
-    "source": "visible_current_ovo_listing"
-  },
-  {
     "title": "A$AP ROCKY",
     "start": "2026-09-04T18:30:00+01:00",
     "end": "2026-09-04T21:30:00+01:00",
@@ -1303,6 +1291,18 @@
     "timing_source": "published_show_time",
     "source_text": "FRI 30 APR / 27 DOORS: 6.00PM Show time 7.30pm FIND TICKETS VENUE PREMIUM",
     "artwork_url": "https://www.sec.co.uk/assets/img/JOHNBISHOP-800x423-543850fb16.jpg",
+    "listing_status": "",
+    "script_version": "9.0.1",
+    "source": "visible_current_ovo_listing"
+  },
+  {
+    "title": "SIMPLE MINDS",
+    "start": "2027-05-14T19:30:00+01:00",
+    "end": "2027-05-14T22:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/simple-minds-2027",
+    "timing_source": "estimated_19_30",
+    "source_text": "FRI 14 MAY / 27 Showtimes will be updated when confirmed by the event promoter.",
+    "artwork_url": "https://www.sec.co.uk/assets/img/Simple-Minds-800x423-19eebb3f12.png",
     "listing_status": "",
     "script_version": "9.0.1",
     "source": "visible_current_ovo_listing"
