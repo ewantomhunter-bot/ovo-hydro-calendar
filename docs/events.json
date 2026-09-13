@@ -1,17 +1,5 @@
 [
   {
-    "title": "KEVIN BRIDGES: HERE IF YOU NEED ME",
-    "start": "2026-09-12T18:30:00+01:00",
-    "end": "2026-09-12T21:30:00+01:00",
-    "url": "https://www.ovohydro.com/events/detail/kevin-bridges-here-if-you-need-me",
-    "timing_source": "published_doors_time",
-    "source_text": "SAT 12 SEP / 26 DOORS: 6.30PM 1830 Doors open 2000 Event starts Support Acts (30 mins) 20:30 Interval Kevin Bridges (80 mins) 2225 Event finishes approx FIND TICKETS VENUE PREMIUM",
-    "artwork_url": "https://www.sec.co.uk/assets/img/KevinBridges_800x423-7abbe05599.jpg",
-    "listing_status": "Extra Dates Added",
-    "script_version": "9.0.1",
-    "source": "visible_current_ovo_listing"
-  },
-  {
     "title": "HILARY DUFF",
     "start": "2026-09-13T18:30:00+01:00",
     "end": "2026-09-13T21:30:00+01:00",
@@ -1423,6 +1411,18 @@
     "timing_source": "published_doors_time",
     "source_text": "WED 23 JUN / 27 DOORS: 6.30PM Showtimes will be updated when confirmed by the event promoter. FIND TICKETS VENUE PREMIUM",
     "artwork_url": "https://www.sec.co.uk/assets/img/800-x-423-Hayley-Williams-5c6e297d8e.png",
+    "listing_status": "",
+    "script_version": "9.0.1",
+    "source": "visible_current_ovo_listing"
+  },
+  {
+    "title": "DEACON BLUE",
+    "start": "2027-10-29T18:30:00+01:00",
+    "end": "2027-10-29T21:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/deacon-blue-2027",
+    "timing_source": "published_doors_time",
+    "source_text": "FRI 29 OCT / 27 DOORS: 6.30PM Showtimes will be updated when confirmed by the event promoter.",
+    "artwork_url": "https://www.sec.co.uk/assets/img/800-x-423-deacon-blue-4398812f6d.png",
     "listing_status": "",
     "script_version": "9.0.1",
     "source": "visible_current_ovo_listing"
