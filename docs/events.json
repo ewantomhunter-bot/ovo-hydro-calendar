@@ -1152,6 +1152,18 @@
     "source": "visible_current_ovo_listing"
   },
   {
+    "title": "CHASE & STATUS",
+    "start": "2027-03-18T18:30:00+00:00",
+    "end": "2027-03-18T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/chase-status-2027",
+    "timing_source": "published_doors_time",
+    "source_text": "THU 18 MAR / 27 DOORS: 6:30PM Showtimes will be updated when confirmed by the event promoter. FIND TICKETS VENUE PREMIUM",
+    "artwork_url": "https://www.sec.co.uk/assets/img/800-x-423-chase-and-status-a9e9690f34.png",
+    "listing_status": "",
+    "script_version": "9.0.1",
+    "source": "visible_current_ovo_listing"
+  },
+  {
     "title": "SONNY FODERA",
     "start": "2027-03-20T18:30:00+00:00",
     "end": "2027-03-20T21:30:00+00:00",
@@ -1457,7 +1469,7 @@
     "end": "2027-10-31T21:30:00+00:00",
     "url": "https://www.ovohydro.com/events/detail/deacon-blue-2027",
     "timing_source": "published_doors_time",
-    "source_text": "SUN 31 OCT / 27 DOORS: 6:30PM Showtimes will be updated when confirmed by the event promoter. VENUE PREMIUM",
+    "source_text": "SUN 31 OCT / 27 DOORS: 6:30PM Showtimes will be updated when confirmed by the event promoter. FIND TICKETS VENUE PREMIUM",
     "artwork_url": "https://www.sec.co.uk/assets/img/800-x-423-deacon-blue-no-dates-7b401f0de2.png",
     "listing_status": "Extra Dates Added",
     "script_version": "9.0.1",
