@@ -1,18 +1,6 @@
 [
   {
     "title": "TWO DOORS DOWN",
-    "start": "2026-09-25T19:30:00+01:00",
-    "end": "2026-09-25T22:30:00+01:00",
-    "url": "https://www.ovohydro.com/events/detail/two-doors-down",
-    "timing_source": "estimated_19_30",
-    "source_text": "FRI 25 SEP / 26 1830 Doors open 1930 Event starts 2140 Event finishes FIND TICKETS VENUE PREMIUM",
-    "artwork_url": "https://www.sec.co.uk/assets/img/TwoDoorsDown_800x423_Hydro_website_UPDATE-1476545486.jpg",
-    "listing_status": "",
-    "script_version": "9.0.1",
-    "source": "visible_current_ovo_listing"
-  },
-  {
-    "title": "TWO DOORS DOWN",
     "start": "2026-09-26T19:30:00+01:00",
     "end": "2026-09-26T22:30:00+01:00",
     "url": "https://www.ovohydro.com/events/detail/two-doors-down",
@@ -41,7 +29,7 @@
     "end": "2026-09-28T21:30:00+01:00",
     "url": "https://www.ovohydro.com/events/detail/niall-horan-2026",
     "timing_source": "published_doors_time",
-    "source_text": "MON 28 SEP / 26 DOORS: 6.30PM Showtimes will be updated when confirmed by the event promoter. FIND TICKETS VENUE PREMIUM",
+    "source_text": "MON 28 SEP / 26 DOORS: 6.30PM 1830 Doors open 1930 Event starts 2230 Event finishes FIND TICKETS VENUE PREMIUM",
     "artwork_url": "https://www.sec.co.uk/assets/img/niall-Support-800x423-44a0904957.png",
     "listing_status": "",
     "script_version": "9.0.1",
@@ -684,18 +672,6 @@
     "source": "visible_current_ovo_listing"
   },
   {
-    "title": "JESSIE WARE",
-    "start": "2026-12-04T18:30:00+00:00",
-    "end": "2026-12-04T21:30:00+00:00",
-    "url": "https://www.ovohydro.com/events/detail/jessie-ware",
-    "timing_source": "published_doors_time",
-    "source_text": "FRI 4 DEC / 26 DOORS: 6.30PM Showtimes will be updated when confirmed by the event promoter.",
-    "artwork_url": "https://www.sec.co.uk/assets/img/JessieWare_Superbloom_TourArtwork_IG_Grid_Glasgow-800x423-58f2dced74.jpg",
-    "listing_status": "",
-    "script_version": "9.0.1",
-    "source": "visible_current_ovo_listing"
-  },
-  {
     "title": "BLOSSOMS",
     "start": "2026-12-05T18:30:00+00:00",
     "end": "2026-12-05T21:30:00+00:00",
@@ -1109,7 +1085,7 @@
     "end": "2027-02-23T20:30:00+00:00",
     "url": "https://www.ovohydro.com/events/detail/bullet-for-my-valentine",
     "timing_source": "published_doors_time",
-    "source_text": "TUE 23 FEB / 27 DOORS: 17.30 Showtimes will be updated when confirmed by the event promoter.",
+    "source_text": "TUE 23 FEB / 27 DOORS: 17.30 Showtimes will be updated when confirmed by the event promoter. FIND TICKETS",
     "artwork_url": "https://www.sec.co.uk/assets/img/IMAGE-FOR-LISTINGS-800X423-f92074750f.jpg",
     "listing_status": "",
     "script_version": "9.0.1",
