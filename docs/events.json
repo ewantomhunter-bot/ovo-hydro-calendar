@@ -1,17 +1,5 @@
 [
   {
-    "title": "TWO DOORS DOWN",
-    "start": "2026-09-27T19:30:00+01:00",
-    "end": "2026-09-27T22:30:00+01:00",
-    "url": "https://www.ovohydro.com/events/detail/two-doors-down",
-    "timing_source": "estimated_19_30",
-    "source_text": "SUN 27 SEP / 26 1830 Doors open 1930 Event starts 2140 Event finishes FIND TICKETS VENUE PREMIUM",
-    "artwork_url": "https://www.sec.co.uk/assets/img/TwoDoorsDown_800x423_Hydro_website_UPDATE-1476545486.jpg",
-    "listing_status": "",
-    "script_version": "9.0.1",
-    "source": "visible_current_ovo_listing"
-  },
-  {
     "title": "NIALL HORAN",
     "start": "2026-09-28T18:30:00+01:00",
     "end": "2026-09-28T21:30:00+01:00",
@@ -101,7 +89,7 @@
     "end": "2026-10-09T22:30:00+01:00",
     "url": "https://www.ovohydro.com/events/detail/two-doors-down",
     "timing_source": "estimated_19_30",
-    "source_text": "FRI 9 OCT / 26 Doors open: 6.30pm Show starts 7.30pm FIND TICKETS VENUE PREMIUM",
+    "source_text": "FRI 9 OCT / 26 Doors open: 6.30pm Show starts 7.30pm VENUE PREMIUM",
     "artwork_url": "https://www.sec.co.uk/assets/img/TwoDoorsDown_800x423_Hydro_website_UPDATE-1476545486.jpg",
     "listing_status": "",
     "script_version": "9.0.1",
@@ -113,7 +101,7 @@
     "end": "2026-10-10T22:30:00+01:00",
     "url": "https://www.ovohydro.com/events/detail/two-doors-down",
     "timing_source": "estimated_19_30",
-    "source_text": "SAT 10 OCT / 26 Doors open: 6.30pm Show starts 7.30pm FIND TICKETS VENUE PREMIUM",
+    "source_text": "SAT 10 OCT / 26 Doors open: 6.30pm Show starts 7.30pm VENUE PREMIUM",
     "artwork_url": "https://www.sec.co.uk/assets/img/TwoDoorsDown_800x423_Hydro_website_UPDATE-1476545486.jpg",
     "listing_status": "",
     "script_version": "9.0.1",
@@ -125,7 +113,7 @@
     "end": "2026-10-11T22:30:00+01:00",
     "url": "https://www.ovohydro.com/events/detail/two-doors-down",
     "timing_source": "estimated_19_30",
-    "source_text": "SUN 11 OCT / 26 Doors open: 6.30pm Show starts 7.30pm FIND TICKETS VENUE PREMIUM",
+    "source_text": "SUN 11 OCT / 26 Doors open: 6.30pm Show starts 7.30pm VENUE PREMIUM",
     "artwork_url": "https://www.sec.co.uk/assets/img/TwoDoorsDown_800x423_Hydro_website_UPDATE-1476545486.jpg",
     "listing_status": "",
     "script_version": "9.0.1",
@@ -1069,11 +1057,11 @@
   },
   {
     "title": "BULLET FOR MY VALENTINE",
-    "start": "2027-02-23T17:30:00+00:00",
-    "end": "2027-02-23T20:30:00+00:00",
+    "start": "2027-02-23T18:00:00+00:00",
+    "end": "2027-02-23T21:00:00+00:00",
     "url": "https://www.ovohydro.com/events/detail/bullet-for-my-valentine",
     "timing_source": "published_doors_time",
-    "source_text": "TUE 23 FEB / 27 DOORS: 17.30 Showtimes will be updated when confirmed by the event promoter. FIND TICKETS",
+    "source_text": "TUE 23 FEB / 27 DOORS: 18.00 Showtimes will be updated when confirmed by the event promoter. FIND TICKETS",
     "artwork_url": "https://www.sec.co.uk/assets/img/IMAGE-FOR-LISTINGS-800X423-f92074750f.jpg",
     "listing_status": "",
     "script_version": "9.0.1",
@@ -1146,7 +1134,7 @@
     "url": "https://www.ovohydro.com/events/detail/country-to-country-2027",
     "timing_source": "published_doors_time",
     "source_text": "FRI 12 MAR / 27 DOORS: 4.15PM Showtimes will be updated when confirmed by the event promoter.",
-    "artwork_url": "https://www.sec.co.uk/assets/img/C2C-Generic-800x423-a921ecc001.png",
+    "artwork_url": "https://www.sec.co.uk/assets/img/C2C27_800x423_Glasgow_1-49bd3df7eb.jpg",
     "listing_status": "",
     "script_version": "9.0.1",
     "source": "visible_current_ovo_listing"
@@ -1158,7 +1146,7 @@
     "url": "https://www.ovohydro.com/events/detail/country-to-country-2027",
     "timing_source": "published_doors_time",
     "source_text": "SAT 13 MAR / 27 DOORS: 4.15PM Showtimes will be updated when confirmed by the event promoter.",
-    "artwork_url": "https://www.sec.co.uk/assets/img/C2C-Generic-800x423-a921ecc001.png",
+    "artwork_url": "https://www.sec.co.uk/assets/img/C2C27_800x423_Glasgow_1-49bd3df7eb.jpg",
     "listing_status": "",
     "script_version": "9.0.1",
     "source": "visible_current_ovo_listing"
@@ -1170,7 +1158,7 @@
     "url": "https://www.ovohydro.com/events/detail/country-to-country-2027",
     "timing_source": "published_doors_time",
     "source_text": "SUN 14 MAR / 27 DOORS: 4.15PM Showtimes will be updated when confirmed by the event promoter.",
-    "artwork_url": "https://www.sec.co.uk/assets/img/C2C-Generic-800x423-a921ecc001.png",
+    "artwork_url": "https://www.sec.co.uk/assets/img/C2C27_800x423_Glasgow_1-49bd3df7eb.jpg",
     "listing_status": "",
     "script_version": "9.0.1",
     "source": "visible_current_ovo_listing"
@@ -1380,6 +1368,18 @@
     "source": "visible_current_ovo_listing"
   },
   {
+    "title": "CAMMY BARNES",
+    "start": "2027-04-23T18:30:00+01:00",
+    "end": "2027-04-23T21:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/cammy-barnes",
+    "timing_source": "published_doors_time",
+    "source_text": "FRI 23 APR / 27 DOORS: 18.30 Showtimes will be updated when confirmed by the event promoter. FIND TICKETS VENUE PREMIUM",
+    "artwork_url": "https://www.sec.co.uk/assets/img/Cammy-Barnes-800x423-4438c62ac3.png",
+    "listing_status": "",
+    "script_version": "9.0.1",
+    "source": "visible_current_ovo_listing"
+  },
+  {
     "title": "THOMAS RHETT",
     "start": "2027-04-25T18:00:00+01:00",
     "end": "2027-04-25T21:00:00+01:00",
@@ -1416,6 +1416,18 @@
     "source": "visible_current_ovo_listing"
   },
   {
+    "title": "ROD STEWART",
+    "start": "2027-04-29T18:30:00+01:00",
+    "end": "2027-04-29T21:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/rod-stewart-2027",
+    "timing_source": "published_doors_time",
+    "source_text": "THU 29 APR / 27 DOORS: 6:30PM Showtimes will be updated when confirmed by the event promoter.",
+    "artwork_url": "https://www.sec.co.uk/assets/img/2904-Glasgow_RodStewart_Europe_2027_800x423-bec17e627c.jpg",
+    "listing_status": "",
+    "script_version": "9.0.1",
+    "source": "visible_current_ovo_listing"
+  },
+  {
     "title": "JOHN BISHOP",
     "start": "2027-04-30T19:30:00+01:00",
     "end": "2027-04-30T22:30:00+01:00",
@@ -1423,6 +1435,18 @@
     "timing_source": "published_show_time",
     "source_text": "FRI 30 APR / 27 DOORS: 6.00PM Show time 7.30pm FIND TICKETS VENUE PREMIUM",
     "artwork_url": "https://www.sec.co.uk/assets/img/JOHNBISHOP-800x423-543850fb16.jpg",
+    "listing_status": "",
+    "script_version": "9.0.1",
+    "source": "visible_current_ovo_listing"
+  },
+  {
+    "title": "ERASURE",
+    "start": "2027-05-09T18:00:00+01:00",
+    "end": "2027-05-09T21:00:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/erasure-2027",
+    "timing_source": "published_doors_time",
+    "source_text": "SUN 9 MAY / 27 DOORS: 6:00PM Showtimes will be updated when confirmed by the event promoter.",
+    "artwork_url": "https://www.sec.co.uk/assets/img/800x423-4c8c107763.jpg",
     "listing_status": "",
     "script_version": "9.0.1",
     "source": "visible_current_ovo_listing"
@@ -1471,6 +1495,18 @@
     "timing_source": "published_doors_time",
     "source_text": "WED 23 JUN / 27 DOORS: 6.30PM Showtimes will be updated when confirmed by the event promoter. FIND TICKETS VENUE PREMIUM",
     "artwork_url": "https://www.sec.co.uk/assets/img/800-x-423-Hayley-Williams-5c6e297d8e.png",
+    "listing_status": "",
+    "script_version": "9.0.1",
+    "source": "visible_current_ovo_listing"
+  },
+  {
+    "title": "ANDREA BOCELLI",
+    "start": "2027-10-09T18:30:00+01:00",
+    "end": "2027-10-09T21:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/andrea-bocelli-2027",
+    "timing_source": "published_doors_time",
+    "source_text": "SAT 9 OCT / 27 DOORS: 6:30PM Showtimes will be updated when confirmed by the event promoter.",
+    "artwork_url": "https://www.sec.co.uk/assets/img/Andrea-Bocelli_Glasg_web-3_800-x-423-c543d2dec3.jpg",
     "listing_status": "",
     "script_version": "9.0.1",
     "source": "visible_current_ovo_listing"
