@@ -1,18 +1,6 @@
 [
   {
     "title": "WESTLIFE",
-    "start": "2026-09-30T18:30:00+01:00",
-    "end": "2026-09-30T21:30:00+01:00",
-    "url": "https://www.ovohydro.com/events/detail/westlife-2026",
-    "timing_source": "published_doors_time",
-    "source_text": "WED 30 SEP / 26 DOORS: 18.30 1830 Doors open 1925 Event starts 2230 Event finishes FIND TICKETS VENUE PREMIUM",
-    "artwork_url": "https://www.sec.co.uk/assets/img/Westlife-Glasgow-800x423-9207212d2d.jpg",
-    "listing_status": "Extra Date Added",
-    "script_version": "9.0.1",
-    "source": "visible_current_ovo_listing"
-  },
-  {
-    "title": "WESTLIFE",
     "start": "2026-10-01T18:30:00+01:00",
     "end": "2026-10-01T21:30:00+01:00",
     "url": "https://www.ovohydro.com/events/detail/westlife-2026",
