@@ -1,17 +1,5 @@
 [
   {
-    "title": "WESTLIFE",
-    "start": "2026-10-01T18:30:00+01:00",
-    "end": "2026-10-01T21:30:00+01:00",
-    "url": "https://www.ovohydro.com/events/detail/westlife-2026",
-    "timing_source": "published_doors_time",
-    "source_text": "THU 1 OCT / 26 DOORS: 18.30 1830 Doors open 1925 Event starts 2230 Event finishes FIND TICKETS VENUE PREMIUM",
-    "artwork_url": "https://www.sec.co.uk/assets/img/Westlife-Glasgow-800x423-9207212d2d.jpg",
-    "listing_status": "Extra Date Added",
-    "script_version": "9.0.1",
-    "source": "visible_current_ovo_listing"
-  },
-  {
     "title": "KEVIN BRIDGES: HERE IF YOU NEED ME",
     "start": "2026-10-03T18:30:00+01:00",
     "end": "2026-10-03T21:30:00+01:00",
@@ -1044,6 +1032,18 @@
     "source": "visible_current_ovo_listing"
   },
   {
+    "title": "N-DUBZ",
+    "start": "2027-02-25T18:30:00+00:00",
+    "end": "2027-02-25T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/n-dubz-2027",
+    "timing_source": "published_doors_time",
+    "source_text": "THU 25 FEB / 27 DOORS: 18.30 Showtimes will be updated when confirmed by the event promoter. FIND TICKETS VENUE PREMIUM",
+    "artwork_url": "https://www.sec.co.uk/assets/img/NDubz_800x423_GGW_800-x-423-f71f72f8e5.jpg",
+    "listing_status": "",
+    "script_version": "9.0.1",
+    "source": "visible_current_ovo_listing"
+  },
+  {
     "title": "FANTASM [ALL NIGHT LONG]",
     "start": "2027-02-26T17:30:00+00:00",
     "end": "2027-02-26T20:30:00+00:00",
@@ -1464,6 +1464,18 @@
     "source": "visible_current_ovo_listing"
   },
   {
+    "title": "GRETA VAN FLEET: INTO THE BEGINNING",
+    "start": "2027-06-02T18:30:00+01:00",
+    "end": "2027-06-02T21:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/greta-van-fleet",
+    "timing_source": "published_doors_time",
+    "source_text": "WED 2 JUN / 27 DOORS: 18.30 Showtimes will be updated when confirmed by the event promoter.",
+    "artwork_url": "https://www.sec.co.uk/assets/img/Greta-Van-Fleet-Glasgow-800x423-5425498fa0.jpg",
+    "listing_status": "",
+    "script_version": "9.0.1",
+    "source": "visible_current_ovo_listing"
+  },
+  {
     "title": "HAYLEY WILLIAMS",
     "start": "2027-06-23T18:30:00+01:00",
     "end": "2027-06-23T21:30:00+01:00",
@@ -1481,7 +1493,7 @@
     "end": "2027-10-09T21:30:00+01:00",
     "url": "https://www.ovohydro.com/events/detail/andrea-bocelli-2027",
     "timing_source": "published_doors_time",
-    "source_text": "SAT 9 OCT / 27 DOORS: 6:30PM Showtimes will be updated when confirmed by the event promoter. FIND TICKETS",
+    "source_text": "SAT 9 OCT / 27 DOORS: 6:30PM Showtimes will be updated when confirmed by the event promoter. FIND TICKETS VENUE PREMIUM",
     "artwork_url": "https://www.sec.co.uk/assets/img/Andrea-Bocelli_Glasg_web-3_800-x-423-c543d2dec3.jpg",
     "listing_status": "",
     "script_version": "9.0.1",
