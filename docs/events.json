@@ -1,17 +1,5 @@
 [
   {
-    "title": "KEVIN BRIDGES: HERE IF YOU NEED ME",
-    "start": "2026-10-04T18:30:00+01:00",
-    "end": "2026-10-04T21:30:00+01:00",
-    "url": "https://www.ovohydro.com/events/detail/kevin-bridges-here-if-you-need-me",
-    "timing_source": "published_doors_time",
-    "source_text": "SUN 4 OCT / 26 DOORS: 6.30PM 1830 Doors open 2000 Event starts 2225 Event finishes FIND TICKETS VENUE PREMIUM",
-    "artwork_url": "https://www.sec.co.uk/assets/img/KevinBridges_800x423-7abbe05599.jpg",
-    "listing_status": "Extra Dates Added",
-    "script_version": "9.0.1",
-    "source": "visible_current_ovo_listing"
-  },
-  {
     "title": "THE WORLD OF HANS ZIMMER",
     "start": "2026-10-06T18:30:00+01:00",
     "end": "2026-10-06T21:30:00+01:00",
@@ -1398,7 +1386,7 @@
     "url": "https://www.ovohydro.com/events/detail/rod-stewart-2027",
     "timing_source": "published_doors_time",
     "source_text": "THU 29 APR / 27 DOORS: 6:30PM Showtimes will be updated when confirmed by the event promoter. FIND TICKETS VENUE PREMIUM",
-    "artwork_url": "https://www.sec.co.uk/assets/img/2904-Glasgow_RodStewart_Europe_2027_800x423-bec17e627c.jpg",
+    "artwork_url": "https://www.sec.co.uk/assets/img/800-x-423-rod-stewart-updated-roll-date-5e4d28e2a2.png",
     "listing_status": "",
     "script_version": "9.0.1",
     "source": "visible_current_ovo_listing"
@@ -1411,6 +1399,18 @@
     "timing_source": "published_show_time",
     "source_text": "FRI 30 APR / 27 DOORS: 6.00PM Show time 7.30pm FIND TICKETS VENUE PREMIUM",
     "artwork_url": "https://www.sec.co.uk/assets/img/JOHNBISHOP-800x423-543850fb16.jpg",
+    "listing_status": "",
+    "script_version": "9.0.1",
+    "source": "visible_current_ovo_listing"
+  },
+  {
+    "title": "ROD STEWART",
+    "start": "2027-05-01T18:30:00+01:00",
+    "end": "2027-05-01T21:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/rod-stewart-2027",
+    "timing_source": "published_doors_time",
+    "source_text": "SAT 1 MAY / 27 DOORS: 6.30PM Showtimes will be updated when confirmed by the event promoter. FIND TICKETS VENUE PREMIUM",
+    "artwork_url": "https://www.sec.co.uk/assets/img/800-x-423-rod-stewart-updated-roll-date-5e4d28e2a2.png",
     "listing_status": "",
     "script_version": "9.0.1",
     "source": "visible_current_ovo_listing"
