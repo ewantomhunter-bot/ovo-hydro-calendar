@@ -1,17 +1,5 @@
 [
   {
-    "title": "THE PUSSYCAT DOLLS: PCD FOREVER TOUR",
-    "start": "2026-10-07T18:30:00+01:00",
-    "end": "2026-10-07T21:30:00+01:00",
-    "url": "https://www.ovohydro.com/events/detail/the-pussycat-dolls",
-    "timing_source": "published_doors_time",
-    "source_text": "WED 7 OCT / 26 DOORS: 18.30 1830 Doors open 1900 Event starts 2220 Event finishes FIND TICKETS VENUE PREMIUM",
-    "artwork_url": "https://www.sec.co.uk/assets/img/pussycatdolls-800x423-22a0f4ef33.jpg",
-    "listing_status": "",
-    "script_version": "9.0.1",
-    "source": "visible_current_ovo_listing"
-  },
-  {
     "title": "TWO DOORS DOWN",
     "start": "2026-10-09T19:30:00+01:00",
     "end": "2026-10-09T22:30:00+01:00",
@@ -930,7 +918,7 @@
     "url": "https://www.ovohydro.com/events/detail/gallant-pioneers-aug-2026",
     "timing_source": "published_show_time",
     "source_text": "SAT 6 FEB / 27 DOORS: 6.30PM Show time 7.30pm FIND TICKETS VENUE PREMIUM",
-    "artwork_url": "https://www.sec.co.uk/assets/img/GallantPioneers-UPDATED-800x423-7bf237aa7b.jpg",
+    "artwork_url": "https://www.sec.co.uk/assets/img/800-x-423-gallant-pioneers-389747402b.png",
     "listing_status": "Rescheduled Date",
     "script_version": "9.0.1",
     "source": "visible_current_ovo_listing"
@@ -1399,6 +1387,18 @@
     "timing_source": "published_doors_time",
     "source_text": "SAT 1 MAY / 27 DOORS: 6.30PM Showtimes will be updated when confirmed by the event promoter. FIND TICKETS VENUE PREMIUM",
     "artwork_url": "https://www.sec.co.uk/assets/img/800-x-423-rod-stewart-updated-roll-date-5e4d28e2a2.png",
+    "listing_status": "",
+    "script_version": "9.0.1",
+    "source": "visible_current_ovo_listing"
+  },
+  {
+    "title": "HEAR'SAY / LIBERTY X",
+    "start": "2027-05-05T18:30:00+01:00",
+    "end": "2027-05-05T21:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/hearsay-liberty-x",
+    "timing_source": "published_doors_time",
+    "source_text": "WED 5 MAY / 27 DOORS: 6.30PM Showtimes will be updated when confirmed by the event promoter.",
+    "artwork_url": "https://www.sec.co.uk/assets/img/qEmVsvWw-b7a6e7664b.jpeg",
     "listing_status": "",
     "script_version": "9.0.1",
     "source": "visible_current_ovo_listing"
