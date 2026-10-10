@@ -1,18 +1,6 @@
 [
   {
     "title": "TWO DOORS DOWN",
-    "start": "2026-10-09T19:30:00+01:00",
-    "end": "2026-10-09T22:30:00+01:00",
-    "url": "https://www.ovohydro.com/events/detail/two-doors-down",
-    "timing_source": "estimated_19_30",
-    "source_text": "FRI 9 OCT / 26 1830 Doors open 1930 Event starts 2150 Event finishes FIND TICKETS VENUE PREMIUM",
-    "artwork_url": "https://www.sec.co.uk/assets/img/TwoDoorsDown_800x423_Hydro_website_UPDATE-1476545486.jpg",
-    "listing_status": "",
-    "script_version": "9.0.1",
-    "source": "visible_current_ovo_listing"
-  },
-  {
-    "title": "TWO DOORS DOWN",
     "start": "2026-10-10T19:30:00+01:00",
     "end": "2026-10-10T22:30:00+01:00",
     "url": "https://www.ovohydro.com/events/detail/two-doors-down",
@@ -451,18 +439,6 @@
     "timing_source": "published_doors_time",
     "source_text": "SUN 22 NOV / 26 DOORS: 6:30PM Showtimes will be updated when confirmed by the event promoter. FIND TICKETS VENUE PREMIUM",
     "artwork_url": "https://www.sec.co.uk/assets/img/800-x-423-fontaines-dc-a71f37601d.png",
-    "listing_status": "",
-    "script_version": "9.0.1",
-    "source": "visible_current_ovo_listing"
-  },
-  {
-    "title": "ANNA LAPWOOD",
-    "start": "2026-11-24T18:00:00+00:00",
-    "end": "2026-11-24T21:00:00+00:00",
-    "url": "https://www.ovohydro.com/events/detail/anna-lapwood",
-    "timing_source": "published_doors_time",
-    "source_text": "TUE 24 NOV / 26 DOORS: 18:00 Showtimes will be updated when confirmed by the event promoter. FIND TICKETS VENUE PREMIUM",
-    "artwork_url": "https://www.sec.co.uk/assets/img/Anna-Lapwood-Hydro-Assets_800-x-423-1-afc1542fd2.jpg",
     "listing_status": "",
     "script_version": "9.0.1",
     "source": "visible_current_ovo_listing"
@@ -1447,6 +1423,18 @@
     "timing_source": "published_doors_time",
     "source_text": "WED 19 MAY / 27 DOORS: 18.30 Showtimes will be updated when confirmed by the event promoter. FIND TICKETS VENUE PREMIUM",
     "artwork_url": "https://www.sec.co.uk/assets/img/weezer-800x423-738854547b.jpg",
+    "listing_status": "",
+    "script_version": "9.0.1",
+    "source": "visible_current_ovo_listing"
+  },
+  {
+    "title": "NICKELBACK",
+    "start": "2027-06-01T17:30:00+01:00",
+    "end": "2027-06-01T20:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/nickelback-2027",
+    "timing_source": "published_doors_time",
+    "source_text": "TUE 1 JUN / 27 DOORS: 5.30PM Showtimes will be updated when confirmed by the event promoter.",
+    "artwork_url": "https://www.sec.co.uk/assets/img/800-x-423-nickelback-594d09b677.png",
     "listing_status": "",
     "script_version": "9.0.1",
     "source": "visible_current_ovo_listing"
