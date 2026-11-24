@@ -15,7 +15,7 @@ from bs4 import BeautifulSoup
 from icalendar import Calendar, Event, vText
 from zoneinfo import ZoneInfo
 
-SCRIPT_VERSION = "9.1.0"
+SCRIPT_VERSION = "9.1.1"
 EVENTS_URL = "https://www.ovohydro.com/events/all"
 BASE_URL = "https://www.ovohydro.com"
 OUTPUT_FILE = Path("docs/ovo-hydro.ics")
@@ -251,11 +251,11 @@ def listing_links(page: Page) -> list[tuple[str, str, str]]:
                         '.eventItem, article, li, [class*="event"], [class*="card"]'
                     ) || node.parentElement;
                     const heading = card
-                        ? card.querySelector('h1, h2, h3, h4')
+                        ? Array.from(card.querySelectorAll('h1, h2, h3, h4')).find(item => item.textContent && item.textContent.trim())
                         : null;
                     return heading
                         ? heading.textContent
-                        : node.textContent;
+                        : (node.getAttribute('title') || node.textContent);
                 }
                 """
             )
