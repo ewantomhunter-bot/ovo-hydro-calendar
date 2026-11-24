@@ -15,7 +15,7 @@ from bs4 import BeautifulSoup
 from icalendar import Calendar, Event, vText
 from zoneinfo import ZoneInfo
 
-SCRIPT_VERSION = "9.0.1"
+SCRIPT_VERSION = "9.1.0"
 EVENTS_URL = "https://www.ovohydro.com/events/all"
 BASE_URL = "https://www.ovohydro.com"
 OUTPUT_FILE = Path("docs/ovo-hydro.ics")
@@ -60,8 +60,14 @@ DATE_RE = re.compile(
     rf"(?P<month>{MONTH_RE})\s*(?:/|\s)\s*(?P<year>\d{{2,4}})",
     re.I,
 )
-DOORS_RE = re.compile(r"\bDOORS?\s*:?\s*(\d{1,2}(?:[.:]\d{2})?\s*(?:am|pm)?)", re.I)
-SHOW_RE = re.compile(r"\bSHOW\s*TIME\s*:?\s*(\d{1,2}(?:[.:]\d{2})?\s*(?:am|pm)?)", re.I)
+DOORS_RE = re.compile(
+    r"\bDOORS?(?:\s+TIME)?\s*:?\s*(\d{1,2}(?:[.:]\d{2})?\s*(?:am|pm)?)",
+    re.I,
+)
+SHOW_RE = re.compile(
+    r"\b(?:SHOW|EVENT)\s*TIMES?\s*:?\s*(\d{1,2}(?:[.:]\d{2})?\s*(?:am|pm)?)",
+    re.I,
+)
 CLOCK_RE = re.compile(r"^(\d{1,2})(?:[.:](\d{2}))?\s*(am|pm)?$", re.I)
 
 
@@ -179,7 +185,7 @@ def expand_current_event_listing(page: Page) -> None:
                         continue
 
                     before = page.locator(
-                        'main a[href*="/events/detail/"]'
+                        'body a[href*="/events/detail/"]'
                     ).count()
 
                     candidate.scroll_into_view_if_needed()
@@ -187,7 +193,7 @@ def expand_current_event_listing(page: Page) -> None:
                     page.wait_for_timeout(1_000)
 
                     after = page.locator(
-                        'main a[href*="/events/detail/"]'
+                        'body a[href*="/events/detail/"]'
                     ).count()
 
                     clicked = after > before
@@ -215,7 +221,7 @@ def listing_links(page: Page) -> list[tuple[str, str, str]]:
 
     items: dict[str, tuple[str, str, str]] = {}
 
-    anchors = page.locator('main a[href*="/events/detail/"]')
+    anchors = page.locator('#content a[href*="/events/detail/"]')
     if anchors.count() == 0:
         anchors = page.locator('body a[href*="/events/detail/"]')
 
@@ -230,12 +236,6 @@ def listing_links(page: Page) -> list[tuple[str, str, str]]:
     for index in range(anchors.count()):
         anchor = anchors.nth(index)
 
-        try:
-            if not anchor.is_visible():
-                continue
-        except Exception:
-            continue
-
         href = clean(anchor.get_attribute("href"))
         if not href:
             continue
@@ -247,7 +247,7 @@ def listing_links(page: Page) -> list[tuple[str, str, str]]:
                 """
                 (node) => {
                     const card = node.closest(
-                        'article, li, [class*="event"], [class*="card"]'
+                        '.eventItem, article, li, [class*="event"], [class*="card"]'
                     ) || node.parentElement;
                     const heading = card
                         ? card.querySelector('h1, h2, h3, h4')
@@ -268,10 +268,10 @@ def listing_links(page: Page) -> list[tuple[str, str, str]]:
                 """
                 (node) => {
                     const card = node.closest(
-                        'article, li, [class*="event"], [class*="card"]'
+                        '.eventItem, article, li, [class*="event"], [class*="card"]'
                     ) || node.parentElement;
                     const alert = card
-                        ? card.querySelector('.event_alert')
+                        ? card.querySelector('.event_alert, .status_badges, .badge')
                         : null;
                     return alert ? alert.textContent : '';
                 }
@@ -386,9 +386,9 @@ def parse_detail(
     if artwork_url:
         artwork_url = urljoin(BASE_URL, artwork_url)
 
-    rows = page.locator(".showings_list .showing_item")
+    rows = page.locator('[id^="showing_"]')
     if rows.count() == 0:
-        rows = page.locator(".showings .showing_item")
+        rows = page.locator(".showings_list .showing_item, .showings .showing_item")
 
     print(f"  rendered showing rows for {title}: {rows.count()}")
 
@@ -399,7 +399,7 @@ def parse_detail(
         row = rows.nth(index)
         source_text = clean(row.inner_text())
 
-        date_locator = row.locator(".date").first
+        date_locator = row.locator(".showings_date, .date").first
         if date_locator.count() == 0:
             continue
 
@@ -417,7 +417,7 @@ def parse_detail(
             if doors_match:
                 doors = parse_clock(doors_match.group(1))
 
-        description_locator = row.locator(".showing_description").first
+        description_locator = row.locator(".showing_description, .time_override").first
         if description_locator.count() > 0:
             description_text = clean(description_locator.inner_text())
             show_match = SHOW_RE.search(description_text)
@@ -844,11 +844,6 @@ def main() -> int:
                 locale="en-GB",
                 timezone_id="Europe/London",
                 viewport={"width": 1440, "height": 1200},
-                user_agent=(
-                    "Mozilla/5.0 (X11; Linux x86_64) "
-                    "AppleWebKit/537.36 (KHTML, like Gecko) "
-                    "Chrome/128.0.0.0 Safari/537.36"
-                ),
             )
 
             page = context.new_page()
