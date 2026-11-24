@@ -10,13 +10,13 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
-SUMMARY:AN EVENING WITH PRESIDENT BARACK OBAMA
-DTSTART;TZID=Europe/London:20261014T180000
-DTEND;TZID=Europe/London:20261014T210000
-DTSTAMP:20261012T131923Z
-UID:21eec4ef71cfb81ed51ad5c81356@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/OBAMA
- -800x423-7da760e42b.jpg
+SUMMARY:Kevin Bridges: Here If You Need Me
+DTSTART;TZID=Europe/London:20261125T183000
+DTEND;TZID=Europe/London:20261125T213000
+DTSTAMP:20261124T002957Z
+UID:1feb6f8c5eedda894a230ef14fd0@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/KB_HI
+ YNM_1180x664_Glasgow_digi-1822f68ac3.jpg
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -25,252 +25,22 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  Hydro event listing.\nThe calendar start is the published public doors tim
  e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
  cative and should not replace your event-specific hospitality confirmation
- .\n\nOfficial event details: https://www.ovohydro.com/events/detail/seat-u
- nique-presents-an-evening-with-president-barack-obama
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/seat-unique-presents-an-evening
- -with-president-barack-obama
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:DURAN DURAN
-DTSTART;TZID=Europe/London:20261015T183000
-DTEND;TZID=Europe/London:20261015T213000
-DTSTAMP:20261012T131923Z
-UID:555463316936c4ed2c97a52aeba4@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Duran
- -Duran-Hydro-Assets_800-x-423-653d820ef5.jpg
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published public doors tim
- e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
- cative and should not replace your event-specific hospitality confirmation
- .\n\nOfficial event details: https://www.ovohydro.com/events/detail/duran-
- duran-2026
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/duran-duran-2026
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:HOLY PRIEST PRESENTS THE HOLY SH*T SHOW
-DTSTART;TZID=Europe/London:20261016T180000
-DTEND;TZID=Europe/London:20261016T210000
-DTSTAMP:20261012T131923Z
-UID:da0c88fa06b51c44366526d979f8@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/TM-Hea
- der-e73d294427.png
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published public doors tim
- e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
- cative and should not replace your event-specific hospitality confirmation
- .\n\nOfficial event details: https://www.ovohydro.com/events/detail/holy-p
- riest
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/holy-priest
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:GIANTS LIVE
-DTSTART;TZID=Europe/London:20261017T153000
-DTEND;TZID=Europe/London:20261017T183000
-DTSTAMP:20261012T131923Z
-UID:27e5d78e61809c502888032f73e5@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/800x4
- 23-copy-016a4f4a2b.jpg
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published public doors tim
- e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
- cative and should not replace your event-specific hospitality confirmation
- .\n\nOfficial event details: https://www.ovohydro.com/events/detail/giants
- -live-world-tour-finals-2026
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/giants-live-world-tour-finals-2
- 026
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:PROFESSOR BRIAN COX
-DTSTART;TZID=Europe/London:20261018T193000
-DTEND;TZID=Europe/London:20261018T223000
-DTSTAMP:20261012T131923Z
-UID:288a7993da4c06f59aae5eb7f5ca@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/BCEM_
- 800x423_Glasgow-e28b04d292.jpg
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published show time.\n\nCa
- lendar timings are indicative and should not replace your event-specific h
- ospitality confirmation.\n\nOfficial event details: https://www.ovohydro.c
- om/events/detail/professor-brian-cox-2026
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/professor-brian-cox-2026
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:GLADIATORS LIVE TOUR 2026
-DTSTART;TZID=Europe/London:20261024T100000
-DTEND;TZID=Europe/London:20261024T130000
-DTSTAMP:20261012T131923Z
-UID:9c93b278a82ba75bc68ece8f929f@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/GladL
- iveTour2026_Glasgow_800x423-27fa5f23d0.jpg
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published public doors tim
- e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
- cative and should not replace your event-specific hospitality confirmation
- .\n\nOfficial event details: https://www.ovohydro.com/events/detail/gladia
- tors-live-tour-2026
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/gladiators-live-tour-2026
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:GLADIATORS LIVE TOUR 2026
-DTSTART;TZID=Europe/London:20261024T160000
-DTEND;TZID=Europe/London:20261024T190000
-DTSTAMP:20261012T131923Z
-UID:ff183fa1b99b2af8fbecb0e4d358@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/GladL
- iveTour2026_Glasgow_800x423-27fa5f23d0.jpg
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published public doors tim
- e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
- cative and should not replace your event-specific hospitality confirmation
- .\n\nOfficial event details: https://www.ovohydro.com/events/detail/gladia
- tors-live-tour-2026
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/gladiators-live-tour-2026
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:GLADIATORS LIVE TOUR 2026
-DTSTART;TZID=Europe/London:20261025T100000
-DTEND;TZID=Europe/London:20261025T130000
-DTSTAMP:20261012T131923Z
-UID:d101f72fa44eab853fbba6664075@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/GladL
- iveTour2026_Glasgow_800x423-27fa5f23d0.jpg
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published public doors tim
- e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
- cative and should not replace your event-specific hospitality confirmation
- .\n\nOfficial event details: https://www.ovohydro.com/events/detail/gladia
- tors-live-tour-2026
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/gladiators-live-tour-2026
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:GLADIATORS LIVE TOUR 2026
-DTSTART;TZID=Europe/London:20261025T160000
-DTEND;TZID=Europe/London:20261025T190000
-DTSTAMP:20261012T131923Z
-UID:5fd31c89ea23f4d345b0360f7dd7@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/GladL
- iveTour2026_Glasgow_800x423-27fa5f23d0.jpg
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published public doors tim
- e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
- cative and should not replace your event-specific hospitality confirmation
- .\n\nOfficial event details: https://www.ovohydro.com/events/detail/gladia
- tors-live-tour-2026
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/gladiators-live-tour-2026
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:J. COLE: THE FALL-OFF TOUR
-DTSTART;TZID=Europe/London:20261026T183000
-DTEND;TZID=Europe/London:20261026T213000
-DTSTAMP:20261012T131923Z
-UID:b27bc95b6d977553f755cb7437b5@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/J-Cole
- -800x423-dbb6b510cf.png
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published public doors tim
- e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
- cative and should not replace your event-specific hospitality confirmation
- .\n\nOfficial event details: https://www.ovohydro.com/events/detail/j-cole
- -the-fall-off-tour
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/j-cole-the-fall-off-tour
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:KEVIN BRIDGES: HERE IF YOU NEED ME
-DTSTART;TZID=Europe/London:20261027T200000
-DTEND;TZID=Europe/London:20261027T230000
-DTSTAMP:20261012T131923Z
-UID:2e0475c947e4a00dc4a067769a10@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Kevin
- Bridges_800x423-7abbe05599.jpg
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published show time.\n\nCa
- lendar timings are indicative and should not replace your event-specific h
- ospitality confirmation.\n\nOfficial event details: https://www.ovohydro.c
- om/events/detail/kevin-bridges-here-if-you-need-me
-LAST-MODIFIED:20261012T131923Z
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/kevin-
+ bridges-here-if-you-need-me
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/kevin-bridges-here-if-you-need-
  me
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MANIC STREET PREACHERS + SUEDE
-DTSTART;TZID=Europe/London:20261028T183000
-DTEND;TZID=Europe/London:20261028T213000
-DTSTAMP:20261012T131923Z
-UID:e3b4b7aa0eb277ef595910a2721b@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/manic
- suede-800x423-fe4c96151d.jpg
+SUMMARY:Kevin Bridges: Here If You Need Me
+DTSTART;TZID=Europe/London:20261126T183000
+DTEND;TZID=Europe/London:20261126T213000
+DTSTAMP:20261124T002957Z
+UID:54a15e79fa5b65bad64524fea39a@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/KB_HI
+ YNM_1180x664_Glasgow_digi-1822f68ac3.jpg
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -279,596 +49,22 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  Hydro event listing.\nThe calendar start is the published public doors tim
  e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
  cative and should not replace your event-specific hospitality confirmation
- .\n\nOfficial event details: https://www.ovohydro.com/events/detail/manic-
- street-preachers-suede
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/manic-street-preachers-suede
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:KEVIN BRIDGES: HERE IF YOU NEED ME
-DTSTART;TZID=Europe/London:20261029T200000
-DTEND;TZID=Europe/London:20261029T230000
-DTSTAMP:20261012T131923Z
-UID:540c98410ffe1fbc1d326b6bd10c@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Kevin
- Bridges_800x423-7abbe05599.jpg
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published show time.\n\nCa
- lendar timings are indicative and should not replace your event-specific h
- ospitality confirmation.\n\nOfficial event details: https://www.ovohydro.c
- om/events/detail/kevin-bridges-here-if-you-need-me
-LAST-MODIFIED:20261012T131923Z
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/kevin-
+ bridges-here-if-you-need-me
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/kevin-bridges-here-if-you-need-
  me
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:PAUL HEATON
-DTSTART;TZID=Europe/London:20261030T183000
-DTEND;TZID=Europe/London:20261030T213000
-DTSTAMP:20261012T131923Z
-UID:3ffbf6febc9d924d9ec33c69d26c@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/Paul-H
- eaton-800x423-4489726ebe.png
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published public doors tim
- e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
- cative and should not replace your event-specific hospitality confirmation
- .\n\nOfficial event details: https://www.ovohydro.com/events/detail/paul-h
- eaton-2026
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/paul-heaton-2026
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:THE AUSTRALIAN PINK FLOYD
-DTSTART;TZID=Europe/London:20261031T183000
-DTEND;TZID=Europe/London:20261031T213000
-DTSTAMP:20261012T131923Z
-UID:673fb26bab5d6e8bc7911794a211@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/APF26_
- Glasgow_800x423_1-be9193de95.png
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published public doors tim
- e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
- cative and should not replace your event-specific hospitality confirmation
- .\n\nOfficial event details: https://www.ovohydro.com/events/detail/the-au
- stralian-pink-floyd-2026
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/the-australian-pink-floyd-2026
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:PAPA ROACH
-DTSTART;TZID=Europe/London:20261101T183000
-DTEND;TZID=Europe/London:20261101T213000
-DTSTAMP:20261012T131923Z
-UID:94b3eebf01a0979f3fc8ce3b92bf@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Papa-
- Roach-800x423-6f8c3821e5.jpg
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published public doors tim
- e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
- cative and should not replace your event-specific hospitality confirmation
- .\n\nOfficial event details: https://www.ovohydro.com/events/detail/papa-r
- oach
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/papa-roach
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CODY JOHNSON
-DTSTART;TZID=Europe/London:20261102T183000
-DTEND;TZID=Europe/London:20261102T213000
-DTSTAMP:20261012T131923Z
-UID:b8e78334311dcdb668407e5eace5@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/Cody-J
- ohnson-800-x-423-a9cf4eee83.png
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published public doors tim
- e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
- cative and should not replace your event-specific hospitality confirmation
- .\n\nOfficial event details: https://www.ovohydro.com/events/detail/cody-j
- ohnson
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/cody-johnson
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:KEVIN BRIDGES: HERE IF YOU NEED ME
-DTSTART;TZID=Europe/London:20261103T200000
-DTEND;TZID=Europe/London:20261103T230000
-DTSTAMP:20261012T131923Z
-UID:6cbe351874fd99337e0de1bd6b0b@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Kevin
- Bridges_800x423-7abbe05599.jpg
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published show time.\n\nCa
- lendar timings are indicative and should not replace your event-specific h
- ospitality confirmation.\n\nOfficial event details: https://www.ovohydro.c
- om/events/detail/kevin-bridges-here-if-you-need-me
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/kevin-bridges-here-if-you-need-
- me
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:KEVIN BRIDGES: HERE IF YOU NEED ME
-DTSTART;TZID=Europe/London:20261104T200000
-DTEND;TZID=Europe/London:20261104T230000
-DTSTAMP:20261012T131923Z
-UID:1ed5af0d7e26700312f8aa677490@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Kevin
- Bridges_800x423-7abbe05599.jpg
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published show time.\n\nCa
- lendar timings are indicative and should not replace your event-specific h
- ospitality confirmation.\n\nOfficial event details: https://www.ovohydro.c
- om/events/detail/kevin-bridges-here-if-you-need-me
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/kevin-bridges-here-if-you-need-
- me
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:NOAH KAHAN
-DTSTART;TZID=Europe/London:20261105T183000
-DTEND;TZID=Europe/London:20261105T213000
-DTSTAMP:20261012T131923Z
-UID:89f651bb3d5df7ae70e40c6d28ec@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/NoahK
- ahan-800x423-8eedad7577.jpg
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published public doors tim
- e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
- cative and should not replace your event-specific hospitality confirmation
- .\n\nOfficial event details: https://www.ovohydro.com/events/detail/noah-k
- ahan-2026
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/noah-kahan-2026
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:NOAH KAHAN
-DTSTART;TZID=Europe/London:20261106T183000
-DTEND;TZID=Europe/London:20261106T213000
-DTSTAMP:20261012T131923Z
-UID:a0ee6be46d8bdfa9ee55594ed158@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/NoahK
- ahan-800x423-8eedad7577.jpg
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published public doors tim
- e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
- cative and should not replace your event-specific hospitality confirmation
- .\n\nOfficial event details: https://www.ovohydro.com/events/detail/noah-k
- ahan-2026
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/noah-kahan-2026
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BARE KNUCKLE FIGHTING CHAMPIONSHIP
-DTSTART;TZID=Europe/London:20261107T180000
-DTEND;TZID=Europe/London:20261107T210000
-DTSTAMP:20261012T131923Z
-UID:3528adc6114e25fe4cdc40eea142@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/BKFC-
- Glasgow-Website-800x423-9d5f5d464b.jpg
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published public doors tim
- e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
- cative and should not replace your event-specific hospitality confirmation
- .\n\nOfficial event details: https://www.ovohydro.com/events/detail/bare-k
- nuckle-fighting-championship
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/bare-knuckle-fighting-champions
- hip
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:MYLES SMITH
-DTSTART;TZID=Europe/London:20261110T183000
-DTEND;TZID=Europe/London:20261110T213000
-DTSTAMP:20261012T131923Z
-UID:2f8fdb9509267aa6dd653cac6536@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800x42
- 3-8f0783d0fe.png
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published public doors tim
- e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
- cative and should not replace your event-specific hospitality confirmation
- .\n\nOfficial event details: https://www.ovohydro.com/events/detail/myles-
- smith
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/myles-smith
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:STEVIE WONDER
-DTSTART;TZID=Europe/London:20261111T183000
-DTEND;TZID=Europe/London:20261111T213000
-DTSTAMP:20261012T131923Z
-UID:42bb7f5ca2a425e7b19decb7968d@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-stevie-wonder-announce-9611e305de.png
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published public doors tim
- e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
- cative and should not replace your event-specific hospitality confirmation
- .\n\nOfficial event details: https://www.ovohydro.com/events/detail/stevie
- -wonder
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/stevie-wonder
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:SQUEEZE PLUS VERY SPECIAL GUEST BILLY BRAGG
-DTSTART;TZID=Europe/London:20261112T183000
-DTEND;TZID=Europe/London:20261112T213000
-DTSTAMP:20261012T131923Z
-UID:2748e1967afa9073923e620b5f92@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-squeeze-relaunch-b70cca53de.png
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published public doors tim
- e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
- cative and should not replace your event-specific hospitality confirmation
- .\n\nOfficial event details: https://www.ovohydro.com/events/detail/squeez
- e
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/squeeze
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:THE SCRIPT
-DTSTART;TZID=Europe/London:20261113T183000
-DTEND;TZID=Europe/London:20261113T213000
-DTSTAMP:20261012T131923Z
-UID:ef94632a96cf4f35c6165f5911f0@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/The-Sc
- ript-800x423-15979f937a.png
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published public doors tim
- e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
- cative and should not replace your event-specific hospitality confirmation
- .\n\nOfficial event details: https://www.ovohydro.com/events/detail/the-sc
- ript-2026
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/the-script-2026
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BEABADOOBEE
-DTSTART;TZID=Europe/London:20261114T183000
-DTEND;TZID=Europe/London:20261114T213000
-DTSTAMP:20261012T131923Z
-UID:a1051a1222ec35815654131c40fd@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/Beabad
- oobee-800-x-423-1b910f5d80.png
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published public doors tim
- e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
- cative and should not replace your event-specific hospitality confirmation
- .\n\nOfficial event details: https://www.ovohydro.com/events/detail/beabad
- oobee
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/beabadoobee
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:KEVIN BRIDGES: HERE IF YOU NEED ME
-DTSTART;TZID=Europe/London:20261115T200000
-DTEND;TZID=Europe/London:20261115T230000
-DTSTAMP:20261012T131923Z
-UID:9b3d85d461e1fb505479158f17a7@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Kevin
- Bridges_800x423-7abbe05599.jpg
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published show time.\n\nCa
- lendar timings are indicative and should not replace your event-specific h
- ospitality confirmation.\n\nOfficial event details: https://www.ovohydro.c
- om/events/detail/kevin-bridges-here-if-you-need-me
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/kevin-bridges-here-if-you-need-
- me
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:SHINEDOWN
-DTSTART;TZID=Europe/London:20261116T183000
-DTEND;TZID=Europe/London:20261116T213000
-DTSTAMP:20261012T131923Z
-UID:f913a65a70a1882712956da019d2@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/shine
- down800x423-7d0195176c.jpg
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published public doors tim
- e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
- cative and should not replace your event-specific hospitality confirmation
- .\n\nOfficial event details: https://www.ovohydro.com/events/detail/shined
- own
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/shinedown
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:KEVIN BRIDGES: HERE IF YOU NEED ME
-DTSTART;TZID=Europe/London:20261117T200000
-DTEND;TZID=Europe/London:20261117T230000
-DTSTAMP:20261012T131923Z
-UID:961d91ae5d516f5a1b038bdf38c7@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Kevin
- Bridges_800x423-7abbe05599.jpg
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published show time.\n\nCa
- lendar timings are indicative and should not replace your event-specific h
- ospitality confirmation.\n\nOfficial event details: https://www.ovohydro.c
- om/events/detail/kevin-bridges-here-if-you-need-me
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/kevin-bridges-here-if-you-need-
- me
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:ENTER SHIKARI
-DTSTART;TZID=Europe/London:20261118T183000
-DTEND;TZID=Europe/London:20261118T213000
-DTSTAMP:20261012T131923Z
-UID:1e7524f3cce0f9d052de8e8b1ba1@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/enter
- shikari800x423-dbe5f7701d.jpg
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published public doors tim
- e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
- cative and should not replace your event-specific hospitality confirmation
- .\n\nOfficial event details: https://www.ovohydro.com/events/detail/enter-
- shikari
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/enter-shikari
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:DEEP PURPLE
-DTSTART;TZID=Europe/London:20261119T190000
-DTEND;TZID=Europe/London:20261119T220000
-DTSTAMP:20261012T131923Z
-UID:40e17df5503d9e47b1b456fa8a1e@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Deep-
- Purple_Glasgow_800-x-423-94c1e8ca43.jpg
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published show time.\n\nCa
- lendar timings are indicative and should not replace your event-specific h
- ospitality confirmation.\n\nOfficial event details: https://www.ovohydro.c
- om/events/detail/deep-purple-2026
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/deep-purple-2026
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:COURTEENERS
-DTSTART;TZID=Europe/London:20261120T183000
-DTEND;TZID=Europe/London:20261120T213000
-DTSTAMP:20261012T131923Z
-UID:e0d1dfd9f4201ee65e9f5dafa6ec@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Court
- eeners-800x423-29e021d45e.jpg
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published public doors tim
- e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
- cative and should not replace your event-specific hospitality confirmation
- .\n\nOfficial event details: https://www.ovohydro.com/events/detail/courte
- eners-2026
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/courteeners-2026
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:OCEAN COLOUR SCENE
-DTSTART;TZID=Europe/London:20261121T183000
-DTEND;TZID=Europe/London:20261121T213000
-DTSTAMP:20261012T131923Z
-UID:34d4a11a7fac87a2361e72395048@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/OCS-H
- ydro-Assets_800-x-423-32b4c8b647.jpg
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published public doors tim
- e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
- cative and should not replace your event-specific hospitality confirmation
- .\n\nOfficial event details: https://www.ovohydro.com/events/detail/ocean-
- colour-scene-2026
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/ocean-colour-scene-2026
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:FONTAINES DC
-DTSTART;TZID=Europe/London:20261122T183000
-DTEND;TZID=Europe/London:20261122T213000
-DTSTAMP:20261012T131923Z
-UID:041e38e790a95cad211fe9e2689d@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-fontaines-dc-a71f37601d.png
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published public doors tim
- e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
- cative and should not replace your event-specific hospitality confirmation
- .\n\nOfficial event details: https://www.ovohydro.com/events/detail/fontai
- nes-dc-2026
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/fontaines-dc-2026
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:KEVIN BRIDGES: HERE IF YOU NEED ME
-DTSTART;TZID=Europe/London:20261125T200000
-DTEND;TZID=Europe/London:20261125T230000
-DTSTAMP:20261012T131923Z
-UID:8f005c5a3568faeeab573ece196f@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Kevin
- Bridges_800x423-7abbe05599.jpg
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published show time.\n\nCa
- lendar timings are indicative and should not replace your event-specific h
- ospitality confirmation.\n\nOfficial event details: https://www.ovohydro.c
- om/events/detail/kevin-bridges-here-if-you-need-me
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/kevin-bridges-here-if-you-need-
- me
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:KEVIN BRIDGES: HERE IF YOU NEED ME
-DTSTART;TZID=Europe/London:20261126T200000
-DTEND;TZID=Europe/London:20261126T230000
-DTSTAMP:20261012T131923Z
-UID:103b4264752c773dab0474ebdd11@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Kevin
- Bridges_800x423-7abbe05599.jpg
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published show time.\n\nCa
- lendar timings are indicative and should not replace your event-specific h
- ospitality confirmation.\n\nOfficial event details: https://www.ovohydro.c
- om/events/detail/kevin-bridges-here-if-you-need-me
-LAST-MODIFIED:20261012T131923Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/kevin-bridges-here-if-you-need-
- me
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:PHOEBE BRIDGERS
+SUMMARY:Phoebe Bridgers
 DTSTART;TZID=Europe/London:20261127T183000
 DTEND;TZID=Europe/London:20261127T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:b3277c33dcb81ecf2699df44fad0@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/Untitl
- ed-design-12-e35dd39cb4.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-phoebe-bridgers-0001648d8c.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -879,19 +75,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/phoebe
  -bridgers
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/phoebe-bridgers
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:JUNGLE
+SUMMARY:Jungle
 DTSTART;TZID=Europe/London:20261128T183000
 DTEND;TZID=Europe/London:20261128T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:2ddc52469e87bf7dbd2564290de5@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Jungl
- e_26_Glasgow_Ovo-Hyrdo-Assets_800-x-423-fccaf19cbe.jpg
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-jungle-1-7a4d812783.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -901,19 +97,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/jungle
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/jungle
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:PLACEBO
+SUMMARY:Placebo
 DTSTART;TZID=Europe/London:20261130T183000
 DTEND;TZID=Europe/London:20261130T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:183a998f1a49a7e621c7367ef925@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/place
- boFB-800x423-44649fdec6.jpg
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-Placebo-a2c203e662.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -924,19 +120,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/placeb
  o
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/placebo
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:UB40 FT. ALI CAMPBELL
+SUMMARY:UB40 ft. Ali Campbell
 DTSTART;TZID=Europe/London:20261201T183000
 DTEND;TZID=Europe/London:20261201T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:f45a22a3db6fc93cde7604f505cc@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/ub40-
- 800x423-43ccff33c0.jpg
+ 1180x640-6475a21779.jpg
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -947,19 +143,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/ub40-f
  t-ali-campbell
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/ub40-ft-ali-campbell
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BLOC PARTY & INTERPOL
-DTSTART;TZID=Europe/London:20261202T180000
-DTEND;TZID=Europe/London:20261202T210000
-DTSTAMP:20261012T131923Z
+SUMMARY:Bloc Party & Interpol
+DTSTART;TZID=Europe/London:20261202T183000
+DTEND;TZID=Europe/London:20261202T213000
+DTSTAMP:20261124T002957Z
 UID:6d0c663b57623df4b55eddbd0d15@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/bloci
- nterpol-800x423-836bee3818.jpg
+ nterpol-1180x664-d039d5503d.jpg
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -970,19 +166,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/bloc-p
  arty-and-interpol
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/bloc-party-and-interpol
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:PETE TONG PRESENTS IBIZA CLASSICS
+SUMMARY:Pete Tong Presents Ibiza Classics
 DTSTART;TZID=Europe/London:20261203T183000
 DTEND;TZID=Europe/London:20261203T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:531119f7313aa1fb5d1b51f67b14@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-pete-tong-bdd060df7a.png
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/PeteT
+ ong_Socials__Glasg_FullLineUp_x4_1180x664-b3b4cd64bf.jpg
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -993,20 +189,20 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/pete-t
  ong-presents-ibiza-classics-2026
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/pete-tong-presents-ibiza-classi
  cs-2026
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BLOSSOMS
+SUMMARY:Blossoms
 DTSTART;TZID=Europe/London:20261205T183000
 DTEND;TZID=Europe/London:20261205T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:cdd76e4e2a141e46078604998187@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/Blosso
- ms-800-x-423-0a6627f95d.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-blossoms-e62967210c.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1017,19 +213,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/blosso
  ms
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/blossoms
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:THE LORD OF THE RINGS
+SUMMARY:The Lord of the Rings
 DTSTART;TZID=Europe/London:20261206T113000
 DTEND;TZID=Europe/London:20261206T143000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:c16f186231c4334edee12c0ce8a3@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800x42
- 3-09ee89eeac.png
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/LOTR_
+ FOTR-Hydro-Assets_1180x664-c01252c3c2.jpg
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1040,19 +236,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/the-lo
  rd-of-the-rings
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/the-lord-of-the-rings
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:THE LORD OF THE RINGS
+SUMMARY:The Lord of the Rings
 DTSTART;TZID=Europe/London:20261206T173000
 DTEND;TZID=Europe/London:20261206T203000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:d10517b9ffe082d998c203759b2f@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800x42
- 3-09ee89eeac.png
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/LOTR_
+ FOTR-Hydro-Assets_1180x664-c01252c3c2.jpg
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1063,19 +259,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/the-lo
  rd-of-the-rings
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/the-lord-of-the-rings
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ESDEEKID
+SUMMARY:EsDeeKid
 DTSTART;TZID=Europe/London:20261207T183000
 DTEND;TZID=Europe/London:20261207T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:58ed72ee8480b56302a84744a99c@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-esdeekid-f358821e5d.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-esdeekid-8db768ffbe.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1086,19 +282,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/esdeek
  id
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/esdeekid
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:THE DARKNESS
+SUMMARY:The Darkness
 DTSTART;TZID=Europe/London:20261208T183000
 DTEND;TZID=Europe/London:20261208T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:10757bdc164609c407fccd4bc2e8@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/TheDa
- rkness-800x423-c2842eaf26.jpg
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/darkn
+ ess1180x664-4d38de4e25.jpg
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1109,19 +305,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/the-da
  rkness
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/the-darkness
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:KNEECAP
+SUMMARY:Kneecap
 DTSTART;TZID=Europe/London:20261209T183000
 DTEND;TZID=Europe/London:20261209T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:80375be7c4b0649af90c083c05a8@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-kneecap-2-0aa357321b.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-kneecap-1-3ef540acdc.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1132,19 +328,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/kneeca
  p-2026
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/kneecap-2026
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:DYLAN JOHN THOMAS
+SUMMARY:Dylan John Thomas
 DTSTART;TZID=Europe/London:20261211T183000
 DTEND;TZID=Europe/London:20261211T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:69bb35eff8ca302a05a237bebbd7@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/djt-8
- 00x423-004738ae01.jpg
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-dylan-john-thomas-2026-1-e7da66ffe4.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1155,19 +351,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/dylan-
  john-thomas-2026
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/dylan-john-thomas-2026
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:HOOLIE IN THE HYDRO
+SUMMARY:Hoolie in the Hydro
 DTSTART;TZID=Europe/London:20261212T173000
 DTEND;TZID=Europe/London:20261212T203000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:aeb90cf964799003b856cf86acc8@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-hoolie-in-the-hydro-update-f552125048.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/Websit
+ e-secondary-graphic-1180x664-084c185b91.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1178,19 +374,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/hoolie
  -in-the-hydro-2026
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/hoolie-in-the-hydro-2026
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:KASABIAN
+SUMMARY:Kasabian
 DTSTART;TZID=Europe/London:20261213T183000
 DTEND;TZID=Europe/London:20261213T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:876901ae6914d01f7b4e5eeb87ad@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-kasabian-09e9eeb705.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-kasabian-2026-469059d731.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1201,19 +397,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/kasabi
  an-2026
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/kasabian-2026
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CULTURE CLUB
+SUMMARY:Culture Club
 DTSTART;TZID=Europe/London:20261215T183000
 DTEND;TZID=Europe/London:20261215T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:aff5e99897fb40c315d58ca6ba95@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/Cultur
- e-Club-800x423-0c63565a57.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-culture-club-2026-866e911d65.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1224,19 +420,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/cultur
  e-club-2026
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/culture-club-2026
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MORRISSEY
+SUMMARY:Morrissey
 DTSTART;TZID=Europe/London:20261216T183000
 DTEND;TZID=Europe/London:20261216T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:8d8377decf9f121316fa98770e57@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Morri
- ssey-800x423-15c7462fe6.jpg
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-morrissey-b3ec61f55a.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1247,19 +443,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/morris
  sey-2026
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/morrissey-2026
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:THE MARY WALLOPERS
+SUMMARY:The Mary Wallopers
 DTSTART;TZID=Europe/London:20261219T183000
 DTEND;TZID=Europe/London:20261219T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:c4440fd2edd93ee66f06f3167bf0@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/The-M
- ary-Wallopers-Hydro-Assets_800-x-423-3d7b316aca.jpg
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-mary-wallopers-1-a47b57c21d.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1270,19 +466,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/the-ma
  ry-wallopers
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/the-mary-wallopers
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ADRIAN MILLS B2B CLOUDY
+SUMMARY:Adrian Mills B2B Cloudy
 DTSTART;TZID=Europe/London:20261227T173000
 DTEND;TZID=Europe/London:20261227T203000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:53e2cbe917b9473f95eb2c2fc79d@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/ADRIA
- N-MILLS-B2B-CLOUDY-HYDRO-800-x-432-843ff09ea1.jpg
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-adrian-mills-b2b-cloudy-09493451f7.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1293,19 +489,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/adrian
  -mills-b2b-cloudy
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/adrian-mills-b2b-cloudy
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ICE HOCKEY AT THE HYDRO
+SUMMARY:Ice Hockey at the Hydro
 DTSTART;TZID=Europe/London:20261230T133000
 DTEND;TZID=Europe/London:20261230T163000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:0c4156122a0397ee65edc5f2aad4@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-ice-hockey-at-the-hydro-5e47563565.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-ice-hockey-updated-4f1996f799.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1316,19 +512,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/ice-ho
  ckey-at-the-hydro
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/ice-hockey-at-the-hydro
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ICE HOCKEY AT THE HYDRO
+SUMMARY:Ice Hockey at the Hydro
 DTSTART;TZID=Europe/London:20261230T180000
 DTEND;TZID=Europe/London:20261230T210000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:75989a8c369852f7028c8309e49b@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-ice-hockey-at-the-hydro-5e47563565.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-ice-hockey-updated-4f1996f799.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1339,19 +535,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/ice-ho
  ckey-at-the-hydro
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/ice-hockey-at-the-hydro
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ICE HOCKEY AT THE HYDRO
+SUMMARY:Ice Hockey at the Hydro
 DTSTART;TZID=Europe/London:20261231T133000
 DTEND;TZID=Europe/London:20261231T163000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:33696ca5c3ee92e80babfd0f336b@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-ice-hockey-at-the-hydro-5e47563565.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-ice-hockey-updated-4f1996f799.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1362,19 +558,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/ice-ho
  ckey-at-the-hydro
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/ice-hockey-at-the-hydro
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:JACK WHITEHALL
+SUMMARY:Jack Whitehall
 DTSTART;TZID=Europe/London:20270114T183000
 DTEND;TZID=Europe/London:20270114T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:cede423cdcafbda5cfbfab11186b@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Glasg
- ow-800x423-8ee4f52e28.jpg
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Clean
+ -1180x664-ef0d5a1d18.jpg
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1385,19 +581,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/jack-w
  hitehall-2027
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/jack-whitehall-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FIVE FINGER DEATH PUNCH
+SUMMARY:Five Finger Death Punch
 DTSTART;TZID=Europe/London:20270117T183000
 DTEND;TZID=Europe/London:20270117T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:3912c755e142ca2bf923edb30366@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Five-
- Finger-Death-Punch-800x423-Glasgow-640a39b8d4.jpg
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-five-finger-death-punch-1-7752b0dcff.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1408,19 +604,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/five-f
  inger-death-punch-2027
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/five-finger-death-punch-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MONDAY NIGHT RAW
+SUMMARY:Monday Night RAW
 DTSTART;TZID=Europe/London:20270118T183000
 DTEND;TZID=Europe/London:20270118T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:648cd35b22399c1de02e0801dd4e@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/CS-06
- 4861_WWE_LVE_Raw_EUROPE_TOUR_ADMAT_800x423-5ac77e7f26.jpg
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-monday-night-raw-1-cdee31d378.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1431,19 +627,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/monday
  -night-raw-2027
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/monday-night-raw-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:DONNY OSMOND
+SUMMARY:Donny Osmond
 DTSTART;TZID=Europe/London:20270120T180000
 DTEND;TZID=Europe/London:20270120T210000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:c2122f939cd28fcec7cdbaa7641a@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Lands
- cape-800x423-a97b1a9023.jpg
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-donny-osmond-1-72135c38bd.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1454,19 +650,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/donny-
  osmond-2027
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/donny-osmond-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:HOT WHEELS MONSTER TRUCKS LIVE
+SUMMARY:Hot Wheels Monster Trucks Live
 DTSTART;TZID=Europe/London:20270123T100000
 DTEND;TZID=Europe/London:20270123T130000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:47111ed62d01f257829a459d5e1c@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-hot-wheels-9c624e46e9.png
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Hot-W
+ heels-2027-Glasgow-1180-x-664-4cc8b7017a.jpg
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1477,20 +673,20 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/hot-wh
  eels-monster-trucks-live-colour-bash
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/hot-wheels-monster-trucks-live-
  colour-bash
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:HOT WHEELS MONSTER TRUCKS LIVE
+SUMMARY:Hot Wheels Monster Trucks Live
 DTSTART;TZID=Europe/London:20270123T170000
 DTEND;TZID=Europe/London:20270123T200000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:292a209f8b3c60a2c7143ad20a11@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-hot-wheels-9c624e46e9.png
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Hot-W
+ heels-2027-Glasgow-1180-x-664-4cc8b7017a.jpg
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1501,20 +697,20 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/hot-wh
  eels-monster-trucks-live-colour-bash
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/hot-wheels-monster-trucks-live-
  colour-bash
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:HOT WHEELS MONSTER TRUCKS LIVE
+SUMMARY:Hot Wheels Monster Trucks Live
 DTSTART;TZID=Europe/London:20270124T100000
 DTEND;TZID=Europe/London:20270124T130000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:84b7e667305198f98818ec9af8d1@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-hot-wheels-9c624e46e9.png
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Hot-W
+ heels-2027-Glasgow-1180-x-664-4cc8b7017a.jpg
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1525,20 +721,20 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/hot-wh
  eels-monster-trucks-live-colour-bash
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/hot-wheels-monster-trucks-live-
  colour-bash
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:TWO DOOR CINEMA CLUB
+SUMMARY:Two Door Cinema Club
 DTSTART;TZID=Europe/London:20270126T183000
 DTEND;TZID=Europe/London:20270126T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:ced007fa8567297afbe7d7a1811b@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-Two-Door-Cinema-Club-8be0625537.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-two-door-cinema-club-104acb61e1.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1549,107 +745,111 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/two-do
  or-cinema-club
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/two-door-cinema-club
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:STRICTLY COME DANCING LIVE 2027
-DTSTART;TZID=Europe/London:20270129T193000
-DTEND;TZID=Europe/London:20270129T223000
-DTSTAMP:20261012T131923Z
-UID:df2a291becdc8b1f89b2b7771a51@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-strictly-2027-07e23d6b90.png
+SUMMARY:Strictly Come Dancing Live 2027
+DTSTART;TZID=Europe/London:20270129T183000
+DTEND;TZID=Europe/London:20270129T213000
+DTSTAMP:20261124T002957Z
+UID:75b79ea99cc38a33d2eeb9372a3a@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-Strictly-Come-Dancing-1-082f06da06.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
  imes vary by event and will be confirmed separately by the OVO Hydro hospi
  tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published show time.\n\nCa
- lendar timings are indicative and should not replace your event-specific h
- ospitality confirmation.\n\nOfficial event details: https://www.ovohydro.c
- om/events/detail/strictly-come-dancing-live-2027
-LAST-MODIFIED:20261012T131923Z
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/strict
+ ly-come-dancing-live-2027
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/strictly-come-dancing-live-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:STRICTLY COME DANCING LIVE 2027
-DTSTART;TZID=Europe/London:20270130T143000
-DTEND;TZID=Europe/London:20270130T173000
-DTSTAMP:20261012T131923Z
-UID:d6dd2a0be060fa7ccaf0996ef4ff@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-strictly-2027-07e23d6b90.png
+SUMMARY:Strictly Come Dancing Live 2027
+DTSTART;TZID=Europe/London:20270130T133000
+DTEND;TZID=Europe/London:20270130T163000
+DTSTAMP:20261124T002957Z
+UID:79e0ac4e3cbd709be67a2971be56@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-Strictly-Come-Dancing-1-082f06da06.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
  imes vary by event and will be confirmed separately by the OVO Hydro hospi
  tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published show time.\n\nCa
- lendar timings are indicative and should not replace your event-specific h
- ospitality confirmation.\n\nOfficial event details: https://www.ovohydro.c
- om/events/detail/strictly-come-dancing-live-2027
-LAST-MODIFIED:20261012T131923Z
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/strict
+ ly-come-dancing-live-2027
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/strictly-come-dancing-live-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:STRICTLY COME DANCING LIVE 2027
-DTSTART;TZID=Europe/London:20270130T193000
-DTEND;TZID=Europe/London:20270130T223000
-DTSTAMP:20261012T131923Z
-UID:43ad1644418918f140ffb59cbd61@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-strictly-2027-07e23d6b90.png
+SUMMARY:Strictly Come Dancing Live 2027
+DTSTART;TZID=Europe/London:20270130T183000
+DTEND;TZID=Europe/London:20270130T213000
+DTSTAMP:20261124T002957Z
+UID:f0a589f83a6a32c36a3a9869b0da@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-Strictly-Come-Dancing-1-082f06da06.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
  imes vary by event and will be confirmed separately by the OVO Hydro hospi
  tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published show time.\n\nCa
- lendar timings are indicative and should not replace your event-specific h
- ospitality confirmation.\n\nOfficial event details: https://www.ovohydro.c
- om/events/detail/strictly-come-dancing-live-2027
-LAST-MODIFIED:20261012T131923Z
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/strict
+ ly-come-dancing-live-2027
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/strictly-come-dancing-live-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:STRICTLY COME DANCING LIVE 2027
-DTSTART;TZID=Europe/London:20270131T133000
-DTEND;TZID=Europe/London:20270131T163000
-DTSTAMP:20261012T131923Z
-UID:9cb2d3dbf1a454eb2a3d95d74460@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-strictly-2027-07e23d6b90.png
+SUMMARY:Strictly Come Dancing Live 2027
+DTSTART;TZID=Europe/London:20270131T123000
+DTEND;TZID=Europe/London:20270131T153000
+DTSTAMP:20261124T002957Z
+UID:559ebad7ade8f213d3a6af509c1b@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-Strictly-Come-Dancing-1-082f06da06.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
  imes vary by event and will be confirmed separately by the OVO Hydro hospi
  tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published show time.\n\nCa
- lendar timings are indicative and should not replace your event-specific h
- ospitality confirmation.\n\nOfficial event details: https://www.ovohydro.c
- om/events/detail/strictly-come-dancing-live-2027
-LAST-MODIFIED:20261012T131923Z
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/strict
+ ly-come-dancing-live-2027
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/strictly-come-dancing-live-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:PREMIER LEAGUE DARTS 2027
+SUMMARY:Premier League Darts 2027
 DTSTART;TZID=Europe/London:20270204T180000
 DTEND;TZID=Europe/London:20270204T210000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:e23a75ba69aa50b178f27ffd7c0b@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/PL27-
- Glasgow-800-423-d87d3b6c57.jpg
+ Glasgow-1180x664-c2a1e0eaca.jpg
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1660,42 +860,43 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/premie
  r-league-darts-2027
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/premier-league-darts-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚠️ RESCHEDULED — GALLANT PIONEERS
-DTSTART;TZID=Europe/London:20270206T193000
-DTEND;TZID=Europe/London:20270206T223000
-DTSTAMP:20261012T131923Z
-UID:9355bfa8d1c2bf650961e12478a8@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-gallant-pioneers-389747402b.png
+SUMMARY:Gallant Pioneers
+DTSTART;TZID=Europe/London:20270206T183000
+DTEND;TZID=Europe/London:20270206T213000
+DTSTAMP:20261124T002957Z
+UID:851f8c68537752483e5d0da66abc@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-gallant-pioneers-843d2daa4a.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
  imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: RESCHEDULED — please refer 
- to the latest hospitality communication.\nThe calendar start is the publis
- hed show time.\n\nCalendar timings are indicative and should not replace y
- our event-specific hospitality confirmation.\n\nOfficial event details: ht
- tps://www.ovohydro.com/events/detail/gallant-pioneers-aug-2026
-LAST-MODIFIED:20261012T131923Z
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/gallan
+ t-pioneers-aug-2027
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/gallant-pioneers-aug-2026
+URL:https://www.ovohydro.com/events/detail/gallant-pioneers-aug-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:DISNEY DESCENDANTS\, ZOMBIES & CAMP ROCK: WORLDS COLLIDE CONCERT T
- OUR
+SUMMARY:Disney Descendants\, ZOMBIES & Camp Rock: Worlds Collide Concert T
+ our
 DTSTART;TZID=Europe/London:20270209T173000
 DTEND;TZID=Europe/London:20270209T203000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:0e76ec8c2e789a8e87d60cc831a4@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/disne
- y-worlds-800x423-GLAS-756d5b5279.jpg
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-disney-worlds-collide-1-b0b6b0510e.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1706,20 +907,20 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/disney
  -worlds-collide-concert-tour-2027
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/disney-worlds-collide-concert-t
  our-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:NOTHING BUT THIEVES
+SUMMARY:Nothing But Thieves
 DTSTART;TZID=Europe/London:20270210T183000
 DTEND;TZID=Europe/London:20270210T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:c677a5d044b37487b26ceae58202@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Nothi
- ng-But-Theives-800x423-d945006b60.jpg
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-nothing-but-thieves-862596f4e1.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1730,19 +931,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/nothin
  g-but-thieves
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/nothing-but-thieves
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CHARLI XCX - MUSIC\, FASHION\, FILM TOUR
+SUMMARY:Charli xcx - Music\, Fashion\, Film Tour
 DTSTART;TZID=Europe/London:20270215T183000
 DTEND;TZID=Europe/London:20270215T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:60dc14810e3342b48af7536049cc@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/charl
- ixcx-800x423-a5f22c6abc.jpg
+ ixcx1180x664-987bdb3e90.jpg
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1753,20 +954,44 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/charli
  -xcx-music-fashion-film-tour
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/charli-xcx-music-fashion-film-t
  our
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:KACEY MUSGRAVES
+SUMMARY:Obskür presents The System Glasgow
+DTSTART;TZID=Europe/London:20270220T170000
+DTEND;TZID=Europe/London:20270220T200000
+DTSTAMP:20261124T002957Z
+UID:b3c37509d3e5903cc93efa98321b@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-obskur-1-b847e0f7ce.png
+CATEGORIES:OVO Hydro Hospitality
+DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
+  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
+ imes vary by event and will be confirmed separately by the OVO Hydro hospi
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/obskur
+ -presents-the-system-glasgow
+LAST-MODIFIED:20261124T002957Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+STATUS:CONFIRMED
+URL:https://www.ovohydro.com/events/detail/obskur-presents-the-system-glas
+ gow
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kacey Musgraves
 DTSTART;TZID=Europe/London:20270222T183000
 DTEND;TZID=Europe/London:20270222T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:2ad56f98ccda261e0ad9d3a08028@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Kacey
- -Musgraves_image_800-x-423-24e7a8eb4f.jpg
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-kacey-musgraves-1-869e43f49a.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1777,19 +1002,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/kacey-
  musgraves-2027
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/kacey-musgraves-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BULLET FOR MY VALENTINE + PENDULUM LIVE
+SUMMARY:Bullet For My Valentine + Pendulum Live
 DTSTART;TZID=Europe/London:20270223T180000
 DTEND;TZID=Europe/London:20270223T210000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:cf49eb88b16af714af8d88ceb960@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-bullet-for-my-valentine-updated-2bbc90db8e.png
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/16x9-
+ Landscape-1180x664-78c154bf93.jpg
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1800,19 +1025,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/bullet
  -for-my-valentine
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/bullet-for-my-valentine
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:N-DUBZ
+SUMMARY:N-Dubz
 DTSTART;TZID=Europe/London:20270225T183000
 DTEND;TZID=Europe/London:20270225T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:872315d98d174ce1a60db04ed369@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/NDubz
- _800x423_GGW_800-x-423-f71f72f8e5.jpg
+ _DigiScreen_GGW_1180x664-665c8b1aae.jpg
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1823,19 +1048,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/n-dubz
  -2027
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/n-dubz-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FANTASM [ALL NIGHT LONG]
+SUMMARY:FANTASM [All Night Long]
 DTSTART;TZID=Europe/London:20270226T173000
 DTEND;TZID=Europe/London:20270226T203000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:ab8db8795f06f7ad461824bde630@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/GLASGO
- W_800x423-34545bfeee.png
+ W_1180x664-3ba504d3e7.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1846,19 +1071,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/fantas
  m-all-night-long
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/fantasm-all-night-long
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:PAUL SMITH: HAPPY
+SUMMARY:Paul Smith: Happy
 DTSTART;TZID=Europe/London:20270305T183000
 DTEND;TZID=Europe/London:20270305T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:35bf112063b485a6d77874234bc7@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Paul-
- Smith-Happy-Tour-800x423-d28d4af734.jpg
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Happy
+ -Tour-Poster-1180x664-px-Glasgow-f85b7f6130.jpg
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1869,19 +1094,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/paul-s
  mith-happy
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/paul-smith-happy
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:PAUL SMITH: HAPPY
+SUMMARY:Paul Smith: Happy
 DTSTART;TZID=Europe/London:20270306T183000
 DTEND;TZID=Europe/London:20270306T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:18c903a1bc6afb8bd13f57137338@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Paul-
- Smith-Happy-Tour-800x423-d28d4af734.jpg
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Happy
+ -Tour-Poster-1180x664-px-Glasgow-f85b7f6130.jpg
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1892,19 +1117,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/paul-s
  mith-happy
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/paul-smith-happy
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:RUSH
+SUMMARY:Rush
 DTSTART;TZID=Europe/London:20270308T183000
 DTEND;TZID=Europe/London:20270308T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:8c9ac8c1de959aa021d4d26f7ab3@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/RUSH_
- 2027_Glasgow_1920x1080_all-extra-dates-800x423-e5db6a70eb.jpg
+ 2027_Glasgow_1180x664-adb1cbb7c3.jpg
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1914,19 +1139,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/rush
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/rush
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:RUSH
+SUMMARY:Rush
 DTSTART;TZID=Europe/London:20270310T183000
 DTEND;TZID=Europe/London:20270310T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:822d4d42d462607c0f0a92f8c6a1@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/RUSH_
- 2027_Glasgow_1920x1080_all-extra-dates-800x423-e5db6a70eb.jpg
+ 2027_Glasgow_1180x664-adb1cbb7c3.jpg
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1936,19 +1161,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/rush
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/rush
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:COUNTRY TO COUNTRY
+SUMMARY:Country to Country
 DTSTART;TZID=Europe/London:20270312T161500
 DTEND;TZID=Europe/London:20270312T191500
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:a7404250437833ceabd2a84a8cad@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/C2C27
- _800x423_Glasgow_1-49bd3df7eb.jpg
+ _1180x664Glasgow_1-3abfe84bbe.jpg
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1959,19 +1184,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/countr
  y-to-country-2027
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/country-to-country-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:COUNTRY TO COUNTRY
+SUMMARY:Country to Country
 DTSTART;TZID=Europe/London:20270313T161500
 DTEND;TZID=Europe/London:20270313T191500
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:36e785aa10df69713b8372e6433c@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/C2C27
- _800x423_Glasgow_1-49bd3df7eb.jpg
+ _1180x664Glasgow_1-3abfe84bbe.jpg
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -1982,19 +1207,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/countr
  y-to-country-2027
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/country-to-country-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:COUNTRY TO COUNTRY
+SUMMARY:Country to Country
 DTSTART;TZID=Europe/London:20270314T161500
 DTEND;TZID=Europe/London:20270314T191500
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:8a40467b7d7dd3e2c4becce917f7@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/C2C27
- _800x423_Glasgow_1-49bd3df7eb.jpg
+ _1180x664Glasgow_1-3abfe84bbe.jpg
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2005,19 +1230,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/countr
  y-to-country-2027
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/country-to-country-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MEGADETH
+SUMMARY:Megadeth
 DTSTART;TZID=Europe/London:20270316T183000
 DTEND;TZID=Europe/London:20270316T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:cf97fc3f07628676491fbc8b7731@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-megadeth-8a179531cb.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-megadeth-1-3c36222aa5.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2028,19 +1253,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/megade
  th
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/megadeth
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CHASE & STATUS
+SUMMARY:Chase & Status
 DTSTART;TZID=Europe/London:20270318T183000
 DTEND;TZID=Europe/London:20270318T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:4d5420197e6513704b95df603271@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-chase-and-status-a9e9690f34.png
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Chase
+ -Status-1180-x-664-a1832017f9.jpg
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2051,19 +1276,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/chase-
  status-2027
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/chase-status-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SONNY FODERA
+SUMMARY:Sonny Fodera
 DTSTART;TZID=Europe/London:20270320T183000
 DTEND;TZID=Europe/London:20270320T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:501798487d33975c9ca1135fee06@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/Sonny-
- Fodera-800x423-67dc3701d3.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-sonny-fodera-1-41bbd5709e.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2074,19 +1299,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/sonny-
  fodera-2027
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/sonny-fodera-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:DISNEY ON ICE
+SUMMARY:Disney On Ice
 DTSTART;TZID=Europe/London:20270324T173000
 DTEND;TZID=Europe/London:20270324T203000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:49616cbf4cc1e53ba0aa049581fc@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-disney-on-ice-road-trip-adventures-5bc3a88035.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-disney-on-ice-1-9156c44b2f.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2097,20 +1322,20 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/disney
  -on-ice-presents-road-trip-adventures
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/disney-on-ice-presents-road-tri
  p-adventures
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:DISNEY ON ICE
+SUMMARY:Disney On Ice
 DTSTART;TZID=Europe/London:20270325T173000
 DTEND;TZID=Europe/London:20270325T203000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:f86f2abb7c510e21a8661a4284af@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-disney-on-ice-road-trip-adventures-5bc3a88035.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-disney-on-ice-1-9156c44b2f.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2121,20 +1346,20 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/disney
  -on-ice-presents-road-trip-adventures
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/disney-on-ice-presents-road-tri
  p-adventures
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:DISNEY ON ICE
+SUMMARY:Disney On Ice
 DTSTART;TZID=Europe/London:20270326T133000
 DTEND;TZID=Europe/London:20270326T163000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:4c80d2d4c2943b7f5cc1a86c70f6@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-disney-on-ice-road-trip-adventures-5bc3a88035.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-disney-on-ice-1-9156c44b2f.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2145,20 +1370,20 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/disney
  -on-ice-presents-road-trip-adventures
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/disney-on-ice-presents-road-tri
  p-adventures
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:DISNEY ON ICE
+SUMMARY:Disney On Ice
 DTSTART;TZID=Europe/London:20270326T173000
 DTEND;TZID=Europe/London:20270326T203000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:36c79b5df7929d3872132db22bfe@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-disney-on-ice-road-trip-adventures-5bc3a88035.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-disney-on-ice-1-9156c44b2f.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2169,20 +1394,20 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/disney
  -on-ice-presents-road-trip-adventures
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/disney-on-ice-presents-road-tri
  p-adventures
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:DISNEY ON ICE
+SUMMARY:Disney On Ice
 DTSTART;TZID=Europe/London:20270327T093000
 DTEND;TZID=Europe/London:20270327T123000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:bb80b370d13c032461d50e348ddc@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-disney-on-ice-road-trip-adventures-5bc3a88035.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-disney-on-ice-1-9156c44b2f.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2193,20 +1418,20 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/disney
  -on-ice-presents-road-trip-adventures
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/disney-on-ice-presents-road-tri
  p-adventures
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:DISNEY ON ICE
+SUMMARY:Disney On Ice
 DTSTART;TZID=Europe/London:20270327T133000
 DTEND;TZID=Europe/London:20270327T163000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:47863a28d4a033c838503b7762d7@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-disney-on-ice-road-trip-adventures-5bc3a88035.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-disney-on-ice-1-9156c44b2f.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2217,20 +1442,20 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/disney
  -on-ice-presents-road-trip-adventures
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/disney-on-ice-presents-road-tri
  p-adventures
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:DISNEY ON ICE
+SUMMARY:Disney On Ice
 DTSTART;TZID=Europe/London:20270327T173000
 DTEND;TZID=Europe/London:20270327T203000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:efb32a0518c90d3312f493fcef9e@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-disney-on-ice-road-trip-adventures-5bc3a88035.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-disney-on-ice-1-9156c44b2f.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2241,20 +1466,20 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/disney
  -on-ice-presents-road-trip-adventures
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/disney-on-ice-presents-road-tri
  p-adventures
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:DISNEY ON ICE
+SUMMARY:Disney On Ice
 DTSTART;TZID=Europe/London:20270328T093000
 DTEND;TZID=Europe/London:20270328T123000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:fb85e54a4f74688c32de35f453fe@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-disney-on-ice-road-trip-adventures-5bc3a88035.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-disney-on-ice-1-9156c44b2f.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2265,20 +1490,20 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/disney
  -on-ice-presents-road-trip-adventures
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/disney-on-ice-presents-road-tri
  p-adventures
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:DISNEY ON ICE
+SUMMARY:Disney On Ice
 DTSTART;TZID=Europe/London:20270328T133000
 DTEND;TZID=Europe/London:20270328T163000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:4f6e69ae5c7f3c9690a1de2553b0@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-disney-on-ice-road-trip-adventures-5bc3a88035.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-disney-on-ice-1-9156c44b2f.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2289,20 +1514,20 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/disney
  -on-ice-presents-road-trip-adventures
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/disney-on-ice-presents-road-tri
  p-adventures
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:DISNEY ON ICE
+SUMMARY:Disney On Ice
 DTSTART;TZID=Europe/London:20270328T173000
 DTEND;TZID=Europe/London:20270328T203000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:beddc2083c3b948509d4b5e9b5c0@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-disney-on-ice-road-trip-adventures-5bc3a88035.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-disney-on-ice-1-9156c44b2f.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2313,20 +1538,20 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/disney
  -on-ice-presents-road-trip-adventures
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/disney-on-ice-presents-road-tri
  p-adventures
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:TRIVIUM
+SUMMARY:Trivium
 DTSTART;TZID=Europe/London:20270331T174500
 DTEND;TZID=Europe/London:20270331T204500
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:beb363f43be7dd19eba126082fee@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-Trivium-6a7a5459f3.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-trivium-1-af7c3c9246.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2337,19 +1562,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/triviu
  m
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/trivium
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:JAMES BLUNT
+SUMMARY:James Blunt
 DTSTART;TZID=Europe/London:20270402T183000
 DTEND;TZID=Europe/London:20270402T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:b6bb7a590a85623f4d3880d11231@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/James
- -Blunt-Hydro-Assets_800-x-423-ff2029517b.jpg
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-james-blunt-192cb6d3f2.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2360,19 +1585,65 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/james-
  blunt-2027
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/james-blunt-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SABATON: THE LEGENDARY TOUR
+SUMMARY:The Wiggles' Sparkle! BIG SHOW
+DTSTART;TZID=Europe/London:20270407T093000
+DTEND;TZID=Europe/London:20270407T123000
+DTSTAMP:20261124T002957Z
+UID:7638085358b99d576ba22a4f5e21@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-the-wiggles-80141d8843.png
+CATEGORIES:OVO Hydro Hospitality
+DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
+  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
+ imes vary by event and will be confirmed separately by the OVO Hydro hospi
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/the-wi
+ ggles-sparkle-big-show
+LAST-MODIFIED:20261124T002957Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+STATUS:CONFIRMED
+URL:https://www.ovohydro.com/events/detail/the-wiggles-sparkle-big-show
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Wiggles' Sparkle! BIG SHOW
+DTSTART;TZID=Europe/London:20270407T140000
+DTEND;TZID=Europe/London:20270407T170000
+DTSTAMP:20261124T002957Z
+UID:3be1e9e5b547db7cd88fff1f13a7@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-the-wiggles-80141d8843.png
+CATEGORIES:OVO Hydro Hospitality
+DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
+  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
+ imes vary by event and will be confirmed separately by the OVO Hydro hospi
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/the-wi
+ ggles-sparkle-big-show
+LAST-MODIFIED:20261124T002957Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+STATUS:CONFIRMED
+URL:https://www.ovohydro.com/events/detail/the-wiggles-sparkle-big-show
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sabaton: The Legendary Tour
 DTSTART;TZID=Europe/London:20270409T180000
 DTEND;TZID=Europe/London:20270409T210000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:08d2f8b82d4ca4fdd00f13c2d984@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/Sabato
- n-800-x-423-a9193b4838.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-sabaton-3d6bf34f76.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2383,19 +1654,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/sabato
  n-2027
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/sabaton-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:TEDDY SWIMS
+SUMMARY:Teddy Swims
 DTSTART;TZID=Europe/London:20270413T183000
 DTEND;TZID=Europe/London:20270413T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:6a3fcb0c8045d738afd56c091c12@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Teddy
- Swims-2027_Glasgow_OVO_800x423px-8d598f3e2c.jpg
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-teddy-swims-1-c9ec9c7a75.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2406,19 +1677,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/teddy-
  swims-2027
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/teddy-swims-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CAMMY BARNES
+SUMMARY:Cammy Barnes
 DTSTART;TZID=Europe/London:20270422T183000
 DTEND;TZID=Europe/London:20270422T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:1872c4b303b4e85bdecdefd89fa4@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Cammy
- -Barnes-New-Date-Announced-800x423-edb6a6c783.jpg
+ -Barnes-New-Date-Announced-1180x664-415d7ef027.jpg
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2429,19 +1700,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/cammy-
  barnes
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/cammy-barnes
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CAMMY BARNES
+SUMMARY:Cammy Barnes
 DTSTART;TZID=Europe/London:20270423T183000
 DTEND;TZID=Europe/London:20270423T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:08db65c5eb5ed32ceedbff748334@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Cammy
- -Barnes-New-Date-Announced-800x423-edb6a6c783.jpg
+ -Barnes-New-Date-Announced-1180x664-415d7ef027.jpg
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2452,19 +1723,42 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/cammy-
  barnes
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/cammy-barnes
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:THOMAS RHETT
+SUMMARY:Clubland 2027
+DTSTART;TZID=Europe/London:20270424T183000
+DTEND;TZID=Europe/London:20270424T213000
+DTSTAMP:20261124T002957Z
+UID:7052645eb1cdb80aab85556f2b5b@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-clubland-1-1-9ea37b981d.png
+CATEGORIES:OVO Hydro Hospitality
+DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
+  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
+ imes vary by event and will be confirmed separately by the OVO Hydro hospi
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/clubla
+ nd-2027
+LAST-MODIFIED:20261124T002957Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+STATUS:CONFIRMED
+URL:https://www.ovohydro.com/events/detail/clubland-2027
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Thomas Rhett
 DTSTART;TZID=Europe/London:20270425T180000
 DTEND;TZID=Europe/London:20270425T210000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:2a7fdb0e69a22f6630dc51e043ee@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/thoma
- srhett-800x423-c1f60efa24.jpg
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-thomas-rhett-1-e6636a39fc.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2475,19 +1769,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/thomas
  -rhett
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/thomas-rhett
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:GRACIE ABRAMS
+SUMMARY:Gracie Abrams
 DTSTART;TZID=Europe/London:20270427T183000
 DTEND;TZID=Europe/London:20270427T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:09e37c92c9053522bdf0183583d8@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/Gracie
- -Abrams-800x423-24f541f1b3.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-gracie-abrams-5b014aba53.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2498,19 +1792,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/gracie
  -abrams-2027
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/gracie-abrams-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:GRACIE ABRAMS
+SUMMARY:Gracie Abrams
 DTSTART;TZID=Europe/London:20270428T183000
 DTEND;TZID=Europe/London:20270428T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:84237441cec9187aa6a79076d1af@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/Gracie
- -Abrams-800x423-24f541f1b3.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-gracie-abrams-5b014aba53.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2521,19 +1815,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/gracie
  -abrams-2027
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/gracie-abrams-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ROD STEWART
+SUMMARY:Rod Stewart
 DTSTART;TZID=Europe/London:20270429T183000
 DTEND;TZID=Europe/London:20270429T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:5518169a32a3e0c51037f0f2cbd6@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-rod-stewart-updated-roll-date-5e4d28e2a2.png
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/2904-
+ 0105-Glasgow_RodStewart_Europe_2027_Social_1180x664-5f8c78c7b0.jpg
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2544,41 +1838,42 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/rod-st
  ewart-2027
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/rod-stewart-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:JOHN BISHOP
-DTSTART;TZID=Europe/London:20270430T193000
-DTEND;TZID=Europe/London:20270430T223000
-DTSTAMP:20261012T131923Z
+SUMMARY:John Bishop
+DTSTART;TZID=Europe/London:20270430T180000
+DTEND;TZID=Europe/London:20270430T210000
+DTSTAMP:20261124T002957Z
 UID:44b592e5b110cb77fb8b75afa35d@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/JOHNB
- ISHOP-800x423-543850fb16.jpg
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/JOHNBI
+ SHOP_ARENATOUR_2027_NATIONAL_SOCIAL_1180x664-2be1363202.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
  imes vary by event and will be confirmed separately by the OVO Hydro hospi
  tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published show time.\n\nCa
- lendar timings are indicative and should not replace your event-specific h
- ospitality confirmation.\n\nOfficial event details: https://www.ovohydro.c
- om/events/detail/john-bishop-2027
-LAST-MODIFIED:20261012T131923Z
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/john-b
+ ishop-2027
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/john-bishop-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ROD STEWART
+SUMMARY:Rod Stewart
 DTSTART;TZID=Europe/London:20270501T183000
 DTEND;TZID=Europe/London:20270501T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:be8c8e3b294447bc52e7d9ef2861@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-rod-stewart-updated-roll-date-5e4d28e2a2.png
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/2904-
+ 0105-Glasgow_RodStewart_Europe_2027_Social_1180x664-5f8c78c7b0.jpg
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2589,19 +1884,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/rod-st
  ewart-2027
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/rod-stewart-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:HEAR'SAY / LIBERTY X
+SUMMARY:Hear'Say / Liberty X
 DTSTART;TZID=Europe/London:20270505T183000
 DTEND;TZID=Europe/London:20270505T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:82cfad3c5c2aef694ac61210fa0e@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/qEmVs
- vWw-b7a6e7664b.jpeg
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/Hearsa
+ y-c9677ac9c8.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2612,19 +1907,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/hearsa
  y-liberty-x
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/hearsay-liberty-x
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ERASURE
+SUMMARY:Erasure
 DTSTART;TZID=Europe/London:20270509T180000
 DTEND;TZID=Europe/London:20270509T210000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:7e8bdd757319ea256b636a186c62@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/800x4
- 23-4c8c107763.jpg
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/ERASU
+ RE-1180x664-7069248ff4.jpg
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2635,19 +1930,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/erasur
  e-2027
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/erasure-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SIMPLE MINDS
+SUMMARY:Simple Minds
 DTSTART;TZID=Europe/London:20270514T183000
 DTEND;TZID=Europe/London:20270514T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:f9f2b8de2e48b9f3ee87034641d4@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-simple-minds-new-11cd1aa6f7.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-simple-minds-31b7f173a3.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2658,19 +1953,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/simple
  -minds-2027
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/simple-minds-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SIMPLE MINDS
+SUMMARY:Simple Minds
 DTSTART;TZID=Europe/London:20270515T183000
 DTEND;TZID=Europe/London:20270515T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:d37797c333be2dff7b22f6381825@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-simple-minds-new-11cd1aa6f7.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-simple-minds-31b7f173a3.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2681,19 +1976,42 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/simple
  -minds-2027
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/simple-minds-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:WEEZER
+SUMMARY:Rod Stewart
+DTSTART;TZID=Europe/London:20270518T183000
+DTEND;TZID=Europe/London:20270518T213000
+DTSTAMP:20261124T002957Z
+UID:9a0d91cdd8aa24df4c552ca3e41e@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/2904-
+ 0105-Glasgow_RodStewart_Europe_2027_Social_1180x664-5f8c78c7b0.jpg
+CATEGORIES:OVO Hydro Hospitality
+DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
+  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
+ imes vary by event and will be confirmed separately by the OVO Hydro hospi
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/rod-st
+ ewart-2027
+LAST-MODIFIED:20261124T002957Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+STATUS:CONFIRMED
+URL:https://www.ovohydro.com/events/detail/rod-stewart-2027
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Weezer
 DTSTART;TZID=Europe/London:20270519T183000
 DTEND;TZID=Europe/London:20270519T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:a7a8aec3a4b005ec8363fa8bea77@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/weeze
- r-800x423-738854547b.jpg
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-weezer-c31514688b.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2703,19 +2021,66 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/weezer
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/weezer
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:NICKELBACK
+SUMMARY:Blue Planet III
+DTSTART;TZID=Europe/London:20270523T180000
+DTEND;TZID=Europe/London:20270523T210000
+DTSTAMP:20261124T002957Z
+UID:ca8517cbacf5d1a3fb6695371c6f@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/SET-D
+ _DIGITAL_SCREENS_1180x664-c38effee74.jpg
+CATEGORIES:OVO Hydro Hospitality
+DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
+  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
+ imes vary by event and will be confirmed separately by the OVO Hydro hospi
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/blue-p
+ lanet-iii
+LAST-MODIFIED:20261124T002957Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+STATUS:CONFIRMED
+URL:https://www.ovohydro.com/events/detail/blue-planet-iii
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Fall Out Boy: Twilight of the Punks
+DTSTART;TZID=Europe/London:20270530T173000
+DTEND;TZID=Europe/London:20270530T203000
+DTSTAMP:20261124T002957Z
+UID:356f95577573e41ee79a09cb9e44@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/fallo
+ utboy-1180x664-e5d5bf3d3a.jpg
+CATEGORIES:OVO Hydro Hospitality
+DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
+  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
+ imes vary by event and will be confirmed separately by the OVO Hydro hospi
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/fall-o
+ ut-boy-twilight-of-the-punks
+LAST-MODIFIED:20261124T002957Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+STATUS:CONFIRMED
+URL:https://www.ovohydro.com/events/detail/fall-out-boy-twilight-of-the-pu
+ nks
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nickelback
 DTSTART;TZID=Europe/London:20270601T173000
 DTEND;TZID=Europe/London:20270601T203000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:15726082a8622b16270d92b3d8db@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-nickelback-594d09b677.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-nickelback-1-46d8c2cd93.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2726,19 +2091,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/nickel
  back-2027
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/nickelback-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:GRETA VAN FLEET: INTO THE BEGINNING
+SUMMARY:Greta Van Fleet: Into The Beginning
 DTSTART;TZID=Europe/London:20270602T183000
 DTEND;TZID=Europe/London:20270602T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:3ca7d9e53868230da41de4bea979@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Greta
- -Van-Fleet-Glasgow-800x423-5425498fa0.jpg
+ -Van-Fleet-Glasgow-T1180-x-664-4738252cdf.jpg
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2749,19 +2114,42 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/greta-
  van-fleet
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/greta-van-fleet
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:HAYLEY WILLIAMS
+SUMMARY:Toto
+DTSTART;TZID=Europe/London:20270619T183000
+DTEND;TZID=Europe/London:20270619T213000
+DTSTAMP:20261124T002957Z
+UID:c3450b4d2e2e2f29eb959610c61e@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/Untitl
+ ed-design-20-4a1098a9a0.png
+CATEGORIES:OVO Hydro Hospitality
+DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
+  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
+ imes vary by event and will be confirmed separately by the OVO Hydro hospi
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/toto-2
+ 027
+LAST-MODIFIED:20261124T002957Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+STATUS:CONFIRMED
+URL:https://www.ovohydro.com/events/detail/toto-2027
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hayley Williams
 DTSTART;TZID=Europe/London:20270623T183000
 DTEND;TZID=Europe/London:20270623T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:2fdb22aad745bd705e307fa2695e@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-Hayley-Williams-5c6e297d8e.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-hayley-williams-1-9b37a6fa8b.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2772,19 +2160,135 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/hayley
  -williams
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/hayley-williams
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ANDREA BOCELLI
+SUMMARY:Scorpions
+DTSTART;TZID=Europe/London:20270703T183000
+DTEND;TZID=Europe/London:20270703T213000
+DTSTAMP:20261124T002957Z
+UID:7539ebbb73f82ef452675ea02c12@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/scorp
+ ions-1180x664-8f823ad0af.jpg
+CATEGORIES:OVO Hydro Hospitality
+DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
+  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
+ imes vary by event and will be confirmed separately by the OVO Hydro hospi
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/scorpi
+ ons
+LAST-MODIFIED:20261124T002957Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+STATUS:CONFIRMED
+URL:https://www.ovohydro.com/events/detail/scorpions
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Andre Rieu and his Johann Strauss Orchestra
+DTSTART;TZID=Europe/London:20270923T180000
+DTEND;TZID=Europe/London:20270923T210000
+DTSTAMP:20261124T002957Z
+UID:0b0f96bec62de90bdeb62c8f55e6@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Rieu-
+ 2027-Glasgow-1180x664px-16cf74bdfa.jpg
+CATEGORIES:OVO Hydro Hospitality
+DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
+  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
+ imes vary by event and will be confirmed separately by the OVO Hydro hospi
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/andre-
+ rieu-and-his-johann-strauss-orchestra
+LAST-MODIFIED:20261124T002957Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+STATUS:CONFIRMED
+URL:https://www.ovohydro.com/events/detail/andre-rieu-and-his-johann-strau
+ ss-orchestra
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Marti Pellow
+DTSTART;TZID=Europe/London:20271002T183000
+DTEND;TZID=Europe/London:20271002T213000
+DTSTAMP:20261124T002957Z
+UID:f3a2225ee702a20b2bd2928be007@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Marti
+ -Pellow-Hydro-Assets_1180-x-664-dd0751fe14.jpg
+CATEGORIES:OVO Hydro Hospitality
+DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
+  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
+ imes vary by event and will be confirmed separately by the OVO Hydro hospi
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/marti-
+ pellow-2027
+LAST-MODIFIED:20261124T002957Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+STATUS:CONFIRMED
+URL:https://www.ovohydro.com/events/detail/marti-pellow-2027
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Teskey Brothers
+DTSTART;TZID=Europe/London:20271003T183000
+DTEND;TZID=Europe/London:20271003T213000
+DTSTAMP:20261124T002957Z
+UID:b545d2100c930f54b135c00ffef7@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/teske
+ y-1180x664-b71622da08.jpg
+CATEGORIES:OVO Hydro Hospitality
+DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
+  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
+ imes vary by event and will be confirmed separately by the OVO Hydro hospi
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/the-te
+ skey-brothers
+LAST-MODIFIED:20261124T002957Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+STATUS:CONFIRMED
+URL:https://www.ovohydro.com/events/detail/the-teskey-brothers
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:S Club
+DTSTART;TZID=Europe/London:20271008T183000
+DTEND;TZID=Europe/London:20271008T213000
+DTSTAMP:20261124T002957Z
+UID:f1256f4d352448b68087ca65151e@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/SClub
+ _27_Glasgow_VenueWebAssets_x5_1180-x-664-2c27894139.jpg
+CATEGORIES:OVO Hydro Hospitality
+DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
+  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
+ imes vary by event and will be confirmed separately by the OVO Hydro hospi
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/s-club
+ -2027
+LAST-MODIFIED:20261124T002957Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+STATUS:CONFIRMED
+URL:https://www.ovohydro.com/events/detail/s-club-2027
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Andrea Bocelli
 DTSTART;TZID=Europe/London:20271009T183000
 DTEND;TZID=Europe/London:20271009T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:f85049d05a072dcea8d9cc604ff3@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Andre
- a-Bocelli_Glasg_web-3_800-x-423-c543d2dec3.jpg
+ aBocelli_GGWVenueScreens_x2_1180x664-5cc32296f1.jpg
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2795,19 +2299,157 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/andrea
  -bocelli-2027
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/andrea-bocelli-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:DEACON BLUE
+SUMMARY:KPop Demon Hunters Golden World Tour
+DTSTART;TZID=Europe/London:20271012T180000
+DTEND;TZID=Europe/London:20271012T210000
+DTSTAMP:20261124T002957Z
+UID:421fbc86894669eaef6d7f6efcc3@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-k-pop-compressed-32fee6069d.png
+CATEGORIES:OVO Hydro Hospitality
+DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
+  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
+ imes vary by event and will be confirmed separately by the OVO Hydro hospi
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/kpop-d
+ emon-hunters
+LAST-MODIFIED:20261124T002957Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+STATUS:CONFIRMED
+URL:https://www.ovohydro.com/events/detail/kpop-demon-hunters
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Giants Live: Glasgow
+DTSTART;TZID=Europe/London:20271016T153000
+DTEND;TZID=Europe/London:20271016T183000
+DTSTAMP:20261124T002957Z
+UID:1f69e543120924e892b16706cc71@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-giants-live-1-5323791238.png
+CATEGORIES:OVO Hydro Hospitality
+DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
+  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
+ imes vary by event and will be confirmed separately by the OVO Hydro hospi
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/giants
+ -live-glasgow
+LAST-MODIFIED:20261124T002957Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+STATUS:CONFIRMED
+URL:https://www.ovohydro.com/events/detail/giants-live-glasgow
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Billy Ocean
+DTSTART;TZID=Europe/London:20271017T183000
+DTEND;TZID=Europe/London:20271017T213000
+DTSTAMP:20261124T002957Z
+UID:25ff40b7b5814fe617a3526ebb17@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-billy-ocean-2-1-45a9c2c571.png
+CATEGORIES:OVO Hydro Hospitality
+DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
+  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
+ imes vary by event and will be confirmed separately by the OVO Hydro hospi
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/billy-
+ ocean-2027
+LAST-MODIFIED:20261124T002957Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+STATUS:CONFIRMED
+URL:https://www.ovohydro.com/events/detail/billy-ocean-2027
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Texas
+DTSTART;TZID=Europe/London:20271021T183000
+DTEND;TZID=Europe/London:20271021T213000
+DTSTAMP:20261124T002957Z
+UID:06b8e22eb133a8b8bfaceb392e85@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-texas-1a9f2acaf8.png
+CATEGORIES:OVO Hydro Hospitality
+DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
+  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
+ imes vary by event and will be confirmed separately by the OVO Hydro hospi
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/texas-
+ 2027
+LAST-MODIFIED:20261124T002957Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+STATUS:CONFIRMED
+URL:https://www.ovohydro.com/events/detail/texas-2027
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Texas
+DTSTART;TZID=Europe/London:20271022T183000
+DTEND;TZID=Europe/London:20271022T213000
+DTSTAMP:20261124T002957Z
+UID:14f259aa764528b9bc25ec3ae24a@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-texas-1a9f2acaf8.png
+CATEGORIES:OVO Hydro Hospitality
+DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
+  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
+ imes vary by event and will be confirmed separately by the OVO Hydro hospi
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/texas-
+ 2027
+LAST-MODIFIED:20261124T002957Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+STATUS:CONFIRMED
+URL:https://www.ovohydro.com/events/detail/texas-2027
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Uncanny Live
+DTSTART;TZID=Europe/London:20271024T183000
+DTEND;TZID=Europe/London:20271024T213000
+DTSTAMP:20261124T002957Z
+UID:2c7bbc98368da0ecd706e55197b5@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-uncanny-23777ab3ab.png
+CATEGORIES:OVO Hydro Hospitality
+DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
+  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
+ imes vary by event and will be confirmed separately by the OVO Hydro hospi
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/uncann
+ y-live
+LAST-MODIFIED:20261124T002957Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+STATUS:CONFIRMED
+URL:https://www.ovohydro.com/events/detail/uncanny-live
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Deacon Blue
 DTSTART;TZID=Europe/London:20271029T183000
 DTEND;TZID=Europe/London:20271029T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:c3d4b58ae90936c51ccb25e023ff@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-deacon-blue-no-dates-7b401f0de2.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/Deacon
+ -Blue-1180x664-d1c688859b.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2818,19 +2460,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/deacon
  -blue-2027
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/deacon-blue-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:DEACON BLUE
+SUMMARY:Deacon Blue
 DTSTART;TZID=Europe/London:20271030T183000
 DTEND;TZID=Europe/London:20271030T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:b0c972e311514937cfe77180e5f5@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-deacon-blue-no-dates-7b401f0de2.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/Deacon
+ -Blue-1180x664-d1c688859b.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2841,19 +2483,19 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/deacon
  -blue-2027
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/deacon-blue-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:DEACON BLUE
+SUMMARY:Deacon Blue
 DTSTART;TZID=Europe/London:20271031T183000
 DTEND;TZID=Europe/London:20271031T213000
-DTSTAMP:20261012T131923Z
+DTSTAMP:20261124T002957Z
 UID:52a9a0267994ed184f8affa1966f@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/800-x-
- 423-deacon-blue-no-dates-7b401f0de2.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/Deacon
+ -Blue-1180x664-d1c688859b.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -2864,9 +2506,308 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/deacon
  -blue-2027
-LAST-MODIFIED:20261012T131923Z
+LAST-MODIFIED:20261124T002957Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/deacon-blue-2027
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STEPS
+DTSTART;TZID=Europe/London:20271113T183000
+DTEND;TZID=Europe/London:20271113T213000
+DTSTAMP:20261124T002957Z
+UID:03e5faaa9d83ad99a4e3f33ca2cc@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Steps
+ _Glasow_Solus_Socials_rolldates-x4_1180x664-472be3dab5.jpg
+CATEGORIES:OVO Hydro Hospitality
+DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
+  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
+ imes vary by event and will be confirmed separately by the OVO Hydro hospi
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/steps-
+ 30
+LAST-MODIFIED:20261124T002957Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+STATUS:CONFIRMED
+URL:https://www.ovohydro.com/events/detail/steps-30
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STEPS
+DTSTART;TZID=Europe/London:20271114T183000
+DTEND;TZID=Europe/London:20271114T213000
+DTSTAMP:20261124T002957Z
+UID:43ff651aab74d2f366cb38244204@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Steps
+ _Glasow_Solus_Socials_rolldates-x4_1180x664-472be3dab5.jpg
+CATEGORIES:OVO Hydro Hospitality
+DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
+  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
+ imes vary by event and will be confirmed separately by the OVO Hydro hospi
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/steps-
+ 30
+LAST-MODIFIED:20261124T002957Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+STATUS:CONFIRMED
+URL:https://www.ovohydro.com/events/detail/steps-30
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Human League
+DTSTART;TZID=Europe/London:20271210T183000
+DTEND;TZID=Europe/London:20271210T213000
+DTSTAMP:20261124T002957Z
+UID:4a106a9a325417787761055b9fbf@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
+ -664-human-league-1-df9bd73e26.png
+CATEGORIES:OVO Hydro Hospitality
+DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
+  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
+ imes vary by event and will be confirmed separately by the OVO Hydro hospi
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/the-hu
+ man-league-2027
+LAST-MODIFIED:20261124T002957Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+STATUS:CONFIRMED
+URL:https://www.ovohydro.com/events/detail/the-human-league-2027
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Still Game: Heaven Sent
+DTSTART;TZID=Europe/London:20280218T183000
+DTEND;TZID=Europe/London:20280218T213000
+DTSTAMP:20261124T002957Z
+UID:e0670901f5015ae2e174b3ba59c9@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/SG_He
+ avenSent_1180x664_Hydro-0306f948c9.jpg
+CATEGORIES:OVO Hydro Hospitality
+DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
+  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
+ imes vary by event and will be confirmed separately by the OVO Hydro hospi
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/still-
+ game
+LAST-MODIFIED:20261124T002957Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+STATUS:CONFIRMED
+URL:https://www.ovohydro.com/events/detail/still-game
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Still Game: Heaven Sent
+DTSTART;TZID=Europe/London:20280219T133000
+DTEND;TZID=Europe/London:20280219T163000
+DTSTAMP:20261124T002957Z
+UID:c17a8148a05052aef43a3c965160@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/SG_He
+ avenSent_1180x664_Hydro-0306f948c9.jpg
+CATEGORIES:OVO Hydro Hospitality
+DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
+  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
+ imes vary by event and will be confirmed separately by the OVO Hydro hospi
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/still-
+ game
+LAST-MODIFIED:20261124T002957Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+STATUS:CONFIRMED
+URL:https://www.ovohydro.com/events/detail/still-game
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Still Game: Heaven Sent
+DTSTART;TZID=Europe/London:20280219T183000
+DTEND;TZID=Europe/London:20280219T213000
+DTSTAMP:20261124T002957Z
+UID:459d8e4dbd9e280d7de3b7e0b7e7@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/SG_He
+ avenSent_1180x664_Hydro-0306f948c9.jpg
+CATEGORIES:OVO Hydro Hospitality
+DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
+  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
+ imes vary by event and will be confirmed separately by the OVO Hydro hospi
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/still-
+ game
+LAST-MODIFIED:20261124T002957Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+STATUS:CONFIRMED
+URL:https://www.ovohydro.com/events/detail/still-game
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Still Game: Heaven Sent
+DTSTART;TZID=Europe/London:20280220T133000
+DTEND;TZID=Europe/London:20280220T163000
+DTSTAMP:20261124T002957Z
+UID:bba71c3ca73c1c7d415ec298d965@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/SG_He
+ avenSent_1180x664_Hydro-0306f948c9.jpg
+CATEGORIES:OVO Hydro Hospitality
+DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
+  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
+ imes vary by event and will be confirmed separately by the OVO Hydro hospi
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/still-
+ game
+LAST-MODIFIED:20261124T002957Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+STATUS:CONFIRMED
+URL:https://www.ovohydro.com/events/detail/still-game
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Still Game: Heaven Sent
+DTSTART;TZID=Europe/London:20280220T183000
+DTEND;TZID=Europe/London:20280220T213000
+DTSTAMP:20261124T002957Z
+UID:5096e3a43bcf40a57bae1d12ec8b@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/SG_He
+ avenSent_1180x664_Hydro-0306f948c9.jpg
+CATEGORIES:OVO Hydro Hospitality
+DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
+  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
+ imes vary by event and will be confirmed separately by the OVO Hydro hospi
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/still-
+ game
+LAST-MODIFIED:20261124T002957Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+STATUS:CONFIRMED
+URL:https://www.ovohydro.com/events/detail/still-game
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Still Game: Heaven Sent
+DTSTART;TZID=Europe/London:20280303T183000
+DTEND;TZID=Europe/London:20280303T213000
+DTSTAMP:20261124T002957Z
+UID:ff42cf6693d1ffd4ed0f000dc52a@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/SG_He
+ avenSent_1180x664_Hydro-0306f948c9.jpg
+CATEGORIES:OVO Hydro Hospitality
+DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
+  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
+ imes vary by event and will be confirmed separately by the OVO Hydro hospi
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/still-
+ game
+LAST-MODIFIED:20261124T002957Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+STATUS:CONFIRMED
+URL:https://www.ovohydro.com/events/detail/still-game
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Still Game: Heaven Sent
+DTSTART;TZID=Europe/London:20280304T133000
+DTEND;TZID=Europe/London:20280304T163000
+DTSTAMP:20261124T002957Z
+UID:c462e61e38d2c0d87a411a8bfd9e@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/SG_He
+ avenSent_1180x664_Hydro-0306f948c9.jpg
+CATEGORIES:OVO Hydro Hospitality
+DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
+  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
+ imes vary by event and will be confirmed separately by the OVO Hydro hospi
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/still-
+ game
+LAST-MODIFIED:20261124T002957Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+STATUS:CONFIRMED
+URL:https://www.ovohydro.com/events/detail/still-game
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Still Game: Heaven Sent
+DTSTART;TZID=Europe/London:20280304T183000
+DTEND;TZID=Europe/London:20280304T213000
+DTSTAMP:20261124T002957Z
+UID:cecdc9c9914749116f85fa9c2d9f@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/SG_He
+ avenSent_1180x664_Hydro-0306f948c9.jpg
+CATEGORIES:OVO Hydro Hospitality
+DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
+  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
+ imes vary by event and will be confirmed separately by the OVO Hydro hospi
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/still-
+ game
+LAST-MODIFIED:20261124T002957Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+STATUS:CONFIRMED
+URL:https://www.ovohydro.com/events/detail/still-game
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Still Game: Heaven Sent
+DTSTART;TZID=Europe/London:20280305T133000
+DTEND;TZID=Europe/London:20280305T163000
+DTSTAMP:20261124T002957Z
+UID:4988ad305379bfe0b884e0a9d0ea@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/SG_He
+ avenSent_1180x664_Hydro-0306f948c9.jpg
+CATEGORIES:OVO Hydro Hospitality
+DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
+  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
+ imes vary by event and will be confirmed separately by the OVO Hydro hospi
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/still-
+ game
+LAST-MODIFIED:20261124T002957Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+STATUS:CONFIRMED
+URL:https://www.ovohydro.com/events/detail/still-game
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Still Game: Heaven Sent
+DTSTART;TZID=Europe/London:20280305T183000
+DTEND;TZID=Europe/London:20280305T213000
+DTSTAMP:20261124T002957Z
+UID:d91b27a721c34312c17847ddd57a@ovo-hydro-calendar
+ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/SG_He
+ avenSent_1180x664_Hydro-0306f948c9.jpg
+CATEGORIES:OVO Hydro Hospitality
+DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
+  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
+ imes vary by event and will be confirmed separately by the OVO Hydro hospi
+ tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
+ Hydro event listing.\nThe calendar start is the published public doors tim
+ e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
+ cative and should not replace your event-specific hospitality confirmation
+ .\n\nOfficial event details: https://www.ovohydro.com/events/detail/still-
+ game
+LAST-MODIFIED:20261124T002957Z
+LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
+STATUS:CONFIRMED
+URL:https://www.ovohydro.com/events/detail/still-game
 END:VEVENT
 END:VCALENDAR
