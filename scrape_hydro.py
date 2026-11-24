@@ -30,6 +30,7 @@ TZ = ZoneInfo("Europe/London")
 UTC = timezone.utc
 DEFAULT_START = time(19, 30)
 DEFAULT_DURATION = timedelta(hours=3)
+MIN_EVENT_COUNT = 15
 
 HEADERS = {
     "User-Agent": (
@@ -643,7 +644,7 @@ def build_calendar(entries: list[Entry]) -> bytes:
 
 
 def validate(entries: list[Entry], title_count: int) -> None:
-    if title_count < 20:
+    if title_count < MIN_EVENT_COUNT:
         raise RuntimeError(f"Only {title_count} event pages found; refusing to publish")
     if len(entries) < title_count:
         raise RuntimeError(f"Only {len(entries)} showings from {title_count} event pages; refusing to publish")
@@ -852,7 +853,7 @@ def main() -> int:
             links = listing_links(page)
             print(f"Found {len(links)} official event detail pages")
 
-            if len(links) < 20:
+            if len(links) < MIN_EVENT_COUNT:
                 raise RuntimeError(
                     f"Only {len(links)} event detail pages were found"
                 )
@@ -906,7 +907,7 @@ def main() -> int:
 
         entries = deduplicate(entries)
 
-        if len(entries) < 20:
+        if len(entries) < MIN_EVENT_COUNT:
             raise RuntimeError(
                 f"Only {len(entries)} future calendar entries were parsed; "
                 "refusing to overwrite the existing feed."
