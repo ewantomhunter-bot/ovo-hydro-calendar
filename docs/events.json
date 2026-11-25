@@ -288,18 +288,6 @@
     "source": "visible_current_ovo_listing"
   },
   {
-    "title": "Jack Whitehall",
-    "start": "2027-01-14T18:30:00+00:00",
-    "end": "2027-01-14T21:30:00+00:00",
-    "url": "https://www.ovohydro.com/events/detail/jack-whitehall-2027",
-    "timing_source": "published_doors_time",
-    "source_text": "Thu 14 Jan 2027 Buy Tickets Door time 18.30 Event Times TBA",
-    "artwork_url": "https://www.sec.co.uk/assets/img/Clean-1180x664-ef0d5a1d18.jpg",
-    "listing_status": "",
-    "script_version": "9.1.1",
-    "source": "visible_current_ovo_listing"
-  },
-  {
     "title": "Five Finger Death Punch",
     "start": "2027-01-17T18:30:00+00:00",
     "end": "2027-01-17T21:30:00+00:00",
@@ -954,7 +942,7 @@
     "url": "https://www.ovohydro.com/events/detail/john-bishop-2027",
     "timing_source": "published_doors_time",
     "source_text": "Fri 30 Apr 2027 Buy Tickets Door time 6.00pm Event times TBA",
-    "artwork_url": "https://www.sec.co.uk/assets/img/JOHNBISHOP_ARENATOUR_2027_NATIONAL_SOCIAL_1180x664-2be1363202.png",
+    "artwork_url": "https://www.sec.co.uk/assets/img/JB-LG27_GLAS-WEB_1180x664-f50c30c593.png",
     "listing_status": "",
     "script_version": "9.1.1",
     "source": "visible_current_ovo_listing"
@@ -972,14 +960,14 @@
     "source": "visible_current_ovo_listing"
   },
   {
-    "title": "Hear'Say / Liberty X",
+    "title": "Cancelled - Hear'Say / Liberty X",
     "start": "2027-05-05T18:30:00+01:00",
     "end": "2027-05-05T21:30:00+01:00",
     "url": "https://www.ovohydro.com/events/detail/hearsay-liberty-x",
     "timing_source": "published_doors_time",
-    "source_text": "Wed 05 May 2027 Buy Tickets Door time 6:30pm Event times TBA",
+    "source_text": "Wed 05 May 2027 Door time 6:30pm Event times TBA",
     "artwork_url": "https://www.sec.co.uk/assets/img/Hearsay-c9677ac9c8.png",
-    "listing_status": "",
+    "listing_status": "Cancelled",
     "script_version": "9.1.1",
     "source": "visible_current_ovo_listing"
   },
@@ -991,6 +979,18 @@
     "timing_source": "published_doors_time",
     "source_text": "Sun 09 May 2027 Buy Tickets Door time 6:00pm Event times TBA",
     "artwork_url": "https://www.sec.co.uk/assets/img/ERASURE-1180x664-7069248ff4.jpg",
+    "listing_status": "",
+    "script_version": "9.1.1",
+    "source": "visible_current_ovo_listing"
+  },
+  {
+    "title": "Chase Atlantic",
+    "start": "2027-05-10T18:30:00+01:00",
+    "end": "2027-05-10T21:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/chase-atlantic-2027",
+    "timing_source": "published_doors_time",
+    "source_text": "Mon 10 May 2027 On Sale Soon Door time 6.30pm Event times TBA",
+    "artwork_url": "https://www.sec.co.uk/assets/img/1180-x-664-chase-atlantic-e73c48327f.png",
     "listing_status": "",
     "script_version": "9.1.1",
     "source": "visible_current_ovo_listing"
@@ -1301,9 +1301,21 @@
     "end": "2027-11-13T21:30:00+00:00",
     "url": "https://www.ovohydro.com/events/detail/steps-30",
     "timing_source": "published_doors_time",
-    "source_text": "Sat 13 Nov 2027 Buy Tickets Door time 6.30pm Event times TBA",
-    "artwork_url": "https://www.sec.co.uk/assets/img/Steps_Glasow_Solus_Socials_rolldates-x4_1180x664-472be3dab5.jpg",
-    "listing_status": "Extra Date Added",
+    "source_text": "Sat 13 Nov 2027 Buy Tickets Door time 6.30pm Event Times TBA",
+    "artwork_url": "https://www.sec.co.uk/assets/img/Steps-1180x664-a361d23a3a.png",
+    "listing_status": "Extra Show Added",
+    "script_version": "9.1.1",
+    "source": "visible_current_ovo_listing"
+  },
+  {
+    "title": "STEPS",
+    "start": "2027-11-14T12:30:00+00:00",
+    "end": "2027-11-14T15:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/steps-30",
+    "timing_source": "published_doors_time",
+    "source_text": "Sun 14 Nov 2027 Buy Tickets Door time 12.30pm Event Times TBA",
+    "artwork_url": "https://www.sec.co.uk/assets/img/Steps-1180x664-a361d23a3a.png",
+    "listing_status": "Extra Show Added",
     "script_version": "9.1.1",
     "source": "visible_current_ovo_listing"
   },
@@ -1313,9 +1325,9 @@
     "end": "2027-11-14T21:30:00+00:00",
     "url": "https://www.ovohydro.com/events/detail/steps-30",
     "timing_source": "published_doors_time",
-    "source_text": "Sun 14 Nov 2027 Buy Tickets Door time 6.30pm Event times TBA",
-    "artwork_url": "https://www.sec.co.uk/assets/img/Steps_Glasow_Solus_Socials_rolldates-x4_1180x664-472be3dab5.jpg",
-    "listing_status": "Extra Date Added",
+    "source_text": "Sun 14 Nov 2027 Buy Tickets Door time 6.30pm Event Times TBA",
+    "artwork_url": "https://www.sec.co.uk/assets/img/Steps-1180x664-a361d23a3a.png",
+    "listing_status": "Extra Show Added",
     "script_version": "9.1.1",
     "source": "visible_current_ovo_listing"
   },
