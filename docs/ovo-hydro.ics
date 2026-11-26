@@ -11,34 +11,10 @@ X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 SUMMARY:Kevin Bridges: Here If You Need Me
-DTSTART;TZID=Europe/London:20261125T183000
-DTEND;TZID=Europe/London:20261125T213000
-DTSTAMP:20261125T154759Z
-UID:1feb6f8c5eedda894a230ef14fd0@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/KB_HI
- YNM_1180x664_Glasgow_digi-1822f68ac3.jpg
-CATEGORIES:OVO Hydro Hospitality
-DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
-  and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
- imes vary by event and will be confirmed separately by the OVO Hydro hospi
- tality team.\n\nEVENT INFORMATION\n\nStatus: Confirmed on the current OVO 
- Hydro event listing.\nThe calendar start is the published public doors tim
- e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
- cative and should not replace your event-specific hospitality confirmation
- .\n\nOfficial event details: https://www.ovohydro.com/events/detail/kevin-
- bridges-here-if-you-need-me
-LAST-MODIFIED:20261125T154759Z
-LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
-STATUS:CONFIRMED
-URL:https://www.ovohydro.com/events/detail/kevin-bridges-here-if-you-need-
- me
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Kevin Bridges: Here If You Need Me
 DTSTART;TZID=Europe/London:20261126T183000
 DTEND;TZID=Europe/London:20261126T213000
-DTSTAMP:20261125T154759Z
-UID:54a15e79fa5b65bad64524fea39a@ovo-hydro-calendar
+DTSTAMP:20261126T152942Z
+UID:e23e137cf86306a98e67cd74f365@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/KB_HI
  YNM_1180x664_Glasgow_digi-1822f68ac3.jpg
 CATEGORIES:OVO Hydro Hospitality
@@ -51,7 +27,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/kevin-
  bridges-here-if-you-need-me
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/kevin-bridges-here-if-you-need-
@@ -61,7 +37,7 @@ BEGIN:VEVENT
 SUMMARY:Phoebe Bridgers
 DTSTART;TZID=Europe/London:20261127T183000
 DTEND;TZID=Europe/London:20261127T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:b3277c33dcb81ecf2699df44fad0@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-phoebe-bridgers-0001648d8c.png
@@ -75,7 +51,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/phoebe
  -bridgers
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/phoebe-bridgers
@@ -84,7 +60,7 @@ BEGIN:VEVENT
 SUMMARY:Jungle
 DTSTART;TZID=Europe/London:20261128T183000
 DTEND;TZID=Europe/London:20261128T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:2ddc52469e87bf7dbd2564290de5@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-jungle-1-7a4d812783.png
@@ -97,7 +73,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/jungle
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/jungle
@@ -106,7 +82,7 @@ BEGIN:VEVENT
 SUMMARY:Placebo
 DTSTART;TZID=Europe/London:20261130T183000
 DTEND;TZID=Europe/London:20261130T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:183a998f1a49a7e621c7367ef925@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-Placebo-a2c203e662.png
@@ -120,7 +96,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/placeb
  o
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/placebo
@@ -129,7 +105,7 @@ BEGIN:VEVENT
 SUMMARY:UB40 ft. Ali Campbell
 DTSTART;TZID=Europe/London:20261201T183000
 DTEND;TZID=Europe/London:20261201T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:f45a22a3db6fc93cde7604f505cc@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/ub40-
  1180x640-6475a21779.jpg
@@ -143,7 +119,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/ub40-f
  t-ali-campbell
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/ub40-ft-ali-campbell
@@ -152,7 +128,7 @@ BEGIN:VEVENT
 SUMMARY:Bloc Party & Interpol
 DTSTART;TZID=Europe/London:20261202T183000
 DTEND;TZID=Europe/London:20261202T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:6d0c663b57623df4b55eddbd0d15@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/bloci
  nterpol-1180x664-d039d5503d.jpg
@@ -166,7 +142,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/bloc-p
  arty-and-interpol
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/bloc-party-and-interpol
@@ -175,7 +151,7 @@ BEGIN:VEVENT
 SUMMARY:Pete Tong Presents Ibiza Classics
 DTSTART;TZID=Europe/London:20261203T183000
 DTEND;TZID=Europe/London:20261203T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:531119f7313aa1fb5d1b51f67b14@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/PeteT
  ong_Socials__Glasg_FullLineUp_x4_1180x664-b3b4cd64bf.jpg
@@ -189,7 +165,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/pete-t
  ong-presents-ibiza-classics-2026
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/pete-tong-presents-ibiza-classi
@@ -199,7 +175,7 @@ BEGIN:VEVENT
 SUMMARY:Blossoms
 DTSTART;TZID=Europe/London:20261205T183000
 DTEND;TZID=Europe/London:20261205T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:cdd76e4e2a141e46078604998187@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-blossoms-e62967210c.png
@@ -213,7 +189,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/blosso
  ms
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/blossoms
@@ -222,7 +198,7 @@ BEGIN:VEVENT
 SUMMARY:The Lord of the Rings
 DTSTART;TZID=Europe/London:20261206T113000
 DTEND;TZID=Europe/London:20261206T143000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:c16f186231c4334edee12c0ce8a3@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/LOTR_
  FOTR-Hydro-Assets_1180x664-c01252c3c2.jpg
@@ -236,7 +212,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/the-lo
  rd-of-the-rings
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/the-lord-of-the-rings
@@ -245,7 +221,7 @@ BEGIN:VEVENT
 SUMMARY:The Lord of the Rings
 DTSTART;TZID=Europe/London:20261206T173000
 DTEND;TZID=Europe/London:20261206T203000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:d10517b9ffe082d998c203759b2f@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/LOTR_
  FOTR-Hydro-Assets_1180x664-c01252c3c2.jpg
@@ -259,7 +235,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/the-lo
  rd-of-the-rings
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/the-lord-of-the-rings
@@ -268,7 +244,7 @@ BEGIN:VEVENT
 SUMMARY:EsDeeKid
 DTSTART;TZID=Europe/London:20261207T183000
 DTEND;TZID=Europe/London:20261207T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:58ed72ee8480b56302a84744a99c@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-esdeekid-8db768ffbe.png
@@ -282,7 +258,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/esdeek
  id
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/esdeekid
@@ -291,7 +267,7 @@ BEGIN:VEVENT
 SUMMARY:The Darkness
 DTSTART;TZID=Europe/London:20261208T183000
 DTEND;TZID=Europe/London:20261208T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:10757bdc164609c407fccd4bc2e8@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/darkn
  ess1180x664-4d38de4e25.jpg
@@ -305,7 +281,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/the-da
  rkness
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/the-darkness
@@ -314,7 +290,7 @@ BEGIN:VEVENT
 SUMMARY:Kneecap
 DTSTART;TZID=Europe/London:20261209T183000
 DTEND;TZID=Europe/London:20261209T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:80375be7c4b0649af90c083c05a8@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-kneecap-1-3ef540acdc.png
@@ -328,7 +304,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/kneeca
  p-2026
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/kneecap-2026
@@ -337,7 +313,7 @@ BEGIN:VEVENT
 SUMMARY:Dylan John Thomas
 DTSTART;TZID=Europe/London:20261211T183000
 DTEND;TZID=Europe/London:20261211T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:69bb35eff8ca302a05a237bebbd7@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-dylan-john-thomas-2026-1-e7da66ffe4.png
@@ -351,7 +327,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/dylan-
  john-thomas-2026
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/dylan-john-thomas-2026
@@ -360,7 +336,7 @@ BEGIN:VEVENT
 SUMMARY:Hoolie in the Hydro
 DTSTART;TZID=Europe/London:20261212T173000
 DTEND;TZID=Europe/London:20261212T203000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:aeb90cf964799003b856cf86acc8@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/Websit
  e-secondary-graphic-1180x664-084c185b91.png
@@ -374,7 +350,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/hoolie
  -in-the-hydro-2026
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/hoolie-in-the-hydro-2026
@@ -383,7 +359,7 @@ BEGIN:VEVENT
 SUMMARY:Kasabian
 DTSTART;TZID=Europe/London:20261213T183000
 DTEND;TZID=Europe/London:20261213T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:876901ae6914d01f7b4e5eeb87ad@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-kasabian-2026-469059d731.png
@@ -397,7 +373,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/kasabi
  an-2026
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/kasabian-2026
@@ -406,7 +382,7 @@ BEGIN:VEVENT
 SUMMARY:Culture Club
 DTSTART;TZID=Europe/London:20261215T183000
 DTEND;TZID=Europe/London:20261215T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:aff5e99897fb40c315d58ca6ba95@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-culture-club-2026-866e911d65.png
@@ -420,7 +396,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/cultur
  e-club-2026
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/culture-club-2026
@@ -429,7 +405,7 @@ BEGIN:VEVENT
 SUMMARY:Morrissey
 DTSTART;TZID=Europe/London:20261216T183000
 DTEND;TZID=Europe/London:20261216T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:8d8377decf9f121316fa98770e57@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-morrissey-b3ec61f55a.png
@@ -443,7 +419,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/morris
  sey-2026
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/morrissey-2026
@@ -452,7 +428,7 @@ BEGIN:VEVENT
 SUMMARY:The Mary Wallopers
 DTSTART;TZID=Europe/London:20261219T183000
 DTEND;TZID=Europe/London:20261219T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:c4440fd2edd93ee66f06f3167bf0@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-mary-wallopers-1-a47b57c21d.png
@@ -466,7 +442,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/the-ma
  ry-wallopers
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/the-mary-wallopers
@@ -475,7 +451,7 @@ BEGIN:VEVENT
 SUMMARY:Adrian Mills B2B Cloudy
 DTSTART;TZID=Europe/London:20261227T173000
 DTEND;TZID=Europe/London:20261227T203000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:53e2cbe917b9473f95eb2c2fc79d@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-adrian-mills-b2b-cloudy-09493451f7.png
@@ -489,7 +465,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/adrian
  -mills-b2b-cloudy
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/adrian-mills-b2b-cloudy
@@ -498,7 +474,7 @@ BEGIN:VEVENT
 SUMMARY:Ice Hockey at the Hydro
 DTSTART;TZID=Europe/London:20261230T133000
 DTEND;TZID=Europe/London:20261230T163000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:0c4156122a0397ee65edc5f2aad4@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-ice-hockey-updated-4f1996f799.png
@@ -512,7 +488,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/ice-ho
  ckey-at-the-hydro
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/ice-hockey-at-the-hydro
@@ -521,7 +497,7 @@ BEGIN:VEVENT
 SUMMARY:Ice Hockey at the Hydro
 DTSTART;TZID=Europe/London:20261230T180000
 DTEND;TZID=Europe/London:20261230T210000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:75989a8c369852f7028c8309e49b@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-ice-hockey-updated-4f1996f799.png
@@ -535,7 +511,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/ice-ho
  ckey-at-the-hydro
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/ice-hockey-at-the-hydro
@@ -544,7 +520,7 @@ BEGIN:VEVENT
 SUMMARY:Ice Hockey at the Hydro
 DTSTART;TZID=Europe/London:20261231T133000
 DTEND;TZID=Europe/London:20261231T163000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:33696ca5c3ee92e80babfd0f336b@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-ice-hockey-updated-4f1996f799.png
@@ -558,7 +534,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/ice-ho
  ckey-at-the-hydro
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/ice-hockey-at-the-hydro
@@ -567,7 +543,7 @@ BEGIN:VEVENT
 SUMMARY:Five Finger Death Punch
 DTSTART;TZID=Europe/London:20270117T183000
 DTEND;TZID=Europe/London:20270117T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:3912c755e142ca2bf923edb30366@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-five-finger-death-punch-1-7752b0dcff.png
@@ -581,7 +557,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/five-f
  inger-death-punch-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/five-finger-death-punch-2027
@@ -590,7 +566,7 @@ BEGIN:VEVENT
 SUMMARY:Monday Night RAW
 DTSTART;TZID=Europe/London:20270118T183000
 DTEND;TZID=Europe/London:20270118T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:648cd35b22399c1de02e0801dd4e@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-monday-night-raw-1-cdee31d378.png
@@ -604,7 +580,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/monday
  -night-raw-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/monday-night-raw-2027
@@ -613,7 +589,7 @@ BEGIN:VEVENT
 SUMMARY:Donny Osmond
 DTSTART;TZID=Europe/London:20270120T180000
 DTEND;TZID=Europe/London:20270120T210000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:c2122f939cd28fcec7cdbaa7641a@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-donny-osmond-1-72135c38bd.png
@@ -627,7 +603,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/donny-
  osmond-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/donny-osmond-2027
@@ -636,7 +612,7 @@ BEGIN:VEVENT
 SUMMARY:Hot Wheels Monster Trucks Live
 DTSTART;TZID=Europe/London:20270123T100000
 DTEND;TZID=Europe/London:20270123T130000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:47111ed62d01f257829a459d5e1c@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Hot-W
  heels-2027-Glasgow-1180-x-664-4cc8b7017a.jpg
@@ -650,7 +626,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/hot-wh
  eels-monster-trucks-live-colour-bash
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/hot-wheels-monster-trucks-live-
@@ -660,7 +636,7 @@ BEGIN:VEVENT
 SUMMARY:Hot Wheels Monster Trucks Live
 DTSTART;TZID=Europe/London:20270123T170000
 DTEND;TZID=Europe/London:20270123T200000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:292a209f8b3c60a2c7143ad20a11@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Hot-W
  heels-2027-Glasgow-1180-x-664-4cc8b7017a.jpg
@@ -674,7 +650,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/hot-wh
  eels-monster-trucks-live-colour-bash
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/hot-wheels-monster-trucks-live-
@@ -684,7 +660,7 @@ BEGIN:VEVENT
 SUMMARY:Hot Wheels Monster Trucks Live
 DTSTART;TZID=Europe/London:20270124T100000
 DTEND;TZID=Europe/London:20270124T130000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:84b7e667305198f98818ec9af8d1@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Hot-W
  heels-2027-Glasgow-1180-x-664-4cc8b7017a.jpg
@@ -698,7 +674,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/hot-wh
  eels-monster-trucks-live-colour-bash
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/hot-wheels-monster-trucks-live-
@@ -708,7 +684,7 @@ BEGIN:VEVENT
 SUMMARY:Two Door Cinema Club
 DTSTART;TZID=Europe/London:20270126T183000
 DTEND;TZID=Europe/London:20270126T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:ced007fa8567297afbe7d7a1811b@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-two-door-cinema-club-104acb61e1.png
@@ -722,7 +698,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/two-do
  or-cinema-club
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/two-door-cinema-club
@@ -731,7 +707,7 @@ BEGIN:VEVENT
 SUMMARY:Strictly Come Dancing Live 2027
 DTSTART;TZID=Europe/London:20270129T183000
 DTEND;TZID=Europe/London:20270129T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:75b79ea99cc38a33d2eeb9372a3a@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-Strictly-Come-Dancing-1-082f06da06.png
@@ -745,7 +721,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/strict
  ly-come-dancing-live-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/strictly-come-dancing-live-2027
@@ -754,7 +730,7 @@ BEGIN:VEVENT
 SUMMARY:Strictly Come Dancing Live 2027
 DTSTART;TZID=Europe/London:20270130T133000
 DTEND;TZID=Europe/London:20270130T163000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:79e0ac4e3cbd709be67a2971be56@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-Strictly-Come-Dancing-1-082f06da06.png
@@ -768,7 +744,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/strict
  ly-come-dancing-live-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/strictly-come-dancing-live-2027
@@ -777,7 +753,7 @@ BEGIN:VEVENT
 SUMMARY:Strictly Come Dancing Live 2027
 DTSTART;TZID=Europe/London:20270130T183000
 DTEND;TZID=Europe/London:20270130T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:f0a589f83a6a32c36a3a9869b0da@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-Strictly-Come-Dancing-1-082f06da06.png
@@ -791,7 +767,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/strict
  ly-come-dancing-live-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/strictly-come-dancing-live-2027
@@ -800,7 +776,7 @@ BEGIN:VEVENT
 SUMMARY:Strictly Come Dancing Live 2027
 DTSTART;TZID=Europe/London:20270131T123000
 DTEND;TZID=Europe/London:20270131T153000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:559ebad7ade8f213d3a6af509c1b@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-Strictly-Come-Dancing-1-082f06da06.png
@@ -814,7 +790,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/strict
  ly-come-dancing-live-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/strictly-come-dancing-live-2027
@@ -823,7 +799,7 @@ BEGIN:VEVENT
 SUMMARY:Premier League Darts 2027
 DTSTART;TZID=Europe/London:20270204T180000
 DTEND;TZID=Europe/London:20270204T210000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:e23a75ba69aa50b178f27ffd7c0b@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/PL27-
  Glasgow-1180x664-c2a1e0eaca.jpg
@@ -837,7 +813,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/premie
  r-league-darts-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/premier-league-darts-2027
@@ -846,7 +822,7 @@ BEGIN:VEVENT
 SUMMARY:Gallant Pioneers
 DTSTART;TZID=Europe/London:20270206T183000
 DTEND;TZID=Europe/London:20270206T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:851f8c68537752483e5d0da66abc@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-gallant-pioneers-843d2daa4a.png
@@ -860,7 +836,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/gallan
  t-pioneers-aug-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/gallant-pioneers-aug-2027
@@ -870,7 +846,7 @@ SUMMARY:Disney Descendants\, ZOMBIES & Camp Rock: Worlds Collide Concert T
  our
 DTSTART;TZID=Europe/London:20270209T173000
 DTEND;TZID=Europe/London:20270209T203000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:0e76ec8c2e789a8e87d60cc831a4@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-disney-worlds-collide-1-b0b6b0510e.png
@@ -884,20 +860,20 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/disney
  -worlds-collide-concert-tour-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/disney-worlds-collide-concert-t
  our-2027
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Nothing But Thieves
+SUMMARY:Nothing But Thieves: The Stray Dogs World Tour
 DTSTART;TZID=Europe/London:20270210T183000
 DTEND;TZID=Europe/London:20270210T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:c677a5d044b37487b26ceae58202@ovo-hydro-calendar
-ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
- -664-nothing-but-thieves-862596f4e1.png
+ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/Nothin
+ g-But-Thieves-1180x664-16b781252b.png
 CATEGORIES:OVO Hydro Hospitality
 DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
   and check in at Hydro Club Reception.\n\nHospitality arrival and dining t
@@ -908,7 +884,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/nothin
  g-but-thieves
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/nothing-but-thieves
@@ -917,7 +893,7 @@ BEGIN:VEVENT
 SUMMARY:Charli xcx - Music\, Fashion\, Film Tour
 DTSTART;TZID=Europe/London:20270215T183000
 DTEND;TZID=Europe/London:20270215T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:60dc14810e3342b48af7536049cc@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/charl
  ixcx1180x664-987bdb3e90.jpg
@@ -931,7 +907,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/charli
  -xcx-music-fashion-film-tour
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/charli-xcx-music-fashion-film-t
@@ -941,7 +917,7 @@ BEGIN:VEVENT
 SUMMARY:Obskür presents The System Glasgow
 DTSTART;TZID=Europe/London:20270220T170000
 DTEND;TZID=Europe/London:20270220T200000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:b3c37509d3e5903cc93efa98321b@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-obskur-1-b847e0f7ce.png
@@ -955,7 +931,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/obskur
  -presents-the-system-glasgow
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/obskur-presents-the-system-glas
@@ -965,7 +941,7 @@ BEGIN:VEVENT
 SUMMARY:Kacey Musgraves
 DTSTART;TZID=Europe/London:20270222T183000
 DTEND;TZID=Europe/London:20270222T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:2ad56f98ccda261e0ad9d3a08028@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-kacey-musgraves-1-869e43f49a.png
@@ -979,7 +955,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/kacey-
  musgraves-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/kacey-musgraves-2027
@@ -988,7 +964,7 @@ BEGIN:VEVENT
 SUMMARY:Bullet For My Valentine + Pendulum Live
 DTSTART;TZID=Europe/London:20270223T180000
 DTEND;TZID=Europe/London:20270223T210000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:cf49eb88b16af714af8d88ceb960@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/16x9-
  Landscape-1180x664-78c154bf93.jpg
@@ -1002,7 +978,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/bullet
  -for-my-valentine
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/bullet-for-my-valentine
@@ -1011,7 +987,7 @@ BEGIN:VEVENT
 SUMMARY:N-Dubz
 DTSTART;TZID=Europe/London:20270225T183000
 DTEND;TZID=Europe/London:20270225T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:872315d98d174ce1a60db04ed369@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/NDubz
  _DigiScreen_GGW_1180x664-665c8b1aae.jpg
@@ -1025,7 +1001,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/n-dubz
  -2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/n-dubz-2027
@@ -1034,7 +1010,7 @@ BEGIN:VEVENT
 SUMMARY:FANTASM [All Night Long]
 DTSTART;TZID=Europe/London:20270226T173000
 DTEND;TZID=Europe/London:20270226T203000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:ab8db8795f06f7ad461824bde630@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/GLASGO
  W_1180x664-3ba504d3e7.png
@@ -1048,7 +1024,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/fantas
  m-all-night-long
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/fantasm-all-night-long
@@ -1057,7 +1033,7 @@ BEGIN:VEVENT
 SUMMARY:Paul Smith: Happy
 DTSTART;TZID=Europe/London:20270305T183000
 DTEND;TZID=Europe/London:20270305T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:35bf112063b485a6d77874234bc7@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Happy
  -Tour-Poster-1180x664-px-Glasgow-f85b7f6130.jpg
@@ -1071,7 +1047,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/paul-s
  mith-happy
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/paul-smith-happy
@@ -1080,7 +1056,7 @@ BEGIN:VEVENT
 SUMMARY:Paul Smith: Happy
 DTSTART;TZID=Europe/London:20270306T183000
 DTEND;TZID=Europe/London:20270306T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:18c903a1bc6afb8bd13f57137338@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Happy
  -Tour-Poster-1180x664-px-Glasgow-f85b7f6130.jpg
@@ -1094,7 +1070,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/paul-s
  mith-happy
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/paul-smith-happy
@@ -1103,7 +1079,7 @@ BEGIN:VEVENT
 SUMMARY:Rush
 DTSTART;TZID=Europe/London:20270308T183000
 DTEND;TZID=Europe/London:20270308T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:8c9ac8c1de959aa021d4d26f7ab3@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/RUSH_
  2027_Glasgow_1180x664-adb1cbb7c3.jpg
@@ -1116,7 +1092,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/rush
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/rush
@@ -1125,7 +1101,7 @@ BEGIN:VEVENT
 SUMMARY:Rush
 DTSTART;TZID=Europe/London:20270310T183000
 DTEND;TZID=Europe/London:20270310T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:822d4d42d462607c0f0a92f8c6a1@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/RUSH_
  2027_Glasgow_1180x664-adb1cbb7c3.jpg
@@ -1138,7 +1114,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/rush
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/rush
@@ -1147,7 +1123,7 @@ BEGIN:VEVENT
 SUMMARY:Country to Country
 DTSTART;TZID=Europe/London:20270312T161500
 DTEND;TZID=Europe/London:20270312T191500
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:a7404250437833ceabd2a84a8cad@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/C2C27
  _1180x664Glasgow_1-3abfe84bbe.jpg
@@ -1161,7 +1137,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/countr
  y-to-country-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/country-to-country-2027
@@ -1170,7 +1146,7 @@ BEGIN:VEVENT
 SUMMARY:Country to Country
 DTSTART;TZID=Europe/London:20270313T161500
 DTEND;TZID=Europe/London:20270313T191500
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:36e785aa10df69713b8372e6433c@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/C2C27
  _1180x664Glasgow_1-3abfe84bbe.jpg
@@ -1184,7 +1160,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/countr
  y-to-country-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/country-to-country-2027
@@ -1193,7 +1169,7 @@ BEGIN:VEVENT
 SUMMARY:Country to Country
 DTSTART;TZID=Europe/London:20270314T161500
 DTEND;TZID=Europe/London:20270314T191500
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:8a40467b7d7dd3e2c4becce917f7@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/C2C27
  _1180x664Glasgow_1-3abfe84bbe.jpg
@@ -1207,7 +1183,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/countr
  y-to-country-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/country-to-country-2027
@@ -1216,7 +1192,7 @@ BEGIN:VEVENT
 SUMMARY:Megadeth
 DTSTART;TZID=Europe/London:20270316T183000
 DTEND;TZID=Europe/London:20270316T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:cf97fc3f07628676491fbc8b7731@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-megadeth-1-3c36222aa5.png
@@ -1230,7 +1206,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/megade
  th
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/megadeth
@@ -1239,7 +1215,7 @@ BEGIN:VEVENT
 SUMMARY:Chase & Status
 DTSTART;TZID=Europe/London:20270318T183000
 DTEND;TZID=Europe/London:20270318T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:4d5420197e6513704b95df603271@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Chase
  -Status-1180-x-664-a1832017f9.jpg
@@ -1253,7 +1229,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/chase-
  status-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/chase-status-2027
@@ -1262,7 +1238,7 @@ BEGIN:VEVENT
 SUMMARY:Sonny Fodera
 DTSTART;TZID=Europe/London:20270320T183000
 DTEND;TZID=Europe/London:20270320T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:501798487d33975c9ca1135fee06@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-sonny-fodera-1-41bbd5709e.png
@@ -1276,7 +1252,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/sonny-
  fodera-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/sonny-fodera-2027
@@ -1285,7 +1261,7 @@ BEGIN:VEVENT
 SUMMARY:Disney On Ice
 DTSTART;TZID=Europe/London:20270324T173000
 DTEND;TZID=Europe/London:20270324T203000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:49616cbf4cc1e53ba0aa049581fc@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-disney-on-ice-1-9156c44b2f.png
@@ -1299,7 +1275,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/disney
  -on-ice-presents-road-trip-adventures
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/disney-on-ice-presents-road-tri
@@ -1309,7 +1285,7 @@ BEGIN:VEVENT
 SUMMARY:Disney On Ice
 DTSTART;TZID=Europe/London:20270325T173000
 DTEND;TZID=Europe/London:20270325T203000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:f86f2abb7c510e21a8661a4284af@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-disney-on-ice-1-9156c44b2f.png
@@ -1323,7 +1299,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/disney
  -on-ice-presents-road-trip-adventures
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/disney-on-ice-presents-road-tri
@@ -1333,7 +1309,7 @@ BEGIN:VEVENT
 SUMMARY:Disney On Ice
 DTSTART;TZID=Europe/London:20270326T133000
 DTEND;TZID=Europe/London:20270326T163000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:4c80d2d4c2943b7f5cc1a86c70f6@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-disney-on-ice-1-9156c44b2f.png
@@ -1347,7 +1323,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/disney
  -on-ice-presents-road-trip-adventures
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/disney-on-ice-presents-road-tri
@@ -1357,7 +1333,7 @@ BEGIN:VEVENT
 SUMMARY:Disney On Ice
 DTSTART;TZID=Europe/London:20270326T173000
 DTEND;TZID=Europe/London:20270326T203000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:36c79b5df7929d3872132db22bfe@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-disney-on-ice-1-9156c44b2f.png
@@ -1371,7 +1347,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/disney
  -on-ice-presents-road-trip-adventures
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/disney-on-ice-presents-road-tri
@@ -1381,7 +1357,7 @@ BEGIN:VEVENT
 SUMMARY:Disney On Ice
 DTSTART;TZID=Europe/London:20270327T093000
 DTEND;TZID=Europe/London:20270327T123000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:bb80b370d13c032461d50e348ddc@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-disney-on-ice-1-9156c44b2f.png
@@ -1395,7 +1371,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/disney
  -on-ice-presents-road-trip-adventures
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/disney-on-ice-presents-road-tri
@@ -1405,7 +1381,7 @@ BEGIN:VEVENT
 SUMMARY:Disney On Ice
 DTSTART;TZID=Europe/London:20270327T133000
 DTEND;TZID=Europe/London:20270327T163000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:47863a28d4a033c838503b7762d7@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-disney-on-ice-1-9156c44b2f.png
@@ -1419,7 +1395,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/disney
  -on-ice-presents-road-trip-adventures
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/disney-on-ice-presents-road-tri
@@ -1429,7 +1405,7 @@ BEGIN:VEVENT
 SUMMARY:Disney On Ice
 DTSTART;TZID=Europe/London:20270327T173000
 DTEND;TZID=Europe/London:20270327T203000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:efb32a0518c90d3312f493fcef9e@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-disney-on-ice-1-9156c44b2f.png
@@ -1443,7 +1419,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/disney
  -on-ice-presents-road-trip-adventures
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/disney-on-ice-presents-road-tri
@@ -1453,7 +1429,7 @@ BEGIN:VEVENT
 SUMMARY:Disney On Ice
 DTSTART;TZID=Europe/London:20270328T093000
 DTEND;TZID=Europe/London:20270328T123000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:fb85e54a4f74688c32de35f453fe@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-disney-on-ice-1-9156c44b2f.png
@@ -1467,7 +1443,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/disney
  -on-ice-presents-road-trip-adventures
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/disney-on-ice-presents-road-tri
@@ -1477,7 +1453,7 @@ BEGIN:VEVENT
 SUMMARY:Disney On Ice
 DTSTART;TZID=Europe/London:20270328T133000
 DTEND;TZID=Europe/London:20270328T163000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:4f6e69ae5c7f3c9690a1de2553b0@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-disney-on-ice-1-9156c44b2f.png
@@ -1491,7 +1467,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/disney
  -on-ice-presents-road-trip-adventures
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/disney-on-ice-presents-road-tri
@@ -1501,7 +1477,7 @@ BEGIN:VEVENT
 SUMMARY:Disney On Ice
 DTSTART;TZID=Europe/London:20270328T173000
 DTEND;TZID=Europe/London:20270328T203000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:beddc2083c3b948509d4b5e9b5c0@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-disney-on-ice-1-9156c44b2f.png
@@ -1515,7 +1491,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/disney
  -on-ice-presents-road-trip-adventures
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/disney-on-ice-presents-road-tri
@@ -1525,7 +1501,7 @@ BEGIN:VEVENT
 SUMMARY:Trivium
 DTSTART;TZID=Europe/London:20270331T174500
 DTEND;TZID=Europe/London:20270331T204500
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:beb363f43be7dd19eba126082fee@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-trivium-1-af7c3c9246.png
@@ -1539,7 +1515,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/triviu
  m
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/trivium
@@ -1548,7 +1524,7 @@ BEGIN:VEVENT
 SUMMARY:James Blunt
 DTSTART;TZID=Europe/London:20270402T183000
 DTEND;TZID=Europe/London:20270402T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:b6bb7a590a85623f4d3880d11231@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-james-blunt-192cb6d3f2.png
@@ -1562,7 +1538,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/james-
  blunt-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/james-blunt-2027
@@ -1571,7 +1547,7 @@ BEGIN:VEVENT
 SUMMARY:The Wiggles' Sparkle! BIG SHOW
 DTSTART;TZID=Europe/London:20270407T093000
 DTEND;TZID=Europe/London:20270407T123000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:7638085358b99d576ba22a4f5e21@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-the-wiggles-80141d8843.png
@@ -1585,7 +1561,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/the-wi
  ggles-sparkle-big-show
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/the-wiggles-sparkle-big-show
@@ -1594,7 +1570,7 @@ BEGIN:VEVENT
 SUMMARY:The Wiggles' Sparkle! BIG SHOW
 DTSTART;TZID=Europe/London:20270407T140000
 DTEND;TZID=Europe/London:20270407T170000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:3be1e9e5b547db7cd88fff1f13a7@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-the-wiggles-80141d8843.png
@@ -1608,7 +1584,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/the-wi
  ggles-sparkle-big-show
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/the-wiggles-sparkle-big-show
@@ -1617,7 +1593,7 @@ BEGIN:VEVENT
 SUMMARY:Sabaton: The Legendary Tour
 DTSTART;TZID=Europe/London:20270409T180000
 DTEND;TZID=Europe/London:20270409T210000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:08d2f8b82d4ca4fdd00f13c2d984@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-sabaton-3d6bf34f76.png
@@ -1631,7 +1607,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/sabato
  n-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/sabaton-2027
@@ -1640,7 +1616,7 @@ BEGIN:VEVENT
 SUMMARY:Teddy Swims
 DTSTART;TZID=Europe/London:20270413T183000
 DTEND;TZID=Europe/London:20270413T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:6a3fcb0c8045d738afd56c091c12@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-teddy-swims-1-c9ec9c7a75.png
@@ -1654,7 +1630,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/teddy-
  swims-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/teddy-swims-2027
@@ -1663,7 +1639,7 @@ BEGIN:VEVENT
 SUMMARY:Cammy Barnes
 DTSTART;TZID=Europe/London:20270422T183000
 DTEND;TZID=Europe/London:20270422T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:1872c4b303b4e85bdecdefd89fa4@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Cammy
  -Barnes-New-Date-Announced-1180x664-415d7ef027.jpg
@@ -1677,7 +1653,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/cammy-
  barnes
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/cammy-barnes
@@ -1686,7 +1662,7 @@ BEGIN:VEVENT
 SUMMARY:Cammy Barnes
 DTSTART;TZID=Europe/London:20270423T183000
 DTEND;TZID=Europe/London:20270423T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:08db65c5eb5ed32ceedbff748334@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Cammy
  -Barnes-New-Date-Announced-1180x664-415d7ef027.jpg
@@ -1700,7 +1676,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/cammy-
  barnes
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/cammy-barnes
@@ -1709,7 +1685,7 @@ BEGIN:VEVENT
 SUMMARY:Clubland 2027
 DTSTART;TZID=Europe/London:20270424T183000
 DTEND;TZID=Europe/London:20270424T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:7052645eb1cdb80aab85556f2b5b@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-clubland-1-1-9ea37b981d.png
@@ -1723,7 +1699,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/clubla
  nd-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/clubland-2027
@@ -1732,7 +1708,7 @@ BEGIN:VEVENT
 SUMMARY:Thomas Rhett
 DTSTART;TZID=Europe/London:20270425T180000
 DTEND;TZID=Europe/London:20270425T210000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:2a7fdb0e69a22f6630dc51e043ee@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-thomas-rhett-1-e6636a39fc.png
@@ -1746,7 +1722,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/thomas
  -rhett
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/thomas-rhett
@@ -1755,7 +1731,7 @@ BEGIN:VEVENT
 SUMMARY:Gracie Abrams
 DTSTART;TZID=Europe/London:20270427T183000
 DTEND;TZID=Europe/London:20270427T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:09e37c92c9053522bdf0183583d8@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-gracie-abrams-5b014aba53.png
@@ -1769,7 +1745,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/gracie
  -abrams-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/gracie-abrams-2027
@@ -1778,7 +1754,7 @@ BEGIN:VEVENT
 SUMMARY:Gracie Abrams
 DTSTART;TZID=Europe/London:20270428T183000
 DTEND;TZID=Europe/London:20270428T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:84237441cec9187aa6a79076d1af@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-gracie-abrams-5b014aba53.png
@@ -1792,7 +1768,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/gracie
  -abrams-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/gracie-abrams-2027
@@ -1801,7 +1777,7 @@ BEGIN:VEVENT
 SUMMARY:Rod Stewart
 DTSTART;TZID=Europe/London:20270429T183000
 DTEND;TZID=Europe/London:20270429T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:5518169a32a3e0c51037f0f2cbd6@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/2904-
  0105-Glasgow_RodStewart_Europe_2027_Social_1180x664-5f8c78c7b0.jpg
@@ -1815,7 +1791,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/rod-st
  ewart-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/rod-stewart-2027
@@ -1824,7 +1800,7 @@ BEGIN:VEVENT
 SUMMARY:John Bishop
 DTSTART;TZID=Europe/London:20270430T180000
 DTEND;TZID=Europe/London:20270430T210000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:44b592e5b110cb77fb8b75afa35d@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/JB-LG2
  7_GLAS-WEB_1180x664-f50c30c593.png
@@ -1838,7 +1814,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/john-b
  ishop-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/john-bishop-2027
@@ -1847,7 +1823,7 @@ BEGIN:VEVENT
 SUMMARY:Rod Stewart
 DTSTART;TZID=Europe/London:20270501T183000
 DTEND;TZID=Europe/London:20270501T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:be8c8e3b294447bc52e7d9ef2861@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/2904-
  0105-Glasgow_RodStewart_Europe_2027_Social_1180x664-5f8c78c7b0.jpg
@@ -1861,7 +1837,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/rod-st
  ewart-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/rod-stewart-2027
@@ -1870,7 +1846,7 @@ BEGIN:VEVENT
 SUMMARY:❌ CANCELLED — Cancelled - Hear'Say / Liberty X
 DTSTART;TZID=Europe/London:20270505T183000
 DTEND;TZID=Europe/London:20270505T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:82cfad3c5c2aef694ac61210fa0e@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/Hearsa
  y-c9677ac9c8.png
@@ -1884,7 +1860,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  r timings are indicative and should not replace your event-specific hospit
  ality confirmation.\n\nOfficial event details: https://www.ovohydro.com/ev
  ents/detail/hearsay-liberty-x
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CANCELLED
 URL:https://www.ovohydro.com/events/detail/hearsay-liberty-x
@@ -1893,7 +1869,7 @@ BEGIN:VEVENT
 SUMMARY:Erasure
 DTSTART;TZID=Europe/London:20270509T180000
 DTEND;TZID=Europe/London:20270509T210000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:7e8bdd757319ea256b636a186c62@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/ERASU
  RE-1180x664-7069248ff4.jpg
@@ -1907,7 +1883,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/erasur
  e-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/erasure-2027
@@ -1916,7 +1892,7 @@ BEGIN:VEVENT
 SUMMARY:Chase Atlantic
 DTSTART;TZID=Europe/London:20270510T183000
 DTEND;TZID=Europe/London:20270510T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:055262c6a10da08307322c51b14f@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-chase-atlantic-e73c48327f.png
@@ -1930,7 +1906,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/chase-
  atlantic-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/chase-atlantic-2027
@@ -1939,7 +1915,7 @@ BEGIN:VEVENT
 SUMMARY:Simple Minds
 DTSTART;TZID=Europe/London:20270514T183000
 DTEND;TZID=Europe/London:20270514T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:f9f2b8de2e48b9f3ee87034641d4@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-simple-minds-31b7f173a3.png
@@ -1953,7 +1929,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/simple
  -minds-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/simple-minds-2027
@@ -1962,7 +1938,7 @@ BEGIN:VEVENT
 SUMMARY:Simple Minds
 DTSTART;TZID=Europe/London:20270515T183000
 DTEND;TZID=Europe/London:20270515T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:d37797c333be2dff7b22f6381825@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-simple-minds-31b7f173a3.png
@@ -1976,7 +1952,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/simple
  -minds-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/simple-minds-2027
@@ -1985,7 +1961,7 @@ BEGIN:VEVENT
 SUMMARY:Rod Stewart
 DTSTART;TZID=Europe/London:20270518T183000
 DTEND;TZID=Europe/London:20270518T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:9a0d91cdd8aa24df4c552ca3e41e@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/2904-
  0105-Glasgow_RodStewart_Europe_2027_Social_1180x664-5f8c78c7b0.jpg
@@ -1999,7 +1975,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/rod-st
  ewart-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/rod-stewart-2027
@@ -2008,7 +1984,7 @@ BEGIN:VEVENT
 SUMMARY:Weezer
 DTSTART;TZID=Europe/London:20270519T183000
 DTEND;TZID=Europe/London:20270519T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:a7a8aec3a4b005ec8363fa8bea77@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-weezer-c31514688b.png
@@ -2021,7 +1997,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  e\; the show time has not yet been confirmed.\n\nCalendar timings are indi
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/weezer
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/weezer
@@ -2030,7 +2006,7 @@ BEGIN:VEVENT
 SUMMARY:Blue Planet III
 DTSTART;TZID=Europe/London:20270523T180000
 DTEND;TZID=Europe/London:20270523T210000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:ca8517cbacf5d1a3fb6695371c6f@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/SET-D
  _DIGITAL_SCREENS_1180x664-c38effee74.jpg
@@ -2044,7 +2020,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/blue-p
  lanet-iii
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/blue-planet-iii
@@ -2053,7 +2029,7 @@ BEGIN:VEVENT
 SUMMARY:Fall Out Boy: Twilight of the Punks
 DTSTART;TZID=Europe/London:20270530T173000
 DTEND;TZID=Europe/London:20270530T203000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:356f95577573e41ee79a09cb9e44@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/fallo
  utboy-1180x664-e5d5bf3d3a.jpg
@@ -2067,7 +2043,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/fall-o
  ut-boy-twilight-of-the-punks
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/fall-out-boy-twilight-of-the-pu
@@ -2077,7 +2053,7 @@ BEGIN:VEVENT
 SUMMARY:Nickelback
 DTSTART;TZID=Europe/London:20270601T173000
 DTEND;TZID=Europe/London:20270601T203000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:15726082a8622b16270d92b3d8db@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-nickelback-1-46d8c2cd93.png
@@ -2091,7 +2067,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/nickel
  back-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/nickelback-2027
@@ -2100,7 +2076,7 @@ BEGIN:VEVENT
 SUMMARY:Greta Van Fleet: Into The Beginning
 DTSTART;TZID=Europe/London:20270602T183000
 DTEND;TZID=Europe/London:20270602T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:3ca7d9e53868230da41de4bea979@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Greta
  -Van-Fleet-Glasgow-T1180-x-664-4738252cdf.jpg
@@ -2114,7 +2090,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/greta-
  van-fleet
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/greta-van-fleet
@@ -2123,7 +2099,7 @@ BEGIN:VEVENT
 SUMMARY:Toto
 DTSTART;TZID=Europe/London:20270619T183000
 DTEND;TZID=Europe/London:20270619T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:c3450b4d2e2e2f29eb959610c61e@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/Untitl
  ed-design-20-4a1098a9a0.png
@@ -2137,7 +2113,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/toto-2
  027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/toto-2027
@@ -2146,7 +2122,7 @@ BEGIN:VEVENT
 SUMMARY:Hayley Williams
 DTSTART;TZID=Europe/London:20270623T183000
 DTEND;TZID=Europe/London:20270623T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:2fdb22aad745bd705e307fa2695e@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-hayley-williams-1-9b37a6fa8b.png
@@ -2160,7 +2136,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/hayley
  -williams
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/hayley-williams
@@ -2169,7 +2145,7 @@ BEGIN:VEVENT
 SUMMARY:Scorpions
 DTSTART;TZID=Europe/London:20270703T183000
 DTEND;TZID=Europe/London:20270703T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:7539ebbb73f82ef452675ea02c12@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/scorp
  ions-1180x664-8f823ad0af.jpg
@@ -2183,7 +2159,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/scorpi
  ons
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/scorpions
@@ -2192,7 +2168,7 @@ BEGIN:VEVENT
 SUMMARY:Andre Rieu and his Johann Strauss Orchestra
 DTSTART;TZID=Europe/London:20270923T180000
 DTEND;TZID=Europe/London:20270923T210000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:0b0f96bec62de90bdeb62c8f55e6@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Rieu-
  2027-Glasgow-1180x664px-16cf74bdfa.jpg
@@ -2206,7 +2182,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/andre-
  rieu-and-his-johann-strauss-orchestra
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/andre-rieu-and-his-johann-strau
@@ -2216,7 +2192,7 @@ BEGIN:VEVENT
 SUMMARY:Marti Pellow
 DTSTART;TZID=Europe/London:20271002T183000
 DTEND;TZID=Europe/London:20271002T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:f3a2225ee702a20b2bd2928be007@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Marti
  -Pellow-Hydro-Assets_1180-x-664-dd0751fe14.jpg
@@ -2230,7 +2206,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/marti-
  pellow-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/marti-pellow-2027
@@ -2239,7 +2215,7 @@ BEGIN:VEVENT
 SUMMARY:The Teskey Brothers
 DTSTART;TZID=Europe/London:20271003T183000
 DTEND;TZID=Europe/London:20271003T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:b545d2100c930f54b135c00ffef7@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/teske
  y-1180x664-b71622da08.jpg
@@ -2253,7 +2229,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/the-te
  skey-brothers
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/the-teskey-brothers
@@ -2262,7 +2238,7 @@ BEGIN:VEVENT
 SUMMARY:S Club
 DTSTART;TZID=Europe/London:20271008T183000
 DTEND;TZID=Europe/London:20271008T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:f1256f4d352448b68087ca65151e@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/SClub
  _27_Glasgow_VenueWebAssets_x5_1180-x-664-2c27894139.jpg
@@ -2276,7 +2252,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/s-club
  -2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/s-club-2027
@@ -2285,7 +2261,7 @@ BEGIN:VEVENT
 SUMMARY:Andrea Bocelli
 DTSTART;TZID=Europe/London:20271009T183000
 DTEND;TZID=Europe/London:20271009T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:f85049d05a072dcea8d9cc604ff3@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/Andre
  aBocelli_GGWVenueScreens_x2_1180x664-5cc32296f1.jpg
@@ -2299,7 +2275,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/andrea
  -bocelli-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/andrea-bocelli-2027
@@ -2308,7 +2284,7 @@ BEGIN:VEVENT
 SUMMARY:KPop Demon Hunters Golden World Tour
 DTSTART;TZID=Europe/London:20271012T180000
 DTEND;TZID=Europe/London:20271012T210000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:421fbc86894669eaef6d7f6efcc3@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-k-pop-compressed-32fee6069d.png
@@ -2322,7 +2298,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/kpop-d
  emon-hunters
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/kpop-demon-hunters
@@ -2331,7 +2307,7 @@ BEGIN:VEVENT
 SUMMARY:Giants Live: Glasgow
 DTSTART;TZID=Europe/London:20271016T153000
 DTEND;TZID=Europe/London:20271016T183000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:1f69e543120924e892b16706cc71@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-giants-live-1-5323791238.png
@@ -2345,7 +2321,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/giants
  -live-glasgow
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/giants-live-glasgow
@@ -2354,7 +2330,7 @@ BEGIN:VEVENT
 SUMMARY:Billy Ocean
 DTSTART;TZID=Europe/London:20271017T183000
 DTEND;TZID=Europe/London:20271017T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:25ff40b7b5814fe617a3526ebb17@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-billy-ocean-2-1-45a9c2c571.png
@@ -2368,7 +2344,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/billy-
  ocean-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/billy-ocean-2027
@@ -2377,7 +2353,7 @@ BEGIN:VEVENT
 SUMMARY:Texas
 DTSTART;TZID=Europe/London:20271021T183000
 DTEND;TZID=Europe/London:20271021T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:06b8e22eb133a8b8bfaceb392e85@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-texas-1a9f2acaf8.png
@@ -2391,7 +2367,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/texas-
  2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/texas-2027
@@ -2400,7 +2376,7 @@ BEGIN:VEVENT
 SUMMARY:Texas
 DTSTART;TZID=Europe/London:20271022T183000
 DTEND;TZID=Europe/London:20271022T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:14f259aa764528b9bc25ec3ae24a@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-texas-1a9f2acaf8.png
@@ -2414,7 +2390,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/texas-
  2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/texas-2027
@@ -2423,7 +2399,7 @@ BEGIN:VEVENT
 SUMMARY:Uncanny Live
 DTSTART;TZID=Europe/London:20271024T183000
 DTEND;TZID=Europe/London:20271024T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:2c7bbc98368da0ecd706e55197b5@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-uncanny-23777ab3ab.png
@@ -2437,7 +2413,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/uncann
  y-live
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/uncanny-live
@@ -2446,7 +2422,7 @@ BEGIN:VEVENT
 SUMMARY:Deacon Blue
 DTSTART;TZID=Europe/London:20271029T183000
 DTEND;TZID=Europe/London:20271029T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:c3d4b58ae90936c51ccb25e023ff@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/Deacon
  -Blue-1180x664-d1c688859b.png
@@ -2460,7 +2436,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/deacon
  -blue-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/deacon-blue-2027
@@ -2469,7 +2445,7 @@ BEGIN:VEVENT
 SUMMARY:Deacon Blue
 DTSTART;TZID=Europe/London:20271030T183000
 DTEND;TZID=Europe/London:20271030T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:b0c972e311514937cfe77180e5f5@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/Deacon
  -Blue-1180x664-d1c688859b.png
@@ -2483,7 +2459,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/deacon
  -blue-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/deacon-blue-2027
@@ -2492,7 +2468,7 @@ BEGIN:VEVENT
 SUMMARY:Deacon Blue
 DTSTART;TZID=Europe/London:20271031T183000
 DTEND;TZID=Europe/London:20271031T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:52a9a0267994ed184f8affa1966f@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/Deacon
  -Blue-1180x664-d1c688859b.png
@@ -2506,7 +2482,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/deacon
  -blue-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/deacon-blue-2027
@@ -2515,7 +2491,7 @@ BEGIN:VEVENT
 SUMMARY:STEPS
 DTSTART;TZID=Europe/London:20271113T183000
 DTEND;TZID=Europe/London:20271113T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:03e5faaa9d83ad99a4e3f33ca2cc@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/Steps-
  1180x664-a361d23a3a.png
@@ -2529,7 +2505,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/steps-
  30
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/steps-30
@@ -2538,7 +2514,7 @@ BEGIN:VEVENT
 SUMMARY:STEPS
 DTSTART;TZID=Europe/London:20271114T123000
 DTEND;TZID=Europe/London:20271114T153000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:f261639cf83d929ecbe32eee2b2b@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/Steps-
  1180x664-a361d23a3a.png
@@ -2552,7 +2528,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/steps-
  30
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/steps-30
@@ -2561,7 +2537,7 @@ BEGIN:VEVENT
 SUMMARY:STEPS
 DTSTART;TZID=Europe/London:20271114T183000
 DTEND;TZID=Europe/London:20271114T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:43ff651aab74d2f366cb38244204@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/Steps-
  1180x664-a361d23a3a.png
@@ -2575,7 +2551,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/steps-
  30
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/steps-30
@@ -2584,7 +2560,7 @@ BEGIN:VEVENT
 SUMMARY:The Human League
 DTSTART;TZID=Europe/London:20271210T183000
 DTEND;TZID=Europe/London:20271210T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:4a106a9a325417787761055b9fbf@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/png;VALUE=URI:https://www.sec.co.uk/assets/img/1180-x
  -664-human-league-1-df9bd73e26.png
@@ -2598,7 +2574,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/the-hu
  man-league-2027
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/the-human-league-2027
@@ -2607,7 +2583,7 @@ BEGIN:VEVENT
 SUMMARY:Still Game: Heaven Sent
 DTSTART;TZID=Europe/London:20280218T183000
 DTEND;TZID=Europe/London:20280218T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:e0670901f5015ae2e174b3ba59c9@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/SG_He
  avenSent_1180x664_Hydro-0306f948c9.jpg
@@ -2621,7 +2597,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/still-
  game
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/still-game
@@ -2630,7 +2606,7 @@ BEGIN:VEVENT
 SUMMARY:Still Game: Heaven Sent
 DTSTART;TZID=Europe/London:20280219T133000
 DTEND;TZID=Europe/London:20280219T163000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:c17a8148a05052aef43a3c965160@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/SG_He
  avenSent_1180x664_Hydro-0306f948c9.jpg
@@ -2644,7 +2620,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/still-
  game
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/still-game
@@ -2653,7 +2629,7 @@ BEGIN:VEVENT
 SUMMARY:Still Game: Heaven Sent
 DTSTART;TZID=Europe/London:20280219T183000
 DTEND;TZID=Europe/London:20280219T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:459d8e4dbd9e280d7de3b7e0b7e7@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/SG_He
  avenSent_1180x664_Hydro-0306f948c9.jpg
@@ -2667,7 +2643,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/still-
  game
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/still-game
@@ -2676,7 +2652,7 @@ BEGIN:VEVENT
 SUMMARY:Still Game: Heaven Sent
 DTSTART;TZID=Europe/London:20280220T133000
 DTEND;TZID=Europe/London:20280220T163000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:bba71c3ca73c1c7d415ec298d965@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/SG_He
  avenSent_1180x664_Hydro-0306f948c9.jpg
@@ -2690,7 +2666,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/still-
  game
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/still-game
@@ -2699,7 +2675,7 @@ BEGIN:VEVENT
 SUMMARY:Still Game: Heaven Sent
 DTSTART;TZID=Europe/London:20280220T183000
 DTEND;TZID=Europe/London:20280220T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:5096e3a43bcf40a57bae1d12ec8b@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/SG_He
  avenSent_1180x664_Hydro-0306f948c9.jpg
@@ -2713,7 +2689,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/still-
  game
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/still-game
@@ -2722,7 +2698,7 @@ BEGIN:VEVENT
 SUMMARY:Still Game: Heaven Sent
 DTSTART;TZID=Europe/London:20280303T183000
 DTEND;TZID=Europe/London:20280303T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:ff42cf6693d1ffd4ed0f000dc52a@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/SG_He
  avenSent_1180x664_Hydro-0306f948c9.jpg
@@ -2736,7 +2712,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/still-
  game
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/still-game
@@ -2745,7 +2721,7 @@ BEGIN:VEVENT
 SUMMARY:Still Game: Heaven Sent
 DTSTART;TZID=Europe/London:20280304T133000
 DTEND;TZID=Europe/London:20280304T163000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:c462e61e38d2c0d87a411a8bfd9e@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/SG_He
  avenSent_1180x664_Hydro-0306f948c9.jpg
@@ -2759,7 +2735,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/still-
  game
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/still-game
@@ -2768,7 +2744,7 @@ BEGIN:VEVENT
 SUMMARY:Still Game: Heaven Sent
 DTSTART;TZID=Europe/London:20280304T183000
 DTEND;TZID=Europe/London:20280304T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:cecdc9c9914749116f85fa9c2d9f@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/SG_He
  avenSent_1180x664_Hydro-0306f948c9.jpg
@@ -2782,7 +2758,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/still-
  game
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/still-game
@@ -2791,7 +2767,7 @@ BEGIN:VEVENT
 SUMMARY:Still Game: Heaven Sent
 DTSTART;TZID=Europe/London:20280305T133000
 DTEND;TZID=Europe/London:20280305T163000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:4988ad305379bfe0b884e0a9d0ea@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/SG_He
  avenSent_1180x664_Hydro-0306f948c9.jpg
@@ -2805,7 +2781,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/still-
  game
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/still-game
@@ -2814,7 +2790,7 @@ BEGIN:VEVENT
 SUMMARY:Still Game: Heaven Sent
 DTSTART;TZID=Europe/London:20280305T183000
 DTEND;TZID=Europe/London:20280305T213000
-DTSTAMP:20261125T154759Z
+DTSTAMP:20261126T152942Z
 UID:d91b27a721c34312c17847ddd57a@ovo-hydro-calendar
 ATTACH;FMTTYPE=image/jpeg;VALUE=URI:https://www.sec.co.uk/assets/img/SG_He
  avenSent_1180x664_Hydro-0306f948c9.jpg
@@ -2828,7 +2804,7 @@ DESCRIPTION:HOSPITALITY ACCESS\n\nPlease arrive via the Executive Entrance
  cative and should not replace your event-specific hospitality confirmation
  .\n\nOfficial event details: https://www.ovohydro.com/events/detail/still-
  game
-LAST-MODIFIED:20261125T154759Z
+LAST-MODIFIED:20261126T152942Z
 LOCATION:OVO Hydro\, SEC\, Glasgow\, G3 8YW
 STATUS:CONFIRMED
 URL:https://www.ovohydro.com/events/detail/still-game

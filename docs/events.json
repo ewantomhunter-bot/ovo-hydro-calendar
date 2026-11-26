@@ -1,18 +1,6 @@
 [
   {
     "title": "Kevin Bridges: Here If You Need Me",
-    "start": "2026-11-25T18:30:00+00:00",
-    "end": "2026-11-25T21:30:00+00:00",
-    "url": "https://www.ovohydro.com/events/detail/kevin-bridges-here-if-you-need-me",
-    "timing_source": "published_doors_time",
-    "source_text": "Wed 25 Nov 2026 Buy Tickets Door time 6.30pm Event times TBA",
-    "artwork_url": "https://www.sec.co.uk/assets/img/KB_HIYNM_1180x664_Glasgow_digi-1822f68ac3.jpg",
-    "listing_status": "",
-    "script_version": "9.1.1",
-    "source": "visible_current_ovo_listing"
-  },
-  {
-    "title": "Kevin Bridges: Here If You Need Me",
     "start": "2026-11-26T18:30:00+00:00",
     "end": "2026-11-26T21:30:00+00:00",
     "url": "https://www.ovohydro.com/events/detail/kevin-bridges-here-if-you-need-me",
@@ -29,7 +17,7 @@
     "end": "2026-11-27T21:30:00+00:00",
     "url": "https://www.ovohydro.com/events/detail/phoebe-bridgers",
     "timing_source": "published_doors_time",
-    "source_text": "Fri 27 Nov 2026 Buy Tickets Door time 6:30pm Event times TBA",
+    "source_text": "Fri 27 Nov 2026 Buy Tickets Door time 6:30pm Start time 7:30PM End time 10:30PM",
     "artwork_url": "https://www.sec.co.uk/assets/img/1180-x-664-phoebe-bridgers-0001648d8c.png",
     "listing_status": "",
     "script_version": "9.1.1",
@@ -456,13 +444,13 @@
     "source": "visible_current_ovo_listing"
   },
   {
-    "title": "Nothing But Thieves",
+    "title": "Nothing But Thieves: The Stray Dogs World Tour",
     "start": "2027-02-10T18:30:00+00:00",
     "end": "2027-02-10T21:30:00+00:00",
     "url": "https://www.ovohydro.com/events/detail/nothing-but-thieves",
     "timing_source": "published_doors_time",
     "source_text": "Wed 10 Feb 2027 Buy Tickets Door time 6.30pm Event times TBA",
-    "artwork_url": "https://www.sec.co.uk/assets/img/1180-x-664-nothing-but-thieves-862596f4e1.png",
+    "artwork_url": "https://www.sec.co.uk/assets/img/Nothing-But-Thieves-1180x664-16b781252b.png",
     "listing_status": "",
     "script_version": "9.1.1",
     "source": "visible_current_ovo_listing"
