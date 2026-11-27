@@ -1,17 +1,5 @@
 [
   {
-    "title": "Kevin Bridges: Here If You Need Me",
-    "start": "2026-11-26T18:30:00+00:00",
-    "end": "2026-11-26T21:30:00+00:00",
-    "url": "https://www.ovohydro.com/events/detail/kevin-bridges-here-if-you-need-me",
-    "timing_source": "published_doors_time",
-    "source_text": "Thu 26 Nov 2026 Buy Tickets Door time 6.30pm Event times TBA",
-    "artwork_url": "https://www.sec.co.uk/assets/img/KB_HIYNM_1180x664_Glasgow_digi-1822f68ac3.jpg",
-    "listing_status": "",
-    "script_version": "9.1.1",
-    "source": "visible_current_ovo_listing"
-  },
-  {
     "title": "Phoebe Bridgers",
     "start": "2026-11-27T18:30:00+00:00",
     "end": "2026-11-27T21:30:00+00:00",
@@ -29,7 +17,7 @@
     "end": "2026-11-28T21:30:00+00:00",
     "url": "https://www.ovohydro.com/events/detail/jungle",
     "timing_source": "published_doors_time",
-    "source_text": "Sat 28 Nov 2026 Buy Tickets Door time 6.30pm Event times TBA",
+    "source_text": "Sat 28 Nov 2026 Buy Tickets Door time 6.30pm Start time 7:45PM End time 11:00PM",
     "artwork_url": "https://www.sec.co.uk/assets/img/1180-x-664-jungle-1-7a4d812783.png",
     "listing_status": "",
     "script_version": "9.1.1",
@@ -61,11 +49,11 @@
   },
   {
     "title": "Bloc Party & Interpol",
-    "start": "2026-12-02T18:30:00+00:00",
-    "end": "2026-12-02T21:30:00+00:00",
+    "start": "2026-12-02T18:00:00+00:00",
+    "end": "2026-12-02T21:00:00+00:00",
     "url": "https://www.ovohydro.com/events/detail/bloc-party-and-interpol",
     "timing_source": "published_doors_time",
-    "source_text": "Wed 02 Dec 2026 Buy Tickets Door time 6.30pm Event times TBA",
+    "source_text": "Wed 02 Dec 2026 Buy Tickets Door time 6.00pm Event times TBA",
     "artwork_url": "https://www.sec.co.uk/assets/img/blocinterpol-1180x664-d039d5503d.jpg",
     "listing_status": "",
     "script_version": "9.1.1",
@@ -1207,6 +1195,18 @@
     "timing_source": "published_doors_time",
     "source_text": "Sun 17 Oct 2027 Buy Tickets Door time 6.30pm Event times TBA",
     "artwork_url": "https://www.sec.co.uk/assets/img/1180-x-664-billy-ocean-2-1-45a9c2c571.png",
+    "listing_status": "",
+    "script_version": "9.1.1",
+    "source": "visible_current_ovo_listing"
+  },
+  {
+    "title": "MIKA",
+    "start": "2027-10-20T18:30:00+01:00",
+    "end": "2027-10-20T21:30:00+01:00",
+    "url": "https://www.ovohydro.com/events/detail/mika",
+    "timing_source": "published_doors_time",
+    "source_text": "Wed 20 Oct 2027 On Sale Soon Door time 6:30pm Event times TBA",
+    "artwork_url": "https://www.sec.co.uk/assets/img/Mika-1180x664-e6b627a840.png",
     "listing_status": "",
     "script_version": "9.1.1",
     "source": "visible_current_ovo_listing"
