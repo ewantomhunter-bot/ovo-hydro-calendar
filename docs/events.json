@@ -1,17 +1,5 @@
 [
   {
-    "title": "Phoebe Bridgers",
-    "start": "2026-11-27T18:30:00+00:00",
-    "end": "2026-11-27T21:30:00+00:00",
-    "url": "https://www.ovohydro.com/events/detail/phoebe-bridgers",
-    "timing_source": "published_doors_time",
-    "source_text": "Fri 27 Nov 2026 Buy Tickets Door time 6:30pm Start time 7:30PM End time 10:30PM",
-    "artwork_url": "https://www.sec.co.uk/assets/img/1180-x-664-phoebe-bridgers-0001648d8c.png",
-    "listing_status": "",
-    "script_version": "9.1.1",
-    "source": "visible_current_ovo_listing"
-  },
-  {
     "title": "Jungle",
     "start": "2026-11-28T18:30:00+00:00",
     "end": "2026-11-28T21:30:00+00:00",
@@ -1316,6 +1304,18 @@
     "source_text": "Sun 14 Nov 2027 Buy Tickets Door time 6.30pm Event Times TBA",
     "artwork_url": "https://www.sec.co.uk/assets/img/Steps-1180x664-a361d23a3a.png",
     "listing_status": "Extra Show Added",
+    "script_version": "9.1.1",
+    "source": "visible_current_ovo_listing"
+  },
+  {
+    "title": "The Australian Pink Floyd",
+    "start": "2027-11-27T18:30:00+00:00",
+    "end": "2027-11-27T21:30:00+00:00",
+    "url": "https://www.ovohydro.com/events/detail/the-australian-pink-floyd-2027",
+    "timing_source": "published_doors_time",
+    "source_text": "Sat 27 Nov 2027 On Sale Soon Door time 6.30pm Event times TBA",
+    "artwork_url": "https://www.sec.co.uk/assets/img/1180-x-664-australian-pink-floyd-fb365ebbf7.png",
+    "listing_status": "",
     "script_version": "9.1.1",
     "source": "visible_current_ovo_listing"
   },
